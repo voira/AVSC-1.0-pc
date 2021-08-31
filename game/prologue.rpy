@@ -1,107 +1,109 @@
-define sin = ("Sinirli Bir Ses")
-define sak = ("Daha Sakin Bir Ses")
+define sin = Character(_("An Angry Voice"))
+define sak = Character(_("A Calmer Voice"))
 define ea = ("Ealdwine")
 define ma = ("Marley")
 define wa = ("Wilbur Asquith")
 define li = ("Lionel")
 define fastdissolve = Dissolve(0.1)
 
+init python:
+    your_new_encyclopaedia = Encyclopaedia()
+
 label prologue:
     scene shd with dissolve
-    ""
+    pause 1.5
     scene blackscreen with fade
-    centered "Nerede olursam olayım, \n {p}
-    Vakit ne olursa olsun, \n {p}
-    İstediğinde orada olacağım. \n {p}
-    {b}Çağırdığında{/b} uyanacağım."
+    centered "No matter where I am, \n {p}
+    And no matter what time it is, \n {p}
+    I'll be there when you desire, \n {p}
+    I'll wake upon your {b}call{/b}."
 
-    ""
+    pause 1.5
     scene hqin with fade
-    ""
+    pause 1.5
+    sin "“Fool…”"
+    sin "“She ruined my work! Everything! All of it!”"
 
-    sin "“Aptal...”"
-    sin "“Her şeyi yüzüne gözüne bulaştırdı.”"
+    sak "“Is there any trace of her?”"
 
-    sak "“Kendisinden bir iz var mı?”"
-
-    sin "“Hayır! Manasının izi bir anda kayboldu. Sanki yer yarıldı da içine girdi.”"
-    sin "“Kim olduğunu bile bilmiyorum zaten.”"
-    sin "“Aptal! Aptal! Eminim ki bu beceriksizlikle kendisini de öldürüvermiştir.”"
+    sin "“No! I can’t feel her mana any longer. It’s almost as if she disappeared into thin air.”"
+    sin "“I don’t even know who she is.”"
+    sin "“Fool! Fool! That wench probably brought death upon herself too with this kind of clumsiness.”"
     sin "“...”"
     sin "“Ealdwine.”"
 
-    ea "“Dinliyorum.”"
+    ea "“I am listening.”"
 
-    sin "“Gözünü dört aç, Vivian’a da söyle. Eğer ki yaşıyorsa onu her türlü bulmamız lazım.”"
-    sin "“Ötmeye başlamadan önce.”"
-    ""
+    sin "“Keep your eyes open, and inform Vivian. If that woman is alive we have to find her no matter what.”"
+    sin "“Before she spills it all.”"
+    pause 1.5
     # Text box will disappear slowly here.
 
     scene hallbg with fade
 
-    "Sabrımın artık son demlerindeydim."
-    "Seneler boyunca büyük bir ustalıkla sakladığım duygularım şimdi, kralın önünde, taşarcasına maskemin kırıklarından çıkmaya çalışıyordu."
-    "Öfkemi yatıştırmak için taht odasında bir ileri bir geri yürümek harici yapacak bir şeyim yoktu."
+    "My patience… was at its very end."
+    "The emotions I had been hiding excellently thus far were now leaking through the cracks of my mask right before the King."
+    "And there was nothing else I could do to calm myself down other than pace in the throne room in an anxious way."
 
-    ma "“Şehirde ardı kesilmeyen ölüm vakaları görülmeye başladı. Bir tane seri katilimiz olsa neyse…”"
-    ma "“Heyhat, zavallıların ölüm şekline bakıldığında iki farklı oldukça tehlikeli kimseyle baş başayız.”"
+    ma "“There have been numerous sightings of fatalities in the city. What I will say might sound atrocious, but I would have been happy if the responsible for those were just one man.”"
+    ma "“Alas, one would see there were two different perpetrators, if they investigated the cases.”"
 
-    "Adımlarımı durdurdum ve odaya şöyle bir göz gezdirdim. Beni dinleyen gözlerin bu kadar ilgisiz olduğunu fark etmek ne denli acıydı."
+    "I came to a halt and glanced over the room. How pitiful it was to see that these serious matters merited so little reaction."
 
-    ma "“Bir tanesi kurbanlarının yaşam enerjisini çalıp gidiyor. Ötekininse yaptığı canilikleri anlatmaya dilim varacak gibi değil.”"
-    ma "“Öyle ki bunları yapan bir insan mı yoksa gözü dönmüş bir hayvan mı, ayırt dahi edemiyorum.”"
+    ma "“One of them steals their victims’ mana out of their bodies. And the other commits cruel monstrosities I dare not speak of.”"
+    ma "“So much so that I cannot even fathom if those actions were done by a person who dares to call themselves a man, or a ravenous beast.”"
 
-    "Kralla tekrardan göz göze geldik. Yüzünde donuk bir ifade vardı, sanki dediklerim bir kulağından gidiyor ve diğerinden çıkıyordu."
-    "Üç uzun adımda aramızdaki mesafeyi kapatıp önünde diz çöktüm."
+    "The King and I made eye contact after those words. There was a dull expression on his face, as if what I said went over his head."
+    "With three long steps, I closed the distance between us and knelt."
 
-    ma "“Lordum, size yalvarıyorum. Bunun üzerine düşünün.”"
-    ma "“Onların buraya gelmesine izin vermeyin. Sadece ve sadece karışıklığa sebep olacaklar-”"
+    ma "“My lord, I beg of you. Think this through.”"
+    ma "“Do not let them come here. There will be nothing but commotion upon their arrival-”"
 
-    wa "“Bu kadarı yeter Marley.”"
+    wa "“That’s enough, Marley.”"
 
-    "Yetmezdi. Yetemezdi. Kendisi ne kadar vasıfsız bir insan olsa da Aelthus’u da peşinden mezara sürüklemesine izin vermeyecektim."
-    "Dişlerimin arasından sinirlice konuşmaya başladım."
+    "No, it wasn’t. It could not be. No matter how unbecoming of a king he was, I was not going to let him drag Aelthus to the grave he dug."
+    "I began to talk through my gritted teeth."
 
-    ma "“İnsanlar Khaunet’in dönüşünü konuşuyorlar. Şafak Şövalyelerinin ne kadar gereksiz bir birim olduğundan dert yanıyorlar.”"
-    ma "“Bir de yetmiyormuş gibi ortalıkta kendilerine ‘avcı’ diyen iki üç zibidi koşuşturuyor arbaletleriyle.”"
-    ma "“Hepsi de ne hikmetse bu kadınların Whemond’a varışı öncesinde oluyor.”"
+    ma "“People are talking about Khaunet’s return. Rumours are flying around the commoners about the incompetence of Dawn Knights.”"
+    ma "“As if that weren’t enough, there are some gadabouts, which prefer to call themselves ‘hunters’, roaming in the streets with their crossbows, scaring people off.”"
+    ma "“And for some unknown reason, all of this is happening right before the arrival of these women.”"
 
-    wa "“Marley, babanı sevdiğimden bu yersiz çıkışlarına ara sıra göz yumuyorum. Ama bazen çok fazla oluyorsun genç adam.”"
-    wa "“Toplum olarak bir sihir devrimine ihtiyacımız var ve bunun için şans ayağımıza kadar geldi.”"
-    wa "“Kadim büyüyü öğrenip araştırabiliriz, geliştirebiliriz.”"
-    wa "“İyileşmeyen hastalıkları rafa kaldırabiliriz, ölümle vedalaşabiliriz-”"
+    wa "“Marley, since I liked your father I tend to turn a blind eye to your tone. In this matter however, you overstep yourself too much, young man.”"
+    wa "“As a society, we needed a magical revolution and the opportunity has finally come.”"
+    wa "“We can learn the fundamentals of the ancient magic.”"
+    wa "“No one would ever suffer from disease, death-”"
 
-    ma "“Aklınız hala karınızda! Onu göz önünde bulundurarak konuşuyorsunuz. O öleli çok oldu, bırakın artık peşini.”"
+    ma "“You still cannot get past your late wife! You are speaking, with her in your mind. That was long ago, please, I beg you to let her go.”"
 
-    "Ne yazık ki dediklerimin ağır olduğunu laflar ağzımdan çıktıktan birkaç saniye sonra anlamıştım."
-    "Senelerdir ruhsuz bakan gözler bir anda öfkeyle parıldayarak beni gelen azardan haberdar etti."
+    "Unfortunately I could only realize how harsh my words were after they left my mouth."
+    "The eyes that had been frozen for so long were now ablaze with fury."
 
-    wa "“Sakın bir daha benimle böyle konuşayım deme. Pişman ederim seni.”"
+    wa "“Never speak to me in that way again. I would have you regret it.”"
 
-    "Sesinin tonu o sımsıcak odaya kışı getirmişti."
+    "The tone of his voice almost brought the chill of winter into the otherwise warm room."
     "(Neden şaşırıyorsam, gerektiği zamanlarda otoriter bile olamayan bir insandan kral olamazdı zaten.)"
-    "Oğullarından Xerxes ile Cyril’in hafifçe irkilmesi, Lionel’inse yüzünde oluşan o hınzır gülümseme gözümden kaçmadı. Yüzümü buruşturdum."
+    "His sons Xerxes and Cyril flinched, whereas Lionel grinned slyly. I grimaced."
 
-    wa "“Bu konu burada kapanıyor artık.”"
-    wa "“Cadılar Whemond’a gelecek, son kararım budur ve tartışmaya kapalıdır.”"
-    wa "“Sen de canını bununla sıkacağına emrinde olan Şafak Şövalyelerine işlerini daha iyi yapmalarını öğütleyebilirsin, yoksa işi Lionel’e devredeceğim.”"
+    wa "“We will not have any more arguments on this subject again.”"
+    wa "“The witches are to come to Whemond, and this is my last word.”"
+    wa "“And you… Instead of keeping your head busy with what is already decided, you can revert your attention to the Knights of the Dawn that are under your care. Or I will pass their command to Lionel.”"
 
     show Lionel Smiling at left with easeinleft
 
-    li "“Bana güvenebilirsin, baba.”"
+    li "“You can trust me, father.”"
 
-    "(Sinsi velet…)"
-    "Yavaşça, kafamı toplamaya çalışarak doğruldum."
+    "(Sneaky brat…)"
+    "Slowly, I got up while trying to make up my mind."
 
-    ma "“Pekala, her zamanki gibi emrinize amadeyim, ne kadar farklı görüşlerde olsak da.”"
-    ma "“Bu konu hakkında daha fazla sesimi çıkartmayacağım ama bir şartım var.”"
-    ma "“Beni de Lionel ile birlikte cadıların gözetmeni olarak atayacaksınız.”"
+    ma "“Very well, I am at your disposal, as always. Even when we differ in opinion.”"
+    ma "“My voice shall be raised on this matter no more, but I have a condition for you to hear of.”"
+    ma "“I too, would like to be a supervisor of the witches. Just like Lionel.”"
 
-    "Böylelikle hem Lionel’e hem de cadılara aynı anda göz kulak olabilecektim."
+    "With this way I could keep an eye on both Lionel and the witches at the same time."
 
     show Lionel Frown with dissolve
 
-    wa "“Vazgeçmiyorsun hiç. Aynı baban gibisin. Her neyse, nasıl istersen öyle yap ve daha fazla başımı ağrıtma.”"
-    ""
+    wa "“You never give up, do you? Like father like son… In any case, do whatever you like and do not trouble me any longer.”"
+    pause 2.0
 
 return

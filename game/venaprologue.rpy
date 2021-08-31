@@ -15,6 +15,10 @@ define u = ("???")
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
+
+
+
+
 label venaprologue:
     scene blackscreen with fade
     ""
@@ -23,18 +27,11 @@ label venaprologue:
     ""
     scene traincomp with fade
     ""
-    show Haru Default at center with dissolve:
-        yalign 1 zoom 1.8
 
+    show Haru Default with dissolve
     h "“Gerçekten de uyuyabildiğine inanamıyorum.”"
 
-    hide Haru Default with dissolve
-
     "Göz ucuyla Kioko’ya baktım."
-
-    show Haru Default at right with dissolve:
-        xalign 0.5 yalign 1 zoom 1.5
-        linear 0.5 xalign 0.9
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
@@ -44,15 +41,9 @@ label venaprologue:
     "Belli bir kişinin aksine…"
     hide kiokoeye with dissolve
 
-    hide Haru Default with dissolve
-
-    show Haru Default at center with dissolve:
-        yalign 1 zoom 1.8
-
     v "“Ben de senin bütün bu olan bitene rağmen bu kadar heyecanlı olmana inanamıyorum.”"
 
-    show Haru Mischievous with dissolve:
-        yalign 1 zoom 1.8
+    show Haru Mischievous with dissolve
 
     "Haru cevaben yanaklarını şişirmişti."
 
@@ -62,21 +53,17 @@ label venaprologue:
 
     v "“Ve muhtemelen son.”"
 
-    show Haru Concerned with dissolve:
-        yalign 1 zoom 1.8
+    show Haru Concerned with dissolve
 
     "Kendisini bu hayata kaptırmasa iyi olurdu. Tekrardan Gümüş Oyuk’a döndüğümüzde yüzlerce yahut binlerce sene burayı görmeme olasılığımız vardı."
     "Ki herkes için en iyisinin bu olduğu kanaatindeydim."
     "Dış Dünya’nın insanlarıyla bizim bir arada yaşayabilmemiz bütün yıldızlar bir araya gelse de olacak gibi gözükmüyordu."
 
-    show Haru Concerned at right with dissolve:
-        xalign 0.5 yalign 1 zoom 1.5
-        linear 0.5 xalign 0.9
-
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
     ""
+
     v "“Birkaç gündür gözüne stresten uyku girmiyor.”"
 
     show Haru Default with dissolve
@@ -97,8 +84,7 @@ label venaprologue:
     "Bana ters bir bakış atmıştı fakat önemli değildi."
     "Bir sürü kaybımız vardı, yerimizden olmuştuk, liderimiz ortalıkta yoktu. Böyle bir durumda hala tatile çıkıyormuş gibi davranan bir çocuğa sinirlendiğim için vicdan azabı duymama gerek yoktu."
 
-    show Haru Sideway at center with dissolve:
-        yalign 1 zoom 1.8
+    show Haru Sideway with dissolve
 
     h "“Ben birazcık hava alacağım.”"
 
@@ -108,8 +94,7 @@ label venaprologue:
 
     v "“Nerede?”"
 
-    show Haru Default with dissolve:
-        yalign 1 zoom 1.8
+    show Haru Default with dissolve
 
     h "“Koridorda dolaşacağım, bacaklarım uyuştu.”"
 
@@ -127,8 +112,6 @@ label venaprologue:
     "Hızlıca Kioko’ya doğru döndüm. Kaybedecek zamanım yoktu."
     "Gözlerimi kapatıp manamı uyandırmadan önce elimi eline dolamıştım."
     "(Üzgünüm Kioko. Yapmak zorundayım.)"
-
-    hide kiokoeye with pixellate
 
     scene fogforest with fade
 
@@ -177,8 +160,7 @@ label venaprologue:
 
     "Köy açıklığına en sonunda varmıştım. Aradığım kişi de çeşmenin yanına çökmüş, ölü bir vücuda sımsıkı sarılmış inleye inleye ağlıyordu."
 
-    show Kioko Crying with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Crying with dissolve
 
     "Acıklı bir sahne olduğu kesindi ve içimden ona uzanıp omzunu sıvazlamak, bir çocuğunki gibi başını okşamak geçmiyor değildi."
     "Fakat ben buraya bunun için gelmemiştim."
@@ -188,13 +170,11 @@ label venaprologue:
 
     scene forest with flash
 
-    show Kioko Default with flash:
-        yalign 1 zoom 2
+    show Kioko Default with dissolve
 
     k "“Vena ben… Galiba bundan sorumlu olan kişiyi gördüm.”"
 
-    show Kioko Concerned with dissolve:
-        yalign 1 zoom 2
+    show Kioko Concerned with dissolve
 
     k "“Ama hatırlayamıyorum. Olmuyor.”"
 
@@ -381,9 +361,9 @@ label venaprologue:
 
     show Asha Default with dissolve
     show Kioko Default at right with dissolve:
-        yalign 1 zoom 1.2
+        ypos 1.63 zoom 1
     show Haru Default at left with dissolve:
-        yalign 1 zoom 1.2
+        xpos 0.03 ypos 1.63 zoom 1
 
     a "“Ne olacak yahu? Bir günlük şehir gezisi ayarlayabiliriz.”"
 
@@ -422,7 +402,7 @@ label venaprologue:
 
     show Asha Default:
         xalign 0.5
-        linear 0.8 xalign 0.2
+        linear 0.8 xpos 0.2
 
     a "“Sizlere daha da rahatsızlık vermeyeyim. Yataklarınıza dağılın bakalım.”"
 
@@ -432,7 +412,7 @@ label venaprologue:
 
     show Asha Default:
         xalign 0.2
-        linear 1 xalign 0.6
+        linear 1 xpos 0.6
 
     ""
     "Asha elini Kioko’nun kafasına götürüp saçlarını hafifçe karıştırdı."
@@ -455,8 +435,8 @@ label venaprologue:
     "(…)"
     "Anılarımda kaybolmak üzereyken Haru’nun sesi beni salona döndürmüştü."
 
-    show Haru Default at Position(xpos=0.20, xanchor=0.50, ypos=0.8, yanchor=0.50) with dissolve
-    show Kioko Default at Position(xpos=0.80, xanchor=0.50, ypos=0.8, yanchor=0.50) with dissolve
+    show Haru Default at left with dissolve
+    show Kioko Default at right with dissolve
 
     h "“Öyleyse… Odalarımıza mı dağılıyoruz?”"
     v "“Siz ikiniz gidebilirsiniz. Benim biraz daha işim var.”"
@@ -660,16 +640,12 @@ label venaprologue:
 
     "(…Huh?)"
 
-    show Ealdwine Default at right with easeinright:
-        yalign 1 zoom 1.5
+    show Ealdwine Default with dissolve
 
     "Dikkatimi toplantıya o kadar çok vermiştim ki kapımızda yabancı birinin olduğunu fark edememiştim."
     "Demek bizi şimdiden izlemeye başlamışlardı."
 
     hide kiokoeye with dissolve
-
-    show Ealdwine Default at center with ease:
-        yalign 1 zoom 1.5
 
     v "“Ben de bilmiyorum ama üstündekilere bakılırsa sanırım Akademi’nin bir üyesi.”"
 
@@ -833,8 +809,7 @@ label venaprologue:
     "(…Ne?)"
     "Duyduklarıma inanamayarak, hayretler içerisinde ellerimi kızın üstünden çektim."
 
-    show Orphina Default with flash:
-        yalign 1 zoom 1.8
+    show Orphina Default with dissolve
 
     v "“Pardon?”"
 
@@ -851,7 +826,7 @@ label venaprologue:
 
     u "“…Tch.”"
 
-    hide Orphina with moveoutright
+    hide Orphina with dissolve
 
     "Üzerime yürüyüp bana çarpmış, ardından hızlı adımlarla uzaklaşmaya başlamıştı."
     "Bense hala şaşkınlık içerisinde bu küstahlığı yedirmeye çalışıyordum."
@@ -870,18 +845,12 @@ label venaprologue:
     "Tembel bir insan hiç olmamıştım ama benim için bile hareketli geçecek gibi duruyordu önümüzdeki günler."
     "(Bakalım kralın oğulları neler diyecekler. Umarım işimize yarar bir bilgi verirler.)"
 
-    show Haru Default at left with dissolve:
-        yalign 1 zoom 1.2
-    show Kioko Default at right with dissolve:
-        yalign 1 zoom 1.2
+    show Haru Default at left with dissolve
+    show Kioko Default at right with dissolve
 
     k "“Bir şey… Diyeceğim.”"
 
     show Kioko ClosedEye with dissolve
-    hide Haru Default with dissolve
-
-    show Kioko ClosedEye at center with ease:
-        yalign 1 zoom 1.8
 
     k "“Fakat lütfen paniklemeyin.”"
 
@@ -889,26 +858,19 @@ label venaprologue:
     "(Çok geç Kioko, iş sen olunca paniklememek elde değil.)"
     "Endişeli gözlerle ona baktım."
 
-    show Kioko Sideway with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Sideway with dissolve
 
     k "“Sanırım ben… Bugün odamda birini gördüm.”"
 
     "Bir anlığına elimde olmadan gözlerim fal taşı gibi açılmıştı."
     "(Topla kendini, hemen. Stres yapman onu da korkutur.)"
 
-    hide Kioko Sideway with dissolve
-
-    show Haru Gaping with flash:
-        yalign 1 zoom 1.8
+    show Haru Gaping with dissolve
 
     h "“Ne?”"
     v "“Kimi?”"
 
-    show Haru Gaping at left with ease:
-        yalign 1 zoom 1.8
-    show Kioko Concerned at right before Haru Gaping with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Concerned with dissolve
 
     k "“B-Bilmiyorum ki.”"
     k "“Rüya da olabilir, tam emin değilim.”"
@@ -973,17 +935,14 @@ label venaprologue:
 
     scene academylivingroom with fade
 
-    show Kioko Default at right with dissolve:
-        yalign 1 zoom 1.8
-    show Haru Default at left after Kioko Default with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Default at right with dissolve
+    show Haru Default at left with dissolve
 
     "Kızların ikisi de bana sorarcasına bakıyordu."
 
     v "“Ya gelen her kimdiyse anılarını bulutlamış ya da gerçekten rüya görmüşsün.”"
 
-    show Haru Concerned with ease:
-        yalign 1 zoom 1.8
+    show Haru Concerned with dissolve
 
     h "“Ayırt edemiyor musun, Vena?”"
 
@@ -1202,8 +1161,8 @@ label venaprologue:
 
     hide Cyril with dissolve
     hide Lionel with dissolve
-    show Marley Default with dissolve:
-        ypos -1 zoom 1.5
+    show Marley Default at truecenter with dissolve:
+        zoom 1.5
 
     "Grandük sonunda elindeki kağıdı indirmiş ve laubali bir hareketle önündeki masanın üstüne fırlatmıştı."
     "Bacak bacak üzerine atarken odadaki herkesi adeta yukarıdan süzüyordu."
@@ -1228,7 +1187,7 @@ label venaprologue:
     "Dramatik bir şekilde sözlerini kesip odayı sessizlik kaplamasına neden oldu. Bunu fırsat bilen Asha da konuşmaya başlamıştı."
 
     show Marley Default:
-        xalign 0.5 yalign 1
+        xalign 0.5
         linear 1 xpos 0.8
     show Asha Default at left with dissolve
 
@@ -1263,15 +1222,14 @@ label venaprologue:
     "Kardeşimin Kara Katliam’la ilişiğini bizim dışımızda bir tek Asha ve Zuri biliyordu."
     "Göz ucuyla Almasi’ye baktım."
 
-    show Almasi Default with dissolve:
-        yalign 1 zoom 1.5
+    show Almasi Default with dissolve
 
     "(Onu bu kurtların önüne atmaya niyetim yok.)"
 
     hide Almasi with dissolve
 
-    show Marley Default with dissolve:
-        yalign 1 zoom 1.5
+    show Marley Default at truecenter with dissolve:
+        zoom 1.5
 
     m "“…Evet. Böylelikle bugünkü toplantımıza noktayı koyuyorum.”"
     m "“Fakat son olarak… Ben veya Lionel ile direkt çalışacak iki kişi lazım. Raporları getirip götürecek…”"

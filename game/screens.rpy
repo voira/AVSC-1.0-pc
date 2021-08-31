@@ -95,6 +95,7 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+
 screen say(who, what):
     style_prefix "say"
 
@@ -255,12 +256,14 @@ screen quick_menu():
 
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
+            #textbutton _("Grimoire") action ShowMenu('encyclopaedia_screens')
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
+
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -744,6 +747,13 @@ screen preferences():
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                frame:
+                    style_prefix "pref"
+                    has vbox
+
+                    label _("Language")
+                    textbutton "English" action Language(None)
+                    textbutton "Turkish" action Language("turkish")
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.

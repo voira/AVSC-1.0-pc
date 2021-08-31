@@ -4,6 +4,19 @@
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
 
+init -3 python:
+    if persistent.lang is None:
+        persistent.lang = "english"
+    lang = persistent.lang
+init python:
+    config.main_menu.insert(3, (u'Language', "language_chooser", "True"))
+init python:
+    if lang == "english":
+        style.default.font = "font_name_here_1.ttf" #english font here
+    elif lang == "turkish":
+        style.default.font = "font_name_here_2.ttf" #turkish font here
+
+
 
 ## Basics ######################################################################
 
@@ -37,6 +50,7 @@ define gui.about = _p("""
 ## or semicolons.
 
 define build.name = "AVSC"
+
 
 ## Sounds and music ############################################################
 
