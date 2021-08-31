@@ -23,7 +23,7 @@ label prologue:
     pause 1.5
     sin "“Fool…”"
     sin "“She ruined my work! Everything! All of it!”"
-
+    sin "LMAOOOOO"
     sak "“Is there any trace of her?”"
 
     sin "“No! I can’t feel her mana any longer. It’s almost as if she disappeared into thin air.”"
