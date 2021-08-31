@@ -17,7 +17,7 @@ init:
 
 
 
-
+#lmaooooo
 
 label venaprologue:
     scene blackscreen with fade
