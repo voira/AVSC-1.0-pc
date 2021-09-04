@@ -1,3208 +1,3102 @@
-﻿# TODO: Translation updated at 2021-08-08 19:21
-
-# game/venaprologue.rpy:24
-translate turkish venaprologue_0ae9bcd0:
-
-    # ""
-    ""
+﻿﻿# TODO: Translation updated at 2021-09-05 01:28
 
 # game/venaprologue.rpy:25
-translate turkish venaprologue_da2f93a7:
+translate turkish venaprologue_864d5a04:
 
-    # "(Ah, seni son bir kez görebilsem…)"
+    # "(Oh, how I wish I could see you for one last time…)"
     ""
 
 # game/venaprologue.rpy:26
-translate turkish venaprologue_f49f9902:
+translate turkish venaprologue_c840a87d:
 
-    # "(Ve sana olan duygularımı itiraf edebilsem…)"
-    ""
-
-# game/venaprologue.rpy:27
-translate turkish venaprologue_0ae9bcd0_1:
-
-    # ""
-    ""
-
-# game/venaprologue.rpy:29
-translate turkish venaprologue_0ae9bcd0_2:
-
-    # ""
+    # "(And confess those feelings that I piled up in my heart.)"
     ""
 
 # game/venaprologue.rpy:32
-translate turkish venaprologue_7803a097:
+translate turkish venaprologue_f3ec7519:
 
-    # h "“Gerçekten de uyuyabildiğine inanamıyorum.”"
+    # h "“It’s surprising to see that she can sleep.”"
     h ""
 
 # game/venaprologue.rpy:34
-translate turkish venaprologue_41df17a5:
+translate turkish venaprologue_2e9b431c:
 
-    # "Göz ucuyla Kioko’ya baktım."
-    ""
-
-# game/venaprologue.rpy:39
-translate turkish venaprologue_0ae9bcd0_3:
-
-    # ""
+    # "I glanced at Kioko out of the corner of my eye."
     ""
 
 # game/venaprologue.rpy:40
-translate turkish venaprologue_6bff1a61:
+translate turkish venaprologue_3ef50bca:
 
-    # "Kendisini endişe ve korkuyla yiyip bitirmişti."
+    # "She was consumed by her worry, and fears."
     ""
 
 # game/venaprologue.rpy:41
-translate turkish venaprologue_246fbb50:
+translate turkish venaprologue_93479ce7:
 
-    # "Belli bir kişinin aksine…"
+    # "Unlike a certain someone…"
     ""
 
 # game/venaprologue.rpy:44
-translate turkish venaprologue_cc7263e7:
+translate turkish venaprologue_5452b48a:
 
-    # v "“Ben de senin bütün bu olan bitene rağmen bu kadar heyecanlı olmana inanamıyorum.”"
+    # v "“And it’s surprising to see how you can be this joyous after all the things that happened.”"
     v ""
 
 # game/venaprologue.rpy:48
-translate turkish venaprologue_b5258e98:
+translate turkish venaprologue_676fa431:
 
-    # "Haru cevaben yanaklarını şişirmişti."
+    # "In response, Haru puffed her cheeks."
     ""
 
 # game/venaprologue.rpy:50
-translate turkish venaprologue_2a580c85:
+translate turkish venaprologue_6f0a1115:
 
-    # h "“Her gün Gümüş Oyuk’tan çıkma fırsatı yakalamıyoruz. Bu bir ilk-”"
+    # h "“We don’t get the chance to leave Silver Hallow every day. This is a first-”"
     h ""
 
 # game/venaprologue.rpy:52
-translate turkish venaprologue_68a92864:
+translate turkish venaprologue_d38900f3:
 
-    # "Hızlıca lafını bölüverdim."
+    # "I interrupted her quickly."
     ""
 
 # game/venaprologue.rpy:54
-translate turkish venaprologue_cab7d641:
+translate turkish venaprologue_54c9c423:
 
-    # v "“Ve muhtemelen son.”"
+    # v "“And the last.”"
     v ""
 
 # game/venaprologue.rpy:58
-translate turkish venaprologue_38d5dee9:
+translate turkish venaprologue_859276c5:
 
-    # "Kendisini bu hayata kaptırmasa iyi olurdu. Tekrardan Gümüş Oyuk’a döndüğümüzde yüzlerce yahut binlerce sene burayı görmeme olasılığımız vardı."
+    # "It would be healthier for her if she didn’t get carried away by this ordeal. There was a possibility that we might not be able to see this place again for hundreds, or thousands of years after we returned to our home."
     ""
 
 # game/venaprologue.rpy:59
-translate turkish venaprologue_9cac5bb9:
+translate turkish venaprologue_bcb470a0:
 
-    # "Ki herkes için en iyisinin bu olduğu kanaatindeydim."
+    # "Which I believed to be the best for everyone."
     ""
 
 # game/venaprologue.rpy:60
-translate turkish venaprologue_160da5a2:
+translate turkish venaprologue_4ea59a6b:
 
-    # "Dış Dünya’nın insanlarıyla bizim bir arada yaşayabilmemiz bütün yıldızlar bir araya gelse de olacak gibi gözükmüyordu."
-    ""
-
-# game/venaprologue.rpy:65
-translate turkish venaprologue_0ae9bcd0_4:
-
-    # ""
+    # "It seemed unlikely for us to live in harmony with the people from the outside world, even if it was written in the stars."
     ""
 
 # game/venaprologue.rpy:67
-translate turkish venaprologue_6eaefbea:
+translate turkish venaprologue_4eb0fa58:
 
-    # v "“Birkaç gündür gözüne stresten uyku girmiyor.”"
+    # v "“She couldn’t sleep a wink these past few days because of the stress.”"
     v ""
 
 # game/venaprologue.rpy:71
-translate turkish venaprologue_811752e2:
+translate turkish venaprologue_d15f224f:
 
-    # "Şimdi de pek güzel rüyalarda koşturduğu söylenemezdi."
+    # "Though I couldn’t say that this was a peaceful rest either."
     ""
 
 # game/venaprologue.rpy:72
-translate turkish venaprologue_0fd6c701:
+translate turkish venaprologue_f3e4ea3b:
 
-    # "Şakaklarından terler süzülüyor, ara sıra titriyor veya kaskatı kesiliyordu."
+    # "Beads of sweat were rolling down her temples. Sometimes she shook vehemently, and sometimes stiffened as if she was bare in winter."
     ""
 
 # game/venaprologue.rpy:73
-translate turkish venaprologue_d1cc01b3:
+translate turkish venaprologue_2a8b3da3:
 
-    # "(Acaba “o gün”ü mü görüyor?)"
+    # "(Is she seeing “that day”?)"
     ""
 
 # game/venaprologue.rpy:74
-translate turkish venaprologue_b091d9a7:
+translate turkish venaprologue_c8a2b94a:
 
-    # "Her ne görüyorduysa ben de izlemek istiyordum lakin Haru’nun bunu pek hoş karşılamayacağı da kesindi."
+    # "Whatever it was I wished to take a look at that myself; however Haru might not take this well."
     ""
 
 # game/venaprologue.rpy:78
-translate turkish venaprologue_aa7610c7:
+translate turkish venaprologue_ff4a7723:
 
-    # h "“Sanıyorum ki herkes aynı problemden mustarip.”"
+    # h "“I think everyone here suffers from a similar problem.”"
     h ""
 
 # game/venaprologue.rpy:80
-translate turkish venaprologue_62e066cf:
+translate turkish venaprologue_92c03642:
 
-    # v "“Sen hariç herkes…”"
+    # v "“Everyone except you.”"
     v ""
 
 # game/venaprologue.rpy:84
-translate turkish venaprologue_a5fa28be:
+translate turkish venaprologue_e6eb2ec2:
 
-    # "Bana ters bir bakış atmıştı fakat önemli değildi."
+    # "She glared at me for a while, but that was fine."
     ""
 
 # game/venaprologue.rpy:85
-translate turkish venaprologue_2450a7b7:
+translate turkish venaprologue_a8105af1:
 
-    # "Bir sürü kaybımız vardı, yerimizden olmuştuk, liderimiz ortalıkta yoktu. Böyle bir durumda hala tatile çıkıyormuş gibi davranan bir çocuğa sinirlendiğim için vicdan azabı duymama gerek yoktu."
+    # "Many of our people had lost their lives, Silver Hallow was in ruins, and our leader was missing. I would not feel remorse because I got angry at a child who acted like she was going on a vacation in a dire situation such as this."
     ""
 
 # game/venaprologue.rpy:89
-translate turkish venaprologue_eafcb797:
+translate turkish venaprologue_5cf52c80:
 
-    # h "“Ben birazcık hava alacağım.”"
+    # h "“I will get some air.”"
     h ""
 
 # game/venaprologue.rpy:91
-translate turkish venaprologue_a42a6a83:
+translate turkish venaprologue_0e7c4ed0:
 
-    # "(İşte beklediğim fırsat…)"
+    # "(The chance I’ve been waiting for…)"
     ""
 
 # game/venaprologue.rpy:92
-translate turkish venaprologue_45a978ff:
+translate turkish venaprologue_912d2127:
 
-    # "Yine de fazla istekli görünerek şüphe uyandırmak istemiyordum."
+    # "Still, I didn’t wish to raise suspicion by seeming eager."
     ""
 
 # game/venaprologue.rpy:93
-translate turkish venaprologue_31ecf6fa:
+translate turkish venaprologue_b409024a:
 
-    # "Gerçi… Haru’nun insanları okumakta pek iyi olduğunu söyleyemezdiniz ama bazen garip bir şekilde çok zeki yorumlarda da bulunabiliyordu."
+    # "Although Haru wasn’t good at reading people, sometimes she could be uncharacteristically sharp."
     ""
 
 # game/venaprologue.rpy:95
-translate turkish venaprologue_f8b8d60d:
+translate turkish venaprologue_1b75daaf:
 
-    # v "“Nerede?”"
+    # v "“Where are you going?”"
     v ""
 
 # game/venaprologue.rpy:99
-translate turkish venaprologue_79ecd7dc:
+translate turkish venaprologue_34f5a082:
 
-    # h "“Koridorda dolaşacağım, bacaklarım uyuştu.”"
+    # h "“Just taking a walk in the aisle. My legs have gone numb.”"
     h ""
 
 # game/venaprologue.rpy:101
-translate turkish venaprologue_532b4337:
+translate turkish venaprologue_f3582801:
 
-    # v "“Keyfin bilir. Başını belaya sokma da…”"
+    # v "“Alright. Just don’t get yourself in trouble.”"
     v ""
 
 # game/venaprologue.rpy:105
-translate turkish venaprologue_47ed8272:
+translate turkish venaprologue_bb139054:
 
-    # "Kafasını sallamış, ardından kompartımandan çıkmıştı."
-    ""
-
-# game/venaprologue.rpy:110
-translate turkish venaprologue_0ae9bcd0_5:
-
-    # ""
+    # "She nodded curtly in response before leaving the compartment."
     ""
 
 # game/venaprologue.rpy:112
-translate turkish venaprologue_62e7df58:
+translate turkish venaprologue_27abfc4c:
 
-    # "Hızlıca Kioko’ya doğru döndüm. Kaybedecek zamanım yoktu."
+    # "Quickly I turned to Kioko. There was no time to waste."
     ""
 
 # game/venaprologue.rpy:113
-translate turkish venaprologue_ea92dde5:
+translate turkish venaprologue_9e68ef03:
 
-    # "Gözlerimi kapatıp manamı uyandırmadan önce elimi eline dolamıştım."
+    # "Before awakening my powers, I shut my eyes and took her hand between mine."
     ""
 
 # game/venaprologue.rpy:114
-translate turkish venaprologue_a2479307:
+translate turkish venaprologue_0b34944b:
 
-    # "(Üzgünüm Kioko. Yapmak zorundayım.)"
+    # "(Sorry Kioko. This is for the greater good.)"
     ""
 
 # game/venaprologue.rpy:118
-translate turkish venaprologue_ec5ad514:
+translate turkish venaprologue_72dea157:
 
-    # "Kardeşimin rüyası beni alıp özlemini çokça çektiğim o yere geri götürmüştü."
+    # "The nightmare of my sister took me to the place I’d been missing so dearly."
     ""
 
 # game/venaprologue.rpy:119
-translate turkish venaprologue_ec29f722:
+translate turkish venaprologue_dd1eba5c:
 
-    # "Buradaki her ağacı bilirdim, hatta her ağacın her kovuğu dahi ezberimdeydi."
+    # "I knew every single tree here. Every branch, every single hollow on them was familiar to me."
     ""
 
 # game/venaprologue.rpy:120
-translate turkish venaprologue_d5045ca2:
+translate turkish venaprologue_33be3050:
 
-    # "Ama en nihayetinde Kioko’nun anılarındaki Gümüş Oyuk’ta saadet bulmak için gelmemiştim buraya."
+    # "But I hadn’t cast this spell to find peace in the Silver Hallow that now lived only in memories."
     ""
 
 # game/venaprologue.rpy:121
-translate turkish venaprologue_a40d4ca1:
+translate turkish venaprologue_6048e177:
 
-    # "Bir yerlerde Kioko Kara Katliam’a dair önemli bir şeyler görüyor olmalıydı."
+    # "Somewhere around here, Kioko must be witnessing an important event regarding the Black Massacre."
     ""
 
 # game/venaprologue.rpy:125
-translate turkish venaprologue_d2b29b22:
+translate turkish venaprologue_4b8812b2:
 
-    # "Ağır adımlarla yerleşim alanına doğru, ağaçların arkasında kendimi kollayarak yürümeye başladım."
+    # "With heavy steps I walked towards the village, I kept to the shadows of the trees, while hiding myself from the eyes of my sister."
     ""
 
 # game/venaprologue.rpy:129
-translate turkish venaprologue_006cc5ca:
+translate turkish venaprologue_a0969cd7:
 
-    # "Rüyadaki varlığım onu daha gerçekçi bir hale getiriyor, zihnin sahibinin bilincini de buraya sürüklüyordu."
+    # "My presence in the dream was urging it to become more vivid and dragging its owner’s consciousness here as well."
     ""
 
 # game/venaprologue.rpy:130
-translate turkish venaprologue_3efc1aa6:
+translate turkish venaprologue_8fb6b09a:
 
-    # "Bu nedenle “asıl” Kioko’yla karşılaşmak istemiyordum."
+    # "So I didn’t want to be caught by the “real” Kioko."
     ""
 
 # game/venaprologue.rpy:131
-translate turkish venaprologue_0df852d2:
+translate turkish venaprologue_48049c45:
 
-    # "Yıldızların ışığının normalde yıkadığı o güzelim ormana karanlık bir gücün etkisiyle sis çökmüştü."
+    # "The forest which once bathed in the light of the stars was now covered in a thick fog as the result of a dark power."
     ""
 
 # game/venaprologue.rpy:132
-translate turkish venaprologue_d2e7c236:
+translate turkish venaprologue_9f9b334c:
 
-    # "Vücudum her ne kadar kararlı bir şekilde ilerlese de kafamın içinde bir ses beni buradan çıkmak için çekiştiriyordu."
+    # "Even though my body was determined to go forward, a voice in my mind was begging me to get out of here."
     ""
 
 # game/venaprologue.rpy:133
-translate turkish venaprologue_e4a704ab:
+translate turkish venaprologue_bd9f41b2:
 
-    # "Bu düşünceleri hemencecik susturdum. Sonuçta bir rüya aleminde yürüyordum, olan da olmuştu artık. Geçmişte takılı kalamazdım."
+    # "I dismissed those fearful thoughts at once. It was nothing but a dream anyway, and whatever had happened in reality could not be undone. Living in the past would only bring despair."
     ""
 
 # game/venaprologue.rpy:134
-translate turkish venaprologue_930dafe6:
+translate turkish venaprologue_28654f10:
 
-    # "Korkmanın da vakti değildi."
+    # "And this was not the time to be afraid."
     ""
 
 # game/venaprologue.rpy:135
-translate turkish venaprologue_c0b397e9:
+translate turkish venaprologue_94b2703a:
 
-    # "Fakat Kioko’nun kabusu cesaretimin kırılmamasından yüz bulmuş olacaktı ki…"
+    # "Kioko’s nightmare must had been encouraged by my bravado, however…"
     ""
 
 # game/venaprologue.rpy:140
-translate turkish venaprologue_6f00059e:
+translate turkish venaprologue_ab88d39d:
 
-    # "Karşıma bunları çıkarmıştı."
+    # "Since it felt the need to show me these."
     ""
 
 # game/venaprologue.rpy:141
-translate turkish venaprologue_03277618:
+translate turkish venaprologue_463c14e3:
 
-    # "(Az daha üzerlerine basıyordum.)"
+    # "(I’ve almost stepped on them.)"
     ""
 
 # game/venaprologue.rpy:142
-translate turkish venaprologue_6a050996:
+translate turkish venaprologue_eeca3263:
 
-    # "Gözlerimi kıstım ve dikkatlice kızların suratlarını süzdüm."
+    # "Narrowing my eyes, I carefully gazed at the girls’ faces for a while."
     ""
 
 # game/venaprologue.rpy:143
-translate turkish venaprologue_9c7ccb63:
+translate turkish venaprologue_2e020288:
 
-    # "Bunların birçoğu şu an hayatta olan insanlardı. Şimdiyse bu rüyada, o gün ölenler gibi cansız, cam misali gözlerle bana bakıyorlardı."
+    # "Most of them were alive, sitting and chatting somewhere in the “train”. But here, in this dream, they were looking at me with glassy eyes, like the dead people had that day."
     ""
 
 # game/venaprologue.rpy:144
-translate turkish venaprologue_0ecd9952:
+translate turkish venaprologue_6c392459:
 
-    # "Vücutlarında herhangi bir yara yoktu. Öldüklerini atmayan damarlarından, havayla dolmayan ciğerlerinden ve kapanmamaya ant içmiş gözlerinden anlıyordunuz."
+    # "Not a single wound or scar could be found on their body; but it was understood that they were dead by the silence of their pulse, the lungs would not fill with air, and eyes that swore not to shut."
     ""
 
 # game/venaprologue.rpy:145
-translate turkish venaprologue_c3b061a2:
+translate turkish venaprologue_c1ef8013:
 
-    # "Fazla duygusal bir ruh haliyle yere eğilmiş, bir tanesinin göz kapaklarını indirmiş ve önüme çıkan bedenlere basmamaya dikkat ederek yola tekrardan düşmüştüm."
+    # "Struggling to contain my emotions, I leaned down and closed one of the girl’s eyes before moving."
     ""
 
 # game/venaprologue.rpy:149
-translate turkish venaprologue_55dd9b86:
+translate turkish venaprologue_eae7ab36:
 
-    # "Tahminlerimde yanılmıyorduysam rüya ormanın tam ortasında, yerleşkede geçiyor olmalıydı."
+    # "If my guess was right, the dream should have taken place amidst the forest, which was also the heart of our residency."
     ""
 
 # game/venaprologue.rpy:150
-translate turkish venaprologue_728e6184:
+translate turkish venaprologue_331b9f35:
 
-    # "Hala yaşayan insanların ölü gözükmesi dolayısıyla rüyanın anıları ne kadar iyi yansıttığı bir muammaydı. Yine de hiç yoktan iyiydi."
+    # "I was not certain how much this dream reflected reality, given that the dead bodies I’d just seen that belonged to people who were actually alive."
     ""
 
 # game/venaprologue.rpy:151
-translate turkish venaprologue_7383ea2d:
+translate turkish venaprologue_bb1501d2:
 
-    # "Öyle ya da böyle Kioko’nun zihninin kilitlediği anılara ulaşmam lazımdı."
+    # "However, any information was crucial. Kioko’s faded memories had to be brought to light, no matter what."
     ""
 
-# game/venaprologue.rpy:155
-translate turkish venaprologue_0ae9bcd0_6:
+# game/venaprologue.rpy:160
+translate turkish venaprologue_a1bf27b3:
 
-    # ""
+    # "Finally, I found myself in the village center. And there was the person I was looking for, crouched down next to the fountain, crying in agony while clasping a dead body."
     ""
 
-# game/venaprologue.rpy:156
-translate turkish venaprologue_0ae9bcd0_7:
+# game/venaprologue.rpy:164
+translate turkish venaprologue_cac53b52:
 
-    # ""
-    ""
-
-# game/venaprologue.rpy:161
-translate turkish venaprologue_fb898613:
-
-    # "Köy açıklığına en sonunda varmıştım. Aradığım kişi de çeşmenin yanına çökmüş, ölü bir vücuda sımsıkı sarılmış inleye inleye ağlıyordu."
+    # "Surely it was a tragic scene. Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
     ""
 
 # game/venaprologue.rpy:165
-translate turkish venaprologue_0efb3b82:
+translate turkish venaprologue_849b23d0:
 
-    # "Acıklı bir sahne olduğu kesindi ve içimden ona uzanıp omzunu sıvazlamak, bir çocuğunki gibi başını okşamak geçmiyor değildi."
+    # "But I hadn’t come here to console anyone."
     ""
 
 # game/venaprologue.rpy:166
-translate turkish venaprologue_b02337db:
+translate turkish venaprologue_68eee115:
 
-    # "Fakat ben buraya bunun için gelmemiştim."
+    # "Finding the perpetrator was my main goal."
     ""
 
-# game/venaprologue.rpy:167
-translate turkish venaprologue_8b4a61f8:
+# game/venaprologue.rpy:174
+translate turkish venaprologue_3e014311:
 
-    # "Faili arıyordum."
-    ""
-
-# game/venaprologue.rpy:175
-translate turkish venaprologue_bd1a511c:
-
-    # k "“Vena ben… Galiba bundan sorumlu olan kişiyi gördüm.”"
+    # k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
     k ""
 
-# game/venaprologue.rpy:179
-translate turkish venaprologue_bd4b8609:
+# game/venaprologue.rpy:178
+translate turkish venaprologue_9f27cc8d:
 
-    # k "“Ama hatırlayamıyorum. Olmuyor.”"
+    # k "“But I can’t remember. I just can’t.”"
     k ""
 
-# game/venaprologue.rpy:187
-translate turkish venaprologue_2401e4d5:
+# game/venaprologue.rpy:186
+translate turkish venaprologue_e4034339:
 
-    # "(Neredesin… Neredesin? Hadi, kendini göster!)"
+    # "(Where are you… Where are you? Come now, don’t be shy-)"
     ""
 
-# game/venaprologue.rpy:191
-translate turkish venaprologue_0ae9bcd0_8:
+# game/venaprologue.rpy:198
+translate turkish venaprologue_773b802e:
 
-    # ""
+    # "Too caught up in my thoughts, for a while I didn’t realize Kioko’s eyes were actually fixated on me. Immediately, I hid behind the tree I’d been leaning on."
     ""
 
 # game/venaprologue.rpy:199
-translate turkish venaprologue_0e2c4f0a:
+translate turkish venaprologue_17896b8b:
 
-    # "Dikkatsizliğim yüzünden Kioko’yla göz göze gelmiş, ardından bir hışımla yaslandığım ağacın arkasına saklanmıştım."
+    # "A moment later though, my heart still thudding in my chest by the sudden contact of our eyes, I realized that panicking was totally unnecessary."
     ""
 
 # game/venaprologue.rpy:200
-translate turkish venaprologue_e4c643f2:
+translate turkish venaprologue_86c16131:
 
-    # "Fakat istenmeyen bu karşılaşmanın üzerinden daha saniyeler bile geçmeden endişemin yersiz olduğunun farkına vardım."
+    # "It was not a problem to be seen by the “dream” Kioko."
     ""
 
 # game/venaprologue.rpy:201
-translate turkish venaprologue_9d0dfac2:
+translate turkish venaprologue_153a2f3d:
 
-    # "Rüya Kioko’nun beni görmesi bir sorun değildi."
+    # "What mattered was to not get caught by the “real” one, and she was probably looking for me everywhere since her consciousness would be on high alert due to a stranger’s presence in the dream."
     ""
 
 # game/venaprologue.rpy:202
-translate turkish venaprologue_90ee1d1c:
+translate turkish venaprologue_b7c63e99:
 
-    # "Önemli olan gerçeğine yakalanmamaktı ve muhtemelen bilinci de rüyasına bu şekilde gasp eden düşmanını her yerde didik didik arıyordu şu an."
+    # "(No time to waste.)"
     ""
 
 # game/venaprologue.rpy:203
-translate turkish venaprologue_6c61c579:
+translate turkish venaprologue_734c3d54:
 
-    # "(Kaybedecek zamanım yok.)"
+    # "I peeked from around the tree."
     ""
 
-# game/venaprologue.rpy:204
-translate turkish venaprologue_db7f49f8:
+# game/venaprologue.rpy:207
+translate turkish venaprologue_23f2c970:
 
-    # "Kafamı ağacın öteki tarafından uzatıp baktım."
+    # "Voices were raised in the old Coven, causing the great oak it sat on to tremble."
     ""
 
 # game/venaprologue.rpy:208
-translate turkish venaprologue_65ac870b:
+translate turkish venaprologue_11ef40e9:
 
-    # "Eski meclisten birtakım sesler yükseliyor, yer yer üzerine inşa edilmiş olduğu yaşlı meşe sallanıyordu."
+    # "If I remembered correctly, this was also the last place Kioko visited before losing her memories."
     ""
 
 # game/venaprologue.rpy:209
-translate turkish venaprologue_0c9be001:
+translate turkish venaprologue_ffdf3a9f:
 
-    # "Yanlış hatırlamıyorduysam Kioko’nun da anılarını kaybetmeden önce en son gittiği yer burasıydı."
+    # "Her memories might actually be shrouded by some spell, given the possibility of the perpetrator being one of our own people."
     ""
 
 # game/venaprologue.rpy:210
-translate turkish venaprologue_65535518:
+translate turkish venaprologue_588200d8:
 
-    # "Kioko’nun neyi veya kimi gördüğünü bilmiyorduk. Bu bizden biriydi ise anılarını özenle kendi de silmiş olabilirdi."
+    # "Or, she’d simply lost them naturally by the shock and trauma she’d gone through."
     ""
 
 # game/venaprologue.rpy:211
-translate turkish venaprologue_651282c2:
+translate turkish venaprologue_f04c2e07:
 
-    # "Veyahut doğal bir şekilde, gördüğü şeylerin şokundan tetiklenmiş de olabilirdi."
+    # "We had no evidence or information on what or whom she may have seen. I could not discount the chance of her meeting with the culprit."
     ""
 
 # game/venaprologue.rpy:212
-translate turkish venaprologue_2b17e9f3:
+translate turkish venaprologue_be79bb1e:
 
-    # "İki türlü de ben katliamın sorumlusuyla karşılaşmış olabileceğini düşünüyordum."
-    ""
-
-# game/venaprologue.rpy:213
-translate turkish venaprologue_7391ffa3:
-
-    # "Tabii bu bir rüya olduğundan gerçek failin yüzünü görüp göremeyeceğimin de bir güvencesi yoktu. Yine de-"
+    # "How much this dream reflected the truth was a mystery, however. Still-"
     ""
 
 # game/venaprologue.rpy:217
-translate turkish venaprologue_957726a0:
+translate turkish venaprologue_b01489da:
 
-    # "…!"
+    # "A sudden, familiar scream made me lose all composure. And before I realized what I was doing, I’d yelled back at the top of my lungs."
     ""
 
-# game/venaprologue.rpy:218
-translate turkish venaprologue_1e85642b:
+# game/venaprologue.rpy:221
+translate turkish venaprologue_ab774949:
 
-    # "Aniden yükselen bir çığlık bütün dikkatimi ve çabalarımı çöpe atmış, ne yaptığımı bilemeden geri bağırmama sebep olmuştu."
+    # "I sprang into action at once."
     ""
-
-# game/venaprologue.rpy:220
-translate turkish venaprologue_95521da2:
-
-    # v "“Waceera!”"
-    v ""
 
 # game/venaprologue.rpy:222
-translate turkish venaprologue_a7c086fd:
+translate turkish venaprologue_5f94f0df:
 
-    # "Koşmak için ileri atıldım."
+    # "Looking back now, how embarrassing that must have seemed; being ready to try my hardest to save a person who was not even real."
     ""
 
 # game/venaprologue.rpy:223
-translate turkish venaprologue_c9ffcd58:
+translate turkish venaprologue_1093d44a:
 
-    # "Şimdi dönüp bakınca ne utanç vericiydi, gerçek bile olmayan bir insanı kurtarmak için bir anlığına akla karayı seçmiştim."
+    # "However, before I could disgrace myself further, someone grabbed my arm."
     ""
 
 # game/venaprologue.rpy:224
-translate turkish venaprologue_0a5d8626:
+translate turkish venaprologue_14029df6:
 
-    # "Ama o sırada birinin kolumdan tutup geri çekmesi kendimi daha da rezil etmemin önüne geçmişti."
+    # "I sharply turned to the person behind me, gasping, momentarily disoriented."
     ""
 
-# game/venaprologue.rpy:225
-translate turkish venaprologue_dd4314fc:
+# game/venaprologue.rpy:230
+translate turkish venaprologue_fcd00265:
 
-    # "Şaşkınlıktan nefesim kesilerek dirseğimdeki elin sahibine döndüm."
-    ""
-
-# game/venaprologue.rpy:231
-translate turkish venaprologue_7a722af8:
-
-    # k "“Vena? Gerçek Vena’sın sen, değil mi?”"
+    # k "“Vena? Are you… The real Vena?”"
     k ""
 
+# game/venaprologue.rpy:232
+translate turkish venaprologue_f2dc71ff:
+
+    # "{i}Nice.{/i}. I got caught. But this was no time to waste with pointless questions."
+    ""
+
 # game/venaprologue.rpy:233
-translate turkish venaprologue_428d228b:
+translate turkish venaprologue_68db7a11:
 
-    # "{i}Güzel{/i}. Yakalanmıştım. Fakat kendimi açıklayacak vaktim yoktu."
+    # "I grabbed Kioko by the shoulders."
     ""
 
-# game/venaprologue.rpy:234
-translate turkish venaprologue_5f1e9114:
+# game/venaprologue.rpy:235
+translate turkish venaprologue_42fe2634:
 
-    # "Uzanıp Kioko’yu omuzlarından tuttum."
-    ""
-
-# game/venaprologue.rpy:236
-translate turkish venaprologue_4a94683c:
-
-    # v "“Kiki, beni dinle. Açıklayacak vaktim yok. Hemen eski meclise gitmemiz gerekiyor-”"
+    # v "“Kiki, listen to me. We should move immediately. There's something going on in the old Coven-”"
     v ""
 
-# game/venaprologue.rpy:242
-translate turkish venaprologue_70309d93:
+# game/venaprologue.rpy:241
+translate turkish venaprologue_240ce6ba:
 
-    # "Büyük bir patlama sesi lafımı bölmüş, ardından yer sallanmıştı."
+    # "A loud bang interrupted my words, then the ground began to shake."
+    ""
+
+# game/venaprologue.rpy:242
+translate turkish venaprologue_e34a30ef:
+
+    # "I and Kioko barely held on to the nearest tree as the world churned and quaked around us."
     ""
 
 # game/venaprologue.rpy:243
-translate turkish venaprologue_569f058e:
+translate turkish venaprologue_40e23656:
 
-    # "Kioko’yla birlikte en yakınımızdaki ağaca sımsıkı tutunduk."
+    # "Quickly I raised my head to see the source of the sound."
     ""
 
-# game/venaprologue.rpy:244
-translate turkish venaprologue_98eef5a5:
+# game/venaprologue.rpy:249
+translate turkish venaprologue_1f5a07c6:
 
-    # "Hızlıca kafamı kaldırıp sesin geldiği yöne doğru baktım."
+    # "(No, no…)"
     ""
 
 # game/venaprologue.rpy:250
-translate turkish venaprologue_16e40ddc:
+translate turkish venaprologue_b2c6bd32:
 
-    # "(Hayır, hayır…)"
+    # "A huge void vortex appeared in the ruins of the cabin which used to be our old Coven."
     ""
 
 # game/venaprologue.rpy:251
-translate turkish venaprologue_5f4ef889:
+translate turkish venaprologue_4967b579:
 
-    # "Meclis kulübesinin olduğu yerde koca bir Hiçlik girdabı belirmişti."
+    # "We were too late. This meant my chance of taking a peek at whatever had happened was lost."
     ""
 
 # game/venaprologue.rpy:252
-translate turkish venaprologue_a05a7ec0:
+translate turkish venaprologue_f5a5273c:
 
-    # "Geç kalmıştık. Görebileceğimiz bir şey vardıysa da ellerimin arasından kayıp öylece gidivermişti."
+    # "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the Void Crawlers attacking everyone in the grove."
     ""
 
 # game/venaprologue.rpy:253
-translate turkish venaprologue_375724ef:
+translate turkish venaprologue_faae995c:
 
-    # "Parmaklarımı huzursuzca saçlarım arasında gezdirerek girdaptan dışarı fırlayan Gölgeleri izlemekten başka yapacak bir şeyim kalmamıştı."
+    # "Except by waking up…"
     ""
 
-# game/venaprologue.rpy:254
-translate turkish venaprologue_40e09049:
+# game/venaprologue.rpy:257
+translate turkish venaprologue_4814cbe5:
 
-    # "Uyanmak hariç…"
+    # "I was back to square one."
     ""
 
 # game/venaprologue.rpy:258
-translate turkish venaprologue_e07d9da4:
+translate turkish venaprologue_3f07f382:
 
-    # "Tekrardan başladığım noktadaydım."
+    # "Loud voices, almost like yelling, could be heard outside. And the compartment was still one person short. Rubbing my eyes, I wondered where Haru could be."
     ""
 
-# game/venaprologue.rpy:259
-translate turkish venaprologue_0e86ac3a:
+# game/venaprologue.rpy:261
+translate turkish venaprologue_901cae12:
 
-    # "Dışarıdan birtakım sesler geliyordu, kompartıman da hala boştu. Gözlerimi ovuştururken Haru’nun nerede olabileceğini düşündüm."
+    # k "“Vena… Why didn’t you seek my permission for that?”"
+    k ""
+
+# game/venaprologue.rpy:262
+translate turkish venaprologue_6ae8527d:
+
+    # "(Oh…)"
     ""
 
 # game/venaprologue.rpy:263
-translate turkish venaprologue_2cf3fa57:
+translate turkish venaprologue_b5e4b63a:
 
-    # "(Ah…)"
+    # "I wetted my lips before taking a deep breath. There was no anger in her features, but she clearly felt uncomfortable."
     ""
 
-# game/venaprologue.rpy:264
-translate turkish venaprologue_03135f9f:
+# game/venaprologue.rpy:265
+translate turkish venaprologue_3ce087b6:
 
-    # "Dudaklarımı ıslatıp derin bir nefes aldım. Tam olarak kızgın değildi fakat rahatsız olduğu da her halinden belli oluyordu."
-    ""
-
-# game/venaprologue.rpy:266
-translate turkish venaprologue_9d4833bf:
-
-    # v "“Kabus gördüğünü anlayınca bilincinin bloke ettiği anılara ulaşabilirim diye düşündüm.”"
+    # v "“Since you were having a nightmare, I thought it would be good to check if those blocked memories could be reached.”"
     v ""
 
-# game/venaprologue.rpy:270
-translate turkish venaprologue_dcfbe235:
+# game/venaprologue.rpy:269
+translate turkish venaprologue_e877847d:
 
-    # k "“Sen de benden şüpheleniyorsun, değil mi?”"
+    # k "“You are suspicious of me, aren’t you?”"
     k ""
 
-# game/venaprologue.rpy:272
-translate turkish venaprologue_ada9b0fd:
+# game/venaprologue.rpy:271
+translate turkish venaprologue_95bfd664:
 
-    # k "“Diğerleri gibi.”"
+    # k "“Just like everyone else.”"
     k ""
+
+# game/venaprologue.rpy:273
+translate turkish venaprologue_4c6bb50c:
+
+    # "Her words caught me off guard."
+    ""
 
 # game/venaprologue.rpy:274
-translate turkish venaprologue_a3c1cd50:
+translate turkish venaprologue_143189d6:
 
-    # "Duyduklarım beni hayrete düşürmüştü."
+    # "What was most shocking was the nugget of truth buried inside them. No matter how small..."
     ""
 
-# game/venaprologue.rpy:275
-translate turkish venaprologue_ce810cbc:
+# game/venaprologue.rpy:278
+translate turkish venaprologue_d793a651:
 
-    # "Ama daha çok şaşırdığım içimde bir yerlerde bu dediklerinde bir miktar doğruluk payı olduğunu fark etmemdi."
+    # "My words were interrupted by the sound of the door."
     ""
 
-# game/venaprologue.rpy:277
-translate turkish venaprologue_23ccc173:
+# game/venaprologue.rpy:284
+translate turkish venaprologue_1b2c1ed9:
 
-    # v "“Kioko-”"
+    # "I turned to look at Haru."
+    ""
+
+# game/venaprologue.rpy:286
+translate turkish venaprologue_f61555e9:
+
+    # v "“Did something happen? I heard someone yelling.”"
     v ""
 
-# game/venaprologue.rpy:279
-translate turkish venaprologue_bf4df2c0:
+# game/venaprologue.rpy:290
+translate turkish venaprologue_1de191d5:
 
-    # "Kompartımanın kapısının açılmasıyla lafım bölünmüştü."
-    ""
-
-# game/venaprologue.rpy:285
-translate turkish venaprologue_97598d5f:
-
-    # "Kafamı çevirip içeri giren Haru’ya baktım."
-    ""
-
-# game/venaprologue.rpy:287
-translate turkish venaprologue_64f47e07:
-
-    # v "“Dışarıdan gürültüler geliyordu, bir şey mi oldu?”"
-    v ""
-
-# game/venaprologue.rpy:291
-translate turkish venaprologue_206530c6:
-
-    # h "“Bir sorun yok, klasik tartışmalar işte.”"
+    # h "“The usual arguments, you know. Nothing else.”"
     h ""
 
-# game/venaprologue.rpy:293
-translate turkish venaprologue_b8e1c9ee:
+# game/venaprologue.rpy:292
+translate turkish venaprologue_070ab34a:
 
-    # "Ne tür tartışmalardan bahsediyordu?"
+    # "…What kind of “usual arguments” was she talking about?"
+    ""
+
+# game/venaprologue.rpy:293
+translate turkish venaprologue_f70259f8:
+
+    # "Whatever… Because that I hadn’t done mana meditation for a long time this experience had left me weary, so there was no energy left in me to pursue it."
     ""
 
 # game/venaprologue.rpy:294
-translate turkish venaprologue_c15ddba5:
+translate turkish venaprologue_eca2be72:
 
-    # "Aman… Uzun zamandır mana meditasyonu yapmadığım için fazlasıyla yorulmuştum ve bunun peşine düşecek halim de yoktu."
+    # "I shrugged before closing my eyes."
     ""
 
 # game/venaprologue.rpy:295
-translate turkish venaprologue_52888324:
+translate turkish venaprologue_1f0d53ab:
 
-    # "Omuz silkip gözlerimi kapattım."
+    # "And I had no intention of opening them before we arrived in Whemond."
     ""
 
-# game/venaprologue.rpy:296
-translate turkish venaprologue_b39add39:
+# game/venaprologue.rpy:299
+translate turkish venaprologue_2274399b:
 
-    # "Whemond’a varmadan da açmaya niyetim yoktu."
+    # "Tall buildings that were made from cold concrete… People who were famishing in the alleyways, and the viscous humidity which made you feel suffocated…"
     ""
 
 # game/venaprologue.rpy:300
-translate turkish venaprologue_dcdfdd7c:
+translate turkish venaprologue_e8eaeb26:
 
-    # "Büyük, soğuk beton binalar, arka sokaklarında açlıktan ölen insanlar ve ciğerlere dolan o pis, yapışkan nem…"
+    # "These weren’t things that a person, who had spent their life in the middle of a forest and kissed goodnight by the stars before falling asleep every night, could get used to in a single day."
     ""
 
 # game/venaprologue.rpy:301
-translate turkish venaprologue_da3b9aa1:
+translate turkish venaprologue_2b59f976:
 
-    # "Üç yüz yılı aşkındır ormanın ortasında, her akşam yıldızları izleyerek ağaç kulübesinde uyuyan bir insanın bir gecede sindirebileceği şeyler değillerdi bunlar."
+    # "And I felt achingly lonely despite being surrounded by my sisters."
     ""
 
 # game/venaprologue.rpy:302
-translate turkish venaprologue_2d463787:
+translate turkish venaprologue_44357a40:
 
-    # "Ve ben kendimi yalnız hissediyordum."
+    # "(Like a shunned wretch who dared to call herself a “nomad”.)"
     ""
 
-# game/venaprologue.rpy:303
-translate turkish venaprologue_7f1e744a:
+# game/venaprologue.rpy:306
+translate turkish venaprologue_2a38d1a8:
 
-    # "Yalnız, dışlanmış ve “göçebe” adı altında yaşayan bir sığıntı."
+    # "Finally we were in the famous Royal Academy."
     ""
 
 # game/venaprologue.rpy:307
-translate turkish venaprologue_13b44303:
+translate turkish venaprologue_2a14ef84:
 
-    # "Kraliyet Akademisi’ne sonunda varmıştık."
+    # "I was busy organizing the jars that I had filled with herbs from the village we’d stayed in after the Massacre."
     ""
 
 # game/venaprologue.rpy:308
-translate turkish venaprologue_5f98990d:
+translate turkish venaprologue_f5a8f32f:
 
-    # "Katliam’ın sonrasında bir ay kadar kaldığımız köyde toplamış olduğum bitkilerin kavanozlarını bir bir bez çantamdan çıkarmaktaydım."
+    # "My body was begging for rest, but I desired at least to get one thing done before truly relaxing."
     ""
 
 # game/venaprologue.rpy:309
-translate turkish venaprologue_1665e189:
+translate turkish venaprologue_079032a2:
 
-    # "Yorgundum lakin en azından yerleşme işlemini bu gece tamamlamak istiyordum."
+    # "Meanwhile Haru, Kioko and Asha had gathered before the window and were watching the hell beneath which had been given a fancy name such as “city”."
     ""
 
 # game/venaprologue.rpy:310
-translate turkish venaprologue_5ba569d5:
+translate turkish venaprologue_2378807e:
 
-    # "Bu sırada Haru, Kioko ve Asha da camın etrafına dizilmiş, şehir dedikleri cehennemi izliyorlardı."
+    # "My attention was focused solely on the task at hand since I was not sure if I could refrain from dampening their joyful mood with my distasteful comments."
     ""
 
 # game/venaprologue.rpy:311
-translate turkish venaprologue_1c2f3034:
+translate turkish venaprologue_64780c0a:
 
-    # "Kardeşlerimin yüzündeki o hayranlık canımı sıktığından en iyisi kendimi işlere vermekti. Aksi takdirde tatsız yorumlar yapıp can sıkacaktım."
+    # "However it was also impossible to ignore what was being said."
     ""
 
-# game/venaprologue.rpy:312
-translate turkish venaprologue_f1040d94:
+# game/venaprologue.rpy:315
+translate turkish venaprologue_593c2135:
 
-    # "Ama denilenleri kulak ardı da edemiyordum."
-    ""
+    # a "“Ladies, if you’re this impressed already, I can’t imagine your reactions over the sunset! It always looks like the sun bleeds right into the sea.”"
+    a ""
 
 # game/venaprologue.rpy:316
-translate turkish venaprologue_83bad5bb:
+translate turkish venaprologue_005cd148:
 
-    # a "“Bundan o kadar etkilendiyseniz bir de gün batımını izlemeniz lazım kızlar! O zaman güneş sanki kanayarak denize dökülüyormuş gibi bir görüntü oluşuyor.”"
+    # a "“And in the dawn, it is gloriously reborn from the blood coloured tides to light the sky once more.”"
     a ""
 
 # game/venaprologue.rpy:317
-translate turkish venaprologue_2277c874:
+translate turkish venaprologue_34d8afa4:
 
-    # a "“Şafakları da aynı şekilde, bir kan göledinden çıkıyormuşçasına…”"
+    # a "“Alas, I have to admit… Almost everything has changed since I was here the last time.”"
     a ""
 
-# game/venaprologue.rpy:318
-translate turkish venaprologue_a2bf6578:
+# game/venaprologue.rpy:319
+translate turkish venaprologue_89448481:
 
-    # a "“Ama kabul etmem lazım, ben en son buraları göreli her şey çok ama çok değişmiş.”"
-    a ""
-
-# game/venaprologue.rpy:320
-translate turkish venaprologue_ba798bb8:
-
-    # "Dişlerimin arasından konuşmaya başladım."
+    # "I began to mutter through my gritted teeth."
     ""
 
-# game/venaprologue.rpy:322
-translate turkish venaprologue_8f378116:
+# game/venaprologue.rpy:321
+translate turkish venaprologue_b6fc5e22:
 
-    # v "“Rezil bir yer burası. Etkilenilecek hiçbir şey yok.”"
+    # v "“A disgrace is what this place is. There’s no single thing to be impressed about.”"
     v ""
 
-# game/venaprologue.rpy:326
-translate turkish venaprologue_a581d5d0:
+# game/venaprologue.rpy:325
+translate turkish venaprologue_6a8c902b:
 
-    # v "“Işığın bu kadar gereksiz kullanılabileceğini düşünmezdim.”"
+    # v "“Not once did I think that the light magic could be used in such useless way.”"
     v ""
+
+# game/venaprologue.rpy:327
+translate turkish venaprologue_cf188fca:
+
+    # "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived. And the situation was worse in Whemond."
+    ""
 
 # game/venaprologue.rpy:328
-translate turkish venaprologue_4e0094f5:
+translate turkish venaprologue_b18735ac:
 
-    # "Öyle bir ışık kirliliği vardı ki bana hayatım boyunca rehber olmuş yıldızlar yüzlerini bir kez bile göstermemişti geldik geleli."
+    # "It almost seemed like a harbinger of misfortune."
     ""
 
-# game/venaprologue.rpy:329
-translate turkish venaprologue_ce3d9322:
+# game/venaprologue.rpy:332
+translate turkish venaprologue_b8ad3215:
 
-    # "Bu kötü bir talihin habercisi değildi de neydi?"
-    ""
-
-# game/venaprologue.rpy:333
-translate turkish venaprologue_527c18cc:
-
-    # k "“Bence… Bence ışıklar çok sevimli duruyor.”"
+    # k "“Well, I… I think the lights look pretty.”"
     k ""
 
-# game/venaprologue.rpy:335
-translate turkish venaprologue_921aa8a2:
+# game/venaprologue.rpy:334
+translate turkish venaprologue_05708751:
 
-    # "(…Sen de mi Kioko?)"
+    # "(…You too, Kioko?)"
     ""
 
-# game/venaprologue.rpy:339
-translate turkish venaprologue_62efb955:
+# game/venaprologue.rpy:338
+translate turkish venaprologue_ff2eeac5:
 
-    # a "“Şehirde gezme fırsatını elbet yakalarsınız sanıyorum ki.”"
+    # a "“Don’t worry, you will have the opportunity to go on a trip into the city after things have settled more I think.”"
     a ""
 
-# game/venaprologue.rpy:341
-translate turkish venaprologue_22fded44:
+# game/venaprologue.rpy:340
+translate turkish venaprologue_841b49bc:
 
-    # "En küçük kardeşimin dönütünden yaşadığım şoku atlatamamışken bir darbe de Asha’dan gelmişti."
+    # "Before I had time to recover from what Kioko had said, another outrageous claim was raised from Asha."
+    ""
+
+# game/venaprologue.rpy:352
+translate turkish venaprologue_ea1e5238:
+
+    # "My anger made me slam the jar on the counter with much more force, while trying to place it."
     ""
 
 # game/venaprologue.rpy:353
-translate turkish venaprologue_356981de:
+translate turkish venaprologue_342c6075:
 
-    # "Elimdeki kavanozu yerleştirirken sinirden istemsizce tezgaha çarpıvermiştim."
+    # "Now all of the eyes in the room were upon me."
     ""
 
 # game/venaprologue.rpy:354
-translate turkish venaprologue_58ea5897:
+translate turkish venaprologue_4afaf903:
 
-    # "Şimdi bütün gözler bendeydi."
+    # "Going on a trip, having fun… How could they make such laid-back plans when we couldn’t have held a ritual for our dead?"
     ""
 
 # game/venaprologue.rpy:355
-translate turkish venaprologue_550bb468:
+translate turkish venaprologue_81fd7e0b:
 
-    # "Dışarı çıkmak, eğlenmek… Ölülerimiz için bir tören dahi düzenleyememişken nasıl böyle planlar yapabiliyorlardı?"
+    # "Our leader was missing; friends, sisters we cherished so dear had lost their lives and we were not even capable of bringing their lifeless bodies back to cremate."
     ""
 
 # game/venaprologue.rpy:356
-translate turkish venaprologue_70652228:
+translate turkish venaprologue_721f79d6:
 
-    # "Liderimiz kayıptı; arkadaşlarımız, diğer kız kardeşlerimiz ölmüştü ve bedenlerini dahi geri getirememiştik."
+    # "How could they act this nonchalantly? Especially Asha, of all people!"
     ""
 
-# game/venaprologue.rpy:357
-translate turkish venaprologue_16f3ab90:
+# game/venaprologue.rpy:358
+translate turkish venaprologue_69b5ac06:
 
-    # "Nasıl hiçbir şey olmamış gibi davranabilirlerdi? Hele ki Asha!"
-    ""
+    # v "“Asha, I beg you to not to put such atrocious thoughts into anyone’s mind.”"
+    v ""
 
 # game/venaprologue.rpy:359
-translate turkish venaprologue_4aa4aa70:
+translate turkish venaprologue_4d6119d0:
 
-    # v "“Asha, lütfen kimsenin aklına böyle şeyler sokma.”"
+    # v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
     v ""
 
-# game/venaprologue.rpy:360
-translate turkish venaprologue_4658f710:
+# game/venaprologue.rpy:367
+translate turkish venaprologue_0575c6a5:
 
-    # v "“Ne Haru’nun, ne Kioko’nun, ne de başka birinin.”"
-    v ""
-
-# game/venaprologue.rpy:368
-translate turkish venaprologue_8f1c99ac:
-
-    # a "“Ne olacak yahu? Bir günlük şehir gezisi ayarlayabiliriz.”"
+    # a "“What’s the problem? We can arrange a one-day trip.”"
     a ""
 
-# game/venaprologue.rpy:370
-translate turkish venaprologue_344960b4:
+# game/venaprologue.rpy:369
+translate turkish venaprologue_8ac0ebd6:
 
-    # v "“Kesinlikle olmaz.”"
+    # v "“Absolutely not.”"
+    v ""
+
+# game/venaprologue.rpy:370
+translate turkish venaprologue_39fbc63d:
+
+    # v "“We are in a very difficult time that requires extra care. The reason why all this happened in the first place is still a mystery.”"
     v ""
 
 # game/venaprologue.rpy:371
-translate turkish venaprologue_92f378d5:
+translate turkish venaprologue_9c586f62:
 
-    # v "“Her zamankinden daha çok kendimize dikkat etmemiz gereken bir dönemdeyiz. Olanlara neyin sebebiyet verdiğini bile bilmiyoruz.”"
+    # v "“Unless they have a death wish then our people should never leave this Academy.”"
     v ""
 
 # game/venaprologue.rpy:372
-translate turkish venaprologue_eb6b6f9d:
+translate turkish venaprologue_f7881350:
 
-    # v "“Eğer insanlar ölmek istemiyorlarsa asla bu Akademi’den çıkmamalılar.”"
+    # v "“In fact, even if it’s exactly what they wish for, you still shouldn’t let them. As a leader it’s one of your priorities to seek everyone’s safety, Asha.”"
     v ""
 
 # game/venaprologue.rpy:373
-translate turkish venaprologue_b16c30ad:
+translate turkish venaprologue_6732d69b:
 
-    # v "“Hatta ölmek istiyorlarsa da çıkmamalılar. Bir lider olarak senin en büyük vazifelerinden biri herkesin güvenliğini sağlamak Asha.”"
+    # v "“Let alone we are not here to amuse ourselves, we have casualties.”"
     v ""
 
-# game/venaprologue.rpy:374
-translate turkish venaprologue_012e9421:
+# game/venaprologue.rpy:375
+translate turkish venaprologue_2e782f1f:
 
-    # v "“Kaldı ki buraya eğlenmeye de gelmedik, ölülerimiz var.”"
-    v ""
+    # "As our acting leader- no, setting that aside, as a person who walked the world several thousands of years, I expected Asha to be more cautious, sharper."
+    ""
 
 # game/venaprologue.rpy:376
-translate turkish venaprologue_52978b97:
+translate turkish venaprologue_9a9faf10:
 
-    # "Geçici liderimiz olarak, hatta bunu geçtim, binlerce yılı devirmiş bir insan olarak Asha’nın böylesine umursamaz davranmaması gerekiyordu."
+    # "Particularly while treading upon the cracks that had begun to form among us."
     ""
 
-# game/venaprologue.rpy:377
-translate turkish venaprologue_4d9f5b2f:
+# game/venaprologue.rpy:382
+translate turkish venaprologue_1d6ca695:
 
-    # "Kendi içimizde çatlaklar oluşmaya başlamışken özellikle…"
-    ""
-
-# game/venaprologue.rpy:383
-translate turkish venaprologue_d5ac18dc:
-
-    # a "“İnanamıyorum. Tıpkı Waceera gibisin…”"
+    # a "“You’re just like Waceera.”"
     a ""
 
-# game/venaprologue.rpy:385
-translate turkish venaprologue_22fc4e4d:
+# game/venaprologue.rpy:384
+translate turkish venaprologue_3ffb39ad:
 
-    # "Bu noktada bunu beni eleştirmek için mi, yüceltmek için mi diyor anlayamamıştım. Önemli de değildi."
+    # "At this point, it was hard to figure out if she’d said that to criticize me, or to praise me. But it didn’t matter."
     ""
 
-# game/venaprologue.rpy:387
-translate turkish venaprologue_415d0498:
+# game/venaprologue.rpy:386
+translate turkish venaprologue_dea1e0be:
 
-    # v "“Gülebilmen ne hoş. Yine de bunun önemli bir konu olduğunu unutma, özellikle Almasi’nin her açığını yakalamaya çalıştığını.”"
+    # v "“How nice it is to see that you can laugh. You shouldn’t dismiss the importance of this situation. Especially with Almasi being on your tail like this, looking for any possible mistake you might make.”"
     v ""
 
-# game/venaprologue.rpy:391
-translate turkish venaprologue_1bd515f7:
+# game/venaprologue.rpy:390
+translate turkish venaprologue_226489a7:
 
-    # a "“Görünen o ki Waceera’ya güvendiğinin yarısı kadar bile bana güvenmiyorsun.”"
+    # a "“It seems you don’t see me worthy as of your trust as Waceera.”"
     a ""
+
+# game/venaprologue.rpy:392
+translate turkish venaprologue_54f2fe13:
+
+    # "I shut my eyes for a moment."
+    ""
 
 # game/venaprologue.rpy:393
-translate turkish venaprologue_03b77d5c:
+translate turkish venaprologue_4e44a601:
 
-    # "Gözlerimi bir süreliğine yumdum."
+    # "Even a stranger could understand that what she said was true. There was no point in lying."
     ""
 
-# game/venaprologue.rpy:394
-translate turkish venaprologue_a0b21174:
+# game/venaprologue.rpy:395
+translate turkish venaprologue_7d25cc76:
 
-    # "Dediklerinin doğru olduğunu sokaktan geçen bir insan dahi anlayabilirdi. Yalan söylemenin lüzumu yoktu."
-    ""
-
-# game/venaprologue.rpy:396
-translate turkish venaprologue_ce257340:
-
-    # v "“Senin iyiliğin için konuşuyorum, bunu kendine bir yarış haline getirmezsen iyi olur.”"
+    # v "“I am speaking up for your own good, please don’t turn it into a competition.”"
     v ""
 
+# game/venaprologue.rpy:397
+translate turkish venaprologue_5dcec5d9:
+
+    # a "“That I won’t, let’s just say I’m stating a fact.”"
+    a ""
+
 # game/venaprologue.rpy:398
-translate turkish venaprologue_2008da3e:
+translate turkish venaprologue_813f3fb3:
 
-    # a "“Getirmiyorum, sadece gözler önünde olan bir doğruyu söyledim.”"
+    # a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hallow. I can assure you.”"
     a ""
 
-# game/venaprologue.rpy:399
-translate turkish venaprologue_b3c0a156:
+# game/venaprologue.rpy:400
+translate turkish venaprologue_8d784428:
 
-    # a "“Ah Vena… Dert etmeni gerektirecek bir şey yok, Waceera’yı da bulup Gümüş Oyuk’a geri döneceğiz.”"
-    a ""
-
-# game/venaprologue.rpy:401
-translate turkish venaprologue_6632f781:
-
-    # "Bu sözlerinden sonra ayaklanmıştı."
+    # "She stood, making ready to leave."
     ""
 
-# game/venaprologue.rpy:407
-translate turkish venaprologue_766fbe3b:
+# game/venaprologue.rpy:406
+translate turkish venaprologue_16902d6a:
 
-    # a "“Sizlere daha da rahatsızlık vermeyeyim. Yataklarınıza dağılın bakalım.”"
+    # a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
     a ""
 
-# game/venaprologue.rpy:411
-translate turkish venaprologue_cbab296e:
+# game/venaprologue.rpy:410
+translate turkish venaprologue_4b648f0b:
 
-    # k "“Hala çocukmuşuz gibi davranıyorsun Asha.”"
+    # k "“You still act like we are little kids, Asha.”"
     k ""
 
 # game/venaprologue.rpy:417
-translate turkish venaprologue_0ae9bcd0_9:
+translate turkish venaprologue_70874b08:
 
-    # ""
+    # "Asha ruffled Kioko’s hair gently."
     ""
 
-# game/venaprologue.rpy:418
-translate turkish venaprologue_716a9ca1:
+# game/venaprologue.rpy:419
+translate turkish venaprologue_c8ff9c82:
 
-    # "Asha elini Kioko’nun kafasına götürüp saçlarını hafifçe karıştırdı."
-    ""
-
-# game/venaprologue.rpy:420
-translate turkish venaprologue_cf7331d5:
-
-    # a "“Hala çocuksunuz çünkü. Hep öyle kalacaksınız.”"
+    # a "“That is because you are little children on my perspective. And you will always remain as such for me.”"
     a ""
 
-# game/venaprologue.rpy:425
-translate turkish venaprologue_0ae9bcd0_10:
+# game/venaprologue.rpy:430
+translate turkish venaprologue_afe0c5f1:
 
-    # ""
-    ""
-
-# game/venaprologue.rpy:431
-translate turkish venaprologue_1fac1d45:
-
-    # u "“Benim için asla büyümeyeceksin, Vena.”"
+    # u "“You’ll always stay as a kid in my eyes, Vena.”"
     u ""
 
 # game/venaprologue.rpy:435
-translate turkish venaprologue_b0c235f2:
+translate turkish venaprologue_ef2a2da1:
 
-    # "(…)"
+    # "Just when I was about to get lost in my memories, Haru’s voice shook me back to reality."
     ""
 
-# game/venaprologue.rpy:436
-translate turkish venaprologue_34b45a04:
+# game/venaprologue.rpy:440
+translate turkish venaprologue_8e55fccc:
 
-    # "Anılarımda kaybolmak üzereyken Haru’nun sesi beni salona döndürmüştü."
-    ""
+    # h "“So… We are returning to our rooms?”"
+    h ""
 
 # game/venaprologue.rpy:441
-translate turkish venaprologue_b64eff58:
+translate turkish venaprologue_aa7aa56b:
 
-    # h "“Öyleyse… Odalarımıza mı dağılıyoruz?”"
-    h ""
+    # v "“You two can leave. I still have work to do.”"
+    v ""
 
 # game/venaprologue.rpy:442
-translate turkish venaprologue_498d4b4b:
+translate turkish venaprologue_446d5cb4:
 
-    # v "“Siz ikiniz gidebilirsiniz. Benim biraz daha işim var.”"
-    v ""
-
-# game/venaprologue.rpy:443
-translate turkish venaprologue_430cf087:
-
-    # k "“Lütfen kendini yorma.”"
+    # k "“Please don’t tire yourself out.”"
     k ""
 
-# game/venaprologue.rpy:447
-translate turkish venaprologue_2888d133:
+# game/venaprologue.rpy:446
+translate turkish venaprologue_7058e696:
 
-    # h "“Kioko’ya katılıyorum Vena. Ayrıca, iyi geceler.”"
+    # h "“I agree with Kioko, Vena. Also, well… Good night.”"
     h ""
 
-# game/venaprologue.rpy:449
-translate turkish venaprologue_79d825ce:
+# game/venaprologue.rpy:448
+translate turkish venaprologue_cd7ccf00:
 
-    # v "“Size de.”"
+    # v "“Good night.”"
     v ""
 
-# game/venaprologue.rpy:454
-translate turkish venaprologue_6354c02a:
+# game/venaprologue.rpy:453
+translate turkish venaprologue_e8d314c8:
 
-    # "İkisi de odayı terk ettiğinde yüzümü ellerimin arasına aldım ve derin bir iç geçirdim."
+    # "Once the two of them left, I buried my face in my hands, and tried to take a deep breath."
+    ""
+
+# game/venaprologue.rpy:457
+translate turkish venaprologue_628f22b0:
+
+    # "There was still so much work to do."
     ""
 
 # game/venaprologue.rpy:458
-translate turkish venaprologue_d593dda2:
+translate turkish venaprologue_79572fc5:
 
-    # "İşlerimi daha bitirmemiştim."
+    # "And no matter how tired I was, I knew that it was impossible for me to sleep when I had this much on my mind."
     ""
 
-# game/venaprologue.rpy:459
-translate turkish venaprologue_58050360:
+# game/venaprologue.rpy:462
+translate turkish venaprologue_90776ec3:
 
-    # "Aynı zamanda ne kadar yorgun olursam olayım kafam bu denli doluyken uyuyabileceğimi düşünmüyordum."
+    # "I reached to the shelves behind me to take down an ointment I’d made with rosemary."
     ""
 
 # game/venaprologue.rpy:463
-translate turkish venaprologue_bba111b1:
+translate turkish venaprologue_d3ec7d1e:
 
-    # "Arkamdaki raflara uzanıp biberiyeden yapmış olduğum bir merhemi aldım."
+    # "Never in my life had I spent a day sitting still on a seat as much as I’d done today. Why people preferred to torture themselves with that big mess they called a “train”, while they could simply teleport with magic was a mystery for me."
     ""
 
 # game/venaprologue.rpy:464
-translate turkish venaprologue_c884b0c9:
+translate turkish venaprologue_d0e03c26:
 
-    # "Hayatımda hiç bu kadar fazla saatimi oturarak geçirmemiştim. Sihir yoluyla ışınlanmak varken insanlar neden kendilerine “tren” isimli bu işkenceyi çektiriyorlardı emin değildim."
+    # "(All of my muscles are sore. Great…)"
     ""
 
 # game/venaprologue.rpy:465
-translate turkish venaprologue_c0f5dd78:
+translate turkish venaprologue_53bba8ca:
 
-    # "(Bütün kaslarım ağrıyor. Harika…)"
+    # "Shaking my head with despair, I began to rub the ointment on my thighs. To think that we have to take that journey again…"
     ""
 
 # game/venaprologue.rpy:466
-translate turkish venaprologue_df5bbffa:
+translate turkish venaprologue_89743ee6:
 
-    # "Kafamı sallaya sallaya bacaklarımı açıp merhemle masaj yapmaya başladım. Bunun bir de dönüşü vardı."
+    # "(Only if we can go back to Silver Hallow…)"
     ""
 
 # game/venaprologue.rpy:467
-translate turkish venaprologue_5e0675e1:
+translate turkish venaprologue_cf08347b:
 
-    # "(Tabii dönebilirsek…)"
+    # "I dismissed those ominous thoughts before they started to take root in my mind. Whatever it took, we were going to find a way to return."
     ""
 
 # game/venaprologue.rpy:468
-translate turkish venaprologue_a10de21c:
+translate turkish venaprologue_1deee3f7:
 
-    # "Kafamdan bu negatif düşünceleri kovdum. Dönecektik. Her ne olursa olsun dönecektik."
-    ""
-
-# game/venaprologue.rpy:469
-translate turkish venaprologue_8202c5b2:
-
-    # "Ayağa kalkıp cama yaklaştım. Akademi havada süzüldüğünden bütün bir şehri izlemek mümkün oluyordu."
+    # "Standing up, I got closer to the window. Since the Academy floated in the air, the whole city could be viewed from up here."
     ""
 
 # game/venaprologue.rpy:473
-translate turkish venaprologue_8ea3578a:
+translate turkish venaprologue_70c4656b:
 
-    # "Whemond…"
+    # "That was what they called this place."
     ""
 
 # game/venaprologue.rpy:474
-translate turkish venaprologue_b311d0dc:
+translate turkish venaprologue_8752b025:
 
-    # "Şehre verdikleri isim buydu."
+    # "The structures had been dressed up in a pathetic attempt to make them seem majestic instead of daunting, but no matter how much plaster they tried to use, hiding the filth beneath was impossible."
     ""
 
 # game/venaprologue.rpy:475
-translate turkish venaprologue_cd553185:
+translate turkish venaprologue_b28aff4a:
 
-    # "Göz korkutan binalar zavallı bir heybetli görünme çabası içerisinde boyanıp bezenmiş fakat kullandıkları sıva bütün bu pisliği örtmeye yetmemişti."
+    # "Even with the magical barrier which surrounded the Academy, I could sense how people felt down below: Their nervousness, sorrow, and distress."
     ""
 
 # game/venaprologue.rpy:476
-translate turkish venaprologue_fe129646:
+translate turkish venaprologue_f0907a8c:
 
-    # "Hissediyordum, Akademi’yi saran sihir bariyerine rağmen insanların gerginliği, üzüntüleri ve sıkıntıları ulaşabiliyordu bana."
+    # "Seeing such intense emotions gathering in one place was another first in my life. And it was quite unnerving, to be frank."
     ""
 
 # game/venaprologue.rpy:477
-translate turkish venaprologue_bea9bb88:
+translate turkish venaprologue_36f2f138:
 
-    # "Hiçbir zaman bunca yoğun duyguya bir arada şahit olmamıştım. Huzurlu günlerimi geri istiyordum."
+    # "I wanted my peaceful, vibrant days back, not to stagnate and rot just like everything else did here."
     ""
 
 # game/venaprologue.rpy:478
-translate turkish venaprologue_5b4ae21b:
+translate turkish venaprologue_00af5e9f:
 
-    # "Burada tıpkı diğer her şey gibi çürümeye niyetim yoktu."
-    ""
-
-# game/venaprologue.rpy:482
-translate turkish venaprologue_0ae9bcd0_11:
-
-    # ""
+    # "And doing whatever was needed to avoid such a miserable end was my intention."
     ""
 
 # game/venaprologue.rpy:488
-translate turkish venaprologue_d9522a91:
+translate turkish venaprologue_e9648e8a:
 
-    # "Yorucu bir gün beni bekliyordu."
+    # "A busy day was ahead."
     ""
 
 # game/venaprologue.rpy:489
-translate turkish venaprologue_238a22e4:
+translate turkish venaprologue_609f6d95:
 
-    # "Bugün Kara Katliam sonrası ilk konsey toplanacaktı."
+    # "Today marked our first council meeting after the Black Massacre."
     ""
 
 # game/venaprologue.rpy:490
-translate turkish venaprologue_5c52845b:
+translate turkish venaprologue_5b98119f:
 
-    # "(Ne kadar sonuç odaklı olur bilmiyorum, daha çok ortamın gergin havasından bütün günü kavga ederek geçireceğiz gibi.)"
+    # "(I don’t know how solution oriented this will be. More like the mood’s suggesting that there will be further disputes between us.)"
     ""
 
 # game/venaprologue.rpy:491
-translate turkish venaprologue_4e567966:
+translate turkish venaprologue_70eaa1e3:
 
-    # "(Özellikle Almasi’yi hesaba katarsak.)"
+    # "(And Almasi is the main reason of that.)"
     ""
 
 # game/venaprologue.rpy:497
-translate turkish venaprologue_4d4479be:
+translate turkish venaprologue_cf265b85:
 
-    # "Haru’yla birlikte Akademi’nin bize verdiği sınıftaki amfilerden birine geçtik."
+    # "I took a seat with Haru in the classroom which the Academy had handed us."
     ""
 
 # game/venaprologue.rpy:502
-translate turkish venaprologue_3bca14c9:
+translate turkish venaprologue_de9c59a1:
 
-    # "Elimdeki hatıra taşını masaya koydum. Kioko bugün yorgun olduğu için aramıza katılamamıştı."
+    # "Placing the Memory Stone on the desk, I thought of Kioko, who wasn’t able to attend this meeting due to her fatigue."
     ""
 
 # game/venaprologue.rpy:503
-translate turkish venaprologue_c1d402af:
+translate turkish venaprologue_958087d7:
 
-    # "Olan bitenden geri kalmasını da istemiyordum. O yüzden anıları kaydetmek en mantıklısıydı."
+    # "I didn’t want her to miss what would be said. Recording the memories for her was the best option I had."
     ""
 
 # game/venaprologue.rpy:510
-translate turkish venaprologue_81df4e96:
+translate turkish venaprologue_29f7e2d4:
 
-    # "Çok geçmeden Asha ve Zuri de sınıfa geldiler."
+    # "Before long, Asha and Zuri came to the classroom as well."
     ""
 
 # game/venaprologue.rpy:511
-translate turkish venaprologue_abb80bb5:
+translate turkish venaprologue_5670842b:
 
-    # "Tam tahmin ettiğim gibi Zuri Asha’yı sahnede bir başına bırakıp ön koltuklardan birine geçmişti."
+    # "As I’d guessed she might, Zuri left Asha alone at the podium, and instead took a seat in the front row."
     ""
 
 # game/venaprologue.rpy:516
-translate turkish venaprologue_c827e8b9:
+translate turkish venaprologue_c6c87303:
 
-    # "(Anlaşılan yine suçlamaları üzerine çekmek istemiyor. Kioko’nun çekingen yapısı Zuri’den geliyor olabilir mi?)"
+    # "(So she doesn’t want to take the blame again. Could Kioko’s shyness be inherited from her?)"
     ""
 
 # game/venaprologue.rpy:520
-translate turkish venaprologue_fb0034cd:
+translate turkish venaprologue_a072cbf6:
 
-    # a "“Ah, güzel… Hepiniz buradasınız sanıyorum ki- bir kişi hariç.”"
+    # a "“Nice… You’re all here- oh, except one person.”"
     a ""
 
-# game/venaprologue.rpy:522
-translate turkish venaprologue_e85624b8:
-
-    # "Kioko…"
-    ""
-
 # game/venaprologue.rpy:526
-translate turkish venaprologue_60885144:
+translate turkish venaprologue_40fd2efa:
 
-    # a "“O da sıkıntı değil.”"
+    # a "“Which is okay.”"
     a ""
 
 # game/venaprologue.rpy:527
-translate turkish venaprologue_f703bceb:
+translate turkish venaprologue_092c0408:
 
-    # a "“Sizlere söz vermiştim Whemond’a varır varmaz sorularınızı cevaplayacağıma dair.”"
+    # a "“I promised you that once we arrived to Whemond, I would try to answer whatever questions you may have.”"
     a ""
 
 # game/venaprologue.rpy:531
-translate turkish venaprologue_ab96723a:
+translate turkish venaprologue_9f10ece0:
 
-    # a "“O sözü tutmak için şimdi önünüzdeyim ve bütün-”"
+    # a "“And today, I am here to keep my word-”"
     a ""
 
 # game/venaprologue.rpy:536
-translate turkish venaprologue_c8124f8b:
+translate turkish venaprologue_19156c97:
 
-    # al "“İşe ablanın neden ölü olabileceğini düşündüğünü anlatarak başlayabilirsin.”"
+    # al "“You can start with explaining why you think your sister might be alive.”"
     al ""
 
 # game/venaprologue.rpy:538
-translate turkish venaprologue_78ba41e3:
+translate turkish venaprologue_27ae9713:
 
-    # "(Yıldızlar bize yol gösterin.)"
+    # "(Stars guide our way.)"
     ""
 
 # game/venaprologue.rpy:544
-translate turkish venaprologue_66d52547:
+translate turkish venaprologue_bf285ba4:
 
-    # "Daha oturum başlamadan koca bir ateş yakmaya karar vermiş olan Almasi’ye dönüp baktım."
+    # "I turned and looked at the woman who was so determined to light a fire even when the hearing had yet to start."
     ""
 
 # game/venaprologue.rpy:548
-translate turkish venaprologue_a675b435:
+translate turkish venaprologue_006e3ec1:
 
-    # "Zaten halinden de anlaşılıyordu ki buraya kavga çıkarmaya gelmişti."
+    # "Her intent to cause chaos could be read in every detail of her face."
     ""
 
 # game/venaprologue.rpy:554
-translate turkish venaprologue_f6b17bfc:
+translate turkish venaprologue_fc04f301:
 
-    # a "“Sanıyorum ki yalan söylemenin bir manası yok.”"
+    # a "“There’s no point in lying.”"
     a ""
 
 # game/venaprologue.rpy:555
-translate turkish venaprologue_a468f678:
+translate turkish venaprologue_0fd4192d:
 
-    # a "“Waceera, ben ve Zuri’nin çemberi sizinkine kıyasla daha genişti.”"
+    # a "“The circle which I, Waceera and Zuri shared was looser than the others.”"
     a ""
 
-# game/venaprologue.rpy:561
-translate turkish venaprologue_b0c235f2_1:
+# game/venaprologue.rpy:562
+translate turkish venaprologue_a3001078:
+
+    # "I’d had doubts on this matter. Saying I hadn’t expected them to be true would be a lie, rather I simply didn’t want them to be confirmed."
+    ""
+
+# game/venaprologue.rpy:563
+translate turkish venaprologue_ccd2b762:
+
+    # "Things not being ethic didn’t concern me anymore. I just wished there was a way to guarantee Waceera’s safety."
+    ""
+
+# game/venaprologue.rpy:566
+translate turkish venaprologue_738f5eb5:
+
+    # "Upon our birth we were placed to circles, which was decided by our star maps."
+    ""
+
+# game/venaprologue.rpy:570
+translate turkish venaprologue_a904b654:
+
+    # "The magic that bonded us together helped the members of the circle to sense each other like they were of the same body, made them much, much more powerful, extended their lives, and granted other such benefits."
+    ""
+
+# game/venaprologue.rpy:571
+translate turkish venaprologue_8477ff80:
+
+    # "But as for the give-and-take rule, the tighter the bond between the members was, the higher the risk and the more negative effects there were."
+    ""
+
+# game/venaprologue.rpy:572
+translate turkish venaprologue_9bd66375:
+
+    # "For example, since the circle pushed us to be “one”, we lacked truly individual emotions."
+    ""
+
+# game/venaprologue.rpy:573
+translate turkish venaprologue_8563fe1f:
+
+    # "And if one of us got hurt, others would suffer from the same condition. Moreover, if one of us died, then the others died as well."
+    ""
+
+# game/venaprologue.rpy:577
+translate turkish venaprologue_6acc2e0e:
+
+    # "This aspect alone had given us a huge disadvantage during the Black Massacre, had thinned our numbers much too quickly."
+    ""
+
+# game/venaprologue.rpy:578
+translate turkish venaprologue_e231eb6a:
+
+    # "Because of that, the first thing we had done upon arriving in the Outer World was loosening the circles."
+    ""
+
+# game/venaprologue.rpy:580
+translate turkish venaprologue_5cbd14c0:
+
+    # al "“So you admit the fact that you made us live like puppets while benefitting from the system this whole time, right?”"
+    al ""
+
+# game/venaprologue.rpy:588
+translate turkish venaprologue_64736442:
+
+    # a "“I wouldn’t call it benefitting.”"
+    a ""
+
+# game/venaprologue.rpy:589
+translate turkish venaprologue_2e675ce5:
+
+    # a "“This was Waceera’s decision. To provide us longer lives…”"
+    a ""
+
+# game/venaprologue.rpy:590
+translate turkish venaprologue_60311e94:
+
+    # al "“Nonsense!”"
+    al ""
+
+# game/venaprologue.rpy:594
+translate turkish venaprologue_2cdd312a:
+
+    # a "“My only responsibility at this meeting, is telling you the truth.”"
+    a ""
+
+# game/venaprologue.rpy:598
+translate turkish venaprologue_cd52d4dd:
+
+    # a "“The reasons behind Waceera’s actions are things that you can only learn from her.”"
+    a ""
+
+# game/venaprologue.rpy:599
+translate turkish venaprologue_92323ffa:
+
+    # a "“I know this might get you irritated, but I have no other answer than this to give.”"
+    a ""
+
+# game/venaprologue.rpy:600
+translate turkish venaprologue_deebb0ae:
+
+    # a "“Therefore, I would suggest you to keep your provocations for her return.”"
+    a ""
+
+# game/venaprologue.rpy:606
+translate turkish venaprologue_a2bf1434:
+
+    # al "“How nice, how nice! You really found yourself an escape route, didn’t you?”"
+    al ""
+
+# game/venaprologue.rpy:609
+translate turkish venaprologue_b2be3e3f:
+
+    # "I gritted my teeth. Surely Asha’s leadership was lacking, but must we fight over it between us?"
+    ""
+
+# game/venaprologue.rpy:610
+translate turkish venaprologue_780571e9:
+
+    # "When we desperately need to stick together at that…"
+    ""
+
+# game/venaprologue.rpy:616
+translate turkish venaprologue_ac7a8d5b:
+
+    # a "“The most you can hope for in this moment is Waceera’s safely return, and answering all of these accusations herself."
+    a ""
+
+# game/venaprologue.rpy:620
+translate turkish venaprologue_a8bd325d:
+
+    # a "“But I am ready to answer the other questions you might have.”"
+    a ""
+
+# game/venaprologue.rpy:624
+translate turkish venaprologue_ec38e32c:
+
+    # bbg "“How much longer were you going to keep the existence of the Outer World a secret?”"
+    bbg ""
+
+# game/venaprologue.rpy:625
+translate turkish venaprologue_a591e10e:
+
+    # obg "“Is there a traitor among us?”"
+    obg ""
+
+# game/venaprologue.rpy:626
+translate turkish venaprologue_2da2f1c9:
+
+    # dbg "“What if they kill us all? This is not an academy, but a jail!”"
+    dbg ""
+
+# game/venaprologue.rpy:630
+translate turkish venaprologue_ade2b322:
+
+    # "I buried my face in my hands while listening to the half-baked answers Asha gave."
+    ""
+
+# game/venaprologue.rpy:631
+translate turkish venaprologue_45427c95:
+
+    # "This council was doomed before it’d begun. What had I expected?"
+    ""
+
+# game/venaprologue.rpy:635
+translate turkish venaprologue_da627c7c:
+
+    # "However before I gave in to such thoughts, Haru poked me. Startled, I looked at her."
+    ""
+
+# game/venaprologue.rpy:640
+translate turkish venaprologue_6a25fb5a:
+
+    # h "“Vena, who is the person over there?”"
+    h ""
+
+# game/venaprologue.rpy:646
+translate turkish venaprologue_1a45e5ae:
+
+    # "Since my attention was totally drawn in by the meeting, I hadn’t realize the stranger standing in the doorway."
+    ""
+
+# game/venaprologue.rpy:647
+translate turkish venaprologue_0820e422:
+
+    # "So they’d already begun set a watch on us."
+    ""
+
+# game/venaprologue.rpy:651
+translate turkish venaprologue_6c34e50d:
+
+    # v "“I don’t know, but that’s the uniform of the Academy.”"
+    v ""
+
+# game/venaprologue.rpy:655
+translate turkish venaprologue_9210b154:
+
+    # "(Hah… How offending… How humiliating!)"
+    ""
+
+# game/venaprologue.rpy:656
+translate turkish venaprologue_05f8fb88:
+
+    # "Certainly we were going to be treated like animals kept in cage here."
+    ""
+
+# game/venaprologue.rpy:657
+translate turkish venaprologue_36bd9910:
+
+    # "What was there to do, other than submitting to this fate though?"
+    ""
+
+# game/venaprologue.rpy:661
+translate turkish venaprologue_034aa2f2:
+
+    # "(Phew…)"
+    ""
+
+# game/venaprologue.rpy:662
+translate turkish venaprologue_49ebe207:
+
+    # "After many hours, the meeting had finally ended."
+    ""
+
+# game/venaprologue.rpy:663
+translate turkish venaprologue_93dbc2ab:
+
+    # "And we were yet to find solutions, still stuck right at the starting point."
+    ""
+
+# game/venaprologue.rpy:667
+translate turkish venaprologue_d1edda1c:
+
+    # v "“You can’t shrug their questions off forever.”"
+    v ""
+
+# game/venaprologue.rpy:669
+translate turkish venaprologue_9ed02f2c:
+
+    # "Haru’d gone to help others, and at long last we were alone with Asha. I hadn’t approached her amidst the crowd in order to avoid unwanted attention."
+    ""
+
+# game/venaprologue.rpy:673
+translate turkish venaprologue_ac33cb62:
+
+    # a "“Which calls for finding Waceera as soon as possible.”"
+    a ""
+
+# game/venaprologue.rpy:674
+translate turkish venaprologue_e7421d67:
+
+    # v "“What is the plan?”"
+    v ""
+
+# game/venaprologue.rpy:678
+translate turkish venaprologue_add78cc0:
+
+    # a "“Arranging various expeditions.”"
+    a ""
+
+# game/venaprologue.rpy:680
+translate turkish venaprologue_23022409:
+
+    # "Questioning, I raised a brow."
+    ""
+
+# game/venaprologue.rpy:682
+translate turkish venaprologue_410a5ca3:
+
+    # v "“To where? I thought you said that we couldn’t go back to Silver Hallow due to the state it’s in.”"
+    v ""
+
+# game/venaprologue.rpy:686
+translate turkish venaprologue_1671f1c9:
+
+    # a "“I didn’t mean Silver Hallow.”"
+    a ""
+
+# game/venaprologue.rpy:687
+translate turkish venaprologue_f674d04c:
+
+    # a "“What I meant was the Land of the Dead.”"
+    a ""
+
+# game/venaprologue.rpy:689
+translate turkish venaprologue_83b1fb4e:
+
+    # "I took a deep breath. It was clear as day what she was thinking of."
+    ""
+
+# game/venaprologue.rpy:691
+translate turkish venaprologue_aec356ec:
+
+    # v "“I don’t think I can convince Kioko for that.”"
+    v ""
+
+# game/venaprologue.rpy:699
+translate turkish venaprologue_75365dbb:
+
+    # a "“We should try at least.”"
+    a ""
+
+# game/venaprologue.rpy:701
+translate turkish venaprologue_55296e3c:
+
+    # v "“I will, but don’t expect much.”"
+    v ""
+
+# game/venaprologue.rpy:705
+translate turkish venaprologue_19c01873:
+
+    # a "“It would be enough if she could manage to send one of us to the Shore.”"
+    a ""
+
+# game/venaprologue.rpy:707
+translate turkish venaprologue_e2868f8c:
+
+    # v "“That can be arranged.”"
+    v ""
+
+# game/venaprologue.rpy:711
+translate turkish venaprologue_e0ee202c:
+
+    # "She rubbed my shoulder."
+    ""
+
+# game/venaprologue.rpy:715
+translate turkish venaprologue_d195f9c9:
+
+    # a "“Alright, I trust you. Even more than anyone else here.”"
+    a ""
+
+# game/venaprologue.rpy:719
+translate turkish venaprologue_9f1c5b76:
+
+    # a "“Also, Vena…”"
+    a ""
+
+# game/venaprologue.rpy:725
+translate turkish venaprologue_aa977fef:
+
+    # "I understood that Asha was going to say something of great importance from the way she dragged us to an even a more isolated spot."
+    ""
+
+# game/venaprologue.rpy:726
+translate turkish venaprologue_ef933175:
+
+    # "I looked at her in confusion while she checked the passersby in the area with a spell she quickly cast."
+    ""
+
+# game/venaprologue.rpy:727
+translate turkish venaprologue_785c7b47:
+
+    # "After confirming we were alone, she glanced at me with eyes that were relieved."
+    ""
+
+# game/venaprologue.rpy:731
+translate turkish venaprologue_47ccd003:
+
+    # a "“The things I will say now shall stay within the Light Bearers.”"
+    a ""
+
+# game/venaprologue.rpy:735
+translate turkish venaprologue_0fcaa58c:
+
+    # a "“I think what happened to us, who or what did caused this is related to someone from the outside world.”"
+    a ""
+
+# game/venaprologue.rpy:737
+translate turkish venaprologue_ae106624:
+
+    # "I weighed all in my head before answering. While I couldn’t refuse the existence of such possibility, fathoming offender’s potential gain from it was hard."
+    ""
+
+# game/venaprologue.rpy:739
+translate turkish venaprologue_7cc894be:
+
+    # v "“Do you have any proof regarding that? Something you realized?”"
+    v ""
+
+# game/venaprologue.rpy:741
+translate turkish venaprologue_2792aed3:
+
+    # "She was not a person to make false statements."
+    ""
+
+# game/venaprologue.rpy:745
+translate turkish venaprologue_462ac6c9:
+
+    # "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were rune cards."
+    ""
+
+# game/venaprologue.rpy:747
+translate turkish venaprologue_a31f6a15:
+
+    # a "“‘Traitor’.”"
+    a ""
+
+# game/venaprologue.rpy:749
+translate turkish venaprologue_529c74c2:
+
+    # "She held one of the cards to my face, then did the same for the other."
+    ""
+
+# game/venaprologue.rpy:751
+translate turkish venaprologue_81a9d9ea:
+
+    # a "“‘Stranger’.”"
+    a ""
+
+# game/venaprologue.rpy:753
+translate turkish venaprologue_2bfeecbb:
+
+    # "It wasn’t wise to ignore what Asha predicted, as she was the best fortune-teller among us."
+    ""
+
+# game/venaprologue.rpy:754
+translate turkish venaprologue_d654a57d:
+
+    # "After all, the infamous prophecy of the Black Massacre belonged to her."
+    ""
+
+# game/venaprologue.rpy:755
+translate turkish venaprologue_99ad8016:
+
+    # "(Funny; even knowing it beforehand there’d been nothing we could do to prevent it from happening.)"
+    ""
+
+# game/venaprologue.rpy:756
+translate turkish venaprologue_cdc7af0e:
+
+    # "(However this time…)"
+    ""
+
+# game/venaprologue.rpy:757
+translate turkish venaprologue_bc575e04:
+
+    # "I frowned."
+    ""
+
+# game/venaprologue.rpy:761
+translate turkish venaprologue_4e09eb09:
+
+    # v "“What would you suggest? We are stuck here. There’re Royal Knights at every corner.”"
+    v ""
+
+# game/venaprologue.rpy:765
+translate turkish venaprologue_86f0e83f:
+
+    # a "“Not just us… Odd things also happen in Whemond.”"
+    a ""
+
+# game/venaprologue.rpy:767
+translate turkish venaprologue_8a26901d:
+
+    # v "“And you assume there’s a correlation between those.”"
+    v ""
+
+# game/venaprologue.rpy:771
+translate turkish venaprologue_dd5877b1:
+
+    # a "“That is also their assumption.”"
+    a ""
+
+# game/venaprologue.rpy:773
+translate turkish venaprologue_e5f98c2b:
+
+    # "By “they” I realized that she was talking about the prominent figures of this country."
+    ""
+
+# game/venaprologue.rpy:775
+translate turkish venaprologue_2d30870b:
+
+    # a "“Tonight, we will hold a meeting with the other Light Bearers.”"
+    a ""
+
+# game/venaprologue.rpy:776
+translate turkish venaprologue_8a2e77a4:
+
+    # a "“The King’s sons, and the Grand Duke of Pertone will join us.”"
+    a ""
+
+# game/venaprologue.rpy:778
+translate turkish venaprologue_35bf5a71:
+
+    # "I nodded."
+    ""
+
+# game/venaprologue.rpy:780
+translate turkish venaprologue_38a7a93d:
+
+    # v "I nodded."
+    v ""
+
+# game/venaprologue.rpy:784
+translate turkish venaprologue_6a8598be:
+
+    # a "“Great, because someone should keep Almasi in check before she goes and starts a war.”"
+    a ""
+
+# game/venaprologue.rpy:788
+translate turkish venaprologue_83ee1841:
+
+    # "I laughed and patted her on the back."
+    ""
+
+# game/venaprologue.rpy:789
+translate turkish venaprologue_ced7e946:
+
+    # "After deciding when would be the meeting would be, and who would inform whom about it, we parted ways."
+    ""
+
+# game/venaprologue.rpy:790
+translate turkish venaprologue_567c0e5d:
+
+    # "(I must find Haru. I shouldn’t leave her alone with those wolves for so long.)"
+    ""
+
+# game/venaprologue.rpy:791
+translate turkish venaprologue_c83b41da:
+
+    # "Absentmindedly, I took the next turn that led to the Southern Wing-"
+    ""
+
+# game/venaprologue.rpy:799
+translate turkish venaprologue_bd53fe7e:
+
+    # u "“Ooof!”"
+    u ""
+
+# game/venaprologue.rpy:801
+translate turkish venaprologue_5cb4e42c:
+
+    # "…And a girl bumped into me right then."
+    ""
+
+# game/venaprologue.rpy:802
+translate turkish venaprologue_5e8a8aeb:
+
+    # "Before she fell though, I caught her by the shoulders, making her stand properly."
+    ""
+
+# game/venaprologue.rpy:804
+translate turkish venaprologue_a9b5789b:
+
+    # v "“Are you okay?!”"
+    v ""
+
+# game/venaprologue.rpy:806
+translate turkish venaprologue_7d87310d:
+
+    # "There was a tune of concern in my voice although I scolded her."
+    ""
+
+# game/venaprologue.rpy:808
+translate turkish venaprologue_1c5fc610:
+
+    # u "“Get away from me, you foolish peasant! Never dare to touch me again.”"
+    u ""
+
+# game/venaprologue.rpy:810
+translate turkish venaprologue_b0c235f2_2:
 
     # "(…)"
     ""
 
-# game/venaprologue.rpy:562
-translate turkish venaprologue_fc1902ca:
+# game/venaprologue.rpy:811
+translate turkish venaprologue_a6dadb08:
 
-    # "Bu konuda şüphelerim vardı. Doğru çıkmasını beklemiyordum da diyemem, daha çok bunu istememiştim."
+    # "(…What?)"
     ""
 
-# game/venaprologue.rpy:563
-translate turkish venaprologue_b9781c5c:
+# game/venaprologue.rpy:812
+translate turkish venaprologue_8974e09c:
 
-    # "Açıkçası işin etiğinde de değildim. Sadece Waceera’nın güvenliğinin garanti olmaması beni tedirgin ediyordu."
+    # "Not believing what I’d heard, I yanked my hands free."
     ""
-
-# game/venaprologue.rpy:565
-translate turkish venaprologue_a5a93853:
-
-    # "Bizler, doğduğumuzda yıldız haritalarına göre çemberlerde doğardık."
-    ""
-
-# game/venaprologue.rpy:569
-translate turkish venaprologue_48dcec64:
-
-    # "Aramızdaki büyü bağı kardeşlerin birbirlerini hissetmeleri, daha güçlü büyüler yapmaları gibi becerilere yarardı."
-    ""
-
-# game/venaprologue.rpy:570
-translate turkish venaprologue_def94692:
-
-    # "Ama bir al-ver ilişkisi olarak çember bağı ne kadar yoğunsa risk ve negatif etkilerin yoğunluğu o kadar yüksekti."
-    ""
-
-# game/venaprologue.rpy:571
-translate turkish venaprologue_efc9ded4:
-
-    # "Örneğin çember bizleri “bir” olmaya itelediğinden duygu noksanlığı çekerdik."
-    ""
-
-# game/venaprologue.rpy:572
-translate turkish venaprologue_5b01c30e:
-
-    # "Ve birinin yaralanması herkesin yaralanması, birinin ölmesi o çembere mensup herkesin ölmesi demekti."
-    ""
-
-# game/venaprologue.rpy:576
-translate turkish venaprologue_448997c6:
-
-    # "Bu durum bize Kara Katliam’da çok büyük bir dezavantaj sağlamış, sayımızın hızla azalmasına sebep olmuştu."
-    ""
-
-# game/venaprologue.rpy:577
-translate turkish venaprologue_09d1cd7a:
-
-    # "Dış dünyaya varır varmaz çemberleri genişletmenin de yapılan ilk iş olma nedenlerinden biri buydu."
-    ""
-
-# game/venaprologue.rpy:579
-translate turkish venaprologue_492cc15d:
-
-    # al "“Yani bizleri birer zombi misali yaşamaya iteklediğinizi ve bu sırada sizin sefa sürdüğünüzü kendi ağzınla kabul ediyorsun.”"
-    al ""
-
-# game/venaprologue.rpy:583
-translate turkish venaprologue_2d01532b:
-
-    # a "“…”"
-    a ""
-
-# game/venaprologue.rpy:587
-translate turkish venaprologue_09ea30eb:
-
-    # a "“Kendi durumumuzu ‘sefa çekmek’ olarak tabir edebilir miyiz emin değilim.”"
-    a ""
-
-# game/venaprologue.rpy:588
-translate turkish venaprologue_e1204b9d:
-
-    # a "“Bu karar bizzat Waceera tarafından verilmişti. Gümüş Oyuk’taki işleri daha bilinçli bir şekilde çekip çevirmek namına…”"
-    a ""
-
-# game/venaprologue.rpy:589
-translate turkish venaprologue_7fbfc93a:
-
-    # al "“Saçmalık!”"
-    al ""
-
-# game/venaprologue.rpy:593
-translate turkish venaprologue_8cb891e0:
-
-    # a "“Ben bu toplantıda sizlere sadece gerçekleri söylemekle yükümlüyüm.”"
-    a ""
-
-# game/venaprologue.rpy:597
-translate turkish venaprologue_480185c4:
-
-    # a "“Waceera’nın bir şeyleri neden yaptığı yahut bir art niyet güdüp gütmediği ona sorabileceğiniz şeyler.”"
-    a ""
-
-# game/venaprologue.rpy:598
-translate turkish venaprologue_5d4527df:
-
-    # a "“Bana ne kadar kızsanız da sinirlenseniz de verebilecek başka bir cevabım ne yazık ki yok.”"
-    a ""
-
-# game/venaprologue.rpy:599
-translate turkish venaprologue_9156493f:
-
-    # a "“O yüzden asiliğinizi Waceera’nın dönüşüne saklamanızı öneririm.”"
-    a ""
-
-# game/venaprologue.rpy:605
-translate turkish venaprologue_1c437795:
-
-    # al "“Ne güzel, ne güzel! Sorumluluklarından kaçmanın ne de güzel bir yolunu bulmuşsun!”"
-    al ""
-
-# game/venaprologue.rpy:608
-translate turkish venaprologue_1da3fbc5:
-
-    # "Dişlerimi sıktım. Asha’nın liderliği bana göre de biraz daha cila gerektirmekteydi fakat Gümüş Oyuk güruhu arasında sırf bu yüzden kavga çıkarmaya değer miydi?"
-    ""
-
-# game/venaprologue.rpy:609
-translate turkish venaprologue_cb66995f:
-
-    # "Özellikle en çok birlik olmamız gereken anda…"
-    ""
-
-# game/venaprologue.rpy:615
-translate turkish venaprologue_ecf0070c:
-
-    # a "“Şu an umabileceğimiz tek şey Waceera’nın bize sağ salim dönmesi ve hakkındaki her suçlamaya kendisinin cevap vermesi.”"
-    a ""
-
-# game/venaprologue.rpy:619
-translate turkish venaprologue_3f40715d:
-
-    # a "“Başka sorularınızı da cevaplamaya hazırım.”"
-    a ""
-
-# game/venaprologue.rpy:623
-translate turkish venaprologue_e546b837:
-
-    # bbg "“Dış Dünya’nın varlığını bizden ne kadar süre boyunca saklamayı düşünüyordunuz?”"
-    bbg ""
-
-# game/venaprologue.rpy:624
-translate turkish venaprologue_e8182b4b:
-
-    # obg "“İçimizde bir hain mi var?”"
-    obg ""
-
-# game/venaprologue.rpy:625
-translate turkish venaprologue_a2041149:
-
-    # dbg "“Ya bizi burada öldürürlerse? Burası Akademi değil, hapis resmen!”"
-    dbg ""
-
-# game/venaprologue.rpy:629
-translate turkish venaprologue_906aa63f:
-
-    # "Asha’nın verdiği yarım yamalak cevapları dinlerken derin bir iç çekip yüzümü ellerime gömdüm."
-    ""
-
-# game/venaprologue.rpy:630
-translate turkish venaprologue_9ddcef1f:
-
-    # "Bu konsey düşündüğümden bile daha kötü bir hal alacak gibiydi."
-    ""
-
-# game/venaprologue.rpy:634
-translate turkish venaprologue_cdf5a1fb:
-
-    # "Fakat kendi düşüncelerimde kaybolamadan Haru’nun kolumu dürtmesiyle irkildim ve dönüp ona baktım."
-    ""
-
-# game/venaprologue.rpy:639
-translate turkish venaprologue_366eaacf:
-
-    # h "“Vena, kapının oradaki kişi kim?”"
-    h ""
-
-# game/venaprologue.rpy:641
-translate turkish venaprologue_1033e89d:
-
-    # "(…Huh?)"
-    ""
-
-# game/venaprologue.rpy:645
-translate turkish venaprologue_0016b2cf:
-
-    # "Dikkatimi toplantıya o kadar çok vermiştim ki kapımızda yabancı birinin olduğunu fark edememiştim."
-    ""
-
-# game/venaprologue.rpy:646
-translate turkish venaprologue_979815a9:
-
-    # "Demek bizi şimdiden izlemeye başlamışlardı."
-    ""
-
-# game/venaprologue.rpy:650
-translate turkish venaprologue_760673f2:
-
-    # v "“Ben de bilmiyorum ama üstündekilere bakılırsa sanırım Akademi’nin bir üyesi.”"
-    v ""
-
-# game/venaprologue.rpy:654
-translate turkish venaprologue_8ab80799:
-
-    # "(Hah… Ne kadar acı… Ne kadar aşağılayıcı!)"
-    ""
-
-# game/venaprologue.rpy:655
-translate turkish venaprologue_4d1dcc92:
-
-    # "Belli ki bizlere kafesteki bir hayvan muamelesi yapacaklardı."
-    ""
-
-# game/venaprologue.rpy:656
-translate turkish venaprologue_44be48a4:
-
-    # "Elden boyun eğmekten başka ne gelirdi?"
-    ""
-
-# game/venaprologue.rpy:660
-translate turkish venaprologue_11d2d9fc:
-
-    # "(Öf…)"
-    ""
-
-# game/venaprologue.rpy:661
-translate turkish venaprologue_b0a49c36:
-
-    # "Saatler sonra toplantı bitmişti."
-    ""
-
-# game/venaprologue.rpy:662
-translate turkish venaprologue_43e1753f:
-
-    # "Ve biz hala içimizdeki sorunlara dair hiçbir ilerleme kaydedememiştik. Başlangıç çizgisinde öylece çakılı kalmıştık."
-    ""
-
-# game/venaprologue.rpy:666
-translate turkish venaprologue_3cd4998b:
-
-    # v "“Kafalarındaki soru işaretlerinden sonsuza kadar kaçamazsın.”"
-    v ""
-
-# game/venaprologue.rpy:668
-translate turkish venaprologue_1d9ac05d:
-
-    # "Haru’nun da yanımızdan ayrılmasıyla sonunda Asha ile baş başa kalmıştık. İşleri zaten başından aşkın olduğu için üzerine tepki çekmek istemiyordum."
-    ""
-
-# game/venaprologue.rpy:672
-translate turkish venaprologue_f84f5baa:
-
-    # a "“Bu yüzden bir an önce Waceera’yı bulmamız lazım.”"
-    a ""
-
-# game/venaprologue.rpy:673
-translate turkish venaprologue_41e5e218:
-
-    # v "“Aklında nasıl bir plan var?”"
-    v ""
-
-# game/venaprologue.rpy:677
-translate turkish venaprologue_a22de25f:
-
-    # a "“Çeşitli seferler düzenlemek niyetindeyim.”"
-    a ""
-
-# game/venaprologue.rpy:679
-translate turkish venaprologue_0ce5434c:
-
-    # "Tek kaşımı sorarcasına kaldırdım."
-    ""
-
-# game/venaprologue.rpy:681
-translate turkish venaprologue_d6be3e30:
-
-    # v "“Nereye? Gümüş Oyuk’a şu anki haliyle dönemeyeceğimizi söylediğini sanıyordum.”"
-    v ""
-
-# game/venaprologue.rpy:685
-translate turkish venaprologue_71d25c05:
-
-    # a "“Kastım Gümüş Oyuk değil zaten.”"
-    a ""
-
-# game/venaprologue.rpy:686
-translate turkish venaprologue_11104e1e:
-
-    # a "“Ölüler Diyarı.”"
-    a ""
-
-# game/venaprologue.rpy:688
-translate turkish venaprologue_5a9e00ba:
-
-    # "Derin bir iç çektim. Aklında kim olduğu belliydi."
-    ""
-
-# game/venaprologue.rpy:690
-translate turkish venaprologue_6464d304:
-
-    # v "“Kioko’yu buna ikna edebileceğimi sanmıyorum.”"
-    v ""
-
-# game/venaprologue.rpy:694
-translate turkish venaprologue_0ae9bcd0_12:
-
-    # ""
-    ""
-
-# game/venaprologue.rpy:698
-translate turkish venaprologue_c361878d:
-
-    # a "“En azından bir gidip konuşmamız lazım.”"
-    a ""
-
-# game/venaprologue.rpy:700
-translate turkish venaprologue_1b79e26c:
-
-    # v "“Denerim ama çok şey bekleme.”"
-    v ""
-
-# game/venaprologue.rpy:704
-translate turkish venaprologue_59b03f6e:
-
-    # a "“Birimizi Kıyı’ya sokması dahi yeterli olur aslında.”"
-    a ""
-
-# game/venaprologue.rpy:706
-translate turkish venaprologue_8dcee9a9:
-
-    # v "“Onu ayarlayabiliriz.”"
-    v ""
-
-# game/venaprologue.rpy:710
-translate turkish venaprologue_053cbc1b:
-
-    # "Yaklaşıp omzumu sıvazlamıştı."
-    ""
-
-# game/venaprologue.rpy:714
-translate turkish venaprologue_d06dba5b:
-
-    # a "“Güzel, sana güveniyorum. Hatta kalanlar arasında en çok sana güveniyorum.”"
-    a ""
-
-# game/venaprologue.rpy:718
-translate turkish venaprologue_cd196781:
-
-    # a "“Ayrıca Vena…”"
-    a ""
-
-# game/venaprologue.rpy:724
-translate turkish venaprologue_94d08f76:
-
-    # "Yalnız olmamıza rağmen beni izole bir köşeye sürüklemesinden önemli bir şeyler yumurtlayacağını anlamıştım."
-    ""
-
-# game/venaprologue.rpy:725
-translate turkish venaprologue_54efe0bd:
-
-    # "Sorar bir ifadeyle onu süzüyordum. Asha ise hızlıca yaptığı bir büyüyle etrafta kimseler var mı kontrol ediyordu."
-    ""
-
-# game/venaprologue.rpy:726
-translate turkish venaprologue_0d568010:
-
-    # "Emin olduktan sonra rahatlamış bir ifadeyle bana döndü."
-    ""
-
-# game/venaprologue.rpy:730
-translate turkish venaprologue_d63e7e35:
-
-    # a "“Şimdi diyeceklerimin Işık Hamilleri arasından çıkmaması çok önemli…”"
-    a ""
-
-# game/venaprologue.rpy:734
-translate turkish venaprologue_2348bb34:
-
-    # a "“Bizi buraya sürükleyen şeyin veya hainin Dış Dünya’dan bir güruhla iş birliği içerisinde olduğunu düşünüyorum.”"
-    a ""
-
-# game/venaprologue.rpy:736
-translate turkish venaprologue_181dad9b:
-
-    # "Cevap vermeden önce dediklerini kafamda bir tarttım. Bu olasılığın varlığını reddedemesem de kimin neden böyle bir şey yapacağına akıl erdiremiyordum."
-    ""
-
-# game/venaprologue.rpy:738
-translate turkish venaprologue_6cc3dd10:
-
-    # v "“Elinde buna dair bir kanıt mı var? Fark ettiğin bir şey…?”"
-    v ""
-
-# game/venaprologue.rpy:740
-translate turkish venaprologue_29164927:
-
-    # "Böyle temelsiz açıklamalar yapacak bir insan değildi."
-    ""
-
-# game/venaprologue.rpy:744
-translate turkish venaprologue_2423bef1:
-
-    # "Eteğinin cebinden bir kağıt tomarı çıkardı. Kafamı yana eğip dikkatlice bakınca bunun iki adet rün kartı olduğunu gördüm."
-    ""
-
-# game/venaprologue.rpy:746
-translate turkish venaprologue_8e0502ea:
-
-    # a "“‘Hain’.”"
-    a ""
-
-# game/venaprologue.rpy:748
-translate turkish venaprologue_c7167b29:
-
-    # "Kartlardan birini yüzüme yaklaştırmıştı. Ardından diğerini de gösterdi."
-    ""
-
-# game/venaprologue.rpy:750
-translate turkish venaprologue_48323114:
-
-    # a "“‘Yabancı’.”"
-    a ""
-
-# game/venaprologue.rpy:752
-translate turkish venaprologue_e0460a69:
-
-    # "Asha aramızdaki en iyi kart okuyucuydu, o yüzden gördüklerini kulak ardı etmek pek akıl kârı değildi."
-    ""
-
-# game/venaprologue.rpy:753
-translate turkish venaprologue_61c07740:
-
-    # "Kara Katliam’ın kehanetini veren de Asha olmuştu ne de olsa."
-    ""
-
-# game/venaprologue.rpy:754
-translate turkish venaprologue_b052730a:
-
-    # "(Komik; bilmemize, tedbirler almamıza rağmen olacakları engelleyememiştik.)"
-    ""
-
-# game/venaprologue.rpy:755
-translate turkish venaprologue_ce7f7937:
-
-    # "(Fakat bu sefer…)"
-    ""
-
-# game/venaprologue.rpy:756
-translate turkish venaprologue_cc285549:
-
-    # "Homurdanarak konuşmaya başladım."
-    ""
-
-# game/venaprologue.rpy:760
-translate turkish venaprologue_c5c3e502:
-
-    # v "“Bu konuda ne yapmamızı önerirsin? Buraya tıkılıp kaldık. Her yerde Kraliyet askerleri var.”"
-    v ""
-
-# game/venaprologue.rpy:764
-translate turkish venaprologue_1e0bd9b1:
-
-    # a "“Sadece biz değil… Whemond’da da garip şeyler oluyor.”"
-    a ""
-
-# game/venaprologue.rpy:766
-translate turkish venaprologue_2a5b65f6:
-
-    # v "“Ve sen bu olayların arasında bir bağlantı olduğunu düşünüyorsun.”"
-    v ""
-
-# game/venaprologue.rpy:770
-translate turkish venaprologue_3dfd374c:
-
-    # a "“Sadece ben değil. Onlar da…”"
-    a ""
-
-# game/venaprologue.rpy:772
-translate turkish venaprologue_1a5e48dd:
-
-    # "“Onlar”dan kastın bu ülkenin önde gelen insanları olduğunu anlamıştım."
-    ""
-
-# game/venaprologue.rpy:774
-translate turkish venaprologue_dea0c67c:
-
-    # a "“Bu akşam, diğer Işık Hamilleriyle bir toplantı yapacağız.”"
-    a ""
-
-# game/venaprologue.rpy:775
-translate turkish venaprologue_6daea0f1:
-
-    # a "“Kral’ın çocukları ve Grandük de bizimle birlikte olacak.”"
-    a ""
-
-# game/venaprologue.rpy:777
-translate turkish venaprologue_8bb023bd:
-
-    # "Kafamı onaylarcasına salladım."
-    ""
-
-# game/venaprologue.rpy:779
-translate turkish venaprologue_28e7b330:
-
-    # v "“Merak etme, orada olacağım.”"
-    v ""
-
-# game/venaprologue.rpy:783
-translate turkish venaprologue_2eb45130:
-
-    # a "“Güzel, çünkü Almasi’yi birinin zapt etmesi gerekiyor o bir iç savaşa sebep olmadan önce.”"
-    a ""
-
-# game/venaprologue.rpy:787
-translate turkish venaprologue_9b01a21a:
-
-    # "Güldüm ve destek olurcasına kolunu sıvazladım."
-    ""
-
-# game/venaprologue.rpy:788
-translate turkish venaprologue_95d4635a:
-
-    # "Toplantının saati ve kimin hangi Hamil’e haber salacağını kararlaştırdıktan sonra ayrılmıştık."
-    ""
-
-# game/venaprologue.rpy:789
-translate turkish venaprologue_90e71f09:
-
-    # "(Haru’yu bulmam lazım. Onu diğer piranalarla bir başına bırakmasam iyi olur.)"
-    ""
-
-# game/venaprologue.rpy:790
-translate turkish venaprologue_bb9c4e54:
-
-    # "Dalgın bir şekilde ilerideki koridordan Güney Kanadı’na doğru döndüm-"
-    ""
-
-# game/venaprologue.rpy:796
-translate turkish venaprologue_3f0c82f6:
-
-    # v "(…!)"
-    v ""
-
-# game/venaprologue.rpy:798
-translate turkish venaprologue_ad354dc7:
-
-    # u "“Offff!”"
-    u ""
-
-# game/venaprologue.rpy:800
-translate turkish venaprologue_a7f4f59a:
-
-    # "…Dönmemle kızın tekinin bana toslayıvermesi bir olmuştu."
-    ""
-
-# game/venaprologue.rpy:801
-translate turkish venaprologue_de788ad4:
-
-    # "O düşmeden hızlıca iki omzundan yakaladım ve kendisini doğrulttum."
-    ""
-
-# game/venaprologue.rpy:803
-translate turkish venaprologue_1dfb0ad6:
-
-    # v "“İyi misin?!”"
-    v ""
-
-# game/venaprologue.rpy:805
-translate turkish venaprologue_4de24926:
-
-    # "Sesimde endişeli bir tını olduğu kadar azarlarcasına bir ton da vardı."
-    ""
-
-# game/venaprologue.rpy:807
-translate turkish venaprologue_149c12c9:
-
-    # u "“Çek ellerini üzerimden! Aptal köylü seni! Sakın bir daha bana dokunmaya kalkma.”"
-    u ""
-
-# game/venaprologue.rpy:809
-translate turkish venaprologue_ed3c88b9:
-
-    # "(…Ne?)"
-    ""
-
-# game/venaprologue.rpy:810
-translate turkish venaprologue_56a6c7a0:
-
-    # "Duyduklarıma inanamayarak, hayretler içerisinde ellerimi kızın üstünden çektim."
-    ""
-
-# game/venaprologue.rpy:814
-translate turkish venaprologue_7de79297:
-
-    # v "“Pardon?”"
-    v ""
-
-# game/venaprologue.rpy:816
-translate turkish venaprologue_4246ce33:
-
-    # u "“Önüne bak diyorum, önüne!”"
-    u ""
 
 # game/venaprologue.rpy:818
-translate turkish venaprologue_0f0f0507:
+translate turkish venaprologue_447a1e1b:
 
-    # "(Fazla olmaya başladın sen.)"
-    ""
+    # u "“Pay attention to where you are heading!”"
+    u ""
 
-# game/venaprologue.rpy:819
-translate turkish venaprologue_6c5a41e8:
+# game/venaprologue.rpy:820
+translate turkish venaprologue_40dbf7fd:
 
-    # "Kaşlarımı çattım."
+    # "(You’re being too much.)"
     ""
 
 # game/venaprologue.rpy:821
-translate turkish venaprologue_811b457b:
+translate turkish venaprologue_cec0956b:
 
-    # v "“Kusura bakma, benim boyumdaki bir insan için aşağıda neler oluyor görmek biraz zor.”"
+    # "I grimaced. "
+    ""
+
+# game/venaprologue.rpy:823
+translate turkish venaprologue_d94039bf:
+
+    # v "“Apologies, it is hard for a person of my height to see what’s going on down below.”"
     v ""
 
-# game/venaprologue.rpy:827
-translate turkish venaprologue_80fbd018:
-
-    # u "“…Tch.”"
-    u ""
-
-# game/venaprologue.rpy:831
-translate turkish venaprologue_e43063ef:
-
-    # "Üzerime yürüyüp bana çarpmış, ardından hızlı adımlarla uzaklaşmaya başlamıştı."
-    ""
-
-# game/venaprologue.rpy:832
-translate turkish venaprologue_9bbd650a:
-
-    # "Bense hala şaşkınlık içerisinde bu küstahlığı yedirmeye çalışıyordum."
-    ""
-
 # game/venaprologue.rpy:833
-translate turkish venaprologue_8f1c4d43:
+translate turkish venaprologue_082a8789:
 
-    # "Arkasından bağırdım."
+    # "She walked towards me and bumped into me on purpose, then got away hastily."
+    ""
+
+# game/venaprologue.rpy:834
+translate turkish venaprologue_690474d1:
+
+    # "In the meantime I was still trying to recover from such impudence."
     ""
 
 # game/venaprologue.rpy:835
-translate turkish venaprologue_aa24de3c:
+translate turkish venaprologue_7cf0a65d:
 
-    # v "“Sana dokunmamı istemediğini söyledin sanıyordum.”"
-    v ""
+    # "I called behind her back."
+    ""
 
 # game/venaprologue.rpy:837
-translate turkish venaprologue_4359635c:
+translate turkish venaprologue_ec34a757:
 
-    # "Fakat dönüp bakmadı."
-    ""
-
-# game/venaprologue.rpy:838
-translate turkish venaprologue_7c9c5e1f:
-
-    # "(Bu şımarık da nereden çıktı şimdi?)"
-    ""
+    # v "“What happened to the ‘no contact’ rule? It almost seems like you’re the one seeking to break it.”"
+    v ""
 
 # game/venaprologue.rpy:839
-translate turkish venaprologue_1556df86:
+translate turkish venaprologue_69df196a:
 
-    # "Omuz silktim. Vakit kaybetmeye bile değmezdi."
+    # "But she didn’t turn back."
     ""
 
-# game/venaprologue.rpy:843
-translate turkish venaprologue_3df376a9:
+# game/venaprologue.rpy:840
+translate turkish venaprologue_9cfebaef:
 
-    # "Yorucu bir günün ardından en nihayetinde akşam çökmüştü."
+    # "(Who let this sassy kid in?)"
     ""
 
-# game/venaprologue.rpy:844
-translate turkish venaprologue_c2eba2aa:
+# game/venaprologue.rpy:841
+translate turkish venaprologue_c1252777:
 
-    # "Ki işlerim burada da bitmiyordu. Yemeğimi bitirdikten sonra toplantıya gitmem lazımdı."
+    # "I shrugged, thinking she was not even worth my time."
     ""
 
 # game/venaprologue.rpy:845
-translate turkish venaprologue_5f6b9fc7:
+translate turkish venaprologue_5ca226ce:
 
-    # "Tembel bir insan hiç olmamıştım ama benim için bile hareketli geçecek gibi duruyordu önümüzdeki günler."
+    # "Night had finally come after a very long day."
     ""
 
 # game/venaprologue.rpy:846
-translate turkish venaprologue_dab10708:
+translate turkish venaprologue_d6d40a6e:
 
-    # "(Bakalım kralın oğulları neler diyecekler. Umarım işimize yarar bir bilgi verirler.)"
+    # "And my work was far from done. Our meeting was scheduled for later."
     ""
 
-# game/venaprologue.rpy:851
-translate turkish venaprologue_b4b1252d:
+# game/venaprologue.rpy:847
+translate turkish venaprologue_c03ae4b5:
 
-    # k "“Bir şey… Diyeceğim.”"
-    k ""
+    # "I had never been one to avoid responsibilities, but even I had a hard time imagining the workload of the coming days."
+    ""
 
-# game/venaprologue.rpy:855
-translate turkish venaprologue_d1d4a446:
+# game/venaprologue.rpy:848
+translate turkish venaprologue_eddabfd4:
 
-    # k "“Fakat lütfen paniklemeyin.”"
+    # "(I wonder what the King’s sons will talk about. They will at least provide some useful information, I hope.)"
+    ""
+
+# game/venaprologue.rpy:853
+translate turkish venaprologue_6eba8181:
+
+    # k "“I… Want to tell you something.”"
     k ""
 
 # game/venaprologue.rpy:857
-translate turkish venaprologue_ce617998:
+translate turkish venaprologue_e94fa382:
 
-    # "…"
-    ""
-
-# game/venaprologue.rpy:858
-translate turkish venaprologue_cfd29255:
-
-    # "(Çok geç Kioko, iş sen olunca paniklememek elde değil.)"
-    ""
-
-# game/venaprologue.rpy:859
-translate turkish venaprologue_926f6ea4:
-
-    # "Endişeli gözlerle ona baktım."
-    ""
-
-# game/venaprologue.rpy:863
-translate turkish venaprologue_72724b1f:
-
-    # k "“Sanırım ben… Bugün odamda birini gördüm.”"
+    # k "“But please don’t panic.”"
     k ""
+
+# game/venaprologue.rpy:860
+translate turkish venaprologue_406df5a1:
+
+    # "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
+    ""
+
+# game/venaprologue.rpy:861
+translate turkish venaprologue_b188684a:
+
+    # "I looked at her, concerned."
+    ""
 
 # game/venaprologue.rpy:865
-translate turkish venaprologue_380d7105:
+translate turkish venaprologue_2ff46410:
 
-    # "Bir anlığına elimde olmadan gözlerim fal taşı gibi açılmıştı."
+    # k "“I think… I think I saw someone in my room today.”"
+    k ""
+
+# game/venaprologue.rpy:867
+translate turkish venaprologue_2516b7b7:
+
+    # "My eyes widened for a brief second."
     ""
 
-# game/venaprologue.rpy:866
-translate turkish venaprologue_38a8e894:
+# game/venaprologue.rpy:868
+translate turkish venaprologue_2522683d:
 
-    # "(Topla kendini, hemen. Stres yapman onu da korkutur.)"
+    # "(Get yourself together. If you get anxious then she sure will too.)"
     ""
 
-# game/venaprologue.rpy:870
-translate turkish venaprologue_09b79969:
+# game/venaprologue.rpy:872
+translate turkish venaprologue_b78fccf8:
 
-    # h "“Ne?”"
+    # h "“What?”"
     h ""
 
-# game/venaprologue.rpy:871
-translate turkish venaprologue_1cba8b63:
+# game/venaprologue.rpy:873
+translate turkish venaprologue_381a2fc0:
 
-    # v "“Kimi?”"
+    # v "“Who?”"
     v ""
 
-# game/venaprologue.rpy:875
-translate turkish venaprologue_35f9e4c1:
+# game/venaprologue.rpy:877
+translate turkish venaprologue_33bd882b:
 
-    # k "“B-Bilmiyorum ki.”"
+    # k "“I-I don’t know.”"
     k ""
 
-# game/venaprologue.rpy:876
-translate turkish venaprologue_c89b0a2d:
+# game/venaprologue.rpy:878
+translate turkish venaprologue_093ac59e:
 
-    # k "“Rüya da olabilir, tam emin değilim.”"
+    # k "“It might have been a dream, I’m not sure.”"
     k ""
-
-# game/venaprologue.rpy:890
-translate turkish venaprologue_c1a9b3da:
-
-    # "Düşündüğüm kişi olabilir mi?"
-    ""
-
-# game/venaprologue.rpy:891
-translate turkish venaprologue_49fd6306:
-
-    # "Ya Kioko yüzünü gördüğü için onu öldürmek namına geri geldiyse?"
-    ""
 
 # game/venaprologue.rpy:892
-translate turkish venaprologue_70ed8e9f:
+translate turkish venaprologue_4849e1c4:
 
-    # "Gerçi, bu yersiz bir endişe de olabilirdi."
+    # "Could they be I thought of?"
+    ""
+
+# game/venaprologue.rpy:893
+translate turkish venaprologue_3412b5e9:
+
+    # "What if they’d come back to get rid of Kioko since she’d seen their face?"
     ""
 
 # game/venaprologue.rpy:894
-translate turkish venaprologue_7edcaff4:
+translate turkish venaprologue_90a4d773:
 
-    # v "“Kioko, sakin ol.”"
+    # "Though, maybe we were worrying for nothing."
+    ""
+
+# game/venaprologue.rpy:896
+translate turkish venaprologue_871a12d4:
+
+    # v "“Kioko, calm down.”"
     v ""
 
-# game/venaprologue.rpy:898
-translate turkish venaprologue_11a77f1b:
+# game/venaprologue.rpy:900
+translate turkish venaprologue_1bc9357d:
 
-    # k "“Yeni uyanmıştım. Sonra odamda biri olduğunu fark ettim. Cam kenarında duruyordu.”"
+    # k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
     k ""
 
-# game/venaprologue.rpy:902
-translate turkish venaprologue_895d3f9e:
+# game/venaprologue.rpy:904
+translate turkish venaprologue_1a42f234:
 
-    # h "“Nasıl biriydi? Arkadaşlarından biri olmasın?”"
+    # h "“What did she look like? Couldn’t she be just one of your friends?”"
     h ""
 
-# game/venaprologue.rpy:906
-translate turkish venaprologue_fc755905:
+# game/venaprologue.rpy:908
+translate turkish venaprologue_06d28079:
 
-    # k "“Hayır! Hayır… Öyle bir arkadaşım yok benim.”"
+    # k "“No! No… I don’t have a friend like that.”"
     k ""
 
-# game/venaprologue.rpy:910
-translate turkish venaprologue_c9bee9ea:
+# game/venaprologue.rpy:912
+translate turkish venaprologue_5d9cbf3b:
 
-    # k "“Turuncu saçları vardı. Yüzünü tam göremedim ama, uykuluydum.”"
-    k ""
-
-# game/venaprologue.rpy:914
-translate turkish venaprologue_8ee42319:
-
-    # k "“Yanıma geldi sonra. Çok korktum, hareket edemedim, ardından öylece uyuyakaldım!”"
+    # k "“She had ginger hair. But I couldn’t see her face clearly, for I was sleepy.”"
     k ""
 
 # game/venaprologue.rpy:916
-translate turkish venaprologue_bc5c8593:
+translate turkish venaprologue_63128e8c:
 
-    # "Elimi alnına götürdüm. Onun anlatmasındansa benim anılarını izlemem daha iyiydi."
-    ""
+    # k "“She walked towards me. I was so scared that I couldn’t move! I must have passed out from sheer fright. When I opened my eyes again, it was later and she was gone.”"
+    k ""
 
 # game/venaprologue.rpy:918
-translate turkish venaprologue_3e704b74:
+translate turkish venaprologue_f5822e5d:
 
-    # v "“İzin verirsen bir de ben bir bakacağım.”"
-    v ""
+    # "I reached to her forehead. Watching her memories would be more useful than listening to her."
+    ""
 
 # game/venaprologue.rpy:920
-translate turkish venaprologue_b2f15240:
+translate turkish venaprologue_ebbc5302:
 
-    # "Kafasını sallayarak bana sözsüz bir izin vermişti. Derin bir nefes alarak manamı odakladım."
+    # v "“If it is okay, I’ll take look myself.”"
+    v ""
+
+# game/venaprologue.rpy:922
+translate turkish venaprologue_59b519dc:
+
+    # "By nodding her head, she gave a wordless permission. I took a deep breath, and awaken my magic."
     ""
 
-# game/venaprologue.rpy:927
-translate turkish venaprologue_e79641a0:
+# game/venaprologue.rpy:929
+translate turkish venaprologue_9fcd20aa:
 
-    # "Dikkatimi ilk çeken şey anının ne kadar bulanık olduğuydu."
-    ""
-
-# game/venaprologue.rpy:928
-translate turkish venaprologue_a2a2d0c0:
-
-    # "Kioko’nun önündeki kadını zar zor seçebiliyordum."
+    # "What caught my attention first was how blurry the memory was."
     ""
 
 # game/venaprologue.rpy:930
-translate turkish venaprologue_b71d8330:
+translate turkish venaprologue_3c23702b:
 
-    # "Turuncu saçlar, beyaz bir ten, gülen bir surat…"
+    # "I could hardly see the woman before Kioko."
     ""
 
-# game/venaprologue.rpy:931
-translate turkish venaprologue_6ab98e58:
+# game/venaprologue.rpy:932
+translate turkish venaprologue_3650235a:
 
-    # "Ama başka bir şey yoktu."
+    # "Ginger hair, light skin, lips that curled upwards…"
     ""
 
 # game/venaprologue.rpy:933
-translate turkish venaprologue_98a9fb34:
+translate turkish venaprologue_7898dbc4:
 
-    # "Yine de bu kadar az ipucuyla bile bunun bir yabancı olduğunu söyleyebilirdim."
+    # "But there was nothing else."
     ""
 
-# game/venaprologue.rpy:934
-translate turkish venaprologue_3bf28151:
+# game/venaprologue.rpy:935
+translate turkish venaprologue_f0fa7cc0:
 
-    # "Sahneyi biraz daha inceledikten sonra manamı daha fazla tüketmemek adına anıdan çıktım."
+    # "Even with so few details, I could tell this was a stranger indeed."
     ""
 
-# game/venaprologue.rpy:941
-translate turkish venaprologue_4bc875cf:
+# game/venaprologue.rpy:936
+translate turkish venaprologue_c04b150d:
 
-    # "Kızların ikisi de bana sorarcasına bakıyordu."
+    # "After analysing the dream a little more, I left her mind to avoid wasting my mana."
     ""
 
 # game/venaprologue.rpy:943
-translate turkish venaprologue_ca998181:
+translate turkish venaprologue_1f2ceeba:
 
-    # v "“Ya gelen her kimdiyse anılarını bulutlamış ya da gerçekten rüya görmüşsün.”"
+    # "Both of my sisters were looking at me with curious eyes."
+    ""
+
+# game/venaprologue.rpy:945
+translate turkish venaprologue_7bfd853d:
+
+    # v "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
     v ""
 
-# game/venaprologue.rpy:947
-translate turkish venaprologue_6288ffb2:
+# game/venaprologue.rpy:949
+translate turkish venaprologue_89afdae3:
 
-    # h "“Ayırt edemiyor musun, Vena?”"
+    # h "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
     h ""
 
-# game/venaprologue.rpy:949
-translate turkish venaprologue_ce1ccbac:
-
-    # "Normalde anılar sihir aracılığıyla kapatıldığında büyünün izlerini hızlıca bulabilirdim."
-    ""
-
-# game/venaprologue.rpy:950
-translate turkish venaprologue_3a40dede:
-
-    # "Fakat bu sefer öyle esrarengiz, abes bir atmosferle karşılaşmamıştım."
-    ""
-
 # game/venaprologue.rpy:951
-translate turkish venaprologue_cffbc171:
+translate turkish venaprologue_bbb7e3c6:
 
-    # "Bu da demek oluyordu ki Kioko ya cidden rüyayla gerçeği karıştırıyordu, ki yorgun olmasını hesaba katardıysam bu pekala olabilirdi."
+    # "I shook my head."
     ""
 
 # game/venaprologue.rpy:952
-translate turkish venaprologue_ae306b42:
+translate turkish venaprologue_f1257f09:
 
-    # "Ya da bu kişi her kimdiyse ne yaptığını çok iyi biliyordu."
+    # "Usually when memories were clouded or erased, I could immediately tell by detecting the lingering traces of magic."
     ""
 
 # game/venaprologue.rpy:953
-translate turkish venaprologue_b9a207b3:
+translate turkish venaprologue_85888a8f:
 
-    # "Tıpkı Kara Katliam’dan sonra yaşadığı ilk hafıza kaybı gibi…"
+    # "But this time, I didn’t feel anything artificial, or out of place."
+    ""
+
+# game/venaprologue.rpy:954
+translate turkish venaprologue_11c10b53:
+
+    # "This meant that either Kioko was confusing a dream with reality, which was highly probable given how sleepy she had been at that moment."
     ""
 
 # game/venaprologue.rpy:955
-translate turkish venaprologue_c40320d9:
+translate turkish venaprologue_d553f4e5:
 
-    # h "“Bu akademiden bir kimse olabilir mi?”"
+    # "Or Kioko had indeed had a stranger in her room, a stranger that was very skilled at manipulating memories."
+    ""
+
+# game/venaprologue.rpy:956
+translate turkish venaprologue_eb6ef1b9:
+
+    # "Just like Kioko’s first memory loss like after the Massacre…"
+    ""
+
+# game/venaprologue.rpy:958
+translate turkish venaprologue_98b427ff:
+
+    # h "“Could they be someone from this Academy?”"
     h ""
 
-# game/venaprologue.rpy:957
-translate turkish venaprologue_e0fbad6a:
+# game/venaprologue.rpy:960
+translate turkish venaprologue_0cb45a76:
 
-    # v "“Sanmam. Üniforma giymiyordu, bizden birine de benzemiyordu. Kioko, bize neden daha önceden haber vermedin?”"
+    # v "“I’m not sure. She wasn’t wearing any uniform, and didn’t look like one of our people. Kioko, why didn’t you inform us sooner?”"
     v ""
 
-# game/venaprologue.rpy:961
-translate turkish venaprologue_66ee9881:
+# game/venaprologue.rpy:964
+translate turkish venaprologue_6c227413:
 
-    # k "“Gereksiz panik yaratmak istememiştim.”"
+    # k "“I didn’t want to cause an unnecessary scene.”"
     k ""
 
-# game/venaprologue.rpy:963
-translate turkish venaprologue_eee9709d:
+# game/venaprologue.rpy:966
+translate turkish venaprologue_36ff83c0:
 
-    # "Uzanıp elini kavradım. Böyle çekinceler bulunduğumuz zamanda çok tehlikeli sonuçlar doğurabilirdi."
+    # "I reached out and took her hand in mine. This kind of dilemmas could have dangerous consequences."
     ""
 
-# game/venaprologue.rpy:965
-translate turkish venaprologue_41a4cbde:
+# game/venaprologue.rpy:968
+translate turkish venaprologue_93b32907:
 
-    # v "“Sakın böyle şeyler düşünme. Çalkantılı bir dönemdeyiz o yüzden şüpheli görünen her şeyi bize söylemelisin.”"
+    # v "“Don’t ever think like that. These are rough times, you should inform us og anything you suspect.””"
     v ""
 
-# game/venaprologue.rpy:967
-translate turkish venaprologue_96d2d66d:
+# game/venaprologue.rpy:970
+translate turkish venaprologue_66398801:
 
-    # h "“Çok garip gerçekten… Ne yapacağız?”"
+    # h "“This is so weird. What are we going to do?”"
     h ""
 
-# game/venaprologue.rpy:969
-translate turkish venaprologue_24ce5e5d:
+# game/venaprologue.rpy:972
+translate turkish venaprologue_b2a6b23d:
 
-    # v "“Ben…”"
+    # v "“I…”"
     v ""
 
-# game/venaprologue.rpy:971
-translate turkish venaprologue_32b174f9:
+# game/venaprologue.rpy:974
+translate turkish venaprologue_3e3750a6:
 
-    # "Aklımda bir fikir vardı. Belki beni diğer işlerimden alıkoyacaktı ama olsun."
-    ""
-
-# game/venaprologue.rpy:972
-translate turkish venaprologue_45b2ce1d:
-
-    # "(Kardeşimden önemli değil.)"
-    ""
-
-# game/venaprologue.rpy:973
-translate turkish venaprologue_463a6a8e:
-
-    # "Hem hala olayların kilidini açacak anahtarın Kioko olduğunu düşünüyordum; o yüzden onu korumak, yanında olmak da bir nevi işti."
+    # "I had an idea. Perhaps this would hold me back from the investigation, but still…"
     ""
 
 # game/venaprologue.rpy:975
-translate turkish venaprologue_0a48f4b9:
+translate turkish venaprologue_7cc13568:
 
-    # v "“Kioko, benim odamda yatmak ister misin?”"
-    v ""
-
-# game/venaprologue.rpy:979
-translate turkish venaprologue_c4ea0bfc:
-
-    # k "“Sana yük olmayı istemem.”"
-    k ""
-
-# game/venaprologue.rpy:981
-translate turkish venaprologue_f54fe896:
-
-    # v "“Lütfen saçma şeyler söyleme, sen benim kardeşimsin.”"
-    v ""
-
-# game/venaprologue.rpy:983
-translate turkish venaprologue_3e69d8bb:
-
-    # k "“Ama işine engel olmaz mıyım?”"
-    k ""
-
-# game/venaprologue.rpy:985
-translate turkish venaprologue_3d628289:
-
-    # v "“Hayır, önceliğim sizsiniz.”"
-    v ""
-
-# game/venaprologue.rpy:989
-translate turkish venaprologue_bfbd4713:
-
-    # h "“Benle… Benle yatabilir isterse. Odamı paylaşabilirim.”"
-    h ""
-
-# game/venaprologue.rpy:991
-translate turkish venaprologue_bb53e1ee:
-
-    # "Gözlerimi şaşkınlıkla kırpıştırarak Haru’ya döndüm. Bu bir ilkti."
+    # "(Nothing matters more than my sisters.)"
     ""
+
+# game/venaprologue.rpy:976
+translate turkish venaprologue_ad06f6a7:
+
+    # "Plus Kioko was surely key to solving this mystery; protecting her, being there for her were also responsibilities of mine."
+    ""
+
+# game/venaprologue.rpy:978
+translate turkish venaprologue_7f0126f9:
+
+    # v "“Kioko, would you like to sleep in my room for now?”"
+    v ""
+
+# game/venaprologue.rpy:982
+translate turkish venaprologue_a7b28aaf:
+
+    # k "“I don’t want to be a burden.”"
+    k ""
+
+# game/venaprologue.rpy:984
+translate turkish venaprologue_1b2c1b47:
+
+    # v "“Oh hush, you’re my sister.”"
+    v ""
+
+# game/venaprologue.rpy:986
+translate turkish venaprologue_321c6f1a:
+
+    # k "“But wouldn’t I be in the way of your work?”"
+    k ""
+
+# game/venaprologue.rpy:988
+translate turkish venaprologue_804e1ff2:
+
+    # v "“No, you’re my priority.”"
+    v ""
 
 # game/venaprologue.rpy:992
-translate turkish venaprologue_39690b23:
+translate turkish venaprologue_a2225d36:
 
-    # "Yani… Yalnız kalmak isteyip Akademi’den kaçmaya çalışması gözümde daha olasıydı."
-    ""
-
-# game/venaprologue.rpy:994
-translate turkish venaprologue_e7b7d9fa:
-
-    # v "“Olmaz. Ya senin de başına bir şey gelirse?”"
-    v ""
-
-# game/venaprologue.rpy:998
-translate turkish venaprologue_1cc1106f:
-
-    # h "“Hey… Tamam biliyorum senin kadar güçlü değilim ama o kadar da ne yaptığımı bilmiyor değilim.”"
+    # h "“She can… She could sleep in my room too. I can take care of her.”"
     h ""
 
-# game/venaprologue.rpy:1000
-translate turkish venaprologue_f9b3c553:
+# game/venaprologue.rpy:994
+translate turkish venaprologue_863d81cb:
 
-    # "Haklıydı."
+    # "I looked at Haru aloft in wonder."
     ""
 
-# game/venaprologue.rpy:1001
-translate turkish venaprologue_2402d22e:
+# game/venaprologue.rpy:995
+translate turkish venaprologue_0751068c:
 
-    # "Haru aslına bakılırsa hızlı mana yenileme yeteneğiyle içinde çok fazla potansiyel barındıran bir insandı."
+    # "(What’s next? Is she going to say that she missed Silver Hallow?)"
     ""
+
+# game/venaprologue.rpy:996
+translate turkish venaprologue_b7291567:
+
+    # "To be frank… It would be more likely to assume she would prefer to stay alone in order to escape from the Academy."
+    ""
+
+# game/venaprologue.rpy:998
+translate turkish venaprologue_aac98f54:
+
+    # v "“No. What if something happens to you?”"
+    v ""
 
 # game/venaprologue.rpy:1002
-translate turkish venaprologue_704cd075:
+translate turkish venaprologue_6c523fc9:
 
-    # "Tabii bu avantajını kullanmayı biliyor muydu, orası ayrıydı. Evet, pratik büyülerde üstüne yoktu fakat iş kompleks büyülere gelince kelimenin tam anlamıyla patlıyordu."
-    ""
+    # h "“Listen, I know I am nowhere powerful as you, but it’s not like I don’t know what I’m doing.”"
+    h ""
 
-# game/venaprologue.rpy:1003
-translate turkish venaprologue_d591e0f4:
+# game/venaprologue.rpy:1004
+translate turkish venaprologue_6543df93:
 
-    # "Yine de hızlı olması sayesinde başlarına bir şey gelse dahi oradan kardeşini de kendini de çıkarabileceğine emindim."
+    # "She was right."
     ""
 
 # game/venaprologue.rpy:1005
-translate turkish venaprologue_5ad7b397:
+translate turkish venaprologue_94a4c323:
 
-    # v "“Pekala… Öyle olsun. Fakat dikkatinizi çeken olağandışı en küçük olayda bile beni haberdar edin. Çekinmek yok.”"
-    v ""
+    # "Haru could replenish her mana faster than any other Silver Hallow resident, which provided her great potential."
+    ""
 
 # game/venaprologue.rpy:1006
-translate turkish venaprologue_b027b82b:
+translate turkish venaprologue_d27f273e:
 
-    # v "“Anlaştık mı?”"
-    v ""
+    # "(Of course, she doesn’t have the slightest clue about making use of this advantage but that is another story.)"
+    ""
+
+# game/venaprologue.rpy:1007
+translate turkish venaprologue_991340a1:
+
+    # "Yes, practical magic was her thing, however when it came to the complex spells, “dreadful” would be the word you would use to describe her attempts."
+    ""
 
 # game/venaprologue.rpy:1008
-translate turkish venaprologue_310fb303:
+translate turkish venaprologue_16d00a52:
 
-    # "İkisi de onaylarcasına kafasını salladı."
+    # "Her speed was what reassured me that they could get themselves out from any dangerous scenario."
     ""
+
+# game/venaprologue.rpy:1010
+translate turkish venaprologue_f18ff84b:
+
+    # v "“So be it. But if anything unusual catches your attention, then you need to inform me about it without hesitating.”"
+    v ""
+
+# game/venaprologue.rpy:1011
+translate turkish venaprologue_985f70fb:
+
+    # v "“Are we clear?”"
+    v ""
 
 # game/venaprologue.rpy:1013
-translate turkish venaprologue_944cce21:
+translate turkish venaprologue_2a15e364:
 
-    # "(Ne olur ne olmaz, en iyisi mi bu odaya birkaç tane koruyucu totem koymalı…)"
-    ""
-
-# game/venaprologue.rpy:1017
-translate turkish venaprologue_d97bc631:
-
-    # "Toplantıya geç kalmıştım."
+    # "Both of them nodded in agreement."
     ""
 
 # game/venaprologue.rpy:1018
-translate turkish venaprologue_7715f104:
+translate turkish venaprologue_d009ffc2:
 
-    # "Ve Akademi’yi başlı başına iyi bilmediğim için ışınlanamıyordum da."
+    # "(Just to be safe, I should cast some protection spells.)"
     ""
 
-# game/venaprologue.rpy:1019
-translate turkish venaprologue_a902fe30:
+# game/venaprologue.rpy:1022
+translate turkish venaprologue_e42b95a4:
 
-    # "Aynı zamanda Asha yabancıların yanında kullandığımız büyüler konusunda dikkatli olmamızı, onları ürkütebileceğimizi söylemişti."
+    # "I was late for the meeting."
     ""
 
-# game/venaprologue.rpy:1020
-translate turkish venaprologue_7d5c2e73:
+# game/venaprologue.rpy:1023
+translate turkish venaprologue_7faf0032:
 
-    # "(Koca koca binalar dikmeye, ulaşım araçları adı altında devasa kütleleri bir oradan bir buraya hareket ettirmeye bayılıyorlar fakat en basit büyülere bile hakim değillerdi, öyle mi?)"
+    # "And since I didn’t know the Academy very well, teleporting was out of question."
+    ""
+
+# game/venaprologue.rpy:1024
+translate turkish venaprologue_22353a72:
+
+    # "Asha also warned us about the casting spells around the Outsiders, to be cautious of not scaring them."
     ""
 
 # game/venaprologue.rpy:1025
-translate turkish venaprologue_dd7dc50c:
+translate turkish venaprologue_1fccf2bf:
 
-    # "(Pekala, burası olmalı.)"
+    # "(It is almost comical to think that they are the same people who built huge stone walls, invented enormous “transportation vehicles”. And yet they are afraid of such simple spells.)"
     ""
 
-# game/venaprologue.rpy:1029
-translate turkish venaprologue_5f8d1cf7:
+# game/venaprologue.rpy:1030
+translate turkish venaprologue_2ebd8464:
 
-    # "Kapıyı tıklattıktan sonra cevap beklemeden içeri girdim."
+    # "(Alright, it must be here.)"
     ""
 
-# game/venaprologue.rpy:1057
-translate turkish venaprologue_63ebddc3:
+# game/venaprologue.rpy:1034
+translate turkish venaprologue_50a9760f:
 
-    # "Gözüme ilk çarpan odanın en gözler önünde olan kanepesine yerleşmiş birkaç tanımadık yüzdü."
-    ""
-
-# game/venaprologue.rpy:1058
-translate turkish venaprologue_d441c262:
-
-    # "Sarışın üçlünün prensler, ötekininse Grandük olduğu kanısına varmıştım."
-    ""
-
-# game/venaprologue.rpy:1059
-translate turkish venaprologue_6608217c:
-
-    # "Hareketsiz ve sessiz durmaları kaldığımız köydeki çiftçinin vitrin bebeklerini anımsatmıştı bana."
-    ""
-
-# game/venaprologue.rpy:1060
-translate turkish venaprologue_4c707a70:
-
-    # "Her biri göz kamaştıracak kadar güzel insanlardı ama ben de böyle şeylerden etkilenecek biri değildim."
+    # "After knocking on the door, I entered the room without waiting for an answer."
     ""
 
 # game/venaprologue.rpy:1062
-translate turkish venaprologue_c24f6ac5:
+translate turkish venaprologue_5b4380b6:
 
-    # a "“Vena! Sonunda geldin, biz de seni bekliyorduk.”"
-    a ""
-
-# game/venaprologue.rpy:1064
-translate turkish venaprologue_c6c41d99:
-
-    # "Asha’nın neşeli bir sesle konuşmasıyla Grandük’ün de elinde tuttuğu kağıdın arkasından homurdanması bir olmuştu."
+    # "The first thing that caught my eye were the unfamiliar faces sitting on the couch near the centre of attention."
     ""
 
-# game/venaprologue.rpy:1066
-translate turkish venaprologue_643a4402:
+# game/venaprologue.rpy:1063
+translate turkish venaprologue_5398fb28:
 
-    # gr "“Evet, bir oda dolusu insan bir olmuş sizi bekliyorduk.”"
-    gr ""
+    # "After a moment, I realized that the blond trio must be the princes, and the other one should be the Grand Duke."
+    ""
+
+# game/venaprologue.rpy:1064
+translate turkish venaprologue_dd6be5dc:
+
+    # "Their motionless seating arrangement reminded me of something I'd seen while visiting a neighbouring village, a collection of beautiful dolls lined up inside a glass display case."
+    ""
+
+# game/venaprologue.rpy:1065
+translate turkish venaprologue_1c7e43fa:
+
+    # "Each one of them looked gorgeous, dazzling almost. But I was not one to be impressed by such things."
+    ""
 
 # game/venaprologue.rpy:1067
-translate turkish venaprologue_573f27c4:
+translate turkish venaprologue_a6a143b5:
 
-    # gr "“Hem geç kalma cüretinde bulunuyor hem odaya izin istemeden dalıyor, üstüne üstlük özür dilemiyor ve tahtın varislerine saygısızlık ediyorsunuz.”"
-    gr ""
+    # a "“Vena! There you are, we’ve been waiting for you.”"
+    a ""
 
-# game/venaprologue.rpy:1068
-translate turkish venaprologue_f26aaca6:
+# game/venaprologue.rpy:1069
+translate turkish venaprologue_dc193bda:
 
-    # gr "“Ki bunun bizim ülkemizde ölüm cezası vardır.”"
-    gr ""
-
-# game/venaprologue.rpy:1070
-translate turkish venaprologue_b80d9c19:
-
-    # "Şaşkınlıktan ağzım açık kalmıştı."
+    # "I heard Asha’s cheerful welcome and the Grand Duke’s grumbling behind the paper he held at the same time."
     ""
 
 # game/venaprologue.rpy:1071
-translate turkish venaprologue_9f37d7e6:
+translate turkish venaprologue_31b44f8e:
 
-    # "Aynı gün içerisinde bu iki oluyordu."
+    # gr "“Yes, we, a whole room full of people, were waiting for your arrival.”"
+    gr ""
+
+# game/venaprologue.rpy:1072
+translate turkish venaprologue_0a8f8c68:
+
+    # gr "“You have quite the nerve to be late, unapologetic, and disrespectful towards the heirs of the throne simultaneously.”"
+    gr ""
+
+# game/venaprologue.rpy:1073
+translate turkish venaprologue_9ae2d254:
+
+    # gr "“Especially as the last charge carries the death penalty in some cases.”"
+    gr ""
+
+# game/venaprologue.rpy:1075
+translate turkish venaprologue_5d235121:
+
+    # "I gaped at him, shocked."
     ""
 
-# game/venaprologue.rpy:1079
-translate turkish venaprologue_a11c08a8:
+# game/venaprologue.rpy:1076
+translate turkish venaprologue_39df8af6:
 
-    # "Nasıl bir yere gelmiştik biz böyle? Şuna bak, öldürecekmiş beni! Hele hele!"
-    ""
-
-# game/venaprologue.rpy:1081
-translate turkish venaprologue_86b1578b:
-
-    # v "“Senin ülken, senin kralın, senin tahtın… Benim değil. Bunların hiçbiri beni bağlamıyor ne yazık ki.”"
-    v ""
-
-# game/venaprologue.rpy:1083
-translate turkish venaprologue_0c235e6c:
-
-    # "En sonunda bana bakma tenezzülünde bulunmuştu. Mavi gözlerinde saklamadığı soğuk bir öfke vardı."
+    # "This was the second time today I had been scolded like that."
     ""
 
 # game/venaprologue.rpy:1084
-translate turkish venaprologue_7627cfb5:
+translate turkish venaprologue_33df3779:
 
-    # "Sanki bir düşmanı süzüyor gibiydi. Bu düşünce elimde olmadan suratımda alaycı bir gülümseme belirmesine sebep oldu."
+    # "What kind of place was this? He was the one with the nerve to threaten me like that!"
     ""
 
 # game/venaprologue.rpy:1086
-translate turkish venaprologue_889b606e:
+translate turkish venaprologue_6e23315d:
 
-    # gr "“Size hangi ülkeye, krala, tahta sığındığınızı hatırlatmak isterim {i}Leydi Vena{/i}.”"
-    gr ""
+    # v "“It’s your country, your king and your throne. Not mine. None of those concerns me.”"
+    v ""
 
 # game/venaprologue.rpy:1088
-translate turkish venaprologue_ee20ef62:
+translate turkish venaprologue_c1863c4b:
 
-    # "İsmimi söyleyişinde kinayeli bir tını vardı."
+    # "Finally he deigned to grace me with eye contact. He didn’t even bother to conceal the look of chilling rage that curdled in his bright blue orbs."
     ""
 
-# game/venaprologue.rpy:1090
-translate turkish venaprologue_518a3374:
+# game/venaprologue.rpy:1089
+translate turkish venaprologue_8fe15a3d:
 
-    # u "“Sorun değil. Doğru diyor zaten.”"
-    u ""
-
-# game/venaprologue.rpy:1092
-translate turkish venaprologue_0b67f5dd:
-
-    # "Grandük derin bir iç çekmiş ve tekrardan önündeki kağıda odaklanmıştı."
+    # "He glared at me as if I was his enemy. I couldn’t stop my lips back from twisting into a wry smile in response."
     ""
 
-# game/venaprologue.rpy:1094
-translate turkish venaprologue_c32e78a2:
+# game/venaprologue.rpy:1091
+translate turkish venaprologue_a455e5a4:
 
-    # gr "“Bu fırsatı genç hanıma bir ders vermek adına kullanmanızı öneririm Ekselansları, zira yılanın başını küçükken ezmeli.”"
+    # gr "“I would like to remind you which country, which king and which throne you are currently under the protection of, {i}Lady Vena{/i}.”"
     gr ""
 
-# game/venaprologue.rpy:1096
-translate turkish venaprologue_15bc7439:
+# game/venaprologue.rpy:1093
+translate turkish venaprologue_4128e211:
 
-    # "(Genç hanım mı?)"
+    # "He pronounced my name in a sarcastic tone."
     ""
 
-# game/venaprologue.rpy:1097
-translate turkish venaprologue_2195c574:
+# game/venaprologue.rpy:1095
+translate turkish venaprologue_44cef03b:
 
-    # "Burada genç olan biri varsa o da bu kendini bilmezdi."
+    # u "“It’s all fine. She’s telling the truth anyway.”"
+    u ""
+
+# game/venaprologue.rpy:1097
+translate turkish venaprologue_58751675:
+
+    # "Grand Duke took a deep breath, and focused on the paper before him once again."
     ""
 
 # game/venaprologue.rpy:1099
-translate turkish venaprologue_e65493c7:
+translate turkish venaprologue_b3368a3c:
 
-    # v "“Üzülerek söylüyorum ki {i}Grandük{/i}, ben 386 yaşındayım.”"
-    v ""
+    # gr "“Your Highness, I heartily suggest you to use this opportunity to teach the young lady some manners, it’s best if you nip this kind of behaviour in the bud.”"
+    gr ""
 
 # game/venaprologue.rpy:1101
-translate turkish venaprologue_2fc04541:
+translate turkish venaprologue_af4a105e:
 
-    # "Gözlerinde şaşkınlığını belli edercesine küçük bir ışıltı belirmiş, ardından sanki hiçbir şey olmamış gibi önündeki dosyaya ilgisini vermişti."
+    # "(Young lady?)"
     ""
 
-# game/venaprologue.rpy:1103
-translate turkish venaprologue_6aa50643:
+# game/venaprologue.rpy:1102
+translate turkish venaprologue_ac358b4e:
 
-    # gr "“Ne güzel, ne güzel! Bu yaşınıza gelmiş ama adabımuaşeretten payınızı alamamışsınız.”"
+    # "It was this arrogant boy who was young, not me."
+    ""
+
+# game/venaprologue.rpy:1104
+translate turkish venaprologue_ff5ceb94:
+
+    # v "“Sorry to inform you {i}Grand Duke{/i}, but to be precise I am 386 years old.”"
+    v ""
+
+# game/venaprologue.rpy:1106
+translate turkish venaprologue_79e64059:
+
+    # "He twitched, a shock going through his features, quickly and carefully hidden. His attention returned to the paper."
+    ""
+
+# game/venaprologue.rpy:1108
+translate turkish venaprologue_986ba183:
+
+    # gr "“How wonderful, how wonderful! You’ve spent all these years without learning proper manners.”"
     gr ""
 
-# game/venaprologue.rpy:1105
-translate turkish venaprologue_64704364:
+# game/venaprologue.rpy:1110
+translate turkish venaprologue_b0c235f2_3:
 
-    # "(Bakalım hayatına bir domuz olarak devam ederken de adabımuaşeretten bahsedebilecek misin?)"
+    # "(…)"
     ""
-
-# game/venaprologue.rpy:1107
-translate turkish venaprologue_305b0fac:
-
-    # a "“Ahem!”"
-    a ""
-
-# game/venaprologue.rpy:1109
-translate turkish venaprologue_f3794d5e:
-
-    # "Manamın etrafımda toplanmaya başladığını fark edince Asha araya girme gereği duymuştu."
-    ""
-
-# game/venaprologue.rpy:1111
-translate turkish venaprologue_2f0b5f90:
-
-    # a "“Gerilmeyelim lütfen, ne de olsa birlikte çalışacağız.”"
-    a ""
-
-# game/venaprologue.rpy:1112
-translate turkish venaprologue_6543d41b:
-
-    # a "“Dük, lütfen Vena’nın başka bir dünyada doğduğunu unutmayın. Kendisi saygısız bir insan değildir, hatta Waceera’nın en sevdiği öğrencilerinden biriydi.”"
-    a ""
-
-# game/venaprologue.rpy:1113
-translate turkish venaprologue_bd40f9f9:
-
-    # a "“Ve aynı zamanda burada bana en çok yardımcı olan insan.”"
-    a ""
 
 # game/venaprologue.rpy:1115
-translate turkish venaprologue_4836a4a7:
+translate turkish venaprologue_e2736a01:
 
-    # gr "“Hah…”"
-    gr ""
+    # "Asha must have realized how my mana had begun to gather up around me, because of my anger."
+    ""
 
 # game/venaprologue.rpy:1117
-translate turkish venaprologue_e2a75fe1:
+translate turkish venaprologue_d70f4c52:
 
-    # a "“Vena… Sana beraber iş yapacağımız insanları takdim edeyim.”"
+    # a "“Let’s not fight, we are trying to work together after all.”"
     a ""
 
 # game/venaprologue.rpy:1118
-translate turkish venaprologue_1efd4931:
+translate turkish venaprologue_268473d7:
 
-    # a "“Ekselansları Birinci Prens Lionel Nicolas Asquith…”"
+    # a "“Duke, please don’t forget that Vena is from another world, another culture. She’s not a disrespectful person, and is in fact Waceera’s favourite.”"
     a ""
 
 # game/venaprologue.rpy:1119
-translate turkish venaprologue_1bacc135:
+translate turkish venaprologue_15576e64:
 
-    # a "“Ekselansları İkinci Prens Landon Cyril Asquith…”"
+    # a "“She is also the person that helps me the most.”"
     a ""
 
-# game/venaprologue.rpy:1120
-translate turkish venaprologue_4f22e08e:
+# game/venaprologue.rpy:1123
+translate turkish venaprologue_447baf92:
 
-    # a "“Ekselansları Üçüncü Prens Andrel Xerxes Asquith…”"
+    # a "“Vena… Let me introduce you to the people we will work with.”"
     a ""
 
-# game/venaprologue.rpy:1121
-translate turkish venaprologue_0f720c25:
+# game/venaprologue.rpy:1124
+translate turkish venaprologue_03613a81:
 
-    # a "“Ve Ekselansları Pertone Grandükü Marley Augustine Arkwright.”"
+    # a "“His Highness the First Prince Lionel Nikolas Asquith…”"
+    a ""
+
+# game/venaprologue.rpy:1125
+translate turkish venaprologue_e8123e81:
+
+    # a "“His Highness the Second Prince Landon Cyril Asquith…”"
     a ""
 
 # game/venaprologue.rpy:1126
-translate turkish venaprologue_6d78c03c:
+translate turkish venaprologue_fd39e315:
 
-    # m "“Cyril ve Xerxes’in unvanlarını unuttun.”"
-    m ""
-
-# game/venaprologue.rpy:1130
-translate turkish venaprologue_caf41f11:
-
-    # a "“Pardon?”"
+    # a "“His Highness the Third Prince Andrel Xerxes Asquith…”"
     a ""
 
-# game/venaprologue.rpy:1134
-translate turkish venaprologue_0dcac926:
+# game/venaprologue.rpy:1127
+translate turkish venaprologue_5d4b56bd:
 
-    # m "“Cyril Credale, Xerxes de Millford Dükü.”"
+    # a "“And His Excellency the Grand Duke of Pertone, Marley Augustine Arkwright.”"
+    a ""
+
+# game/venaprologue.rpy:1132
+translate turkish venaprologue_b63fe45a:
+
+    # m "“You left out the other titles and holdings of the Princes, not to mention you didn’t address them with proper courtesy.”"
     m ""
 
-# game/venaprologue.rpy:1135
-translate turkish venaprologue_e97a35f3:
+# game/venaprologue.rpy:1140
+translate turkish venaprologue_20e912a0:
 
-    # m "“Ve Lionel de Brefcaster.”"
+    # m "“Cyril is the Duke of Credale, and Xerxes is Millford’s.”"
     m ""
-
-# game/venaprologue.rpy:1137
-translate turkish venaprologue_31c4076f:
-
-    # "Başkalarını haşlasa da kendisinin prenslere isimleriyle hitap etmesinden Grandük’ün çocuklara yakın olduğu anlaşılıyordu."
-    ""
 
 # game/venaprologue.rpy:1141
-translate turkish venaprologue_7dc1ef70:
+translate turkish venaprologue_5b4972c4:
 
-    # a "“Ah… Anlıyorum.”"
-    a ""
+    # m "“And Lionel, Brefcaster’s.”"
+    m ""
 
 # game/venaprologue.rpy:1143
-translate turkish venaprologue_0176ffa9:
+translate turkish venaprologue_4384e5fe:
 
-    # "(Neden kendini ezdiriyorsun Asha?)"
+    # "He called those kids simply by their first names, something he would have scolded anyone else that did the same. They must be close, I realized."
     ""
 
-# game/venaprologue.rpy:1149
-translate turkish venaprologue_829782b3:
+# game/venaprologue.rpy:1144
+translate turkish venaprologue_b0ef165d:
 
-    # c "“Lütfen onu dinlemeyin, gerçekten önemli değil.”"
-    c ""
+    # "And maybe the man also wanted to show his political strength off too, given how he spoke in such a fearless tone."
+    ""
 
-# game/venaprologue.rpy:1155
-translate turkish venaprologue_f0c40301:
+# game/venaprologue.rpy:1148
+translate turkish venaprologue_416c8576:
 
-    # l "“Evet, böyle şeylerle vakit de kaybetmeyelim.”"
-    l ""
+    # a "“Ah… I see.”"
+    a ""
+
+# game/venaprologue.rpy:1150
+translate turkish venaprologue_71b1755a:
+
+    # "(Why are you letting him walk over you Asha?)"
+    ""
 
 # game/venaprologue.rpy:1156
-translate turkish venaprologue_a611d5ae:
+translate turkish venaprologue_07e0370e:
 
-    # l "“Sanıyorum burada olmamızın sebebini hepiniz biliyorsunuz.”"
+    # c "“Please don’t listen to him, it’s really not important.”"
+    c ""
+
+# game/venaprologue.rpy:1162
+translate turkish venaprologue_4426f06a:
+
+    # l "“Yes, let’s not waste any more time with petty squabbles.”"
     l ""
 
-# game/venaprologue.rpy:1158
-translate turkish venaprologue_87d53be2:
+# game/venaprologue.rpy:1163
+translate turkish venaprologue_197b1383:
 
-    # "Salondan onaylarcasına sesler yükseldi. Bense bir köşeye geçip sessizce izlemeye koyuldum."
+    # l "“I assume you are all aware of the reason why we are gathered here tonight.”"
+    l ""
+
+# game/venaprologue.rpy:1165
+translate turkish venaprologue_6b8ef5ee:
+
+    # "The room filled with murmurs of approval. In the meanwhile, Now that I was out of the spotlight, I got myself a seat out of sight in order to observe how all this would unfold."
     ""
 
-# game/venaprologue.rpy:1160
-translate turkish venaprologue_0bea23f0:
+# game/venaprologue.rpy:1166
+translate turkish venaprologue_5fe1fa2c:
 
-    # l "“Grandük, rica etsem durumu izah edebilir misiniz?”"
-    l ""
-
-# game/venaprologue.rpy:1167
-translate turkish venaprologue_744984ad:
-
-    # "Grandük sonunda elindeki kağıdı indirmiş ve laubali bir hareketle önündeki masanın üstüne fırlatmıştı."
+    # "The First Prince called out to the Grand Duke with clear disdain."
     ""
 
 # game/venaprologue.rpy:1168
-translate turkish venaprologue_7448f588:
+translate turkish venaprologue_fc3c472f:
 
-    # "Bacak bacak üzerine atarken odadaki herkesi adeta yukarıdan süzüyordu."
-    ""
+    # l "“{i}Marley{/i}, please explain the situation”.”"
+    l ""
 
-# game/venaprologue.rpy:1169
-translate turkish venaprologue_4f2e71f6:
+# game/venaprologue.rpy:1170
+translate turkish venaprologue_9227b5e9:
 
-    # "(Komik… Aralarındaki rütbesi en düşük kişi o fakat en kibirlileri de o.)"
+    # "{i}Ah…{/i} It was weird to see how people used each other’s first names to mock them in this world."
     ""
 
 # game/venaprologue.rpy:1171
-translate turkish venaprologue_0115abe9:
+translate turkish venaprologue_9eb6d96b:
 
-    # m "“Whemond, Kızıl Körfez’in göz bebeğidir. Bilmiyorsanız öğrenin.”"
-    m ""
-
-# game/venaprologue.rpy:1172
-translate turkish venaprologue_7e80b379:
-
-    # m "“Whemond’da bir şeylerin ters gitmesi demek, buradaki deniz ticaretinin sekteye uğraması demek.”"
-    m ""
-
-# game/venaprologue.rpy:1175
-translate turkish venaprologue_fb4efe66:
-
-    # m "“Deniz ticaretinin sekteye uğraması demekse sadece bizim değil, bizimle ticari anlaşmaları olan ülkelerin de sinirlenmesi demek.”"
-    m ""
-
-# game/venaprologue.rpy:1177
-translate turkish venaprologue_92f6cc17:
-
-    # "Dediklerini bir çocuğa anlatır gibi sabırla, tane tane açıklıyordu fakat gözlerindeki o huzursuz parıltı tahammül seviyesinin son raddede olduğunu göstermekteydi."
+    # "(What nonsense.)"
     ""
 
-# game/venaprologue.rpy:1181
-translate turkish venaprologue_a65e2065:
+# game/venaprologue.rpy:1178
+translate turkish venaprologue_0b356322:
 
-    # m "“Whemond’ın yüzyıllardır bozulamayan huzuru şu geride bıraktığımız sene boyunca birtakım alışılagelmedik olaylar silsilesiyle çalkalanıp durdu.”"
+    # "Folding the paper, the Grand Duke threw it to the table before him in a rakish fashion."
+    ""
+
+# game/venaprologue.rpy:1179
+translate turkish venaprologue_d20712ec:
+
+    # "He observed everyone else in the room while crossing his legs."
+    ""
+
+# game/venaprologue.rpy:1180
+translate turkish venaprologue_ac7169f6:
+
+    # "(Funny… The lowest rank among them was his, yet he held the title for being the most conceited as well.)"
+    ""
+
+# game/venaprologue.rpy:1182
+translate turkish venaprologue_2eef01b5:
+
+    # m "“Whemond is the pride and joy of the Crimson Bay. If you don’t know, it’s high time for you to learn.”"
     m ""
 
-# game/venaprologue.rpy:1185
-translate turkish venaprologue_e9778d34:
+# game/venaprologue.rpy:1183
+translate turkish venaprologue_004d2f39:
 
-    # m "“Ve bu ne tesadüftür ki sizin varışınızın hemen öncesi.”"
+    # m "“If something is going wrong in Whemond, it means something is going wrong with our trade.”"
+    m ""
+
+# game/venaprologue.rpy:1186
+translate turkish venaprologue_77496592:
+
+    # m "“Something going wrong in trading would not only anger us, but also our impatient customers beyond this land.”"
     m ""
 
 # game/venaprologue.rpy:1187
-translate turkish venaprologue_24908db0:
+translate turkish venaprologue_8baf3586:
 
-    # "Dramatik bir şekilde sözlerini kesip odayı sessizlik kaplamasına neden oldu. Bunu fırsat bilen Asha da konuşmaya başlamıştı."
-    ""
-
-# game/venaprologue.rpy:1194
-translate turkish venaprologue_c05fd566:
-
-    # a "“Whemond’ın yüzyıllarca yıldır huzuruna karşın bizim binlerce yıllık huzurumuz…”"
-    a ""
-
-# game/venaprologue.rpy:1196
-translate turkish venaprologue_7a743d3d:
-
-    # "Grandük sorar bir ifadeyle Asha’ya dönmüştü."
-    ""
-
-# game/venaprologue.rpy:1198
-translate turkish venaprologue_265c4193:
-
-    # m "“Binlerce? Sadece bin yıldır burada değilsiniz diye biliyorum.”"
+    # m "“I don’t even talk about how such event would shake the Kingdom as a whole.”"
     m ""
 
-# game/venaprologue.rpy:1203
-translate turkish venaprologue_b97a52ab:
+# game/venaprologue.rpy:1189
+translate turkish venaprologue_489e32b6:
 
-    # "(…Ah.)"
+    # "His words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
     ""
 
-# game/venaprologue.rpy:1204
-translate turkish venaprologue_2ceb495e:
+# game/venaprologue.rpy:1193
+translate turkish venaprologue_b7eb3bf0:
 
-    # "Söyledikleri kısa bir süre de olsa kafamda yankılanmıştı."
-    ""
+    # m "“The long-sustained, unshakeable peace of Whemond has been taking hits over the last year by things that were beyond our understanding.”"
+    m ""
 
-# game/venaprologue.rpy:1205
-translate turkish venaprologue_b2dd9cc6:
+# game/venaprologue.rpy:1197
+translate turkish venaprologue_6595f799:
 
-    # "Neden hala şaşırıyordum bilmiyordum, Dış Dünya’da doğup büyüdükleri son bir aydır sır değildi zaten."
+    # m "“And what a coincidence! All these events have started to happen just before your arrival.”"
+    m ""
+
+# game/venaprologue.rpy:1199
+translate turkish venaprologue_e5001ecc:
+
+    # "He paused heavily for dramatic effect.Asha, however, took the opportunity to speak up."
     ""
 
 # game/venaprologue.rpy:1206
-translate turkish venaprologue_32482abb:
+translate turkish venaprologue_d63a26f9:
 
-    # "Waceera’nın bana yalan söylemesi miydi canımı sıkan?"
-    ""
-
-# game/venaprologue.rpy:1207
-translate turkish venaprologue_c6f64a66:
-
-    # "(Hayır, hayır… Onun bir bildiği vardır elbet. Öyle körü körüne hareketlerde bulunmaz.)"
-    ""
+    # a "“Well, a few thousand years of peace of Silver Hollow against Aelthus’ a few centuries old peace… We are not in a good situation either.”"
+    a ""
 
 # game/venaprologue.rpy:1208
-translate turkish venaprologue_edf27ff1:
+translate turkish venaprologue_c394b7c6:
 
-    # "Odaya göz gezdirdim."
-    ""
-
-# game/venaprologue.rpy:1209
-translate turkish venaprologue_518923d8:
-
-    # "Işık Hamillerinin birçoğunun Asha kadar yaşlı kadınlar olduğunu düşünürsem onların da Dış Dünya’da doğmuş olmaları muhtemeldi."
+    # "Confused, the Grand Duke looked at her."
     ""
 
 # game/venaprologue.rpy:1210
-translate turkish venaprologue_7bf44935:
+translate turkish venaprologue_36c906ed:
 
-    # "Peki onlar neden daha önce hiç seslerini çıkarmadılar?"
+    # m "“Thousands? I thought it was merely a thousand years since your people’s disappearance.”"
+    m ""
+
+# game/venaprologue.rpy:1216
+translate turkish venaprologue_ec20d291:
+
+    # "Even for a brief time, what he said echoed in my mind."
     ""
 
-# game/venaprologue.rpy:1211
-translate turkish venaprologue_acb51a36:
+# game/venaprologue.rpy:1217
+translate turkish venaprologue_697d2db2:
 
-    # "Cevabı aslında gün gibi ortadaydı, sadece kabullenmekte sıkıntı yaşıyordum."
+    # "I shouldn’t have been surprised any longer. It’d not been a secret that Asha and the others had been born in the Outer World ever since the last month."
     ""
 
-# game/venaprologue.rpy:1212
-translate turkish venaprologue_1d343d4d:
+# game/venaprologue.rpy:1218
+translate turkish venaprologue_6d17e30f:
 
-    # "(Çemberler…)"
-    ""
-
-# game/venaprologue.rpy:1213
-translate turkish venaprologue_a0ebe500:
-
-    # "Bu bulutlu düşüncelerden kendimi kurtarmak için Dük’ün söylediklerine odaklanmaya karar verdim."
+    # "Was it the fact that Waceera had lied to me that bothered me?"
     ""
 
 # game/venaprologue.rpy:1219
-translate turkish venaprologue_c1b76334:
+translate turkish venaprologue_575a591e:
 
-    # "Toplantının üstünden bir süre geçmiş, bizlere ne konularda yardım istenildiği anlatılmıştı."
+    # "(No, no… She must have had a reason, or she wouldn’t have done such thing.)"
     ""
 
 # game/venaprologue.rpy:1220
-translate turkish venaprologue_e46be904:
+translate turkish venaprologue_392faf44:
 
-    # "İlgimize çarpan olağan dışı hareketleri hemen kendileriyle paylaşmamızı istiyorlardı."
+    # "I glanced around the room."
     ""
 
 # game/venaprologue.rpy:1221
-translate turkish venaprologue_0e003e14:
+translate turkish venaprologue_35261e73:
 
-    # "Aklıma Kioko’nun bugün yaşadığı olay gelmişti fakat bizleri göz hapsinde tutmak isteyen insanlara ne kadar güvenebilirdim, muammaydı."
+    # "Considering most of the Light Bearers were as old as Asha, they must also have been born in this world."
     ""
 
 # game/venaprologue.rpy:1222
-translate turkish venaprologue_6a89f304:
+translate turkish venaprologue_4324a5ec:
 
-    # "Kardeşimin Kara Katliam’la ilişiğini bizim dışımızda bir tek Asha ve Zuri biliyordu."
+    # "Then why hadn’t they talked about it before?"
     ""
 
 # game/venaprologue.rpy:1223
-translate turkish venaprologue_9781910c:
+translate turkish venaprologue_d7bc9d63:
 
-    # "Göz ucuyla Almasi’ye baktım."
+    # "The answer was actually as clear as day. But I had a hard time admitting it."
     ""
 
-# game/venaprologue.rpy:1227
-translate turkish venaprologue_61369c0e:
+# game/venaprologue.rpy:1224
+translate turkish venaprologue_d8182890:
 
-    # "(Onu bu kurtların önüne atmaya niyetim yok.)"
+    # "(Because of the circles…)"
+    ""
+
+# game/venaprologue.rpy:1225
+translate turkish venaprologue_fef8f617:
+
+    # "To distract myself from the grim thoughts trying to get ahold of me, I tried instead to focus on the room’s conversation."
+    ""
+
+# game/venaprologue.rpy:1231
+translate turkish venaprologue_4d19e5e8:
+
+    # "It took a while for meeting to reach an end. They had informed us about the state of Whemond briefly, and talked about the things they needed our help for."
+    ""
+
+# game/venaprologue.rpy:1232
+translate turkish venaprologue_f65c7172:
+
+    # "(To the depths of Shore with Whemond! I wouldn’t care if the city was burnt to the ground.)"
+    ""
+
+# game/venaprologue.rpy:1233
+translate turkish venaprologue_1df671b5:
+
+    # "We were supposed to report to them any unusual sightings."
     ""
 
 # game/venaprologue.rpy:1234
-translate turkish venaprologue_79cc60af:
+translate turkish venaprologue_d0495523:
 
-    # m "“…Evet. Böylelikle bugünkü toplantımıza noktayı koyuyorum.”"
-    m ""
-
-# game/venaprologue.rpy:1235
-translate turkish venaprologue_0b704743:
-
-    # m "“Fakat son olarak… Ben veya Lionel ile direkt çalışacak iki kişi lazım. Raporları getirip götürecek…”"
-    m ""
-
-# game/venaprologue.rpy:1236
-translate turkish venaprologue_53848e16:
-
-    # m "“Hem cadı tarafının hem de bizim tarafımızın sözcüsü olacak iki insan.”"
-    m ""
-
-# game/venaprologue.rpy:1238
-translate turkish venaprologue_0b0eeeae:
-
-    # "(Cadı…)"
+    # "Which reminded me of what had happened to Kioko earlier, Perhaps that was something to be reported. But then, how much could a prisoner trust to their guard?"
     ""
 
-# game/venaprologue.rpy:1239
-translate turkish venaprologue_bdf839ee:
+# game/venaprologue.rpy:1235
+translate turkish venaprologue_c4243286:
 
-    # "Dış Dünya’ya vardığımızdan beri bize böyle sesleniyorlardı: Cadı."
+    # "The only people who knew about Kioko’s relevance to the Black Massacre, other than Haru and myself, were Asha and Zuri."
+    ""
+
+# game/venaprologue.rpy:1236
+translate turkish venaprologue_f903b80f:
+
+    # "Out of the corner of my eye, I looked at Almasi."
     ""
 
 # game/venaprologue.rpy:1240
-translate turkish venaprologue_ff71f26d:
+translate turkish venaprologue_c513fdcb:
 
-    # "Bu kelime bazen ağızlarından tükürürcesine çıkıyor, öteki zamanlardaysa sanki herkesin bildiği bir erdemmişçesine izah ediliyordu."
+    # "(I’ve no intention of throwing her to these wolves.)"
     ""
 
-# game/venaprologue.rpy:1241
-translate turkish venaprologue_d02b5eb3:
+# game/venaprologue.rpy:1247
+translate turkish venaprologue_965c6873:
 
-    # "Ama bir şeyin farkındaydım."
-    ""
-
-# game/venaprologue.rpy:1242
-translate turkish venaprologue_7fa6595b:
-
-    # "Her ne tür bir bağlamda kullanılırsa kullanılsındı, her zaman dışlayıcı bir tınısı vardı."
-    ""
-
-# game/venaprologue.rpy:1243
-translate turkish venaprologue_647b54f4:
-
-    # "Elimde değildi, rahatsız oluyordum."
-    ""
-
-# game/venaprologue.rpy:1244
-translate turkish venaprologue_ce617998_1:
-
-    # "…"
-    ""
-
-# game/venaprologue.rpy:1245
-translate turkish venaprologue_4fbbe35d:
-
-    # "Dük, şöyle bir Asha’ya bakmıştı."
-    ""
-
-# game/venaprologue.rpy:1250
-translate turkish venaprologue_1d9da686:
-
-    # m "“Kardeşiniz olduğundan bahsetmiştiniz. Sanırım siz ve o bizimle çalışacaksınız, yoksa işiniz başınızdan aşkın olduğundan başka birini mi tercih edersiniz?”"
+    # m "“…Yes. And with that, I am concluding this meeting.”"
     m ""
 
-# game/venaprologue.rpy:1252
-translate turkish venaprologue_3b637ee3:
+# game/venaprologue.rpy:1250
+translate turkish venaprologue_5474b7b4:
 
-    # "Ne kadar kibar konuşsa da laflarının altında bir kinaye yatmaktaydı resmen. Elimde olmadan dişlerimi sıktım."
-    ""
+    # m "“But before that… We need two witches to assist me and Lionel, to deliver the reports…”"
+    m ""
 
 # game/venaprologue.rpy:1253
-translate turkish venaprologue_e2f7ecd0:
+translate turkish venaprologue_59e88170:
 
-    # "Asha ise adamın dediklerine gülmüştü."
-    ""
+    # m "“And to be the spokesperson of both sides.”"
+    m ""
 
 # game/venaprologue.rpy:1255
-translate turkish venaprologue_43c65246:
+translate turkish venaprologue_cb926f5f:
 
-    # a "“Ahaha, hayır. Ben çalışacağım lakin kardeşime, yani Zuri’ye gelirsem… O kimseyle çalışabilecek durumda değil. O yüzden…”"
-    a ""
+    # "(Witch…)"
+    ""
+
+# game/venaprologue.rpy:1256
+translate turkish venaprologue_6e53c082:
+
+    # "This was what outsiders had been calling us."
+    ""
+
+# game/venaprologue.rpy:1257
+translate turkish venaprologue_15b63887:
+
+    # "Sometimes it was pronounced like a curse, and other times it was called like a fact known to everyone."
+    ""
+
+# game/venaprologue.rpy:1258
+translate turkish venaprologue_a2153c3c:
+
+    # "But I was aware of something."
+    ""
 
 # game/venaprologue.rpy:1259
-translate turkish venaprologue_06c224ef:
+translate turkish venaprologue_edb3eb26:
 
-    # "Sırtımda bir el hissettim."
+    # "No matter the reason it was used, there was always a shunning tone behind the word."
     ""
 
 # game/venaprologue.rpy:1260
-translate turkish venaprologue_b2e8e738:
+translate turkish venaprologue_c1a6356a:
 
-    # "(Şaka yapıyorsun Asha.)"
+    # "And I couldn’t help but feel uncomfortable."
     ""
 
 # game/venaprologue.rpy:1262
-translate turkish venaprologue_69a987ab:
+translate turkish venaprologue_e04c77fe:
 
-    # a "“Vena, kimle çalışmak istersin?”"
-    a ""
-
-# game/venaprologue.rpy:1264
-translate turkish venaprologue_a61bcd0a:
-
-    # "Bir saniyeliğine şaşkınlıktan nefesimi tutmuş, ardından hızlıca kendimi toparlamıştım. İnanılır gibi değildi ama Asha’yı da ortada bırakmayacaktım."
+    # "The Duke stared at Asha."
     ""
 
-# game/venaprologue.rpy:1266
-translate turkish venaprologue_9627fc9c:
+# game/venaprologue.rpy:1267
+translate turkish venaprologue_b87d790f:
 
-    # v "“Önce sen seç.”"
-    v ""
-
-# game/venaprologue.rpy:1268
-translate turkish venaprologue_7c34a2c2:
-
-    # a "“Önden gençler.”"
-    a ""
-
-# game/venaprologue.rpy:1285
-translate turkish venalionel_05154279:
-
-    # "Kraliyet ailesiyle arayı iyi tutmaya çalışmak bir Dük’e yaranmaktan çok daha faydalı geliyordu kulağa."
-    ""
-
-# game/venaprologue.rpy:1286
-translate turkish venalionel_da6e88b1:
-
-    # "Ve bu Asha’ya bırakmamam gereken bir görevdi."
-    ""
-
-# game/venaprologue.rpy:1288
-translate turkish venalionel_5726b488:
-
-    # v "“Öyleyse Birinci Prens ile birlikte çalışacağım.”"
-    v ""
-
-# game/venaprologue.rpy:1292
-translate turkish venalionel_7ba2bf56:
-
-    # l "“Peki o zaman. Güzel oldu, iyi anlaşabileceğimizi düşünüyorum.”"
-    l ""
-
-# game/venaprologue.rpy:1294
-translate turkish venalionel_2d8c7b65:
-
-    # "Sorarcasına tek kaşımı kaldırsam da dediklerine daha fazla açıklık getirmemişti."
-    ""
-
-# game/venaprologue.rpy:1299
-translate turkish venalionel_9c9f0df7:
-
-    # a "“Ben de Grandük ile birlikte çalışıyorum o halde.”"
-    a ""
-
-# game/venaprologue.rpy:1303
-translate turkish venalionel_e86408e1:
-
-    # m "“Yarın Arkwright Şatosu’na gelmeniz için size bir araç göndereceğim.”"
+    # m "“Earlier, you told me about your sister. I guess it would be the two of you that would work with us, or are you so busy that you would pass the job off to someone else?”"
     m ""
 
-# game/venaprologue.rpy:1309
-translate turkish venalionel_bfc95b00:
+# game/venaprologue.rpy:1269
+translate turkish venaprologue_a991489c:
 
-    # l "“Ben de size Saray’a gelmeniz için bir tane göndereceğim leydim.”"
+    # "There was a clear insinuation in those words, despite how kindly they were said. I gritted my teeth."
+    ""
+
+# game/venaprologue.rpy:1270
+translate turkish venaprologue_b4e846e0:
+
+    # "Asha on the other hand, giggled."
+    ""
+
+# game/venaprologue.rpy:1272
+translate turkish venaprologue_474b96db:
+
+    # a "“Haha, no. I will see to this myself, however Zuri… She’s not able to work for now, so instead…”"
+    a ""
+
+# game/venaprologue.rpy:1276
+translate turkish venaprologue_c2e3f43c:
+
+    # "I felt a hand on my back."
+    ""
+
+# game/venaprologue.rpy:1277
+translate turkish venaprologue_8c508bc7:
+
+    # "(You’re kidding me.)"
+    ""
+
+# game/venaprologue.rpy:1279
+translate turkish venaprologue_d804dc21:
+
+    # a "“Vena, whom would you prefer to work with?”"
+    a ""
+
+# game/venaprologue.rpy:1281
+translate turkish venaprologue_6fb7f757:
+
+    # "I genuinely gasped for a second, then cleaned up my act. Outrageous as it was, I was not going to sell her down the river."
+    ""
+
+# game/venaprologue.rpy:1283
+translate turkish venaprologue_791bee9a:
+
+    # v "“You should pick first.”"
+    v ""
+
+# game/venaprologue.rpy:1285
+translate turkish venaprologue_e56afd43:
+
+    # a "“Youngsters first.”"
+    a ""
+
+# game/venaprologue.rpy:1302
+translate turkish venalionel_45f57aca:
+
+    # "Getting along with the Royal family sounded more advantageous than having the favour of a Duke…"
+    ""
+
+# game/venaprologue.rpy:1303
+translate turkish venalionel_015868b8:
+
+    # "And it was a task I shouldn’t leave in Asha’s hands."
+    ""
+
+# game/venaprologue.rpy:1305
+translate turkish venalionel_85331ff9:
+
+    # v "“Then I’ll work with the First Prince.”"
+    v ""
+
+# game/venaprologue.rpy:1309
+translate turkish venalionel_3a644024:
+
+    # l "“Alright then… I think we will get along pretty well.”"
     l ""
 
 # game/venaprologue.rpy:1311
-translate turkish venalionel_f17151cd:
+translate turkish venalionel_1326c6e0:
 
-    # "{i}Leydi{/i}… Daha şehre varalı bir gün bile olmamıştı fakat şimdiden buradaki herkesin unvanlara garip bir şekilde takıntılı olduğunu fark etmiştim."
+    # "Even though I arched a brow at this statement, the Prince didn’t elaborate."
     ""
 
-# game/venaprologue.rpy:1313
-translate turkish venalionel_f4b49751:
+# game/venaprologue.rpy:1316
+translate turkish venalionel_0fcf238b:
 
-    # v "“Sabah görüşürüz öyleyse, {i}prensim{/i}.”"
-    v ""
-
-# game/venaprologue.rpy:1317
-translate turkish venalionel_ecea51ea:
-
-    # "Lionel cevabıma gülmüştü."
-    ""
-
-# game/venaprologue.rpy:1318
-translate turkish venalionel_72ad9f1e:
-
-    # "Samimi bir gençle vakit geçirmek en azından yanındaki huysuzla bir gecede bin sene yaşlanmaktan iyiydi."
-    ""
-
-# game/venaprologue.rpy:1324
-translate turkish venamarley_cab9adc8:
-
-    # "Asha’yı Grandük’e bırakamazdım. Onu çiğ çiğ yiyeceğine şüphem yoktu."
-    ""
-
-# game/venaprologue.rpy:1325
-translate turkish venamarley_01c51c55:
-
-    # "(Aynı zamanda biri bu adamı denetim altında tutmalı ki destek yerine köstek olmasın.)"
-    ""
-
-# game/venaprologue.rpy:1329
-translate turkish venamarley_9d6ad7e8:
-
-    # "Gözlerimi kısıp söz konusu kişiye şöyle bir süre baktım. O da kendisini seçtiğimi anlamış olacaktı ki derin bir nefes çekti."
-    ""
-
-# game/venaprologue.rpy:1331
-translate turkish venamarley_83b40d96:
-
-    # v "“Ben Grandük ile çalışayım o halde.”"
-    v ""
-
-# game/venaprologue.rpy:1335
-translate turkish venamarley_1026ccd6:
-
-    # m "“İkimize de işkence çektirmeyi bu kadar mı istiyorsun?”"
-    m ""
-
-# game/venaprologue.rpy:1339
-translate turkish venamarley_0d6957a3:
-
-    # m "“Hadi bakalım. Öyle olsun. Yarın sabaha seni alması için buraya bir araç göndereceğim.”"
-    m ""
-
-# game/venaprologue.rpy:1343
-translate turkish venamarley_b00d6de3:
-
-    # m "“Olur da ona da geç kalırsan Arkwright desteği bu projeden elini kolunu tamamıyla çeker.”"
-    m ""
-
-# game/venaprologue.rpy:1345
-translate turkish venamarley_347aaf96:
-
-    # "Cüretkar bir şekilde gülümsedim."
-    ""
-
-# game/venaprologue.rpy:1347
-translate turkish venamarley_f43a1192:
-
-    # v "“‘Geç kalmak’ benim lügatımda olan bir şey değil, yaptığım büyüler gereksiz yere kısıtlanmadığı müddetçe.”"
-    v ""
-
-# game/venaprologue.rpy:1351
-translate turkish venamarley_1297105d:
-
-    # "Asha dediklerimiz üzerine iç geçirmişti."
-    ""
-
-# game/venaprologue.rpy:1355
-translate turkish venamarley_eeb76a7d:
-
-    # a "“Siz ikiniz birbirinizi boğazlamadan bu süreci atlatırsanız iyi olur.”"
+    # a "“And I am working with the Grand Duke.”"
     a ""
 
-# game/venaprologue.rpy:1359
-translate turkish venamarley_f7c8f825:
+# game/venaprologue.rpy:1320
+translate turkish venalionel_ef4180f2:
 
-    # a "“Her neyse, geç oldu. Dağılalım artık.”"
+    # m "“I will send a Bee at first light for you to take to the Arkwright manor.”"
+    m ""
+
+# game/venaprologue.rpy:1326
+translate turkish venalionel_6a965663:
+
+    # l "“I will do so as well, for your arrival to the Palace, my lady.”"
+    l ""
+
+# game/venaprologue.rpy:1328
+translate turkish venalionel_d8cdcfab:
+
+    # "{i}Lady{/i}… It’d been merely a day since our arrival at the city but I had realized already that everyone here was obsessed with titles."
+    ""
+
+# game/venaprologue.rpy:1330
+translate turkish venalionel_8e2b281a:
+
+    # v "“I shall see you in the morning then, {i}my Prince{/i}.”"
+    v ""
+
+# game/venaprologue.rpy:1334
+translate turkish venalionel_4f59d7f2:
+
+    # "Lionel laughed heartily at my response."
+    ""
+
+# game/venaprologue.rpy:1335
+translate turkish venalionel_8f5531f9:
+
+    # "Upon reflection, spending time with a fine young man could be worthier of my time than aging a millennia in a single night with that grumpy Duke."
+    ""
+
+# game/venaprologue.rpy:1341
+translate turkish venamarley_80a2d16a:
+
+    # "I couldn’t let Asha deal with that man. I had no doubt she would be eaten alive."
+    ""
+
+# game/venaprologue.rpy:1342
+translate turkish venamarley_e5e92beb:
+
+    # "(Also someone should keep that man in check in case he proves to be more of a hindrance than a help.)"
+    ""
+
+# game/venaprologue.rpy:1346
+translate turkish venamarley_ff26c3ef:
+
+    # "Narrowing my eyes, I glared at him. From the way he sighed, I sensed that he understood my intention."
+    ""
+
+# game/venaprologue.rpy:1348
+translate turkish venamarley_97ae4bcf:
+
+    # v "“I’ll work with the Grand Duke.”"
+    v ""
+
+# game/venaprologue.rpy:1352
+translate turkish venamarley_a0bf0d76:
+
+    # m "“You really wish to torment us both, don’t you?”"
+    m ""
+
+# game/venaprologue.rpy:1356
+translate turkish venamarley_d630de33:
+
+    # m "“Fine then, so be it. Tomorrow, at first light, I will send a ship to collect you from the Academy.”"
+    m ""
+
+# game/venaprologue.rpy:1360
+translate turkish venamarley_dfd5433d:
+
+    # m "“If you were to be late, the Arkwrights would withdraw their support for this project as a whole.”"
+    m ""
+
+# game/venaprologue.rpy:1362
+translate turkish venamarley_d1ce89d9:
+
+    # "I smiled daringly."
+    ""
+
+# game/venaprologue.rpy:1364
+translate turkish venamarley_db5c992c:
+
+    # v "“‘Being late’ was not a phrase in my book before, and it still wouldn’t be if someone hadn’t restricted the usage of magic.”"
+    v ""
+
+# game/venaprologue.rpy:1368
+translate turkish venamarley_a8eb928a:
+
+    # "Asha sighed upon our exchange."
+    ""
+
+# game/venaprologue.rpy:1372
+translate turkish venamarley_de946624:
+
+    # a "“I hope this ordeal will be finalized before one of you attacks the other.”"
+    a ""
+
+# game/venaprologue.rpy:1376
+translate turkish venamarley_ec864ecd:
+
+    # a "“In any case, it’s quite late. Let’s end this meeting here.”"
     a ""
 
 translate turkish strings:
 
-    # game/venaprologue.rpy:1271
-    old "Tartışmanın bir anlamı yoktu. Tekrardan koltukta oturan figürlere baktım ve kararımı verdim."
+    # game/venaprologue.rpy:6
+    old "A Silver Hallow Resident"
     new ""
 
-    # game/venaprologue.rpy:1271
-    old "Lionel"
+    # game/venaprologue.rpy:7
+    old "Another Person"
     new ""
 
-    # game/venaprologue.rpy:1271
-    old "Marley"
+    # game/venaprologue.rpy:8
+    old "Another Silver Hallow Resident"
+    new ""
+
+    # game/venaprologue.rpy:9
+    old "Grand Duke"
+    new ""
+
+    # game/venaprologue.rpy:1288
+    old "There was no point in protesting. I glanced at the figures sitting across the room one by one again, and made a choice."
     new ""
 

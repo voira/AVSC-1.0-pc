@@ -3,10 +3,10 @@ define h = ("Haru")
 define k = ("Kioko")
 define a = ("Asha")
 define al = ("Almasi")
-define bbg = ("Başka Bir Gümüş Oyuk Sakini")
-define obg = ("Öteki Gümüş Oyuk Sakini")
-define dbg = ("Diğer Bir Gümüş Oyuk Sakini")
-define gr = ("Grandük")
+define bbg = Character(_("A Silver Hallow Resident"))
+define obg = Character(_("Another Person"))
+define dbg = Character(_("Another Silver Hallow Resident"))
+define gr = Character(_("Grand Duke"))
 define m = ("Marley")
 define c = ("Cyril")
 define l = ("Lionel")
@@ -17,154 +17,153 @@ init:
 
 
 
-#lmaooooo
+
 
 label venaprologue:
     scene blackscreen with fade
-    ""
-    "(Ah, seni son bir kez görebilsem…)"
-    "(Ve sana olan duygularımı itiraf edebilsem…)"
-    ""
+    pause 1.5
+    "(Oh, how I wish I could see you for one last time…)"
+    "(And confess those feelings that I piled up in my heart.)"
+    pause 1.5
     scene traincomp with fade
-    ""
+    pause 1.5
 
     show Haru Default with dissolve
-    h "“Gerçekten de uyuyabildiğine inanamıyorum.”"
+    h "“It’s surprising to see that she can sleep.”"
 
-    "Göz ucuyla Kioko’ya baktım."
+    "I glanced at Kioko out of the corner of my eye."
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
-    ""
-    "Kendisini endişe ve korkuyla yiyip bitirmişti."
-    "Belli bir kişinin aksine…"
+    pause 1.5
+    "She was consumed by her worry, and fears."
+    "Unlike a certain someone…"
     hide kiokoeye with dissolve
 
-    v "“Ben de senin bütün bu olan bitene rağmen bu kadar heyecanlı olmana inanamıyorum.”"
+    v "“And it’s surprising to see how you can be this joyous after all the things that happened.”"
 
     show Haru Mischievous with dissolve
 
-    "Haru cevaben yanaklarını şişirmişti."
+    "In response, Haru puffed her cheeks."
 
-    h "“Her gün Gümüş Oyuk’tan çıkma fırsatı yakalamıyoruz. Bu bir ilk-”"
+    h "“We don’t get the chance to leave Silver Hallow every day. This is a first-”"
 
-    "Hızlıca lafını bölüverdim."
+    "I interrupted her quickly."
 
-    v "“Ve muhtemelen son.”"
+    v "“And the last.”"
 
     show Haru Concerned with dissolve
 
-    "Kendisini bu hayata kaptırmasa iyi olurdu. Tekrardan Gümüş Oyuk’a döndüğümüzde yüzlerce yahut binlerce sene burayı görmeme olasılığımız vardı."
-    "Ki herkes için en iyisinin bu olduğu kanaatindeydim."
-    "Dış Dünya’nın insanlarıyla bizim bir arada yaşayabilmemiz bütün yıldızlar bir araya gelse de olacak gibi gözükmüyordu."
+    "It would be healthier for her if she didn’t get carried away by this ordeal. There was a possibility that we might not be able to see this place again for hundreds, or thousands of years after we returned to our home."
+    "Which I believed to be the best for everyone."
+    "It seemed unlikely for us to live in harmony with the people from the outside world, even if it was written in the stars."
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
-    ""
+    pause 1.0
 
-    v "“Birkaç gündür gözüne stresten uyku girmiyor.”"
+    v "“She couldn’t sleep a wink these past few days because of the stress.”"
 
     show Haru Default with dissolve
 
-    "Şimdi de pek güzel rüyalarda koşturduğu söylenemezdi."
-    "Şakaklarından terler süzülüyor, ara sıra titriyor veya kaskatı kesiliyordu."
-    "(Acaba “o gün”ü mü görüyor?)"
-    "Her ne görüyorduysa ben de izlemek istiyordum lakin Haru’nun bunu pek hoş karşılamayacağı da kesindi."
+    "Though I couldn’t say that this was a peaceful rest either."
+    "Beads of sweat were rolling down her temples. Sometimes she shook vehemently, and sometimes stiffened as if she was bare in winter."
+    "(Is she seeing “that day”?)"
+    "Whatever it was I wished to take a look at that myself; however Haru might not take this well."
 
     hide kiokoeye with dissolve
 
-    h "“Sanıyorum ki herkes aynı problemden mustarip.”"
+    h "“I think everyone here suffers from a similar problem.”"
 
-    v "“Sen hariç herkes…”"
+    v "“Everyone except you.”"
 
     hide Haru with dissolve
 
-    "Bana ters bir bakış atmıştı fakat önemli değildi."
-    "Bir sürü kaybımız vardı, yerimizden olmuştuk, liderimiz ortalıkta yoktu. Böyle bir durumda hala tatile çıkıyormuş gibi davranan bir çocuğa sinirlendiğim için vicdan azabı duymama gerek yoktu."
+    "She glared at me for a while, but that was fine."
+    "Many of our people had lost their lives, Silver Hallow was in ruins, and our leader was missing. I would not feel remorse because I got angry at a child who acted like she was going on a vacation in a dire situation such as this."
 
     show Haru Sideway with dissolve
 
-    h "“Ben birazcık hava alacağım.”"
+    h "“I will get some air.”"
 
-    "(İşte beklediğim fırsat…)"
-    "Yine de fazla istekli görünerek şüphe uyandırmak istemiyordum."
-    "Gerçi… Haru’nun insanları okumakta pek iyi olduğunu söyleyemezdiniz ama bazen garip bir şekilde çok zeki yorumlarda da bulunabiliyordu."
+    "(The chance I’ve been waiting for…)"
+    "Still, I didn’t wish to raise suspicion by seeming eager."
+    "Although Haru wasn’t good at reading people, sometimes she could be uncharacteristically sharp."
 
-    v "“Nerede?”"
+    v "“Where are you going?”"
 
     show Haru Default with dissolve
 
-    h "“Koridorda dolaşacağım, bacaklarım uyuştu.”"
+    h "“Just taking a walk in the aisle. My legs have gone numb.”"
 
-    v "“Keyfin bilir. Başını belaya sokma da…”"
+    v "“Alright. Just don’t get yourself in trouble.”"
 
     hide Haru with dissolve
 
-    "Kafasını sallamış, ardından kompartımandan çıkmıştı."
+    "She nodded curtly in response before leaving the compartment."
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
-    ""
+    pause 1.0
 
-    "Hızlıca Kioko’ya doğru döndüm. Kaybedecek zamanım yoktu."
-    "Gözlerimi kapatıp manamı uyandırmadan önce elimi eline dolamıştım."
-    "(Üzgünüm Kioko. Yapmak zorundayım.)"
+    "Quickly I turned to Kioko. There was no time to waste."
+    "Before awakening my powers, I shut my eyes and took her hand between mine."
+    "(Sorry Kioko. This is for the greater good.)"
 
     scene fogforest with fade
 
-    "Kardeşimin rüyası beni alıp özlemini çokça çektiğim o yere geri götürmüştü."
-    "Buradaki her ağacı bilirdim, hatta her ağacın her kovuğu dahi ezberimdeydi."
-    "Ama en nihayetinde Kioko’nun anılarındaki Gümüş Oyuk’ta saadet bulmak için gelmemiştim buraya."
-    "Bir yerlerde Kioko Kara Katliam’a dair önemli bir şeyler görüyor olmalıydı."
+    "The nightmare of my sister took me to the place I’d been missing so dearly."
+    "I knew every single tree here. Every branch, every single hollow on them was familiar to me."
+    "But I hadn’t cast this spell to find peace in the Silver Hallow that now lived only in memories."
+    "Somewhere around here, Kioko must be witnessing an important event regarding the Black Massacre."
 
     play sound walking
 
-    "Ağır adımlarla yerleşim alanına doğru, ağaçların arkasında kendimi kollayarak yürümeye başladım."
+    "With heavy steps I walked towards the village, I kept to the shadows of the trees, while hiding myself from the eyes of my sister."
 
     stop sound
 
-    "Rüyadaki varlığım onu daha gerçekçi bir hale getiriyor, zihnin sahibinin bilincini de buraya sürüklüyordu."
-    "Bu nedenle “asıl” Kioko’yla karşılaşmak istemiyordum."
-    "Yıldızların ışığının normalde yıkadığı o güzelim ormana karanlık bir gücün etkisiyle sis çökmüştü."
-    "Vücudum her ne kadar kararlı bir şekilde ilerlese de kafamın içinde bir ses beni buradan çıkmak için çekiştiriyordu."
-    "Bu düşünceleri hemencecik susturdum. Sonuçta bir rüya aleminde yürüyordum, olan da olmuştu artık. Geçmişte takılı kalamazdım."
-    "Korkmanın da vakti değildi."
-    "Fakat Kioko’nun kabusu cesaretimin kırılmamasından yüz bulmuş olacaktı ki…"
+    "My presence in the dream was urging it to become more vivid and dragging its owner’s consciousness here as well."
+    "So I didn’t want to be caught by the “real” Kioko."
+    "The forest which once bathed in the light of the stars was now covered in a thick fog as the result of a dark power."
+    "Even though my body was determined to go forward, a voice in my mind was begging me to get out of here."
+    "I dismissed those fearful thoughts at once. It was nothing but a dream anyway, and whatever had happened in reality could not be undone. Living in the past would only bring despair."
+    "And this was not the time to be afraid."
+    "Kioko’s nightmare must had been encouraged by my bravado, however…"
 
     scene blackscreen with fade
     # Buraya Dead Bodies CG'si eklenecek!
 
-    "Karşıma bunları çıkarmıştı."
-    "(Az daha üzerlerine basıyordum.)"
-    "Gözlerimi kıstım ve dikkatlice kızların suratlarını süzdüm."
-    "Bunların birçoğu şu an hayatta olan insanlardı. Şimdiyse bu rüyada, o gün ölenler gibi cansız, cam misali gözlerle bana bakıyorlardı."
-    "Vücutlarında herhangi bir yara yoktu. Öldüklerini atmayan damarlarından, havayla dolmayan ciğerlerinden ve kapanmamaya ant içmiş gözlerinden anlıyordunuz."
-    "Fazla duygusal bir ruh haliyle yere eğilmiş, bir tanesinin göz kapaklarını indirmiş ve önüme çıkan bedenlere basmamaya dikkat ederek yola tekrardan düşmüştüm."
+    "Since it felt the need to show me these."
+    "(I’ve almost stepped on them.)"
+    "Narrowing my eyes, I carefully gazed at the girls’ faces for a while."
+    "Most of them were alive, sitting and chatting somewhere in the “train”. But here, in this dream, they were looking at me with glassy eyes, like the dead people had that day."
+    "Not a single wound or scar could be found on their body; but it was understood that they were dead by the silence of their pulse, the lungs would not fill with air, and eyes that swore not to shut."
+    "Struggling to contain my emotions, I leaned down and closed one of the girl’s eyes before moving."
 
     scene fogforest with fade
 
-    "Tahminlerimde yanılmıyorduysam rüya ormanın tam ortasında, yerleşkede geçiyor olmalıydı."
-    "Hala yaşayan insanların ölü gözükmesi dolayısıyla rüyanın anıları ne kadar iyi yansıttığı bir muammaydı. Yine de hiç yoktan iyiydi."
-    "Öyle ya da böyle Kioko’nun zihninin kilitlediği anılara ulaşmam lazımdı."
+    "If my guess was right, the dream should have taken place amidst the forest, which was also the heart of our residency."
+    "I was not certain how much this dream reflected reality, given that the dead bodies I’d just seen that belonged to people who were actually alive."
+    "However, any information was crucial. Kioko’s faded memories had to be brought to light, no matter what."
 
     play sound walking
 
-    ""
-    ""
+    pause 4.0
 
     scene shd with fade
     stop sound
 
-    "Köy açıklığına en sonunda varmıştım. Aradığım kişi de çeşmenin yanına çökmüş, ölü bir vücuda sımsıkı sarılmış inleye inleye ağlıyordu."
+    "Finally, I found myself in the village center. And there was the person I was looking for, crouched down next to the fountain, crying in agony while clasping a dead body."
 
     show Kioko Crying with dissolve
 
-    "Acıklı bir sahne olduğu kesindi ve içimden ona uzanıp omzunu sıvazlamak, bir çocuğunki gibi başını okşamak geçmiyor değildi."
-    "Fakat ben buraya bunun için gelmemiştim."
-    "Faili arıyordum."
+    "Surely it was a tragic scene. Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
+    "But I hadn’t come here to console anyone."
+    "Finding the perpetrator was my main goal."
 
     hide Kioko
 
@@ -172,11 +171,11 @@ label venaprologue:
 
     show Kioko Default with dissolve
 
-    k "“Vena ben… Galiba bundan sorumlu olan kişiyi gördüm.”"
+    k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
 
     show Kioko Concerned with dissolve
 
-    k "“Ama hatırlayamıyorum. Olmuyor.”"
+    k "“But I can’t remember. I just can’t.”"
 
     hide Kioko with dissolve
 
@@ -184,7 +183,7 @@ label venaprologue:
 
     show Kioko Crying with dissolve
 
-    "(Neredesin… Neredesin? Hadi, kendini göster!)"
+    "(Where are you… Where are you? Come now, don’t be shy-)"
 
     show Kioko Shocked with dissolve
 
@@ -196,149 +195,149 @@ label venaprologue:
 
     scene fogforest with vpunch
 
-    "Dikkatsizliğim yüzünden Kioko’yla göz göze gelmiş, ardından bir hışımla yaslandığım ağacın arkasına saklanmıştım."
-    "Fakat istenmeyen bu karşılaşmanın üzerinden daha saniyeler bile geçmeden endişemin yersiz olduğunun farkına vardım."
-    "Rüya Kioko’nun beni görmesi bir sorun değildi."
-    "Önemli olan gerçeğine yakalanmamaktı ve muhtemelen bilinci de rüyasına bu şekilde gasp eden düşmanını her yerde didik didik arıyordu şu an."
-    "(Kaybedecek zamanım yok.)"
-    "Kafamı ağacın öteki tarafından uzatıp baktım."
+    "Too caught up in my thoughts, for a while I didn’t realize Kioko’s eyes were actually fixated on me. Immediately, I hid behind the tree I’d been leaning on."
+    "A moment later though, my heart still thudding in my chest by the sudden contact of our eyes, I realized that panicking was totally unnecessary."
+    "It was not a problem to be seen by the “dream” Kioko."
+    "What mattered was to not get caught by the “real” one, and she was probably looking for me everywhere since her consciousness would be on high alert due to a stranger’s presence in the dream."
+    "(No time to waste.)"
+    "I peeked from around the tree."
 
     scene shd with fade
 
-    "Eski meclisten birtakım sesler yükseliyor, yer yer üzerine inşa edilmiş olduğu yaşlı meşe sallanıyordu."
-    "Yanlış hatırlamıyorduysam Kioko’nun da anılarını kaybetmeden önce en son gittiği yer burasıydı."
-    "Kioko’nun neyi veya kimi gördüğünü bilmiyorduk. Bu bizden biriydi ise anılarını özenle kendi de silmiş olabilirdi."
-    "Veyahut doğal bir şekilde, gördüğü şeylerin şokundan tetiklenmiş de olabilirdi."
-    "İki türlü de ben katliamın sorumlusuyla karşılaşmış olabileceğini düşünüyordum."
-    "Tabii bu bir rüya olduğundan gerçek failin yüzünü görüp göremeyeceğimin de bir güvencesi yoktu. Yine de-"
+    "Voices were raised in the old Coven, causing the great oak it sat on to tremble."
+    "If I remembered correctly, this was also the last place Kioko visited before losing her memories."
+    "Her memories might actually be shrouded by some spell, given the possibility of the perpetrator being one of our own people."
+    "Or, she’d simply lost them naturally by the shock and trauma she’d gone through."
+    "We had no evidence or information on what or whom she may have seen. I could not discount the chance of her meeting with the culprit."
+    "How much this dream reflected the truth was a mystery, however. Still-"
 
     scene shd with vpunch
 
     "…!"
-    "Aniden yükselen bir çığlık bütün dikkatimi ve çabalarımı çöpe atmış, ne yaptığımı bilemeden geri bağırmama sebep olmuştu."
+    "A sudden, familiar scream made me lose all composure. And before I realized what I was doing, I’d yelled back at the top of my lungs."
 
     v "“Waceera!”"
 
-    "Koşmak için ileri atıldım."
-    "Şimdi dönüp bakınca ne utanç vericiydi, gerçek bile olmayan bir insanı kurtarmak için bir anlığına akla karayı seçmiştim."
-    "Ama o sırada birinin kolumdan tutup geri çekmesi kendimi daha da rezil etmemin önüne geçmişti."
-    "Şaşkınlıktan nefesim kesilerek dirseğimdeki elin sahibine döndüm."
+    "I sprang into action at once."
+    "Looking back now, how embarrassing that must have seemed; being ready to try my hardest to save a person who was not even real."
+    "However, before I could disgrace myself further, someone grabbed my arm."
+    "I sharply turned to the person behind me, gasping, momentarily disoriented."
 
     scene fogforest with fade
 
     show Kioko Gaping with dissolve
 
-    k "“Vena? Gerçek Vena’sın sen, değil mi?”"
+    k "“Vena? Are you… The real Vena?”"
 
-    "{i}Güzel{/i}. Yakalanmıştım. Fakat kendimi açıklayacak vaktim yoktu."
-    "Uzanıp Kioko’yu omuzlarından tuttum."
+    "{i}Nice.{/i}. I got caught. But this was no time to waste with pointless questions."
+    "I grabbed Kioko by the shoulders."
 
-    v "“Kiki, beni dinle. Açıklayacak vaktim yok. Hemen eski meclise gitmemiz gerekiyor-”"
+    v "“Kiki, listen to me. We should move immediately. There's something going on in the old Coven-”"
 
     scene fogforest with vpunch
 
     hide Kioko with dissolve
 
-    "Büyük bir patlama sesi lafımı bölmüş, ardından yer sallanmıştı."
-    "Kioko’yla birlikte en yakınımızdaki ağaca sımsıkı tutunduk."
-    "Hızlıca kafamı kaldırıp sesin geldiği yöne doğru baktım."
+    "A loud bang interrupted my words, then the ground began to shake."
+    "I and Kioko barely held on to the nearest tree as the world churned and quaked around us."
+    "Quickly I raised my head to see the source of the sound."
 
     scene shd with fade
 
     show VoidCrawler with dissolve
 
-    "(Hayır, hayır…)"
-    "Meclis kulübesinin olduğu yerde koca bir Hiçlik girdabı belirmişti."
-    "Geç kalmıştık. Görebileceğimiz bir şey vardıysa da ellerimin arasından kayıp öylece gidivermişti."
-    "Parmaklarımı huzursuzca saçlarım arasında gezdirerek girdaptan dışarı fırlayan Gölgeleri izlemekten başka yapacak bir şeyim kalmamıştı."
-    "Uyanmak hariç…"
+    "(No, no…)"
+    "A huge void vortex appeared in the ruins of the cabin which used to be our old Coven."
+    "We were too late. This meant my chance of taking a peek at whatever had happened was lost."
+    "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the Void Crawlers attacking everyone in the grove."
+    "Except by waking up…"
 
     scene traincomp with fade
 
-    "Tekrardan başladığım noktadaydım."
-    "Dışarıdan birtakım sesler geliyordu, kompartıman da hala boştu. Gözlerimi ovuştururken Haru’nun nerede olabileceğini düşündüm."
+    "I was back to square one."
+    "Loud voices, almost like yelling, could be heard outside. And the compartment was still one person short. Rubbing my eyes, I wondered where Haru could be."
 
     show Kioko Confused with dissolve
+    k "“Vena… Why didn’t you seek my permission for that?”"
+    "(Oh…)"
+    "I wetted my lips before taking a deep breath. There was no anger in her features, but she clearly felt uncomfortable."
 
-    "(Ah…)"
-    "Dudaklarımı ıslatıp derin bir nefes aldım. Tam olarak kızgın değildi fakat rahatsız olduğu da her halinden belli oluyordu."
-
-    v "“Kabus gördüğünü anlayınca bilincinin bloke ettiği anılara ulaşabilirim diye düşündüm.”"
+    v "“Since you were having a nightmare, I thought it would be good to check if those blocked memories could be reached.”"
 
     show Kioko Melancholic with dissolve
 
-    k "“Sen de benden şüpheleniyorsun, değil mi?”"
+    k "“You are suspicious of me, aren’t you?”"
 
-    k "“Diğerleri gibi.”"
+    k "“Just like everyone else.”"
 
-    "Duyduklarım beni hayrete düşürmüştü."
-    "Ama daha çok şaşırdığım içimde bir yerlerde bu dediklerinde bir miktar doğruluk payı olduğunu fark etmemdi."
+    "Her words caught me off guard."
+    "What was most shocking was the nugget of truth buried inside them. No matter how small..."
 
     v "“Kioko-”"
 
-    "Kompartımanın kapısının açılmasıyla lafım bölünmüştü."
+    "My words were interrupted by the sound of the door."
 
     hide Kioko with dissolve
 
     show Haru Concerned with dissolve
 
-    "Kafamı çevirip içeri giren Haru’ya baktım."
+    "I turned to look at Haru."
 
-    v "“Dışarıdan gürültüler geliyordu, bir şey mi oldu?”"
+    v "“Did something happen? I heard someone yelling.”"
 
     show Haru Smiling with dissolve
 
-    h "“Bir sorun yok, klasik tartışmalar işte.”"
+    h "“The usual arguments, you know. Nothing else.”"
 
-    "Ne tür tartışmalardan bahsediyordu?"
-    "Aman… Uzun zamandır mana meditasyonu yapmadığım için fazlasıyla yorulmuştum ve bunun peşine düşecek halim de yoktu."
-    "Omuz silkip gözlerimi kapattım."
-    "Whemond’a varmadan da açmaya niyetim yoktu."
+    "…What kind of “usual arguments” was she talking about?"
+    "Whatever… Because that I hadn’t done mana meditation for a long time this experience had left me weary, so there was no energy left in me to pursue it."
+    "I shrugged before closing my eyes."
+    "And I had no intention of opening them before we arrived in Whemond."
 
     scene blackscreen with fade
 
-    "Büyük, soğuk beton binalar, arka sokaklarında açlıktan ölen insanlar ve ciğerlere dolan o pis, yapışkan nem…"
-    "Üç yüz yılı aşkındır ormanın ortasında, her akşam yıldızları izleyerek ağaç kulübesinde uyuyan bir insanın bir gecede sindirebileceği şeyler değillerdi bunlar."
-    "Ve ben kendimi yalnız hissediyordum."
-    "Yalnız, dışlanmış ve “göçebe” adı altında yaşayan bir sığıntı."
+    "Tall buildings that were made from cold concrete… People who were famishing in the alleyways, and the viscous humidity which made you feel suffocated…"
+    "These weren’t things that a person, who had spent their life in the middle of a forest and kissed goodnight by the stars before falling asleep every night, could get used to in a single day."
+    "And I felt achingly lonely despite being surrounded by my sisters."
+    "(Like a shunned wretch who dared to call herself a “nomad”.)"
 
     scene academylivingroom with fade
 
-    "Kraliyet Akademisi’ne sonunda varmıştık."
-    "Katliam’ın sonrasında bir ay kadar kaldığımız köyde toplamış olduğum bitkilerin kavanozlarını bir bir bez çantamdan çıkarmaktaydım."
-    "Yorgundum lakin en azından yerleşme işlemini bu gece tamamlamak istiyordum."
-    "Bu sırada Haru, Kioko ve Asha da camın etrafına dizilmiş, şehir dedikleri cehennemi izliyorlardı."
-    "Kardeşlerimin yüzündeki o hayranlık canımı sıktığından en iyisi kendimi işlere vermekti. Aksi takdirde tatsız yorumlar yapıp can sıkacaktım."
-    "Ama denilenleri kulak ardı da edemiyordum."
+    "Finally we were in the famous Royal Academy."
+    "I was busy organizing the jars that I had filled with herbs from the village we’d stayed in after the Massacre."
+    "My body was begging for rest, but I desired at least to get one thing done before truly relaxing."
+    "Meanwhile Haru, Kioko and Asha had gathered before the window and were watching the hell beneath which had been given a fancy name such as “city”."
+    "My attention was focused solely on the task at hand since I was not sure if I could refrain from dampening their joyful mood with my distasteful comments."
+    "However it was also impossible to ignore what was being said."
 
     show Asha Grinning at left with dissolve
 
-    a "“Bundan o kadar etkilendiyseniz bir de gün batımını izlemeniz lazım kızlar! O zaman güneş sanki kanayarak denize dökülüyormuş gibi bir görüntü oluşuyor.”"
-    a "“Şafakları da aynı şekilde, bir kan göledinden çıkıyormuşçasına…”"
-    a "“Ama kabul etmem lazım, ben en son buraları göreli her şey çok ama çok değişmiş.”"
+    a "“Ladies, if you’re this impressed already, I can’t imagine your reactions over the sunset! It always looks like the sun bleeds right into the sea.”"
+    a "“And in the dawn, it is gloriously reborn from the blood coloured tides to light the sky once more.”"
+    a "“Alas, I have to admit… Almost everything has changed since I was here the last time.”"
 
-    "Dişlerimin arasından konuşmaya başladım."
+    "I began to mutter through my gritted teeth."
 
-    v "“Rezil bir yer burası. Etkilenilecek hiçbir şey yok.”"
+    v "“A disgrace is what this place is. There’s no single thing to be impressed about.”"
 
     show Asha Default with dissolve
 
-    v "“Işığın bu kadar gereksiz kullanılabileceğini düşünmezdim.”"
+    v "“Not once did I think that the light magic could be used in such useless way.”"
 
-    "Öyle bir ışık kirliliği vardı ki bana hayatım boyunca rehber olmuş yıldızlar yüzlerini bir kez bile göstermemişti geldik geleli."
-    "Bu kötü bir talihin habercisi değildi de neydi?"
+    "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived. And the situation was worse in Whemond."
+    "It almost seemed like a harbinger of misfortune."
 
     show Kioko Shy at right with dissolve
 
-    k "“Bence… Bence ışıklar çok sevimli duruyor.”"
+    k "“Well, I… I think the lights look pretty.”"
 
-    "(…Sen de mi Kioko?)"
+    "(…You too, Kioko?)"
 
     show Asha Smiling with dissolve
 
-    a "“Şehirde gezme fırsatını elbet yakalarsınız sanıyorum ki.”"
+    a "“Don’t worry, you will have the opportunity to go on a trip into the city after things have settled more I think.”"
 
-    "En küçük kardeşimin dönütünden yaşadığım şoku atlatamamışken bir darbe de Asha’dan gelmişti."
+    "Before I had time to recover from what Kioko had said, another outrageous claim was raised from Asha."
 
     play sound loudthud
 
@@ -350,14 +349,14 @@ label venaprologue:
 
     show Haru Gaping at left
 
-    "Elimdeki kavanozu yerleştirirken sinirden istemsizce tezgaha çarpıvermiştim."
-    "Şimdi bütün gözler bendeydi."
-    "Dışarı çıkmak, eğlenmek… Ölülerimiz için bir tören dahi düzenleyememişken nasıl böyle planlar yapabiliyorlardı?"
-    "Liderimiz kayıptı; arkadaşlarımız, diğer kız kardeşlerimiz ölmüştü ve bedenlerini dahi geri getirememiştik."
-    "Nasıl hiçbir şey olmamış gibi davranabilirlerdi? Hele ki Asha!"
+    "My anger made me slam the jar on the counter with much more force, while trying to place it."
+    "Now all of the eyes in the room were upon me."
+    "Going on a trip, having fun… How could they make such laid-back plans when we couldn’t have held a ritual for our dead?"
+    "Our leader was missing; friends, sisters we cherished so dear had lost their lives and we were not even capable of bringing their lifeless bodies back to cremate."
+    "How could they act this nonchalantly? Especially Asha, of all people!"
 
-    v "“Asha, lütfen kimsenin aklına böyle şeyler sokma.”"
-    v "“Ne Haru’nun, ne Kioko’nun, ne de başka birinin.”"
+    v "“Asha, I beg you to not to put such atrocious thoughts into anyone’s mind.”"
+    v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
 
     show Asha Default with dissolve
     show Kioko Default at right with dissolve:
@@ -365,218 +364,220 @@ label venaprologue:
     show Haru Default at left with dissolve:
         xpos 0.03 ypos 1.63 zoom 1
 
-    a "“Ne olacak yahu? Bir günlük şehir gezisi ayarlayabiliriz.”"
+    a "“What’s the problem? We can arrange a one-day trip.”"
 
-    v "“Kesinlikle olmaz.”"
-    v "“Her zamankinden daha çok kendimize dikkat etmemiz gereken bir dönemdeyiz. Olanlara neyin sebebiyet verdiğini bile bilmiyoruz.”"
-    v "“Eğer insanlar ölmek istemiyorlarsa asla bu Akademi’den çıkmamalılar.”"
-    v "“Hatta ölmek istiyorlarsa da çıkmamalılar. Bir lider olarak senin en büyük vazifelerinden biri herkesin güvenliğini sağlamak Asha.”"
-    v "“Kaldı ki buraya eğlenmeye de gelmedik, ölülerimiz var.”"
+    v "“Absolutely not.”"
+    v "“We are in a very difficult time that requires extra care. The reason why all this happened in the first place is still a mystery.”"
+    v "“Unless they have a death wish then our people should never leave this Academy.”"
+    v "“In fact, even if it’s exactly what they wish for, you still shouldn’t let them. As a leader it’s one of your priorities to seek everyone’s safety, Asha.”"
+    v "“Let alone we are not here to amuse ourselves, we have casualties.”"
 
-    "Geçici liderimiz olarak, hatta bunu geçtim, binlerce yılı devirmiş bir insan olarak Asha’nın böylesine umursamaz davranmaması gerekiyordu."
-    "Kendi içimizde çatlaklar oluşmaya başlamışken özellikle…"
+    "As our acting leader- no, setting that aside, as a person who walked the world several thousands of years, I expected Asha to be more cautious, sharper."
+    "Particularly while treading upon the cracks that had begun to form among us."
 
     hide Kioko with dissolve
     hide Haru with dissolve
     show Asha Grinning with zoomin
 
-    a "“İnanamıyorum. Tıpkı Waceera gibisin…”"
+    a "“You’re just like Waceera.”"
 
-    "Bu noktada bunu beni eleştirmek için mi, yüceltmek için mi diyor anlayamamıştım. Önemli de değildi."
+    "At this point, it was hard to figure out if she’d said that to criticize me, or to praise me. But it didn’t matter."
 
-    v "“Gülebilmen ne hoş. Yine de bunun önemli bir konu olduğunu unutma, özellikle Almasi’nin her açığını yakalamaya çalıştığını.”"
+    v "“How nice it is to see that you can laugh. You shouldn’t dismiss the importance of this situation. Especially with Almasi being on your tail like this, looking for any possible mistake you might make.”"
 
     show Asha Smiling with dissolve
 
-    a "“Görünen o ki Waceera’ya güvendiğinin yarısı kadar bile bana güvenmiyorsun.”"
+    a "“It seems you don’t see me worthy as of your trust as Waceera.”"
 
-    "Gözlerimi bir süreliğine yumdum."
-    "Dediklerinin doğru olduğunu sokaktan geçen bir insan dahi anlayabilirdi. Yalan söylemenin lüzumu yoktu."
+    "I shut my eyes for a moment."
+    "Even a stranger could understand that what she said was true. There was no point in lying."
 
-    v "“Senin iyiliğin için konuşuyorum, bunu kendine bir yarış haline getirmezsen iyi olur.”"
+    v "“I am speaking up for your own good, please don’t turn it into a competition.”"
 
-    a "“Getirmiyorum, sadece gözler önünde olan bir doğruyu söyledim.”"
-    a "“Ah Vena… Dert etmeni gerektirecek bir şey yok, Waceera’yı da bulup Gümüş Oyuk’a geri döneceğiz.”"
+    a "“That I won’t, let’s just say I’m stating a fact.”"
+    a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hallow. I can assure you.”"
 
-    "Bu sözlerinden sonra ayaklanmıştı."
+    "She stood, making ready to leave."
 
     show Asha Default:
         xalign 0.5
         linear 0.8 xpos 0.2
 
-    a "“Sizlere daha da rahatsızlık vermeyeyim. Yataklarınıza dağılın bakalım.”"
+    a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
 
     show Kioko Laughing at right with dissolve
 
-    k "“Hala çocukmuşuz gibi davranıyorsun Asha.”"
+    k "“You still act like we are little kids, Asha.”"
 
     show Asha Default:
         xalign 0.2
         linear 1 xpos 0.6
 
-    ""
-    "Asha elini Kioko’nun kafasına götürüp saçlarını hafifçe karıştırdı."
+    pause 1.5
+    "Asha ruffled Kioko’s hair gently."
 
-    a "“Hala çocuksunuz çünkü. Hep öyle kalacaksınız.”"
+    a "“That is because you are little children on my perspective. And you will always remain as such for me.”"
 
     hide Asha with dissolve
     hide Kioko with dissolve
     play sound doorclose
-    ""
+    pause 2.0
 
     scene shd with flash
 
     show Waceera Smiling with dissolve
 
-    u "“Benim için asla büyümeyeceksin, Vena.”"
+    u "“You’ll always stay as a kid in my eyes, Vena.”"
 
     scene academylivingroom with flash
 
     "(…)"
-    "Anılarımda kaybolmak üzereyken Haru’nun sesi beni salona döndürmüştü."
+    "Just when I was about to get lost in my memories, Haru’s voice shook me back to reality."
 
     show Haru Default at left with dissolve
     show Kioko Default at right with dissolve
 
-    h "“Öyleyse… Odalarımıza mı dağılıyoruz?”"
-    v "“Siz ikiniz gidebilirsiniz. Benim biraz daha işim var.”"
-    k "“Lütfen kendini yorma.”"
+    h "“So… We are returning to our rooms?”"
+    v "“You two can leave. I still have work to do.”"
+    k "“Please don’t tire yourself out.”"
 
     show Haru Concerned with dissolve
 
-    h "“Kioko’ya katılıyorum Vena. Ayrıca, iyi geceler.”"
+    h "“I agree with Kioko, Vena. Also, well… Good night.”"
 
-    v "“Size de.”"
+    v "“Good night.”"
 
     hide Haru with dissolve
     hide Kioko with dissolve
 
-    "İkisi de odayı terk ettiğinde yüzümü ellerimin arasına aldım ve derin bir iç geçirdim."
+    "Once the two of them left, I buried my face in my hands, and tried to take a deep breath."
 
     scene blackscreen with fade
 
-    "İşlerimi daha bitirmemiştim."
-    "Aynı zamanda ne kadar yorgun olursam olayım kafam bu denli doluyken uyuyabileceğimi düşünmüyordum."
+    "There was still so much work to do."
+    "And no matter how tired I was, I knew that it was impossible for me to sleep when I had this much on my mind."
 
     scene academylivingroom with fade
 
-    "Arkamdaki raflara uzanıp biberiyeden yapmış olduğum bir merhemi aldım."
-    "Hayatımda hiç bu kadar fazla saatimi oturarak geçirmemiştim. Sihir yoluyla ışınlanmak varken insanlar neden kendilerine “tren” isimli bu işkenceyi çektiriyorlardı emin değildim."
-    "(Bütün kaslarım ağrıyor. Harika…)"
-    "Kafamı sallaya sallaya bacaklarımı açıp merhemle masaj yapmaya başladım. Bunun bir de dönüşü vardı."
-    "(Tabii dönebilirsek…)"
-    "Kafamdan bu negatif düşünceleri kovdum. Dönecektik. Her ne olursa olsun dönecektik."
-    "Ayağa kalkıp cama yaklaştım. Akademi havada süzüldüğünden bütün bir şehri izlemek mümkün oluyordu."
+    "I reached to the shelves behind me to take down an ointment I’d made with rosemary."
+    "Never in my life had I spent a day sitting still on a seat as much as I’d done today. Why people preferred to torture themselves with that big mess they called a “train”, while they could simply teleport with magic was a mystery for me."
+    "(All of my muscles are sore. Great…)"
+    "Shaking my head with despair, I began to rub the ointment on my thighs. To think that we have to take that journey again…"
+    "(Only if we can go back to Silver Hallow…)"
+    "I dismissed those ominous thoughts before they started to take root in my mind. Whatever it took, we were going to find a way to return."
+    "Standing up, I got closer to the window. Since the Academy floated in the air, the whole city could be viewed from up here."
 
     scene whemond with fade
 
     "Whemond…"
-    "Şehre verdikleri isim buydu."
-    "Göz korkutan binalar zavallı bir heybetli görünme çabası içerisinde boyanıp bezenmiş fakat kullandıkları sıva bütün bu pisliği örtmeye yetmemişti."
-    "Hissediyordum, Akademi’yi saran sihir bariyerine rağmen insanların gerginliği, üzüntüleri ve sıkıntıları ulaşabiliyordu bana."
-    "Hiçbir zaman bunca yoğun duyguya bir arada şahit olmamıştım. Huzurlu günlerimi geri istiyordum."
-    "Burada tıpkı diğer her şey gibi çürümeye niyetim yoktu."
+    "That was what they called this place."
+    "The structures had been dressed up in a pathetic attempt to make them seem majestic instead of daunting, but no matter how much plaster they tried to use, hiding the filth beneath was impossible."
+    "Even with the magical barrier which surrounded the Academy, I could sense how people felt down below: Their nervousness, sorrow, and distress."
+    "Seeing such intense emotions gathering in one place was another first in my life. And it was quite unnerving, to be frank."
+    "I wanted my peaceful, vibrant days back, not to stagnate and rot just like everything else did here."
+    "And doing whatever was needed to avoid such a miserable end was my intention."
 
     scene blackscreen with fade
 
-    ""
+    pause 2.0
 
     # Buraya sonraki gün ibaresi eklenecek!
 
     scene academyclass with fade
 
-    "Yorucu bir gün beni bekliyordu."
-    "Bugün Kara Katliam sonrası ilk konsey toplanacaktı."
-    "(Ne kadar sonuç odaklı olur bilmiyorum, daha çok ortamın gergin havasından bütün günü kavga ederek geçireceğiz gibi.)"
-    "(Özellikle Almasi’yi hesaba katarsak.)"
+    "A busy day was ahead."
+    "Today marked our first council meeting after the Black Massacre."
+    "(I don’t know how solution oriented this will be. More like the mood’s suggesting that there will be further disputes between us.)"
+    "(And Almasi is the main reason of that.)"
 
     scene academyclass with zoomin
 
     play sound crowdtalking loop
 
-    "Haru’yla birlikte Akademi’nin bize verdiği sınıftaki amfilerden birine geçtik."
+    "I took a seat with Haru in the classroom which the Academy had handed us."
 
     play sound sitting
     queue sound crowdtalking volume 0.6 loop
 
-    "Elimdeki hatıra taşını masaya koydum. Kioko bugün yorgun olduğu için aramıza katılamamıştı."
-    "Olan bitenden geri kalmasını da istemiyordum. O yüzden anıları kaydetmek en mantıklısıydı."
+    "Placing the Memory Stone on the desk, I thought of Kioko, who wasn’t able to attend this meeting due to her fatigue."
+    "I didn’t want her to miss what would be said. Recording the memories for her was the best option I had."
 
     play sound doorclose
     queue sound crowdtalking volume 0.3 loop
     show Asha Default at right with dissolve
     show Zuri Default at left with dissolve
 
-    "Çok geçmeden Asha ve Zuri de sınıfa geldiler."
-    "Tam tahmin ettiğim gibi Zuri Asha’yı sahnede bir başına bırakıp ön koltuklardan birine geçmişti."
+    "Before long, Asha and Zuri came to the classroom as well."
+    "As I’d guessed she might, Zuri left Asha alone at the podium, and instead took a seat in the front row."
 
     hide Asha with dissolve
     hide Zuri with dissolve
 
-    "(Anlaşılan yine suçlamaları üzerine çekmek istemiyor. Kioko’nun çekingen yapısı Zuri’den geliyor olabilir mi?)"
+    "(So she doesn’t want to take the blame again. Could Kioko’s shyness be inherited from her?)"
 
     show Asha Default with zoomin
 
-    a "“Ah, güzel… Hepiniz buradasınız sanıyorum ki- bir kişi hariç.”"
+    a "“Nice… You’re all here- oh, except one person.”"
 
     "Kioko…"
 
     show Asha Sideways with zoomin
 
-    a "“O da sıkıntı değil.”"
-    a "“Sizlere söz vermiştim Whemond’a varır varmaz sorularınızı cevaplayacağıma dair.”"
+    a "“Which is okay.”"
+    a "“I promised you that once we arrived to Whemond, I would try to answer whatever questions you may have.”"
 
     show Asha Default with zoomin
 
-    a "“O sözü tutmak için şimdi önünüzdeyim ve bütün-”"
+    a "“And today, I am here to keep my word-”"
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
-    al "“İşe ablanın neden ölü olabileceğini düşündüğünü anlatarak başlayabilirsin.”"
+    al "“You can start with explaining why you think your sister might be alive.”"
 
-    "(Yıldızlar bize yol gösterin.)"
+    "(Stars guide our way.)"
 
     hide kiokoeye with dissolve
 
     hide Asha with dissolve
 
-    "Daha oturum başlamadan koca bir ateş yakmaya karar vermiş olan Almasi’ye dönüp baktım."
+    "I turned and looked at the woman who was so determined to light a fire even when the hearing had yet to start."
 
     show Almasi Angry with zoomin
 
-    "Zaten halinden de anlaşılıyordu ki buraya kavga çıkarmaya gelmişti."
+    "Her intent to cause chaos could be read in every detail of her face."
 
     hide Almasi with dissolve
 
     show Asha Default with zoomin
 
-    a "“Sanıyorum ki yalan söylemenin bir manası yok.”"
-    a "“Waceera, ben ve Zuri’nin çemberi sizinkine kıyasla daha genişti.”"
+    a "“There’s no point in lying.”"
+    a "“The circle which I, Waceera and Zuri shared was looser than the others.”"
 
     play sound whispering
 
     hide Asha with dissolve
 
     "(…)"
-    "Bu konuda şüphelerim vardı. Doğru çıkmasını beklemiyordum da diyemem, daha çok bunu istememiştim."
-    "Açıkçası işin etiğinde de değildim. Sadece Waceera’nın güvenliğinin garanti olmaması beni tedirgin ediyordu."
+    "I’d had doubts on this matter. Saying I hadn’t expected them to be true would be a lie, rather I simply didn’t want them to be confirmed."
+    "Things not being ethic didn’t concern me anymore. I just wished there was a way to guarantee Waceera’s safety."
     stop sound
-    "Bizler, doğduğumuzda yıldız haritalarına göre çemberlerde doğardık."
+    pause 3.0
+    "Upon our birth we were placed to circles, which was decided by our star maps."
 
     scene constellation with fade
 
-    "Aramızdaki büyü bağı kardeşlerin birbirlerini hissetmeleri, daha güçlü büyüler yapmaları gibi becerilere yarardı."
-    "Ama bir al-ver ilişkisi olarak çember bağı ne kadar yoğunsa risk ve negatif etkilerin yoğunluğu o kadar yüksekti."
-    "Örneğin çember bizleri “bir” olmaya itelediğinden duygu noksanlığı çekerdik."
-    "Ve birinin yaralanması herkesin yaralanması, birinin ölmesi o çembere mensup herkesin ölmesi demekti."
+    "The magic that bonded us together helped the members of the circle to sense each other like they were of the same body, made them much, much more powerful, extended their lives, and granted other such benefits."
+    "But as for the give-and-take rule, the tighter the bond between the members was, the higher the risk and the more negative effects there were."
+    "For example, since the circle pushed us to be “one”, we lacked truly individual emotions."
+    "And if one of us got hurt, others would suffer from the same condition. Moreover, if one of us died, then the others died as well."
 
     scene academyclass with fade
 
-    "Bu durum bize Kara Katliam’da çok büyük bir dezavantaj sağlamış, sayımızın hızla azalmasına sebep olmuştu."
-    "Dış dünyaya varır varmaz çemberleri genişletmenin de yapılan ilk iş olma nedenlerinden biri buydu."
+    "This aspect alone had given us a huge disadvantage during the Black Massacre, had thinned our numbers much too quickly."
+    "Because of that, the first thing we had done upon arriving in the Outer World was loosening the circles."
 
-    al "“Yani bizleri birer zombi misali yaşamaya iteklediğinizi ve bu sırada sizin sefa sürdüğünüzü kendi ağzınla kabul ediyorsun.”"
+    al "“So you admit the fact that you made us live like puppets while benefitting from the system this whole time, right?”"
 
     show Asha ClosedEye with zoomin
 
@@ -584,210 +585,210 @@ label venaprologue:
 
     show Asha Default with zoomin
 
-    a "“Kendi durumumuzu ‘sefa çekmek’ olarak tabir edebilir miyiz emin değilim.”"
-    a "“Bu karar bizzat Waceera tarafından verilmişti. Gümüş Oyuk’taki işleri daha bilinçli bir şekilde çekip çevirmek namına…”"
-    al "“Saçmalık!”"
+    a "“I wouldn’t call it benefitting.”"
+    a "“This was Waceera’s decision. To provide us longer lives…”"
+    al "“Nonsense!”"
 
     show Asha ClosedEye with zoomin
 
-    a "“Ben bu toplantıda sizlere sadece gerçekleri söylemekle yükümlüyüm.”"
+    a "“My only responsibility at this meeting, is telling you the truth.”"
 
     show Asha Default with zoomin
 
-    a "“Waceera’nın bir şeyleri neden yaptığı yahut bir art niyet güdüp gütmediği ona sorabileceğiniz şeyler.”"
-    a "“Bana ne kadar kızsanız da sinirlenseniz de verebilecek başka bir cevabım ne yazık ki yok.”"
-    a "“O yüzden asiliğinizi Waceera’nın dönüşüne saklamanızı öneririm.”"
+    a "“The reasons behind Waceera’s actions are things that you can only learn from her.”"
+    a "“I know this might get you irritated, but I have no other answer than this to give.”"
+    a "“Therefore, I would suggest you to keep your provocations for her return.”"
 
     play sound commotion loop
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
-    al "“Ne güzel, ne güzel! Sorumluluklarından kaçmanın ne de güzel bir yolunu bulmuşsun!”"
+    al "“How nice, how nice! You really found yourself an escape route, didn’t you?”"
     stop sound
 
-    "Dişlerimi sıktım. Asha’nın liderliği bana göre de biraz daha cila gerektirmekteydi fakat Gümüş Oyuk güruhu arasında sırf bu yüzden kavga çıkarmaya değer miydi?"
-    "Özellikle en çok birlik olmamız gereken anda…"
+    "I gritted my teeth. Surely Asha’s leadership was lacking, but must we fight over it between us?"
+    "When we desperately need to stick together at that…"
 
     hide kiokoeye with dissolve
 
     show Asha Sighing with zoomin
 
-    a "“Şu an umabileceğimiz tek şey Waceera’nın bize sağ salim dönmesi ve hakkındaki her suçlamaya kendisinin cevap vermesi.”"
+    a "“The most you can hope for in this moment is Waceera’s safely return, and answering all of these accusations herself."
 
     show Asha Default with zoomin
 
-    a "“Başka sorularınızı da cevaplamaya hazırım.”"
+    a "“But I am ready to answer the other questions you might have.”"
 
     hide Asha with dissolve
 
-    bbg "“Dış Dünya’nın varlığını bizden ne kadar süre boyunca saklamayı düşünüyordunuz?”"
-    obg "“İçimizde bir hain mi var?”"
-    dbg "“Ya bizi burada öldürürlerse? Burası Akademi değil, hapis resmen!”"
+    bbg "“How much longer were you going to keep the existence of the Outer World a secret?”"
+    obg "“Is there a traitor among us?”"
+    dbg "“What if they kill us all? This is not an academy, but a jail!”"
 
     scene blackscreen with fade
 
-    "Asha’nın verdiği yarım yamalak cevapları dinlerken derin bir iç çekip yüzümü ellerime gömdüm."
-    "Bu konsey düşündüğümden bile daha kötü bir hal alacak gibiydi."
+    "I buried my face in my hands while listening to the half-baked answers Asha gave."
+    "This council was doomed before it’d begun. What had I expected?"
 
     scene academyclass with fade
 
-    "Fakat kendi düşüncelerimde kaybolamadan Haru’nun kolumu dürtmesiyle irkildim ve dönüp ona baktım."
+    "However before I gave in to such thoughts, Haru poked me. Startled, I looked at her."
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
 
-    h "“Vena, kapının oradaki kişi kim?”"
+    h "“Vena, who is the person over there?”"
 
     "(…Huh?)"
 
     show Ealdwine Default with dissolve
 
-    "Dikkatimi toplantıya o kadar çok vermiştim ki kapımızda yabancı birinin olduğunu fark edememiştim."
-    "Demek bizi şimdiden izlemeye başlamışlardı."
+    "Since my attention was totally drawn in by the meeting, I hadn’t realize the stranger standing in the doorway."
+    "So they’d already begun set a watch on us."
 
     hide kiokoeye with dissolve
 
-    v "“Ben de bilmiyorum ama üstündekilere bakılırsa sanırım Akademi’nin bir üyesi.”"
+    v "“I don’t know, but that’s the uniform of the Academy.”"
 
     hide Ealdwine with dissolve
 
-    "(Hah… Ne kadar acı… Ne kadar aşağılayıcı!)"
-    "Belli ki bizlere kafesteki bir hayvan muamelesi yapacaklardı."
-    "Elden boyun eğmekten başka ne gelirdi?"
+    "(Hah… How offending… How humiliating!)"
+    "Certainly we were going to be treated like animals kept in cage here."
+    "What was there to do, other than submitting to this fate though?"
 
     scene academyhallway with dissolve
 
-    "(Öf…)"
-    "Saatler sonra toplantı bitmişti."
-    "Ve biz hala içimizdeki sorunlara dair hiçbir ilerleme kaydedememiştik. Başlangıç çizgisinde öylece çakılı kalmıştık."
+    "(Phew…)"
+    "After many hours, the meeting had finally ended."
+    "And we were yet to find solutions, still stuck right at the starting point."
 
     show Asha Default at right with dissolve
 
-    v "“Kafalarındaki soru işaretlerinden sonsuza kadar kaçamazsın.”"
+    v "“You can’t shrug their questions off forever.”"
 
-    "Haru’nun da yanımızdan ayrılmasıyla sonunda Asha ile baş başa kalmıştık. İşleri zaten başından aşkın olduğu için üzerine tepki çekmek istemiyordum."
+    "Haru’d gone to help others, and at long last we were alone with Asha. I hadn’t approached her amidst the crowd in order to avoid unwanted attention."
 
     show Asha Concerned with dissolve
 
-    a "“Bu yüzden bir an önce Waceera’yı bulmamız lazım.”"
-    v "“Aklında nasıl bir plan var?”"
+    a "“Which calls for finding Waceera as soon as possible.”"
+    v "“What is the plan?”"
 
     show Asha Ruminant with dissolve
 
-    a "“Çeşitli seferler düzenlemek niyetindeyim.”"
+    a "“Arranging various expeditions.”"
 
-    "Tek kaşımı sorarcasına kaldırdım."
+    "Questioning, I raised a brow."
 
-    v "“Nereye? Gümüş Oyuk’a şu anki haliyle dönemeyeceğimizi söylediğini sanıyordum.”"
+    v "“To where? I thought you said that we couldn’t go back to Silver Hallow due to the state it’s in.”"
 
     show Asha Default with dissolve
 
-    a "“Kastım Gümüş Oyuk değil zaten.”"
-    a "“Ölüler Diyarı.”"
+    a "“I didn’t mean Silver Hallow.”"
+    a "“What I meant was the Land of the Dead.”"
 
-    "Derin bir iç çektim. Aklında kim olduğu belliydi."
+    "I took a deep breath. It was clear as day what she was thinking of."
 
-    v "“Kioko’yu buna ikna edebileceğimi sanmıyorum.”"
+    v "“I don’t think I can convince Kioko for that.”"
 
     show Asha ClosedEye with dissolve
 
-    ""
+    pause 2.0
 
     show Asha Default with dissolve
 
-    a "“En azından bir gidip konuşmamız lazım.”"
+    a "“We should try at least.”"
 
-    v "“Denerim ama çok şey bekleme.”"
+    v "“I will, but don’t expect much.”"
 
     show Asha Sighing with dissolve
 
-    a "“Birimizi Kıyı’ya sokması dahi yeterli olur aslında.”"
+    a "“It would be enough if she could manage to send one of us to the Shore.”"
 
-    v "“Onu ayarlayabiliriz.”"
+    v "“That can be arranged.”"
 
     show Asha Default with zoomin
 
-    "Yaklaşıp omzumu sıvazlamıştı."
+    "She rubbed my shoulder."
 
     show Asha Smiling with zoomin
 
-    a "“Güzel, sana güveniyorum. Hatta kalanlar arasında en çok sana güveniyorum.”"
+    a "“Alright, I trust you. Even more than anyone else here.”"
 
     show Asha Sideway with zoomin
 
-    a "“Ayrıca Vena…”"
+    a "“Also, Vena…”"
 
     hide Asha with dissolve
 
     scene academyhallway with zoomin
 
-    "Yalnız olmamıza rağmen beni izole bir köşeye sürüklemesinden önemli bir şeyler yumurtlayacağını anlamıştım."
-    "Sorar bir ifadeyle onu süzüyordum. Asha ise hızlıca yaptığı bir büyüyle etrafta kimseler var mı kontrol ediyordu."
-    "Emin olduktan sonra rahatlamış bir ifadeyle bana döndü."
+    "I understood that Asha was going to say something of great importance from the way she dragged us to an even a more isolated spot."
+    "I looked at her in confusion while she checked the passersby in the area with a spell she quickly cast."
+    "After confirming we were alone, she glanced at me with eyes that were relieved."
 
     show Asha Default with zoomin
 
-    a "“Şimdi diyeceklerimin Işık Hamilleri arasından çıkmaması çok önemli…”"
+    a "“The things I will say now shall stay within the Light Bearers.”"
 
     show Asha Concerned with dissolve
 
-    a "“Bizi buraya sürükleyen şeyin veya hainin Dış Dünya’dan bir güruhla iş birliği içerisinde olduğunu düşünüyorum.”"
+    a "“I think what happened to us, who or what did caused this is related to someone from the outside world.”"
 
-    "Cevap vermeden önce dediklerini kafamda bir tarttım. Bu olasılığın varlığını reddedemesem de kimin neden böyle bir şey yapacağına akıl erdiremiyordum."
+    "I weighed all in my head before answering. While I couldn’t refuse the existence of such possibility, fathoming offender’s potential gain from it was hard."
 
-    v "“Elinde buna dair bir kanıt mı var? Fark ettiğin bir şey…?”"
+    v "“Do you have any proof regarding that? Something you realized?”"
 
-    "Böyle temelsiz açıklamalar yapacak bir insan değildi."
+    "She was not a person to make false statements."
 
     hide Asha with dissolve
 
-    "Eteğinin cebinden bir kağıt tomarı çıkardı. Kafamı yana eğip dikkatlice bakınca bunun iki adet rün kartı olduğunu gördüm."
+    "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were rune cards."
 
-    a "“‘Hain’.”"
+    a "“‘Traitor’.”"
 
-    "Kartlardan birini yüzüme yaklaştırmıştı. Ardından diğerini de gösterdi."
+    "She held one of the cards to my face, then did the same for the other."
 
-    a "“‘Yabancı’.”"
+    a "“‘Stranger’.”"
 
-    "Asha aramızdaki en iyi kart okuyucuydu, o yüzden gördüklerini kulak ardı etmek pek akıl kârı değildi."
-    "Kara Katliam’ın kehanetini veren de Asha olmuştu ne de olsa."
-    "(Komik; bilmemize, tedbirler almamıza rağmen olacakları engelleyememiştik.)"
-    "(Fakat bu sefer…)"
-    "Homurdanarak konuşmaya başladım."
+    "It wasn’t wise to ignore what Asha predicted, as she was the best fortune-teller among us."
+    "After all, the infamous prophecy of the Black Massacre belonged to her."
+    "(Funny; even knowing it beforehand there’d been nothing we could do to prevent it from happening.)"
+    "(However this time…)"
+    "I frowned."
 
     show Asha Default with zoomin
 
-    v "“Bu konuda ne yapmamızı önerirsin? Buraya tıkılıp kaldık. Her yerde Kraliyet askerleri var.”"
+    v "“What would you suggest? We are stuck here. There’re Royal Knights at every corner.”"
 
     show Asha Sideway with dissolve
 
-    a "“Sadece biz değil… Whemond’da da garip şeyler oluyor.”"
+    a "“Not just us… Odd things also happen in Whemond.”"
 
-    v "“Ve sen bu olayların arasında bir bağlantı olduğunu düşünüyorsun.”"
+    v "“And you assume there’s a correlation between those.”"
 
     show Asha Default with dissolve
 
-    a "“Sadece ben değil. Onlar da…”"
+    a "“That is also their assumption.”"
 
-    "“Onlar”dan kastın bu ülkenin önde gelen insanları olduğunu anlamıştım."
+    "By “they” I realized that she was talking about the prominent figures of this country."
 
-    a "“Bu akşam, diğer Işık Hamilleriyle bir toplantı yapacağız.”"
-    a "“Kral’ın çocukları ve Grandük de bizimle birlikte olacak.”"
+    a "“Tonight, we will hold a meeting with the other Light Bearers.”"
+    a "“The King’s sons, and the Grand Duke of Pertone will join us.”"
 
-    "Kafamı onaylarcasına salladım."
+    "I nodded."
 
-    v "“Merak etme, orada olacağım.”"
+    v "I nodded."
 
     show Asha Smiling with dissolve
 
-    a "“Güzel, çünkü Almasi’yi birinin zapt etmesi gerekiyor o bir iç savaşa sebep olmadan önce.”"
+    a "“Great, because someone should keep Almasi in check before she goes and starts a war.”"
 
     hide Asha with dissolve
 
-    "Güldüm ve destek olurcasına kolunu sıvazladım."
-    "Toplantının saati ve kimin hangi Hamil’e haber salacağını kararlaştırdıktan sonra ayrılmıştık."
-    "(Haru’yu bulmam lazım. Onu diğer piranalarla bir başına bırakmasam iyi olur.)"
-    "Dalgın bir şekilde ilerideki koridordan Güney Kanadı’na doğru döndüm-"
+    "I laughed and patted her on the back."
+    "After deciding when would be the meeting would be, and who would inform whom about it, we parted ways."
+    "(I must find Haru. I shouldn’t leave her alone with those wolves for so long.)"
+    "Absentmindedly, I took the next turn that led to the Southern Wing-"
 
     scene academyhallway with hpunch
 
@@ -795,30 +796,31 @@ label venaprologue:
 
     v "(…!)"
 
-    u "“Offff!”"
+    u "“Ooof!”"
 
-    "…Dönmemle kızın tekinin bana toslayıvermesi bir olmuştu."
-    "O düşmeden hızlıca iki omzundan yakaladım ve kendisini doğrulttum."
+    "…And a girl bumped into me right then."
+    "Before she fell though, I caught her by the shoulders, making her stand properly."
 
-    v "“İyi misin?!”"
+    v "“Are you okay?!”"
 
-    "Sesimde endişeli bir tını olduğu kadar azarlarcasına bir ton da vardı."
+    "There was a tune of concern in my voice although I scolded her."
 
-    u "“Çek ellerini üzerimden! Aptal köylü seni! Sakın bir daha bana dokunmaya kalkma.”"
+    u "“Get away from me, you foolish peasant! Never dare to touch me again.”"
 
-    "(…Ne?)"
-    "Duyduklarıma inanamayarak, hayretler içerisinde ellerimi kızın üstünden çektim."
+    "(…)"
+    "(…What?)"
+    "Not believing what I’d heard, I yanked my hands free."
 
     show Orphina Default with dissolve
 
     v "“Pardon?”"
 
-    u "“Önüne bak diyorum, önüne!”"
+    u "“Pay attention to where you are heading!”"
 
-    "(Fazla olmaya başladın sen.)"
-    "Kaşlarımı çattım."
+    "(You’re being too much.)"
+    "I grimaced.    "
 
-    v "“Kusura bakma, benim boyumdaki bir insan için aşağıda neler oluyor görmek biraz zor.”"
+    v "“Apologies, it is hard for a person of my height to see what’s going on down below.”"
 
     show Orphina Annoyed with dissolve
     pause 1.5
@@ -828,52 +830,52 @@ label venaprologue:
 
     hide Orphina with dissolve
 
-    "Üzerime yürüyüp bana çarpmış, ardından hızlı adımlarla uzaklaşmaya başlamıştı."
-    "Bense hala şaşkınlık içerisinde bu küstahlığı yedirmeye çalışıyordum."
-    "Arkasından bağırdım."
+    "She walked towards me and bumped into me on purpose, then got away hastily."
+    "In the meantime I was still trying to recover from such impudence."
+    "I called behind her back."
 
-    v "“Sana dokunmamı istemediğini söyledin sanıyordum.”"
+    v "“What happened to the ‘no contact’ rule? It almost seems like you’re the one seeking to break it.”"
 
-    "Fakat dönüp bakmadı."
-    "(Bu şımarık da nereden çıktı şimdi?)"
-    "Omuz silktim. Vakit kaybetmeye bile değmezdi."
+    "But she didn’t turn back."
+    "(Who let this sassy kid in?)"
+    "I shrugged, thinking she was not even worth my time."
 
     scene academylivingroom with fade
 
-    "Yorucu bir günün ardından en nihayetinde akşam çökmüştü."
-    "Ki işlerim burada da bitmiyordu. Yemeğimi bitirdikten sonra toplantıya gitmem lazımdı."
-    "Tembel bir insan hiç olmamıştım ama benim için bile hareketli geçecek gibi duruyordu önümüzdeki günler."
-    "(Bakalım kralın oğulları neler diyecekler. Umarım işimize yarar bir bilgi verirler.)"
+    "Night had finally come after a very long day."
+    "And my work was far from done. Our meeting was scheduled for later."
+    "I had never been one to avoid responsibilities, but even I had a hard time imagining the workload of the coming days."
+    "(I wonder what the King’s sons will talk about. They will at least provide some useful information, I hope.)"
 
     show Haru Default at left with dissolve
     show Kioko Default at right with dissolve
 
-    k "“Bir şey… Diyeceğim.”"
+    k "“I… Want to tell you something.”"
 
     show Kioko ClosedEye with dissolve
 
-    k "“Fakat lütfen paniklemeyin.”"
+    k "“But please don’t panic.”"
 
     "…"
-    "(Çok geç Kioko, iş sen olunca paniklememek elde değil.)"
-    "Endişeli gözlerle ona baktım."
+    "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
+    "I looked at her, concerned."
 
     show Kioko Sideway with dissolve
 
-    k "“Sanırım ben… Bugün odamda birini gördüm.”"
+    k "“I think… I think I saw someone in my room today.”"
 
-    "Bir anlığına elimde olmadan gözlerim fal taşı gibi açılmıştı."
-    "(Topla kendini, hemen. Stres yapman onu da korkutur.)"
+    "My eyes widened for a brief second."
+    "(Get yourself together. If you get anxious then she sure will too.)"
 
     show Haru Gaping with dissolve
 
-    h "“Ne?”"
-    v "“Kimi?”"
+    h "“What?”"
+    v "“Who?”"
 
     show Kioko Concerned with dissolve
 
-    k "“B-Bilmiyorum ki.”"
-    k "“Rüya da olabilir, tam emin değilim.”"
+    k "“I-I don’t know.”"
+    k "“It might have been a dream, I’m not sure.”"
 
     hide Haru
     hide Kioko
@@ -887,146 +889,149 @@ label venaprologue:
     show Haru Gaping at left
     show Kioko Concerned at right
 
-    "Düşündüğüm kişi olabilir mi?"
-    "Ya Kioko yüzünü gördüğü için onu öldürmek namına geri geldiyse?"
-    "Gerçi, bu yersiz bir endişe de olabilirdi."
+    "Could they be I thought of?"
+    "What if they’d come back to get rid of Kioko since she’d seen their face?"
+    "Though, maybe we were worrying for nothing."
 
-    v "“Kioko, sakin ol.”"
+    v "“Kioko, calm down.”"
 
     show Kioko BitingLip with dissolve
 
-    k "“Yeni uyanmıştım. Sonra odamda biri olduğunu fark ettim. Cam kenarında duruyordu.”"
+    k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
 
     show Haru Concerned with dissolve
 
-    h "“Nasıl biriydi? Arkadaşlarından biri olmasın?”"
+    h "“What did she look like? Couldn’t she be just one of your friends?”"
 
     show Kioko Concerned with dissolve
 
-    k "“Hayır! Hayır… Öyle bir arkadaşım yok benim.”"
+    k "“No! No… I don’t have a friend like that.”"
 
     show Kioko Sideway with dissolve
 
-    k "“Turuncu saçları vardı. Yüzünü tam göremedim ama, uykuluydum.”"
+    k "“She had ginger hair. But I couldn’t see her face clearly, for I was sleepy.”"
 
     show Kioko ClosedEye with dissolve
 
-    k "“Yanıma geldi sonra. Çok korktum, hareket edemedim, ardından öylece uyuyakaldım!”"
+    k "“She walked towards me. I was so scared that I couldn’t move! I must have passed out from sheer fright. When I opened my eyes again, it was later and she was gone.”"
 
-    "Elimi alnına götürdüm. Onun anlatmasındansa benim anılarını izlemem daha iyiydi."
+    "I reached to her forehead. Watching her memories would be more useful than listening to her."
 
-    v "“İzin verirsen bir de ben bir bakacağım.”"
+    v "“If it is okay, I’ll take look myself.”"
 
-    "Kafasını sallayarak bana sözsüz bir izin vermişti. Derin bir nefes alarak manamı odakladım."
+    "By nodding her head, she gave a wordless permission. I took a deep breath, and awaken my magic."
 
     hide Kioko with dissolve
     hide Haru with dissolve
 
     # Buraya CG gelecek!
 
-    "Dikkatimi ilk çeken şey anının ne kadar bulanık olduğuydu."
-    "Kioko’nun önündeki kadını zar zor seçebiliyordum."
+    "What caught my attention first was how blurry the memory was."
+    "I could hardly see the woman before Kioko."
 
-    "Turuncu saçlar, beyaz bir ten, gülen bir surat…"
-    "Ama başka bir şey yoktu."
+    "Ginger hair, light skin, lips that curled upwards…"
+    "But there was nothing else."
 
-    "Yine de bu kadar az ipucuyla bile bunun bir yabancı olduğunu söyleyebilirdim."
-    "Sahneyi biraz daha inceledikten sonra manamı daha fazla tüketmemek adına anıdan çıktım."
+    "Even with so few details, I could tell this was a stranger indeed."
+    "After analysing the dream a little more, I left her mind to avoid wasting my mana."
 
     scene academylivingroom with fade
 
     show Kioko Default at right with dissolve
     show Haru Default at left with dissolve
 
-    "Kızların ikisi de bana sorarcasına bakıyordu."
+    "Both of my sisters were looking at me with curious eyes."
 
-    v "“Ya gelen her kimdiyse anılarını bulutlamış ya da gerçekten rüya görmüşsün.”"
+    v "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
     show Haru Concerned with dissolve
 
-    h "“Ayırt edemiyor musun, Vena?”"
+    h "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
-    "Normalde anılar sihir aracılığıyla kapatıldığında büyünün izlerini hızlıca bulabilirdim."
-    "Fakat bu sefer öyle esrarengiz, abes bir atmosferle karşılaşmamıştım."
-    "Bu da demek oluyordu ki Kioko ya cidden rüyayla gerçeği karıştırıyordu, ki yorgun olmasını hesaba katardıysam bu pekala olabilirdi."
-    "Ya da bu kişi her kimdiyse ne yaptığını çok iyi biliyordu."
-    "Tıpkı Kara Katliam’dan sonra yaşadığı ilk hafıza kaybı gibi…"
+    "I shook my head."
+    "Usually when memories were clouded or erased, I could immediately tell by detecting the lingering traces of magic."
+    "But this time, I didn’t feel anything artificial, or out of place."
+    "This meant that either Kioko was confusing a dream with reality, which was highly probable given how sleepy she had been at that moment."
+    "Or Kioko had indeed had a stranger in her room, a stranger that was very skilled at manipulating memories."
+    "Just like Kioko’s first memory loss like after the Massacre…"
 
-    h "“Bu akademiden bir kimse olabilir mi?”"
+    h "“Could they be someone from this Academy?”"
 
-    v "“Sanmam. Üniforma giymiyordu, bizden birine de benzemiyordu. Kioko, bize neden daha önceden haber vermedin?”"
+    v "“I’m not sure. She wasn’t wearing any uniform, and didn’t look like one of our people. Kioko, why didn’t you inform us sooner?”"
 
     show Kioko ClosedEye with dissolve
 
-    k "“Gereksiz panik yaratmak istememiştim.”"
+    k "“I didn’t want to cause an unnecessary scene.”"
 
-    "Uzanıp elini kavradım. Böyle çekinceler bulunduğumuz zamanda çok tehlikeli sonuçlar doğurabilirdi."
+    "I reached out and took her hand in mine. This kind of dilemmas could have dangerous consequences."
 
-    v "“Sakın böyle şeyler düşünme. Çalkantılı bir dönemdeyiz o yüzden şüpheli görünen her şeyi bize söylemelisin.”"
+    v "“Don’t ever think like that. These are rough times, you should inform us og anything you suspect.””"
 
-    h "“Çok garip gerçekten… Ne yapacağız?”"
+    h "“This is so weird. What are we going to do?”"
 
-    v "“Ben…”"
+    v "“I…”"
 
-    "Aklımda bir fikir vardı. Belki beni diğer işlerimden alıkoyacaktı ama olsun."
-    "(Kardeşimden önemli değil.)"
-    "Hem hala olayların kilidini açacak anahtarın Kioko olduğunu düşünüyordum; o yüzden onu korumak, yanında olmak da bir nevi işti."
+    "I had an idea. Perhaps this would hold me back from the investigation, but still…"
+    "(Nothing matters more than my sisters.)"
+    "Plus Kioko was surely key to solving this mystery; protecting her, being there for her were also responsibilities of mine."
 
-    v "“Kioko, benim odamda yatmak ister misin?”"
+    v "“Kioko, would you like to sleep in my room for now?”"
 
     show Kioko Concerned with dissolve
 
-    k "“Sana yük olmayı istemem.”"
+    k "“I don’t want to be a burden.”"
 
-    v "“Lütfen saçma şeyler söyleme, sen benim kardeşimsin.”"
+    v "“Oh hush, you’re my sister.”"
 
-    k "“Ama işine engel olmaz mıyım?”"
+    k "“But wouldn’t I be in the way of your work?”"
 
-    v "“Hayır, önceliğim sizsiniz.”"
+    v "“No, you’re my priority.”"
 
     show Haru Troubled with dissolve
 
-    h "“Benle… Benle yatabilir isterse. Odamı paylaşabilirim.”"
+    h "“She can… She could sleep in my room too. I can take care of her.”"
 
-    "Gözlerimi şaşkınlıkla kırpıştırarak Haru’ya döndüm. Bu bir ilkti."
-    "Yani… Yalnız kalmak isteyip Akademi’den kaçmaya çalışması gözümde daha olasıydı."
+    "I looked at Haru aloft in wonder."
+    "(What’s next? Is she going to say that she missed Silver Hallow?)"
+    "To be frank… It would be more likely to assume she would prefer to stay alone in order to escape from the Academy."
 
-    v "“Olmaz. Ya senin de başına bir şey gelirse?”"
+    v "“No. What if something happens to you?”"
 
     show Haru Sideway with dissolve
 
-    h "“Hey… Tamam biliyorum senin kadar güçlü değilim ama o kadar da ne yaptığımı bilmiyor değilim.”"
+    h "“Listen, I know I am nowhere powerful as you, but it’s not like I don’t know what I’m doing.”"
 
-    "Haklıydı."
-    "Haru aslına bakılırsa hızlı mana yenileme yeteneğiyle içinde çok fazla potansiyel barındıran bir insandı."
-    "Tabii bu avantajını kullanmayı biliyor muydu, orası ayrıydı. Evet, pratik büyülerde üstüne yoktu fakat iş kompleks büyülere gelince kelimenin tam anlamıyla patlıyordu."
-    "Yine de hızlı olması sayesinde başlarına bir şey gelse dahi oradan kardeşini de kendini de çıkarabileceğine emindim."
+    "She was right."
+    "Haru could replenish her mana faster than any other Silver Hallow resident, which provided her great potential."
+    "(Of course, she doesn’t have the slightest clue about making use of this advantage but that is another story.)"
+    "Yes, practical magic was her thing, however when it came to the complex spells, “dreadful” would be the word you would use to describe her attempts."
+    "Her speed was what reassured me that they could get themselves out from any dangerous scenario."
 
-    v "“Pekala… Öyle olsun. Fakat dikkatinizi çeken olağandışı en küçük olayda bile beni haberdar edin. Çekinmek yok.”"
-    v "“Anlaştık mı?”"
+    v "“So be it. But if anything unusual catches your attention, then you need to inform me about it without hesitating.”"
+    v "“Are we clear?”"
 
-    "İkisi de onaylarcasına kafasını salladı."
+    "Both of them nodded in agreement."
 
     hide Haru with dissolve
     hide Kioko with dissolve
 
-    "(Ne olur ne olmaz, en iyisi mi bu odaya birkaç tane koruyucu totem koymalı…)"
+    "(Just to be safe, I should cast some protection spells.)"
 
     scene academyhallwaynight with fade
 
-    "Toplantıya geç kalmıştım."
-    "Ve Akademi’yi başlı başına iyi bilmediğim için ışınlanamıyordum da."
-    "Aynı zamanda Asha yabancıların yanında kullandığımız büyüler konusunda dikkatli olmamızı, onları ürkütebileceğimizi söylemişti."
-    "(Koca koca binalar dikmeye, ulaşım araçları adı altında devasa kütleleri bir oradan bir buraya hareket ettirmeye bayılıyorlar fakat en basit büyülere bile hakim değillerdi, öyle mi?)"
+    "I was late for the meeting."
+    "And since I didn’t know the Academy very well, teleporting was out of question."
+    "Asha also warned us about the casting spells around the Outsiders, to be cautious of not scaring them."
+    "(It is almost comical to think that they are the same people who built huge stone walls, invented enormous “transportation vehicles”. And yet they are afraid of such simple spells.)"
 
     scene academyhallwaynight with dissolve:
         xpos 0.2 ypos 1.5 xanchor 0.5 yanchor 1.0 zoom 2.0
 
-    "(Pekala, burası olmalı.)"
+    "(Alright, it must be here.)"
 
     play sound doorknocking noloop
 
-    "Kapıyı tıklattıktan sonra cevap beklemeden içeri girdim."
+    "After knocking on the door, I entered the room without waiting for an answer."
 
     scene 4knights with fade
 
@@ -1054,21 +1059,21 @@ label venaprologue:
 
     scene 4knights with fade
 
-    "Gözüme ilk çarpan odanın en gözler önünde olan kanepesine yerleşmiş birkaç tanımadık yüzdü."
-    "Sarışın üçlünün prensler, ötekininse Grandük olduğu kanısına varmıştım."
-    "Hareketsiz ve sessiz durmaları kaldığımız köydeki çiftçinin vitrin bebeklerini anımsatmıştı bana."
-    "Her biri göz kamaştıracak kadar güzel insanlardı ama ben de böyle şeylerden etkilenecek biri değildim."
+    "The first thing that caught my eye were the unfamiliar faces sitting on the couch near the centre of attention."
+    "After a moment, I realized that the blond trio must be the princes, and the other one should be the Grand Duke."
+    "Their motionless seating arrangement reminded me of something I'd seen while visiting a neighbouring village, a collection of beautiful dolls lined up inside a glass display case."
+    "Each one of them looked gorgeous, dazzling almost. But I was not one to be impressed by such things."
 
-    a "“Vena! Sonunda geldin, biz de seni bekliyorduk.”"
+    a "“Vena! There you are, we’ve been waiting for you.”"
 
-    "Asha’nın neşeli bir sesle konuşmasıyla Grandük’ün de elinde tuttuğu kağıdın arkasından homurdanması bir olmuştu."
+    "I heard Asha’s cheerful welcome and the Grand Duke’s grumbling behind the paper he held at the same time."
 
-    gr "“Evet, bir oda dolusu insan bir olmuş sizi bekliyorduk.”"
-    gr "“Hem geç kalma cüretinde bulunuyor hem odaya izin istemeden dalıyor, üstüne üstlük özür dilemiyor ve tahtın varislerine saygısızlık ediyorsunuz.”"
-    gr "“Ki bunun bizim ülkemizde ölüm cezası vardır.”"
+    gr "“Yes, we, a whole room full of people, were waiting for your arrival.”"
+    gr "“You have quite the nerve to be late, unapologetic, and disrespectful towards the heirs of the throne simultaneously.”"
+    gr "“Especially as the last charge carries the death penalty in some cases.”"
 
-    "Şaşkınlıktan ağzım açık kalmıştı."
-    "Aynı gün içerisinde bu iki oluyordu."
+    "I gaped at him, shocked."
+    "This was the second time today I had been scolded like that."
 
     scene academyhallway with flash
     show Orphina Gritting with dissolve
@@ -1076,54 +1081,55 @@ label venaprologue:
     hide Orphina
     scene 4knights with flash
 
-    "Nasıl bir yere gelmiştik biz böyle? Şuna bak, öldürecekmiş beni! Hele hele!"
+    "What kind of place was this? He was the one with the nerve to threaten me like that!"
 
-    v "“Senin ülken, senin kralın, senin tahtın… Benim değil. Bunların hiçbiri beni bağlamıyor ne yazık ki.”"
+    v "“It’s your country, your king and your throne. Not mine. None of those concerns me.”"
 
-    "En sonunda bana bakma tenezzülünde bulunmuştu. Mavi gözlerinde saklamadığı soğuk bir öfke vardı."
-    "Sanki bir düşmanı süzüyor gibiydi. Bu düşünce elimde olmadan suratımda alaycı bir gülümseme belirmesine sebep oldu."
+    "Finally he deigned to grace me with eye contact. He didn’t even bother to conceal the look of chilling rage that curdled in his bright blue orbs."
+    "He glared at me as if I was his enemy. I couldn’t stop my lips back from twisting into a wry smile in response."
 
-    gr "“Size hangi ülkeye, krala, tahta sığındığınızı hatırlatmak isterim {i}Leydi Vena{/i}.”"
+    gr "“I would like to remind you which country, which king and which throne you are currently under the protection of, {i}Lady Vena{/i}.”"
 
-    "İsmimi söyleyişinde kinayeli bir tını vardı."
+    "He pronounced my name in a sarcastic tone."
 
-    u "“Sorun değil. Doğru diyor zaten.”"
+    u "“It’s all fine. She’s telling the truth anyway.”"
 
-    "Grandük derin bir iç çekmiş ve tekrardan önündeki kağıda odaklanmıştı."
+    "Grand Duke took a deep breath, and focused on the paper before him once again."
 
-    gr "“Bu fırsatı genç hanıma bir ders vermek adına kullanmanızı öneririm Ekselansları, zira yılanın başını küçükken ezmeli.”"
+    gr "“Your Highness, I heartily suggest you to use this opportunity to teach the young lady some manners, it’s best if you nip this kind of behaviour in the bud.”"
 
-    "(Genç hanım mı?)"
-    "Burada genç olan biri varsa o da bu kendini bilmezdi."
+    "(Young lady?)"
+    "It was this arrogant boy who was young, not me."
 
-    v "“Üzülerek söylüyorum ki {i}Grandük{/i}, ben 386 yaşındayım.”"
+    v "“Sorry to inform you {i}Grand Duke{/i}, but to be precise I am 386 years old.”"
 
-    "Gözlerinde şaşkınlığını belli edercesine küçük bir ışıltı belirmiş, ardından sanki hiçbir şey olmamış gibi önündeki dosyaya ilgisini vermişti."
+    "He twitched, a shock going through his features, quickly and carefully hidden. His attention returned to the paper."
 
-    gr "“Ne güzel, ne güzel! Bu yaşınıza gelmiş ama adabımuaşeretten payınızı alamamışsınız.”"
+    gr "“How wonderful, how wonderful! You’ve spent all these years without learning proper manners.”"
 
+    "(…)"
     "(Bakalım hayatına bir domuz olarak devam ederken de adabımuaşeretten bahsedebilecek misin?)"
 
     a "“Ahem!”"
 
-    "Manamın etrafımda toplanmaya başladığını fark edince Asha araya girme gereği duymuştu."
+    "Asha must have realized how my mana had begun to gather up around me, because of my anger."
 
-    a "“Gerilmeyelim lütfen, ne de olsa birlikte çalışacağız.”"
-    a "“Dük, lütfen Vena’nın başka bir dünyada doğduğunu unutmayın. Kendisi saygısız bir insan değildir, hatta Waceera’nın en sevdiği öğrencilerinden biriydi.”"
-    a "“Ve aynı zamanda burada bana en çok yardımcı olan insan.”"
+    a "“Let’s not fight, we are trying to work together after all.”"
+    a "“Duke, please don’t forget that Vena is from another world, another culture. She’s not a disrespectful person, and is in fact Waceera’s favourite.”"
+    a "“She is also the person that helps me the most.”"
 
     gr "“Hah…”"
 
-    a "“Vena… Sana beraber iş yapacağımız insanları takdim edeyim.”"
-    a "“Ekselansları Birinci Prens Lionel Nicolas Asquith…”"
-    a "“Ekselansları İkinci Prens Landon Cyril Asquith…”"
-    a "“Ekselansları Üçüncü Prens Andrel Xerxes Asquith…”"
-    a "“Ve Ekselansları Pertone Grandükü Marley Augustine Arkwright.”"
+    a "“Vena… Let me introduce you to the people we will work with.”"
+    a "“His Highness the First Prince Lionel Nikolas Asquith…”"
+    a "“His Highness the Second Prince Landon Cyril Asquith…”"
+    a "“His Highness the Third Prince Andrel Xerxes Asquith…”"
+    a "“And His Excellency the Grand Duke of Pertone, Marley Augustine Arkwright.”"
 
     scene academylivingroom with fade
     show Marley Irritated at right with dissolve
 
-    m "“Cyril ve Xerxes’in unvanlarını unuttun.”"
+    m "“You left out the other titles and holdings of the Princes, not to mention you didn’t address them with proper courtesy.”"
 
     show Asha Confused at left with dissolve
 
@@ -1131,145 +1137,156 @@ label venaprologue:
 
     show Marley Sighing with dissolve
 
-    m "“Cyril Credale, Xerxes de Millford Dükü.”"
-    m "“Ve Lionel de Brefcaster.”"
+    m "“Cyril is the Duke of Credale, and Xerxes is Millford’s.”"
+    m "“And Lionel, Brefcaster’s.”"
 
-    "Başkalarını haşlasa da kendisinin prenslere isimleriyle hitap etmesinden Grandük’ün çocuklara yakın olduğu anlaşılıyordu."
+    "He called those kids simply by their first names, something he would have scolded anyone else that did the same. They must be close, I realized."
+    "And maybe the man also wanted to show his political strength off too, given how he spoke in such a fearless tone."
 
     show Asha Default with dissolve
 
-    a "“Ah… Anlıyorum.”"
+    a "“Ah… I see.”"
 
-    "(Neden kendini ezdiriyorsun Asha?)"
+    "(Why are you letting him walk over you Asha?)"
 
     hide Marley with dissolve
     pause 0.5
     show Cyril Irritated at right with dissolve
 
-    c "“Lütfen onu dinlemeyin, gerçekten önemli değil.”"
+    c "“Please don’t listen to him, it’s really not important.”"
 
     hide Asha with dissolve
     pause 0.5
     show Lionel Default at left with dissolve
 
-    l "“Evet, böyle şeylerle vakit de kaybetmeyelim.”"
-    l "“Sanıyorum burada olmamızın sebebini hepiniz biliyorsunuz.”"
+    l "“Yes, let’s not waste any more time with petty squabbles.”"
+    l "“I assume you are all aware of the reason why we are gathered here tonight.”"
 
-    "Salondan onaylarcasına sesler yükseldi. Bense bir köşeye geçip sessizce izlemeye koyuldum."
+    "The room filled with murmurs of approval. In the meanwhile, Now that I was out of the spotlight, I got myself a seat out of sight in order to observe how all this would unfold."
+    "The First Prince called out to the Grand Duke with clear disdain."
 
-    l "“Grandük, rica etsem durumu izah edebilir misiniz?”"
+    l "“{i}Marley{/i}, please explain the situation”.”"
+
+    "{i}Ah…{/i} It was weird to see how people used each other’s first names to mock them in this world."
+    "(What nonsense.)"
 
     hide Cyril with dissolve
     hide Lionel with dissolve
     show Marley Default at truecenter with dissolve:
         zoom 1.5
 
-    "Grandük sonunda elindeki kağıdı indirmiş ve laubali bir hareketle önündeki masanın üstüne fırlatmıştı."
-    "Bacak bacak üzerine atarken odadaki herkesi adeta yukarıdan süzüyordu."
-    "(Komik… Aralarındaki rütbesi en düşük kişi o fakat en kibirlileri de o.)"
+    "Folding the paper, the Grand Duke threw it to the table before him in a rakish fashion."
+    "He observed everyone else in the room while crossing his legs."
+    "(Funny… The lowest rank among them was his, yet he held the title for being the most conceited as well.)"
 
-    m "“Whemond, Kızıl Körfez’in göz bebeğidir. Bilmiyorsanız öğrenin.”"
-    m "“Whemond’da bir şeylerin ters gitmesi demek, buradaki deniz ticaretinin sekteye uğraması demek.”"
+    m "“Whemond is the pride and joy of the Crimson Bay. If you don’t know, it’s high time for you to learn.”"
+    m "“If something is going wrong in Whemond, it means something is going wrong with our trade.”"
 
     show Marley ClosedEye with dissolve
-    m "“Deniz ticaretinin sekteye uğraması demekse sadece bizim değil, bizimle ticari anlaşmaları olan ülkelerin de sinirlenmesi demek.”"
+    m "“Something going wrong in trading would not only anger us, but also our impatient customers beyond this land.”"
+    m "“I don’t even talk about how such event would shake the Kingdom as a whole.”"
 
-    "Dediklerini bir çocuğa anlatır gibi sabırla, tane tane açıklıyordu fakat gözlerindeki o huzursuz parıltı tahammül seviyesinin son raddede olduğunu göstermekteydi."
+    "His words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
 
     show Marley Default with dissolve
 
-    m "“Whemond’ın yüzyıllardır bozulamayan huzuru şu geride bıraktığımız sene boyunca birtakım alışılagelmedik olaylar silsilesiyle çalkalanıp durdu.”"
+    m "“The long-sustained, unshakeable peace of Whemond has been taking hits over the last year by things that were beyond our understanding.”"
 
     show Marley Frowning with dissolve
 
-    m "“Ve bu ne tesadüftür ki sizin varışınızın hemen öncesi.”"
+    m "“And what a coincidence! All these events have started to happen just before your arrival.”"
 
-    "Dramatik bir şekilde sözlerini kesip odayı sessizlik kaplamasına neden oldu. Bunu fırsat bilen Asha da konuşmaya başlamıştı."
+    "He paused heavily for dramatic effect.Asha, however, took the opportunity to speak up."
 
     show Marley Default:
         xalign 0.5
         linear 1 xpos 0.8
     show Asha Default at left with dissolve
 
-    a "“Whemond’ın yüzyıllarca yıldır huzuruna karşın bizim binlerce yıllık huzurumuz…”"
+    a "“Well, a few thousand years of peace of Silver Hollow against Aelthus’ a few centuries old peace… We are not in a good situation either.”"
 
-    "Grandük sorar bir ifadeyle Asha’ya dönmüştü."
+    "Confused, the Grand Duke looked at her."
 
-    m "“Binlerce? Sadece bin yıldır burada değilsiniz diye biliyorum.”"
+    m "“Thousands? I thought it was merely a thousand years since your people’s disappearance.”"
 
     hide Marley with dissolve
     hide Asha with dissolve
 
     "(…Ah.)"
-    "Söyledikleri kısa bir süre de olsa kafamda yankılanmıştı."
-    "Neden hala şaşırıyordum bilmiyordum, Dış Dünya’da doğup büyüdükleri son bir aydır sır değildi zaten."
-    "Waceera’nın bana yalan söylemesi miydi canımı sıkan?"
-    "(Hayır, hayır… Onun bir bildiği vardır elbet. Öyle körü körüne hareketlerde bulunmaz.)"
-    "Odaya göz gezdirdim."
-    "Işık Hamillerinin birçoğunun Asha kadar yaşlı kadınlar olduğunu düşünürsem onların da Dış Dünya’da doğmuş olmaları muhtemeldi."
-    "Peki onlar neden daha önce hiç seslerini çıkarmadılar?"
-    "Cevabı aslında gün gibi ortadaydı, sadece kabullenmekte sıkıntı yaşıyordum."
-    "(Çemberler…)"
-    "Bu bulutlu düşüncelerden kendimi kurtarmak için Dük’ün söylediklerine odaklanmaya karar verdim."
+    "Even for a brief time, what he said echoed in my mind."
+    "I shouldn’t have been surprised any longer. It’d not been a secret that Asha and the others had been born in the Outer World ever since the last month."
+    "Was it the fact that Waceera had lied to me that bothered me?"
+    "(No, no… She must have had a reason, or she wouldn’t have done such thing.)"
+    "I glanced around the room."
+    "Considering most of the Light Bearers were as old as Asha, they must also have been born in this world."
+    "Then why hadn’t they talked about it before?"
+    "The answer was actually as clear as day. But I had a hard time admitting it."
+    "(Because of the circles…)"
+    "To distract myself from the grim thoughts trying to get ahold of me, I tried instead to focus on the room’s conversation."
 
     scene blackscreen with fade
     pause 1.5
     scene academylivingroom with fade
 
-    "Toplantının üstünden bir süre geçmiş, bizlere ne konularda yardım istenildiği anlatılmıştı."
-    "İlgimize çarpan olağan dışı hareketleri hemen kendileriyle paylaşmamızı istiyorlardı."
-    "Aklıma Kioko’nun bugün yaşadığı olay gelmişti fakat bizleri göz hapsinde tutmak isteyen insanlara ne kadar güvenebilirdim, muammaydı."
-    "Kardeşimin Kara Katliam’la ilişiğini bizim dışımızda bir tek Asha ve Zuri biliyordu."
-    "Göz ucuyla Almasi’ye baktım."
+    "It took a while for meeting to reach an end. They had informed us about the state of Whemond briefly, and talked about the things they needed our help for."
+    "(To the depths of Shore with Whemond! I wouldn’t care if the city was burnt to the ground.)"
+    "We were supposed to report to them any unusual sightings."
+    "Which reminded me of what had happened to Kioko earlier, Perhaps that was something to be reported. But then, how much could a prisoner trust to their guard?"
+    "The only people who knew about Kioko’s relevance to the Black Massacre, other than Haru and myself, were Asha and Zuri."
+    "Out of the corner of my eye, I looked at Almasi."
 
     show Almasi Default with dissolve
 
-    "(Onu bu kurtların önüne atmaya niyetim yok.)"
+    "(I’ve no intention of throwing her to these wolves.)"
 
     hide Almasi with dissolve
 
     show Marley Default at truecenter with dissolve:
         zoom 1.5
 
-    m "“…Evet. Böylelikle bugünkü toplantımıza noktayı koyuyorum.”"
-    m "“Fakat son olarak… Ben veya Lionel ile direkt çalışacak iki kişi lazım. Raporları getirip götürecek…”"
-    m "“Hem cadı tarafının hem de bizim tarafımızın sözcüsü olacak iki insan.”"
+    m "“…Yes. And with that, I am concluding this meeting.”"
 
-    "(Cadı…)"
-    "Dış Dünya’ya vardığımızdan beri bize böyle sesleniyorlardı: Cadı."
-    "Bu kelime bazen ağızlarından tükürürcesine çıkıyor, öteki zamanlardaysa sanki herkesin bildiği bir erdemmişçesine izah ediliyordu."
-    "Ama bir şeyin farkındaydım."
-    "Her ne tür bir bağlamda kullanılırsa kullanılsındı, her zaman dışlayıcı bir tınısı vardı."
-    "Elimde değildi, rahatsız oluyordum."
+    show Marley ClosedEye with dissolve
+    m "“But before that… We need two witches to assist me and Lionel, to deliver the reports…”"
+
+    show Marley Cocky with dissolve
+    m "“And to be the spokesperson of both sides.”"
+
+    "(Witch…)"
+    "This was what outsiders had been calling us."
+    "Sometimes it was pronounced like a curse, and other times it was called like a fact known to everyone."
+    "But I was aware of something."
+    "No matter the reason it was used, there was always a shunning tone behind the word."
+    "And I couldn’t help but feel uncomfortable."
     "…"
-    "Dük, şöyle bir Asha’ya bakmıştı."
+    "The Duke stared at Asha."
 
     show Marley Mocking with dissolve:
         zoom 1.5
 
-    m "“Kardeşiniz olduğundan bahsetmiştiniz. Sanırım siz ve o bizimle çalışacaksınız, yoksa işiniz başınızdan aşkın olduğundan başka birini mi tercih edersiniz?”"
+    m "“Earlier, you told me about your sister. I guess it would be the two of you that would work with us, or are you so busy that you would pass the job off to someone else?”"
 
-    "Ne kadar kibar konuşsa da laflarının altında bir kinaye yatmaktaydı resmen. Elimde olmadan dişlerimi sıktım."
-    "Asha ise adamın dediklerine gülmüştü."
+    "There was a clear insinuation in those words, despite how kindly they were said. I gritted my teeth."
+    "Asha on the other hand, giggled."
 
-    a "“Ahaha, hayır. Ben çalışacağım lakin kardeşime, yani Zuri’ye gelirsem… O kimseyle çalışabilecek durumda değil. O yüzden…”"
+    a "“Haha, no. I will see to this myself, however Zuri… She’s not able to work for now, so instead…”"
 
     hide Marley with dissolve
 
-    "Sırtımda bir el hissettim."
-    "(Şaka yapıyorsun Asha.)"
+    "I felt a hand on my back."
+    "(You’re kidding me.)"
 
-    a "“Vena, kimle çalışmak istersin?”"
+    a "“Vena, whom would you prefer to work with?”"
 
-    "Bir saniyeliğine şaşkınlıktan nefesimi tutmuş, ardından hızlıca kendimi toparlamıştım. İnanılır gibi değildi ama Asha’yı da ortada bırakmayacaktım."
+    "I genuinely gasped for a second, then cleaned up my act. Outrageous as it was, I was not going to sell her down the river."
 
-    v "“Önce sen seç.”"
+    v "“You should pick first.”"
 
-    a "“Önden gençler.”"
+    a "“Youngsters first.”"
 
 
     menu:
-        "Tartışmanın bir anlamı yoktu. Tekrardan koltukta oturan figürlere baktım ve kararımı verdim."
+        "There was no point in protesting. I glanced at the figures sitting across the room one by one again, and made a choice."
 
         "Lionel":
             jump venalionel
@@ -1282,81 +1299,81 @@ label venaprologue:
 label venalionel:
 
 
-    "Kraliyet ailesiyle arayı iyi tutmaya çalışmak bir Dük’e yaranmaktan çok daha faydalı geliyordu kulağa."
-    "Ve bu Asha’ya bırakmamam gereken bir görevdi."
+    "Getting along with the Royal family sounded more advantageous than having the favour of a Duke…"
+    "And it was a task I shouldn’t leave in Asha’s hands."
 
-    v "“Öyleyse Birinci Prens ile birlikte çalışacağım.”"
+    v "“Then I’ll work with the First Prince.”"
 
     show Lionel Laughing with dissolve
 
-    l "“Peki o zaman. Güzel oldu, iyi anlaşabileceğimizi düşünüyorum.”"
+    l "“Alright then… I think we will get along pretty well.”"
 
-    "Sorarcasına tek kaşımı kaldırsam da dediklerine daha fazla açıklık getirmemişti."
+    "Even though I arched a brow at this statement, the Prince didn’t elaborate."
 
     hide Lionel with dissolve
     show Asha Default at left with dissolve
 
-    a "“Ben de Grandük ile birlikte çalışıyorum o halde.”"
+    a "“And I am working with the Grand Duke.”"
 
     show Marley ClosedEye at right with dissolve
 
-    m "“Yarın Arkwright Şatosu’na gelmeniz için size bir araç göndereceğim.”"
+    m "“I will send a Bee at first light for you to take to the Arkwright manor.”"
 
     hide Marley with dissolve
     hide Asha with dissolve
     show Lionel Default with dissolve
 
-    l "“Ben de size Saray’a gelmeniz için bir tane göndereceğim leydim.”"
+    l "“I will do so as well, for your arrival to the Palace, my lady.”"
 
-    "{i}Leydi{/i}… Daha şehre varalı bir gün bile olmamıştı fakat şimdiden buradaki herkesin unvanlara garip bir şekilde takıntılı olduğunu fark etmiştim."
+    "{i}Lady{/i}… It’d been merely a day since our arrival at the city but I had realized already that everyone here was obsessed with titles."
 
-    v "“Sabah görüşürüz öyleyse, {i}prensim{/i}.”"
+    v "“I shall see you in the morning then, {i}my Prince{/i}.”"
 
     show Lionel Laughing with dissolve
 
-    "Lionel cevabıma gülmüştü."
-    "Samimi bir gençle vakit geçirmek en azından yanındaki huysuzla bir gecede bin sene yaşlanmaktan iyiydi."
+    "Lionel laughed heartily at my response."
+    "Upon reflection, spending time with a fine young man could be worthier of my time than aging a millennia in a single night with that grumpy Duke."
     pause 3.0
     return
 
 label venamarley:
 
-    "Asha’yı Grandük’e bırakamazdım. Onu çiğ çiğ yiyeceğine şüphem yoktu."
-    "(Aynı zamanda biri bu adamı denetim altında tutmalı ki destek yerine köstek olmasın.)"
+    "I couldn’t let Asha deal with that man. I had no doubt she would be eaten alive."
+    "(Also someone should keep that man in check in case he proves to be more of a hindrance than a help.)"
 
     show Marley Sighing with dissolve
 
-    "Gözlerimi kısıp söz konusu kişiye şöyle bir süre baktım. O da kendisini seçtiğimi anlamış olacaktı ki derin bir nefes çekti."
+    "Narrowing my eyes, I glared at him. From the way he sighed, I sensed that he understood my intention."
 
-    v "“Ben Grandük ile çalışayım o halde.”"
+    v "“I’ll work with the Grand Duke.”"
 
     show Marley Troubled with dissolve
 
-    m "“İkimize de işkence çektirmeyi bu kadar mı istiyorsun?”"
+    m "“You really wish to torment us both, don’t you?”"
 
     show Marley Irritated with dissolve
 
-    m "“Hadi bakalım. Öyle olsun. Yarın sabaha seni alması için buraya bir araç göndereceğim.”"
+    m "“Fine then, so be it. Tomorrow, at first light, I will send a ship to collect you from the Academy.”"
 
     show Marley Sighing with dissolve
 
-    m "“Olur da ona da geç kalırsan Arkwright desteği bu projeden elini kolunu tamamıyla çeker.”"
+    m "“If you were to be late, the Arkwrights would withdraw their support for this project as a whole.”"
 
-    "Cüretkar bir şekilde gülümsedim."
+    "I smiled daringly."
 
-    v "“‘Geç kalmak’ benim lügatımda olan bir şey değil, yaptığım büyüler gereksiz yere kısıtlanmadığı müddetçe.”"
+    v "“‘Being late’ was not a phrase in my book before, and it still wouldn’t be if someone hadn’t restricted the usage of magic.”"
 
     hide Marley with dissolve
 
-    "Asha dediklerimiz üzerine iç geçirmişti."
+    "Asha sighed upon our exchange."
 
     show Asha concerned with dissolve
 
-    a "“Siz ikiniz birbirinizi boğazlamadan bu süreci atlatırsanız iyi olur.”"
+    a "“I hope this ordeal will be finalized before one of you attacks the other.”"
 
     show Asha ClosedEye with dissolve
 
-    a "“Her neyse, geç oldu. Dağılalım artık.”"
+    a "“In any case, it’s quite late. Let’s end this meeting here.”"
 
     pause 3.0
     return
