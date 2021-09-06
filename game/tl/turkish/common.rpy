@@ -1129,3 +1129,15 @@ translate turkish strings:
     # renpy/common/_errorhandling.rpym:694
     old "Copies the errors.txt file to the clipboard as Markdown for Discord."
     new ""
+# TODO: Translation updated at 2021-09-06 14:20
+
+translate turkish strings:
+
+    # renpy/common/00preferences.rpy:480
+    old "renderer menu"
+    new ""
+
+    # renpy/common/00preferences.rpy:483
+    old "accessibility menu"
+    new ""
+

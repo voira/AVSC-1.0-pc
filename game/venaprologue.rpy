@@ -26,10 +26,19 @@ label venaprologue:
     scene traincomp with fade
     pause 1.5
 
-    show Haru Default with dissolve
+    show Haru Default with dissolve:
+        yalign 1 zoom 1.8
+
     h "“It’s surprising to see that she can sleep.”"
 
+    hide Haru Default with dissolve
+
     "I glanced at Kioko out of the corner of my eye."
+
+    show Haru Default at right with dissolve:
+        xalign 0.5 yalign 1 zoom 1.5
+        linear 0.5 xalign 0.9
+
 
     show kiokoeye at left with easeinleft:
         xalign -0.2 yalign 1
@@ -41,7 +50,8 @@ label venaprologue:
 
     v "“And it’s surprising to see how you can be this joyous after all the things that happened.”"
 
-    show Haru Mischievous with dissolve
+    show Haru Mischievous with dissolve:
+        yalign 1 zoom 1.8
 
     "In response, Haru puffed her cheeks."
 
@@ -51,7 +61,9 @@ label venaprologue:
 
     v "“And the last.”"
 
-    show Haru Concerned with dissolve
+    show Haru Concerned at left with dissolve:
+        xalign 0.5 yalign 1 zoom 1.5
+        linear 0.5 xalign 0.9
 
     "It would be healthier for her if she didn’t get carried away by this ordeal. There was a possibility that we might not be able to see this place again for hundreds, or thousands of years after we returned to our home."
     "Which I believed to be the best for everyone."
@@ -82,7 +94,8 @@ label venaprologue:
     "She glared at me for a while, but that was fine."
     "Many of our people had lost their lives, Silver Hallow was in ruins, and our leader was missing. I would not feel remorse because I got angry at a child who acted like she was going on a vacation in a dire situation such as this."
 
-    show Haru Sideway with dissolve
+    show Haru Sideway at center with dissolve:
+        yalign 1 zoom 1.8
 
     h "“I will get some air.”"
 
@@ -92,7 +105,8 @@ label venaprologue:
 
     v "“Where are you going?”"
 
-    show Haru Default with dissolve
+    show Haru Default with dissolve:
+        yalign 1 zoom 1.8
 
     h "“Just taking a walk in the aisle. My legs have gone numb.”"
 
@@ -157,7 +171,8 @@ label venaprologue:
 
     "Finally, I found myself in the village center. And there was the person I was looking for, crouched down next to the fountain, crying in agony while clasping a dead body."
 
-    show Kioko Crying with dissolve
+    show Kioko Crying with dissolve:
+        yalign 1 zoom 1.8
 
     "Surely it was a tragic scene. Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
     "But I hadn’t come here to console anyone."
@@ -167,11 +182,13 @@ label venaprologue:
 
     scene forest with flash
 
-    show Kioko Default with dissolve
+    show Kioko Default with dissolve:
+        yalign 1 zoom 2
 
     k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
 
-    show Kioko Concerned with dissolve
+    show Kioko Concerned with dissolve:
+        yalign 1 zoom 2
 
     k "“But I can’t remember. I just can’t.”"
 
@@ -255,14 +272,17 @@ label venaprologue:
     "I was back to square one."
     "Loud voices, almost like yelling, could be heard outside. And the compartment was still one person short. Rubbing my eyes, I wondered where Haru could be."
 
-    show Kioko Confused with dissolve
+    show Kioko Confused with dissolve:
+        yalign 1 zoom 1.5
+
     k "“Vena… Why didn’t you seek my permission for that?”"
     "(Oh…)"
     "I wetted my lips before taking a deep breath. There was no anger in her features, but she clearly felt uncomfortable."
 
     v "“Since you were having a nightmare, I thought it would be good to check if those blocked memories could be reached.”"
 
-    show Kioko Melancholic with dissolve
+    show Kioko Melancholic with dissolve:
+        yalign 1 zoom 1.5
 
     k "“You are suspicious of me, aren’t you?”"
 
@@ -358,9 +378,9 @@ label venaprologue:
 
     show Asha Default with dissolve
     show Kioko Default at right with dissolve:
-        ypos 1.63 zoom 1
+        ypos 1.63 zoom 1.2
     show Haru Default at left with dissolve:
-        xpos 0.03 ypos 1.63 zoom 1
+        xpos 0.03 ypos 1.63 zoom 1.2
 
     a "“What’s the problem? We can arrange a one-day trip.”"
 
@@ -432,8 +452,8 @@ label venaprologue:
     "(…)"
     "Just when I was about to get lost in my memories, Haru’s voice shook me back to reality."
 
-    show Haru Default at left with dissolve
-    show Kioko Default at right with dissolve
+    show Haru Default at Position(xpos=0.20, xanchor=0.50, ypos=0.8, yanchor=0.50) with dissolve
+    show Kioko Default at Position(xpos=0.80, xanchor=0.50, ypos=0.8, yanchor=0.50) with dissolve
 
     h "“So… We are returning to our rooms?”"
     v "“You two can leave. I still have work to do.”"
@@ -639,12 +659,16 @@ label venaprologue:
 
     "(…Huh?)"
 
-    show Ealdwine Default with dissolve
+    show Ealdwine Default at right with easeinright:
+        yalign 1 zoom 1.5
 
     "Since my attention was totally drawn in by the meeting, I hadn’t realize the stranger standing in the doorway."
     "So they’d already begun set a watch on us."
 
     hide kiokoeye with dissolve
+
+    show Ealdwine Default at center with ease:
+        yalign 1 zoom 1.5
 
     v "“I don’t know, but that’s the uniform of the Academy.”"
 
@@ -809,7 +833,8 @@ label venaprologue:
     "(…What?)"
     "Not believing what I’d heard, I yanked my hands free."
 
-    show Orphina Default with dissolve
+    show Orphina Default with dissolve:
+        yalign 1 zoom 1.8
 
     v "“Pardon?”"
 
@@ -845,12 +870,15 @@ label venaprologue:
     "I had never been one to avoid responsibilities, but even I had a hard time imagining the workload of the coming days."
     "(I wonder what the King’s sons will talk about. They will at least provide some useful information, I hope.)"
 
-    show Haru Default at left with dissolve
-    show Kioko Default at right with dissolve
+    show Haru Default at left with dissolve:
+        yalign 1 zoom 1.2
+    show Kioko Default at right with dissolve:
+        yalign 1 zoom 1.2
 
     k "“I… Want to tell you something.”"
 
-    show Kioko ClosedEye with dissolve
+    show Kioko ClosedEye at center with ease:
+        yalign 1 zoom 1.8
 
     k "“But please don’t panic.”"
 
@@ -858,19 +886,22 @@ label venaprologue:
     "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
     "I looked at her, concerned."
 
-    show Kioko Sideway with dissolve
+    show Kioko Sideway with dissolve:
+        yalign 1 zoom 1.8
 
     k "“I think… I think I saw someone in my room today.”"
 
     "My eyes widened for a brief second."
     "(Get yourself together. If you get anxious then she sure will too.)"
 
-    show Haru Gaping with dissolve
+    show Haru Gaping zorder 1 at left with ease:
+        yalign 1 zoom 1.8
 
     h "“What?”"
     v "“Who?”"
 
-    show Kioko Concerned with dissolve
+    show Kioko Concerned zorder 2 at right with dissolve:
+        yalign 1 zoom 1.8
 
     k "“I-I don’t know.”"
     k "“It might have been a dream, I’m not sure.”"
@@ -935,14 +966,17 @@ label venaprologue:
 
     scene academylivingroom with fade
 
-    show Kioko Default at right with dissolve
-    show Haru Default at left with dissolve
+    show Kioko Default zorder 1 at right with dissolve:
+        yalign 1 zoom 1.8
+    show Haru Default zorder 2 at left with dissolve:
+        yalign 1 zoom 1.8
 
     "Both of my sisters were looking at me with curious eyes."
 
     v "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
-    show Haru Concerned with dissolve
+    show Haru Concerned with ease:
+        yalign 1 zoom 1.8
 
     h "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
@@ -1171,7 +1205,7 @@ label venaprologue:
     hide Cyril with dissolve
     hide Lionel with dissolve
     show Marley Default at truecenter with dissolve:
-        zoom 1.5
+        yalign 1 zoom 1.5
 
     "Folding the paper, the Grand Duke threw it to the table before him in a rakish fashion."
     "He observed everyone else in the room while crossing his legs."
@@ -1233,14 +1267,15 @@ label venaprologue:
     "The only people who knew about Kioko’s relevance to the Black Massacre, other than Haru and myself, were Asha and Zuri."
     "Out of the corner of my eye, I looked at Almasi."
 
-    show Almasi Default with dissolve
+    show Almasi Default with dissolve:
+        yalign 1 zoom 1.5
 
     "(I’ve no intention of throwing her to these wolves.)"
 
     hide Almasi with dissolve
 
     show Marley Default at truecenter with dissolve:
-        zoom 1.5
+        yalign 1 zoom 1.5
 
     m "“…Yes. And with that, I am concluding this meeting.”"
 
@@ -1260,7 +1295,7 @@ label venaprologue:
     "The Duke stared at Asha."
 
     show Marley Mocking with dissolve:
-        zoom 1.5
+        yalign 1 zoom 1.5
 
     m "“Earlier, you told me about your sister. I guess it would be the two of you that would work with us, or are you so busy that you would pass the job off to someone else?”"
 
