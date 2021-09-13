@@ -3,9 +3,9 @@ define h = ("Haru")
 define k = ("Kioko")
 define a = ("Asha")
 define al = ("Almasi")
-define bbg = Character(_("A Silver Hallow Resident"))
+define bbg = Character(_("A Silver Hollow Resident"))
 define obg = Character(_("Another Person"))
-define dbg = Character(_("Another Silver Hallow Resident"))
+define dbg = Character(_("Another Silver Hollow Resident"))
 define gr = Character(_("Grand Duke"))
 define m = ("Marley")
 define c = ("Cyril")
@@ -55,7 +55,7 @@ label venaprologue:
 
     "In response, Haru puffed her cheeks."
 
-    h "“We don’t get the chance to leave Silver Hallow every day. This is a first-”"
+    h "“We don’t get the chance to leave Silver Hollow every day. This is a first-”"
 
     "I interrupted her quickly."
 
@@ -92,7 +92,7 @@ label venaprologue:
     hide Haru with dissolve
 
     "She glared at me for a while, but that was fine."
-    "Many of our people had lost their lives, Silver Hallow was in ruins, and our leader was missing. I would not feel remorse because I got angry at a child who acted like she was going on a vacation in a dire situation such as this."
+    "Many of our people had lost their lives, Silver Hollow was in ruins, and our leader was missing. I would not feel remorse because I got angry at a child who acted like she was going on a vacation in a dire situation such as this."
 
     show Haru Sideway at center with dissolve:
         yalign 1 zoom 1.8
@@ -128,8 +128,8 @@ label venaprologue:
     scene fogforest with fade
 
     "The nightmare of my sister took me to the place I’d been missing so dearly."
-    "I knew every single tree here. Every branch, every single hollow on them was familiar to me."
-    "But I hadn’t cast this spell to find peace in the Silver Hallow that now lived only in memories."
+    "I knew every single tree here. Every branch, every single Hollow on them was familiar to me."
+    "But I hadn’t cast this spell to find peace in the Silver Hollow that now lived only in memories."
     "Somewhere around here, Kioko must be witnessing an important event regarding the Black Massacre."
 
     play sound walking
@@ -174,7 +174,7 @@ label venaprologue:
     show Kioko Crying with dissolve:
         yalign 1 zoom 1.8
 
-    "Surely it was a tragic scene. Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
+    "Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
     "But I hadn’t come here to console anyone."
     "Finding the perpetrator was my main goal."
 
@@ -275,7 +275,7 @@ label venaprologue:
     show Kioko Confused with dissolve:
         yalign 1 zoom 1.5
 
-    k "“Vena… Why didn’t you seek my permission for that?”"
+    k "“Vena… Why didn’t you ask me beforehand?”"
     "(Oh…)"
     "I wetted my lips before taking a deep breath. There was no anger in her features, but she clearly felt uncomfortable."
 
@@ -413,7 +413,7 @@ label venaprologue:
     v "“I am speaking up for your own good, please don’t turn it into a competition.”"
 
     a "“That I won’t, let’s just say I’m stating a fact.”"
-    a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hallow. I can assure you.”"
+    a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hollow. I can assure you.”"
 
     "She stood, making ready to leave."
 
@@ -481,7 +481,7 @@ label venaprologue:
     "Never in my life had I spent a day sitting still on a seat as much as I’d done today. Why people preferred to torture themselves with that big mess they called a “train”, while they could simply teleport with magic was a mystery for me."
     "(All of my muscles are sore. Great…)"
     "Shaking my head with despair, I began to rub the ointment on my thighs. To think that we have to take that journey again…"
-    "(Only if we can go back to Silver Hallow…)"
+    "(Only if we can go back to Silver Hollow…)"
     "I dismissed those ominous thoughts before they started to take root in my mind. Whatever it took, we were going to find a way to return."
     "Standing up, I got closer to the window. Since the Academy floated in the air, the whole city could be viewed from up here."
 
@@ -688,7 +688,7 @@ label venaprologue:
 
     v "“You can’t shrug their questions off forever.”"
 
-    "Haru’d gone to help others, and at long last we were alone with Asha. I hadn’t approached her amidst the crowd in order to avoid unwanted attention."
+    "Haru had gone to help others, and at long last we were alone with Asha. I hadn’t approached her amidst the crowd in order to avoid unwanted attention."
 
     show Asha Concerned with dissolve
 
@@ -701,11 +701,11 @@ label venaprologue:
 
     "Questioning, I raised a brow."
 
-    v "“To where? I thought you said that we couldn’t go back to Silver Hallow due to the state it’s in.”"
+    v "“To where? I thought you said that we couldn’t go back to Silver Hollow due to the state it’s in.”"
 
     show Asha Default with dissolve
 
-    a "“I didn’t mean Silver Hallow.”"
+    a "“I didn’t mean Silver Hollow.”"
     a "“What I meant was the Land of the Dead.”"
 
     "I took a deep breath. It was clear as day what she was thinking of."
@@ -997,7 +997,7 @@ label venaprologue:
 
     "I reached out and took her hand in mine. This kind of dilemmas could have dangerous consequences."
 
-    v "“Don’t ever think like that. These are rough times, you should inform us og anything you suspect.””"
+    v "“Don’t ever think like that. These are rough times, you should inform us of anything you suspect.””"
 
     h "“This is so weird. What are we going to do?”"
 
@@ -1024,7 +1024,7 @@ label venaprologue:
     h "“She can… She could sleep in my room too. I can take care of her.”"
 
     "I looked at Haru aloft in wonder."
-    "(What’s next? Is she going to say that she missed Silver Hallow?)"
+    "(What’s next? Is she going to say that she missed Silver Hollow?)"
     "To be frank… It would be more likely to assume she would prefer to stay alone in order to escape from the Academy."
 
     v "“No. What if something happens to you?”"
@@ -1034,7 +1034,7 @@ label venaprologue:
     h "“Listen, I know I am nowhere powerful as you, but it’s not like I don’t know what I’m doing.”"
 
     "She was right."
-    "Haru could replenish her mana faster than any other Silver Hallow resident, which provided her great potential."
+    "Haru could replenish her mana faster than any other Silver Hollow resident, which provided her great potential."
     "(Of course, she doesn’t have the slightest clue about making use of this advantage but that is another story.)"
     "Yes, practical magic was her thing, however when it came to the complex spells, “dreadful” would be the word you would use to describe her attempts."
     "Her speed was what reassured me that they could get themselves out from any dangerous scenario."
@@ -1115,7 +1115,7 @@ label venaprologue:
 
     "What kind of place was this? He was the one with the nerve to threaten me like that!"
 
-    v "“It’s your country, your king and your throne. Not mine. None of those concerns me.”"
+    v "“It’s your country, your king and your throne. Not mine. None of those concern me.”"
 
     "Finally he deigned to grace me with eye contact. He didn’t even bother to conceal the look of chilling rage that curdled in his bright blue orbs."
     "He glared at me as if I was his enemy. I couldn’t stop my lips back from twisting into a wry smile in response."
@@ -1195,11 +1195,12 @@ label venaprologue:
     l "“I assume you are all aware of the reason why we are gathered here tonight.”"
 
     "The room filled with murmurs of approval. In the meanwhile, Now that I was out of the spotlight, I got myself a seat out of sight in order to observe how all this would unfold."
-    "The First Prince called out to the Grand Duke with clear disdain."
 
-    l "“{i}Marley{/i}, please explain the situation”.”"
 
-    "{i}Ah…{/i} It was weird to see how people used each other’s first names to mock them in this world."
+    l "“{i}Marley{/i}, please explain the situation”"
+    "There was a clear disdain in Lionel’s voice."
+
+    "It was weird to see how people used each other’s first names to mock them in this world, and used their family names to honour them instead."
     "(What nonsense.)"
 
     hide Cyril with dissolve
@@ -1207,7 +1208,7 @@ label venaprologue:
     show Marley Default at truecenter with dissolve:
         yalign 1 zoom 1.5
 
-    "Folding the paper, the Grand Duke threw it to the table before him in a rakish fashion."
+    "Folding the paper, Marley threw it to the table before him in a rakish fashion."
     "He observed everyone else in the room while crossing his legs."
     "(Funny… The lowest rank among them was his, yet he held the title for being the most conceited as well.)"
 
@@ -1218,7 +1219,7 @@ label venaprologue:
     m "“Something going wrong in trading would not only anger us, but also our impatient customers beyond this land.”"
     m "“I don’t even talk about how such event would shake the Kingdom as a whole.”"
 
-    "His words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
+    "Marley’s words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
 
     show Marley Default with dissolve
 
@@ -1228,7 +1229,7 @@ label venaprologue:
 
     m "“And what a coincidence! All these events have started to happen just before your arrival.”"
 
-    "He paused heavily for dramatic effect.Asha, however, took the opportunity to speak up."
+    "He paused heavily for dramatic effect. Asha, however, took the opportunity to speak up."
 
     show Marley Default:
         xalign 0.5
@@ -1237,7 +1238,7 @@ label venaprologue:
 
     a "“Well, a few thousand years of peace of Silver Hollow against Aelthus’ a few centuries old peace… We are not in a good situation either.”"
 
-    "Confused, the Grand Duke looked at her."
+    "Confused, Marley looked at her."
 
     m "“Thousands? I thought it was merely a thousand years since your people’s disappearance.”"
 
@@ -1292,7 +1293,7 @@ label venaprologue:
     "No matter the reason it was used, there was always a shunning tone behind the word."
     "And I couldn’t help but feel uncomfortable."
     "…"
-    "The Duke stared at Asha."
+    "Marley stared at Asha."
 
     show Marley Mocking with dissolve:
         yalign 1 zoom 1.5
@@ -1335,7 +1336,8 @@ label venalionel:
     "Getting along with the Royal family sounded more advantageous than having the favour of a Duke…"
     "And it was a task I shouldn’t leave in Asha’s hands."
 
-    v "“Then I’ll work with the First Prince.”"
+    v "“Then I’ll work with the Li-… Prince Lionel…”"
+    "Remembering to address them properly, I had quickly corrected myself."
 
     show Lionel Laughing with dissolve
 
@@ -1376,7 +1378,7 @@ label venamarley:
 
     show Marley Sighing with dissolve
 
-    "Narrowing my eyes, I glared at him. From the way he sighed, I sensed that he understood my intention."
+    "Narrowing my eyes, I glared at him. From the way Marley sighed, I sensed that he understood my intention."
 
     v "“I’ll work with the Grand Duke.”"
 
