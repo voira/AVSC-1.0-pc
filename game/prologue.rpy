@@ -6,10 +6,13 @@ define wa = ("Wilbur Asquith")
 define li = ("Lionel")
 define fastdissolve = Dissolve(0.1)
 
+
 init python:
     your_new_encyclopaedia = Encyclopaedia()
 
+
 label prologue:
+
     scene shd with dissolve
     pause 1.5
     scene blackscreen with fade

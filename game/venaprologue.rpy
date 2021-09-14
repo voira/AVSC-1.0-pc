@@ -55,7 +55,19 @@ label venaprologue:
 
     "In response, Haru puffed her cheeks."
 
-    h "“We don’t get the chance to leave Silver Hollow every day. This is a first-”"
+    $Silver_Hollow = EncEntry(
+        parent=your_new_encyclopaedia,
+        name="Silver Hollow",
+        text=[
+        "The site where witches lived before the Black Massacre."
+        ],
+        viewed_persistent=True,
+    )
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    h "“We don’t get the chance to leave {color=#f00}Silver Hollow{/color} every day. This is a first-”"
+
 
     "I interrupted her quickly."
 

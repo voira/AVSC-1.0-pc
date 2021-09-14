@@ -691,28 +691,7 @@ init python:
         def current_entries(self, item):  # type: (List) -> None
             self._current_entries = item
 
-        @property
-        def percentage_unlocked(self):  # type: () -> float
-            """Gets the percentage of the Encyclopaedia that's unlocked.
-
-            Returns:
-                float: Percentage of the Encyclopaedia that's unlocked
-
-            Raises:
-                ZeroDivisionError: If the Encyclopaedia is empty
-            """
-            float_size = float(self._size_unlocked)
-            float_size_all = float(self._size_all)
-
-            try:
-                amount_unlocked = float_size / float_size_all
-            except ZeroDivisionError:
-                raise ZeroDivisionError(
-                    'Cannot calculate percentage unlocked of empty Encyclopaedia'
-                )
-
-            percentage = floor(amount_unlocked * 100)
-            return percentage
+        
 
         @property
         def number_of_visible_entries(self):  # type: () -> int

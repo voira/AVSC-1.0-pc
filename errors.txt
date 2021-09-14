@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/venaprologue.rpy", line 68: expected 'comma or end of line' not found.
+    hide text
+    ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Tue Sep 14 23:10:29 2021

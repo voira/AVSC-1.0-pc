@@ -103,15 +103,7 @@ screen encyclopaedia_list(enc):
 
                 text "Welcome to the Demo Encyclopaedia"
 
-            frame:
-                style_prefix "encyclopaedia"
-                xfill True
-
-                hbox:
-                    xfill True
-                    # Percentage unlocked display
-                    text "{} Complete".format(enc.labels.percentage_unlocked)
-
+            
             frame:
                 style_prefix "encyclopaedia"
                 xfill True
