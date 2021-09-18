@@ -66,6 +66,7 @@ label venaprologue:
     )
 
     $Silver_Hollow.locked = False
+    $Silver_Hollow.locked_persistent = False
 
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
