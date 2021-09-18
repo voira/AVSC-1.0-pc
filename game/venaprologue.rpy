@@ -16,7 +16,6 @@ init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
 
-
 label venaprologue:
     scene blackscreen with fade
     pause 1.5
@@ -59,10 +58,15 @@ label venaprologue:
         parent=your_new_encyclopaedia,
         name="Silver Hollow",
         text=[
-        "The site where witches lived before the Black Massacre."
+        "{size=+25}The site where witches lived before the Black Massacre.{/size}"
         ],
         viewed_persistent=True,
+        locked=True,
+        locked_persistent=True
     )
+
+    $Silver_Hollow.locked = False
+
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
@@ -142,7 +146,22 @@ label venaprologue:
     "The nightmare of my sister took me to the place I’d been missing so dearly."
     "I knew every single tree here. Every branch, every single Hollow on them was familiar to me."
     "But I hadn’t cast this spell to find peace in the Silver Hollow that now lived only in memories."
-    "Somewhere around here, Kioko must be witnessing an important event regarding the Black Massacre."
+
+
+    $Black_Massacre = EncEntry(
+        parent=your_new_encyclopaedia,
+        name="Black Massacre",
+        text=[
+        "{size=+25}The event that caused the death of many Silver Hallow residents. An unknown power suddenly wiped out more than half of the population, forcing the survivors to seek shelter in the Outer World.{/size}"
+        ],
+        viewed_persistent=True,
+
+    )
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    "Somewhere around here, Kioko must be witnessing an important event regarding the {color=#f00}Black Massacre.{/color}"
+
 
     play sound walking
 
@@ -276,7 +295,19 @@ label venaprologue:
     "(No, no…)"
     "A huge void vortex appeared in the ruins of the cabin which used to be our old Coven."
     "We were too late. This meant my chance of taking a peek at whatever had happened was lost."
-    "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the Void Crawlers attacking everyone in the grove."
+
+    $Void_Crawler = EncEntry(
+        parent=your_new_encyclopaedia,
+        name="Void Crawler",
+        text=[
+        "{size=+25}The name given to the creatures of Abyss.{/size}"
+        ],
+        viewed_persistent=True,
+    )
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the {color=#f00}Void Crawlers{/color} attacking everyone in the grove."
     "Except by waking up…"
 
     scene traincomp with fade
@@ -320,9 +351,33 @@ label venaprologue:
     h "“The usual arguments, you know. Nothing else.”"
 
     "…What kind of “usual arguments” was she talking about?"
-    "Whatever… Because that I hadn’t done mana meditation for a long time this experience had left me weary, so there was no energy left in me to pursue it."
+
+    $Mana_Meditation = EncEntry(
+        parent=your_new_encyclopaedia,
+        name="Mana Meditation",
+        text=[
+        "{size=+25}A method can be used to recover, or flow one’s mana.{/size}"
+        ],
+        viewed_persistent=True,
+    )
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    "Whatever… Because that I hadn’t done {color=#f00}mana meditation{/color} for a long time this experience had left me weary, so there was no energy left in me to pursue it."
     "I shrugged before closing my eyes."
-    "And I had no intention of opening them before we arrived in Whemond."
+
+    $Whemond = EncEntry(
+        parent=your_new_encyclopaedia,
+        name="Whemond",
+        text=[
+        "{size=+25}The capital city of the Sun Kingdom of Aelthians, or Aelthus as most may prefer to call.{/size}"
+        ],
+        viewed_persistent=True,
+    )
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    "And I had no intention of opening them before we arrived in {color=#f00}Whemond.{/color}"
 
     scene blackscreen with fade
 
@@ -333,7 +388,20 @@ label venaprologue:
 
     scene academylivingroom with fade
 
-    "Finally we were in the famous Royal Academy."
+    $Royal_Academy = EncEntry(
+        parent=your_new_encyclopaedia,
+        name="Royal Academy",
+        text=[
+        "{size=+20}Full name goes as “Royal Magic Academy of the Sun Kingdom of Aelthians.”{/size}"
+        "{size=+20}This institute is the source of all blueprints of the magical tools that the Kingdom uses, giving lessons on magic to young academicians, and providing a research laboratory whenever it is needed, meaning almost every day.{/size}"
+        "{size=+20}The Academy is also notably famous, beyond the borders of the Kingdom, for how the entire structure floats in the air.{/size}"
+        ],
+        viewed_persistent=True,
+    )
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    "Finally we were in the famous {color=#f00}Royal Academy.{/color}"
     "I was busy organizing the jars that I had filled with herbs from the village we’d stayed in after the Massacre."
     "My body was begging for rest, but I desired at least to get one thing done before truly relaxing."
     "Meanwhile Haru, Kioko and Asha had gathered before the window and were watching the hell beneath which had been given a fancy name such as “city”."

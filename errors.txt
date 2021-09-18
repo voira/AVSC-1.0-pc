@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 68: expected 'comma or end of line' not found.
-    hide text
-    ^
+File "game/grimoireentries.rpy", line 1: expected statement.
+    Silver_Hollow = EncEntry(
+                  ^
+        parent=your_new_encyclopaedia,
+        name="Silver Hollow",
+        text=[
+        "{size=+25}The site where witches lived before the Black Massacre.{/size}"
+        ],
+        viewed_persistent=True,
+        locked=True,
+        locked_persistent=True
+    )
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Tue Sep 14 23:10:29 2021
+Sat Sep 18 16:28:41 2021
