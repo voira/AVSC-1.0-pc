@@ -1,26 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/venaprologue.rpy", line 59, in script
-    $Silver_Hollow.locked = False
-  File "game/venaprologue.rpy", line 59, in <module>
-    $Silver_Hollow.locked = False
-NameError: name 'Silver_Hollow' is not defined
+  File "game/venaprologue.rpy", line 77, in script
+    if $Silver_Hollow.locked = True:
+SyntaxError: invalid syntax (venaprologue.rpy, line 77)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/venaprologue.rpy", line 59, in script
-    $Silver_Hollow.locked = False
-  File "renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2235, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/venaprologue.rpy", line 59, in <module>
-    $Silver_Hollow.locked = False
-NameError: name 'Silver_Hollow' is not defined
+  File "game/venaprologue.rpy", line 77, in script
+    if $Silver_Hollow.locked = True:
+  File "renpy/ast.py", line 1893, in execute
+    if renpy.python.py_eval(condition):
+  File "renpy/python.py", line 2264, in py_eval
+    code = py_compile(code, 'eval')
+  File "renpy/python.py", line 835, in py_compile
+    raise e
+SyntaxError: invalid syntax (venaprologue.rpy, line 77)
 
 Windows-10-10.0.22000
 Ren'Py 7.4.8.1895
 AVSC 1.0
-Sat Sep 18 16:27:58 2021
+Sat Sep 18 17:02:54 2021

@@ -15,6 +15,93 @@ define u = ("???")
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
+##Grimoire Entries
+define Silver_Hollow = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Silver Hollow",
+    text=[
+    "{size=+25}The site where witches lived before the Black Massacre.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Black_Massacre = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Black Massacre",
+    text=[
+    "{size=+25}The event that caused the death of many Silver Hallow residents. An unknown power suddenly wiped out more than half of the population, forcing the survivors to seek shelter in the Outer World.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Void_Crawler = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Void Crawler",
+    text=[
+    "{size=+25}The name given to the creatures of Abyss.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Mana_Meditation = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Mana Meditation",
+    text=[
+    "{size=+25}A method can be used to recover, or flow one’s mana.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Whemond = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Whemond",
+    text=[
+    "{size=+25}The capital city of the Sun Kingdom of Aelthians, or Aelthus as most may prefer to call.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Royal_Academy = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Royal Academy",
+    text=[
+    "{size=+20}Full name goes as “Royal Magic Academy of the Sun Kingdom of Aelthians.”{/size}"
+    "{size=+20}This institute is the source of all blueprints of the magical tools that the Kingdom uses, giving lessons on magic to young academicians, and providing a research laboratory whenever it is needed, meaning almost every day.{/size}"
+    "{size=+20}The Academy is also notably famous, beyond the borders of the Kingdom, for how the entire structure floats in the air.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Shore = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Shore",
+    text=[
+    "{size=+25}An alternative name for the Land of the Dead.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Rune_Card = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Rune Card",
+    text=[
+    "{size=+25}A simple card enchanted with a personal rune, made for the purpose of fortune reading.{/size}"
+    "{size=+25}Different from the common runes, these cards are very personal; as readings and runes varies from one person to another.{/size}"
+    "{size=+25}Those cards shall never be touched other than the owner, or their enchantment would wear off.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+##--------------GRIMOIRE ENTRIES END HERE ----------
+
 
 label venaprologue:
     scene blackscreen with fade
@@ -53,17 +140,6 @@ label venaprologue:
         yalign 1 zoom 1.8
 
     "In response, Haru puffed her cheeks."
-
-    $Silver_Hollow = EncEntry(
-        parent=your_new_encyclopaedia,
-        name="Silver Hollow",
-        text=[
-        "{size=+25}The site where witches lived before the Black Massacre.{/size}"
-        ],
-        viewed_persistent=True,
-        locked=True,
-        locked_persistent=True
-    )
 
     $Silver_Hollow.locked = False
     $Silver_Hollow.locked_persistent = False
@@ -149,15 +225,9 @@ label venaprologue:
     "But I hadn’t cast this spell to find peace in the Silver Hollow that now lived only in memories."
 
 
-    $Black_Massacre = EncEntry(
-        parent=your_new_encyclopaedia,
-        name="Black Massacre",
-        text=[
-        "{size=+25}The event that caused the death of many Silver Hallow residents. An unknown power suddenly wiped out more than half of the population, forcing the survivors to seek shelter in the Outer World.{/size}"
-        ],
-        viewed_persistent=True,
+    $Black_Massacre.locked = False
+    $Black_Massacre.locked_persistent = False
 
-    )
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
@@ -234,7 +304,7 @@ label venaprologue:
 
     show Kioko Shocked with dissolve
 
-    ""
+    pause 2.0
 
     hide Kioko with dissolve
 
@@ -297,14 +367,8 @@ label venaprologue:
     "A huge void vortex appeared in the ruins of the cabin which used to be our old Coven."
     "We were too late. This meant my chance of taking a peek at whatever had happened was lost."
 
-    $Void_Crawler = EncEntry(
-        parent=your_new_encyclopaedia,
-        name="Void Crawler",
-        text=[
-        "{size=+25}The name given to the creatures of Abyss.{/size}"
-        ],
-        viewed_persistent=True,
-    )
+    $Void_Crawler.locked = False
+    $Void_Crawler.locked_persistent = False
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
@@ -353,28 +417,18 @@ label venaprologue:
 
     "…What kind of “usual arguments” was she talking about?"
 
-    $Mana_Meditation = EncEntry(
-        parent=your_new_encyclopaedia,
-        name="Mana Meditation",
-        text=[
-        "{size=+25}A method can be used to recover, or flow one’s mana.{/size}"
-        ],
-        viewed_persistent=True,
-    )
+
+    $Mana_Meditation.locked = False
+    $Mana_Meditation.locked_persistent = False
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
     "Whatever… Because that I hadn’t done {color=#f00}mana meditation{/color} for a long time this experience had left me weary, so there was no energy left in me to pursue it."
     "I shrugged before closing my eyes."
 
-    $Whemond = EncEntry(
-        parent=your_new_encyclopaedia,
-        name="Whemond",
-        text=[
-        "{size=+25}The capital city of the Sun Kingdom of Aelthians, or Aelthus as most may prefer to call.{/size}"
-        ],
-        viewed_persistent=True,
-    )
+
+    $Whemond.locked = False
+    $Whemond.locked_persistent = False
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
@@ -389,16 +443,8 @@ label venaprologue:
 
     scene academylivingroom with fade
 
-    $Royal_Academy = EncEntry(
-        parent=your_new_encyclopaedia,
-        name="Royal Academy",
-        text=[
-        "{size=+20}Full name goes as “Royal Magic Academy of the Sun Kingdom of Aelthians.”{/size}"
-        "{size=+20}This institute is the source of all blueprints of the magical tools that the Kingdom uses, giving lessons on magic to young academicians, and providing a research laboratory whenever it is needed, meaning almost every day.{/size}"
-        "{size=+20}The Academy is also notably famous, beyond the borders of the Kingdom, for how the entire structure floats in the air.{/size}"
-        ],
-        viewed_persistent=True,
-    )
+    $Royal_Academy.locked = False
+    $Royal_Academy.locked_persistent = False
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
@@ -805,7 +851,12 @@ label venaprologue:
 
     show Asha Sighing with dissolve
 
-    a "“It would be enough if she could manage to send one of us to the Shore.”"
+    $Shore.locked = False
+    $Shore.locked_persistent = False
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+
+    a "“It would be enough if she could manage to send one of us to the {color=#f00}Shore{color}.”"
 
     v "“That can be arranged.”"
 
@@ -845,7 +896,12 @@ label venaprologue:
 
     hide Asha with dissolve
 
-    "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were rune cards."
+    $Rune_Cards.locked = False
+    $Rune_Cards.locked_persistent = False
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
+    
+    "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were {color=#f00}rune cards{/color}."
 
     a "“‘Traitor’.”"
 

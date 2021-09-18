@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/grimoireentries.rpy", line 1: expected statement.
-    Silver_Hollow = EncEntry(
-                  ^
+File "game/venaprologue.rpy", line 18: expected 'word' not found.
+    define $Silver_Hollow = EncEntry(
+           ^
         parent=your_new_encyclopaedia,
         name="Silver Hollow",
         text=[
@@ -16,4 +16,4 @@ File "game/grimoireentries.rpy", line 1: expected statement.
     )
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Sep 18 16:28:41 2021
+Sat Sep 18 16:54:09 2021
