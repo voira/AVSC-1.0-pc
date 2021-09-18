@@ -100,6 +100,16 @@ define Rune_Card = EncEntry(
     locked=True,
     locked_persistent=True
 )
+define Crimson_Bay = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Rune Card",
+    text=[
+    "{size=+25}The name of the gulf which Aelthian Kingdom surrounded. There’s no other country’s border in the region.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
 ##--------------GRIMOIRE ENTRIES END HERE ----------
 
 
@@ -900,7 +910,7 @@ label venaprologue:
     $Rune_Cards.locked_persistent = False
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
-    
+
     "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were {color=#f00}rune cards{/color}."
 
     a "“‘Traitor’.”"
@@ -1348,6 +1358,11 @@ label venaprologue:
     "Folding the paper, Marley threw it to the table before him in a rakish fashion."
     "He observed everyone else in the room while crossing his legs."
     "(Funny… The lowest rank among them was his, yet he held the title for being the most conceited as well.)"
+
+    $Crimson_Bay.locked = False
+    $Crimson_Bay.locked_persistent = False
+    show text "A new Grimoire unlocked!" with dissolve
+    hide text with dissolve
 
     m "“Whemond is the pride and joy of the Crimson Bay. If you don’t know, it’s high time for you to learn.”"
     m "“If something is going wrong in Whemond, it means something is going wrong with our trade.”"
