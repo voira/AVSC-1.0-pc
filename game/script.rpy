@@ -15,7 +15,7 @@ init python:
 
 label start:
 
-    
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -29,8 +29,8 @@ label start:
 
     scene blackscreen with fade
 
-    ""
-    "Choose a character."
+    pause 3.0
+    
 
     menu:
         "Choose a character."
