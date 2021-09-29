@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 68: expected 'comma or end of line' not found.
-    hide text
-    ^
+File "game/screens.rpy", line 368: expected statement.
+    frame:
+         ^
+
+File "game/screens.rpy", line 373: expected statement.
+    use navigation
+                  ^
+
+File "game/screens.rpy", line 377: expected statement.
+    vbox:
+        ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Tue Sep 14 23:10:29 2021
+Wed Sep 29 17:13:34 2021

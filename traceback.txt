@@ -1,84 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "game/encyclopaedia_screens.rpy", line 90, in execute
-    screen encyclopaedia_list(enc):
-  File "game/encyclopaedia_screens.rpy", line 90, in execute
-    screen encyclopaedia_list(enc):
-  File "game/encyclopaedia_screens.rpy", line 94, in execute
-    window:
-  File "game/encyclopaedia_screens.rpy", line 97, in execute
-    vbox:
-  File "game/encyclopaedia_screens.rpy", line 106, in execute
-    frame:
-  File "game/encyclopaedia_screens.rpy", line 110, in execute
-    hbox:
-  File "game/encyclopaedia_screens.rpy", line 113, in execute
-    text "{} Complete".format(enc.labels.percentage_unlocked)
-  File "game/encyclopaedia_screens.rpy", line 113, in <module>
-    text "{} Complete".format(enc.labels.percentage_unlocked)
-  File "game/enc.rpy", line 1056, in percentage_unlocked
-    percentage_unlocked = int(self.encyclopaedia.percentage_unlocked)
-AttributeError: 'Encyclopaedia' object has no attribute 'percentage_unlocked'
+While loading <'Image' u'gui/main_menu.mp4'>:
+Exception: Could not load image u'gui/main_menu.mp4': error('Unsupported image format',)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/ast.py", line 923, in execute
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2235, in py_exec_bytecode
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "renpy/ui.py", line 298, in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3694, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/screen.py", line 432, in visit_all
-    callback(self)
-  File "renpy/display/core.py", line 3694, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/screen.py", line 443, in per_interact
-    self.update()
-  File "renpy/display/screen.py", line 631, in update
-    self.screen.function(**self.scope)
-  File "game/encyclopaedia_screens.rpy", line 90, in execute
-    screen encyclopaedia_list(enc):
-  File "game/encyclopaedia_screens.rpy", line 90, in execute
-    screen encyclopaedia_list(enc):
-  File "game/encyclopaedia_screens.rpy", line 94, in execute
-    window:
-  File "game/encyclopaedia_screens.rpy", line 97, in execute
-    vbox:
-  File "game/encyclopaedia_screens.rpy", line 106, in execute
-    frame:
-  File "game/encyclopaedia_screens.rpy", line 110, in execute
-    hbox:
-  File "game/encyclopaedia_screens.rpy", line 113, in execute
-    text "{} Complete".format(enc.labels.percentage_unlocked)
-  File "game/encyclopaedia_screens.rpy", line 113, in <module>
-    text "{} Complete".format(enc.labels.percentage_unlocked)
-  File "game/enc.rpy", line 1056, in percentage_unlocked
-    percentage_unlocked = int(self.encyclopaedia.percentage_unlocked)
-AttributeError: 'Encyclopaedia' object has no attribute 'percentage_unlocked'
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3793, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 2521, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 681, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 1267, in render
+    back = render(style.background, bw, bh, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 688, in load
+    raise e
+Exception: Could not load image u'gui/main_menu.mp4': error('Unsupported image format',)
 
-Windows-10-10.0.22000
+Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 AVSC 1.0
-Tue Sep 14 23:00:17 2021
+Wed Sep 29 17:00:50 2021

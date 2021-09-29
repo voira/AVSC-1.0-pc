@@ -355,12 +355,14 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
-screen main_menu():
+init:
+    image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
 
+screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
+    add "main_menu"
 
     ## This empty frame darkens the main menu.
     frame:

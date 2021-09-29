@@ -101,9 +101,9 @@ screen encyclopaedia_list(enc):
                 style_prefix "encyclopaedia"
                 xfill True
 
-                text "Welcome to the Demo Encyclopaedia"
+                text "Welcome to the Silver Hollow Grimoire"
 
-            
+
             frame:
                 style_prefix "encyclopaedia"
                 xfill True
@@ -121,7 +121,7 @@ screen encyclopaedia_list(enc):
                 frame:
                     style_prefix "encyclopaedia"
                     yfill True
-                    xmaximum 600
+                    xmaximum 1200
                     bottom_margin 10
 
                     viewport:
