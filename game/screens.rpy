@@ -24,7 +24,6 @@ style hyperlink_text:
 style gui_text:
     properties gui.text_properties("interface")
 
-
 style button:
     properties gui.button_properties("button")
 
@@ -32,13 +31,11 @@ style button_text is gui_text:
     properties gui.text_properties("button")
     yalign 0.5
 
-
 style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
 
 style prompt_text is gui_text:
     properties gui.text_properties("prompt")
-
 
 style bar:
     ysize gui.bar_size
@@ -292,13 +289,85 @@ style quick_button_text:
 ## This screen is included in the main and game menus, and provides navigation
 ## to other menus, and to start the game.
 
-screen navigation():
+# config.main_menu_music = "main_menu_theme.ogg"
+# style.button.activate_sound = "click.wav"
+# style.imagemap.activate_sound = "click.wav"
+init:
+    image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
+
+screen navigation_main_menu():
+
+        image "logo.png":
+            xsize 850
+            ysize 150
+            xalign 0.5
+            yalign 0.3
+
+        image "main_kutu.png":
+            xsize 650
+            ysize 500
+            xalign 0.5
+            yalign 0.8
+
+        vbox:
+            style_prefix "navigation_main_menu"
+            xalign 0.5
+            yalign 0.8
+
+            spacing gui.navigation_spacing
+
+            if main_menu:
+
+                textbutton _("Start") action Start()
+
+            else:
+
+                textbutton _("History") action ShowMenu("history")
+
+                textbutton _("Save") action ShowMenu("save")
+
+            textbutton _("Load") action ShowMenu("load")
+
+            textbutton _("Preferences") action ShowMenu("preferences")
+
+            if _in_replay:
+
+                textbutton _("End Replay") action EndReplay(confirm=True)
+
+            elif not main_menu:
+
+                textbutton _("Main Menu") action MainMenu()
+
+            textbutton _("About") action ShowMenu("about")
+
+            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+                ## Help isn't necessary or relevant to mobile devices.
+                textbutton _("Help") action ShowMenu("help")
+
+            if renpy.variant("pc"):
+
+                ## The quit button is banned on iOS and unnecessary on Android and
+                ## Web.
+                textbutton _("Quit") action Quit(confirm=not main_menu)
+
+style navigation_button is gui_button
+style navigation_button_text is gui_button_text
+
+style navigation_button:
+    size_group "navigation_main_menu"
+    properties gui.button_properties("navigation_button")
+
+style navigation_button_text:
+    size_group "navigation_main_menu"
+    properties gui.button_text_properties("navigation_button")
+    xalign 0.5
+
+screen navigation_game_menu():
 
     vbox:
-        style_prefix "navigation"
-
-        xpos gui.navigation_xpos
-        yalign 0.5
+        style_prefix "navigation_game_menu"
+        yalign 0.6
 
         spacing gui.navigation_spacing
 
@@ -337,17 +406,17 @@ screen navigation():
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
 
-
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
 
 style navigation_button:
-    size_group "navigation"
+    size_group "navigation_game_menu"
     properties gui.button_properties("navigation_button")
 
 style navigation_button_text:
+    size_group "navigation_game_menu"
     properties gui.button_text_properties("navigation_button")
-
+    xalign 0.5
 
 ## Main Menu screen ############################################################
 ##
@@ -355,8 +424,6 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
-init:
-    image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
 
 screen main_menu():
     ## This ensures that any other menu screen is replaced.
@@ -368,9 +435,12 @@ screen main_menu():
     frame:
         style "main_menu_frame"
 
+    #frame:
+        #style "logo_card_frame"
+
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
+    use navigation_main_menu
 
     if gui.show_name:
 
@@ -383,7 +453,6 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
-
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
@@ -394,7 +463,8 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    #background "gui/overlay/main_menu.png"
+    #background renpy.random.choice(["bg atu_school", "bg atu_nightclub", "bg atu_cards"])
 
 style main_menu_vbox:
     xalign 1.0
@@ -476,7 +546,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
                     transclude
 
-    use navigation
+    use navigation_game_menu
 
     textbutton _("Return"):
         style "return_button"
@@ -506,7 +576,7 @@ style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
-    background "gui/overlay/game_menu.png"
+    #background
 
 style game_menu_navigation_frame:
     xsize 420
@@ -1463,11 +1533,11 @@ style nvl_window:
 
 style main_menu_frame:
     variant "small"
-    background "gui/phone/overlay/main_menu.png"
+    #background "gui/phone/overlay/main_menu.png"
 
 style game_menu_outer_frame:
     variant "small"
-    background "gui/phone/overlay/game_menu.png"
+    #background "gui/phone/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
     variant "small"
