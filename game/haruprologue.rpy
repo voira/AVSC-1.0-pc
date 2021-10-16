@@ -20,6 +20,9 @@ init:
 
 
 label haruprologue:
+
+    stop music
+    
     scene blackscreen
 
     "Bilinmeyene olan arzum vücudumu alevler halinde sarıyordu."

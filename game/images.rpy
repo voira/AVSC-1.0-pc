@@ -1,9 +1,33 @@
+image Kioko Default :
+    "kioko_default.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Concerned :
+    "kioko_concerned.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Eyesclosed :
+    "kioko_eyesclosed.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Gasping :
+    "kioko_gasping.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Laughing :
+    "kioko_laughing.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Neutral :
+    "kioko_neutral.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Shy :
+    "kioko_shy.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
+image Kioko Shyconcern :
+    "kioko_shyconcern.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
 image Orphina Default :
     "orphina_default.png"
     xalign 0.5 yalign -0.35 zoom 0.65
 image Orphina Annoyed :
-        "orphina_annoyed.png"
-        xalign 0.5 yalign -0.35 zoom 0.65
+    "orphina_annoyed.png"
+    xalign 0.5 yalign -0.35 zoom 0.65
 image Orphina AnnoyedSide :
     "orphina_annoyed_side.png"
     xalign 0.5 yalign -0.35 zoom 0.65

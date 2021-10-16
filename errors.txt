@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 303: u'I' is not a keyword argument or valid child for the image statement.
-    xalign 0.5I
-               ^
+File "game/screens.rpy", line 497: u'stop' is not a keyword argument or valid child for the screen statement.
+    stop(music)
+        ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Oct 16 18:55:14 2021
+Sat Oct 16 20:31:04 2021

@@ -25,12 +25,14 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
+    stop music fadeout 1.0
+
     call prologue from _call_prologue
 
     scene blackscreen with fade
 
     pause 3.0
-    
+
 
     menu:
         "Choose a character."

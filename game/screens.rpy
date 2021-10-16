@@ -491,8 +491,6 @@ style main_menu_version:
 
 screen game_menu(title, scroll=None, yinitial=0.0):
 
-    style_prefix "game_menu"
-
     if main_menu:
         add gui.main_menu_background
     else:
@@ -667,7 +665,6 @@ screen load():
     tag menu
 
     use file_slots(_("Load"))
-
 
 screen file_slots(title):
 

@@ -88,7 +88,7 @@ define Shore = EncEntry(
     locked=True,
     locked_persistent=True
 )
-define Rune_Card = EncEntry(
+define Rune_Cards = EncEntry(
     parent=your_new_encyclopaedia,
     name="Rune Card",
     text=[
@@ -114,6 +114,9 @@ define Crimson_Bay = EncEntry(
 
 
 label venaprologue:
+
+    stop music
+    
     scene blackscreen with fade
     pause 1.5
     "(Oh, how I wish I could see you for one last time…)"
@@ -157,7 +160,7 @@ label venaprologue:
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
-    h "“We don’t get the chance to leave {color=#f00}Silver Hollow{/color} every day. This is a first-”"
+    h "“We don’t get the chance to leave {color=#fff}Silver Hollow{/color} every day. This is a first-”"
 
 
     "I interrupted her quickly."
@@ -352,7 +355,7 @@ label venaprologue:
 
     scene fogforest with fade
 
-    show Kioko Gaping with dissolve
+    show Kioko Gasping with dissolve
 
     k "“Vena? Are you… The real Vena?”"
 
@@ -498,11 +501,11 @@ label venaprologue:
 
     hide Asha
 
-    show Asha Gaping
+    show Asha Gasping
 
-    show Kioko Gaping
+    show Kioko Gasping
 
-    show Haru Gaping at left
+    show Haru Gasping at left
 
     "My anger made me slam the jar on the counter with much more force, while trying to place it."
     "Now all of the eyes in the room were upon me."
@@ -866,7 +869,7 @@ label venaprologue:
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
-    a "“It would be enough if she could manage to send one of us to the {color=#f00}Shore{color}.”"
+    a "“It would be enough if she could manage to send one of us to the {color=#f00}Shore{/color}.”"
 
     v "“That can be arranged.”"
 
@@ -1024,7 +1027,7 @@ label venaprologue:
 
     k "“I… Want to tell you something.”"
 
-    show Kioko ClosedEye at center with ease:
+    show Kioko Eyesclosed at center with ease:
         yalign 1 zoom 1.8
 
     k "“But please don’t panic.”"
@@ -1071,7 +1074,7 @@ label venaprologue:
 
     v "“Kioko, calm down.”"
 
-    show Kioko BitingLip with dissolve
+    show Kioko Shyconcern with dissolve
 
     k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
 
@@ -1087,7 +1090,7 @@ label venaprologue:
 
     k "“She had ginger hair. But I couldn’t see her face clearly, for I was sleepy.”"
 
-    show Kioko ClosedEye with dissolve
+    show Kioko Eyesclosed with dissolve
 
     k "“She walked towards me. I was so scared that I couldn’t move! I must have passed out from sheer fright. When I opened my eyes again, it was later and she was gone.”"
 
@@ -1138,7 +1141,7 @@ label venaprologue:
 
     v "“I’m not sure. She wasn’t wearing any uniform, and didn’t look like one of our people. Kioko, why didn’t you inform us sooner?”"
 
-    show Kioko ClosedEye with dissolve
+    show Kioko Eyesclosed with dissolve
 
     k "“I didn’t want to cause an unnecessary scene.”"
 

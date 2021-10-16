@@ -1,66 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    
-  File "renpy/common/00keymap.rpy", line 469, in script
-    
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    ui.pausebehavior(0)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/script.rpy", line 28, in script
+    pause config.main_menu_music
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+TypeError: unsupported operand type(s) for -: 'unicode' and 'float'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 505, in main
-    if renpy.parser.report_parse_errors():
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/parser.py", line 3015, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/error.py", line 194, in report_parse_errors
-    error_fn=error_fn,
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/game.py", line 284, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/error.py", line 46, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
+  File "game/script.rpy", line 28, in script
+    pause config.main_menu_music
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 2010, in execute
+    self.call("execute")
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 1998, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/exports.py", line 1561, in pause
+    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
   File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3757, in interact_core
-    renpy.loader.check_autoreload()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/loader.py", line 1129, in check_autoreload
-    renpy.exports.reload_script()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/exports.py", line 1863, in reload_script
-    renpy.game.call_in_new_context("_save_reload_game")
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/game.py", line 344, in call_in_new_context
-    return renpy.execution.run_context(False)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/execution.py", line 922, in run_context
-    context.run()
-  File "renpy/common/00keymap.rpy", line 469, in script
-    
-  File "renpy/common/00keymap.rpy", line 469, in script
-    
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    ui.pausebehavior(0)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/loadsave.py", line 394, in save
-    roots = renpy.game.log.freeze(None)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2132, in freeze
-    self.complete(False)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 1726, in complete
-    self.current.stores[name], self.current.delta_ebc[name] = sd.get_changes(begin)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 4110, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/behavior.py", line 530, in event
+    renpy.game.interface.timeout(max(self.delay - st, 0))
+TypeError: unsupported operand type(s) for -: 'unicode' and 'float'
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 The Calling 1.0
-Sat Oct 16 18:46:04 2021
+Sat Oct 16 19:35:28 2021
