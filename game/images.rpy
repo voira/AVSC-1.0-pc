@@ -22,8 +22,11 @@ image Haru Default :
 image Kioko Default :
     "kioko_default.png"
     xalign 0.5 yalign -0.45 zoom 0.65
-image Marley Default :
-    "marley_default.png"
+#image Marley Default :
+    #"marley_default.png"
+    #xalign 0.5 yalign -0.45 zoom 0.65
+image Marley Frowning :
+    "marley_frowning.png"
     xalign 0.5 yalign -0.45 zoom 0.65
 image Vena Default :
     "vena_default.png"

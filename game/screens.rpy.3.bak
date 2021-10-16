@@ -301,7 +301,7 @@ screen navigation_main_menu():
             xsize 850
             ysize 150
             xalign 0.5
-            yalign 0.25
+            yalign 0.3
 
         image "main_kutu.png":
             xsize 650
@@ -314,7 +314,7 @@ screen navigation_main_menu():
             xalign 0.5
             yalign 0.8
 
-            spacing 10
+            spacing gui.navigation_spacing
 
             if main_menu:
 
@@ -351,15 +351,14 @@ screen navigation_main_menu():
                 ## Web.
                 textbutton _("Quit") action Quit(confirm=not main_menu)
 
-style navigation_main_menu_button is gui_button
-style navigation_main_menu_button_text is gui_button_text
+style navigation_button is gui_button
+style navigation_button_text is gui_button_text
 
-style navigation_main_menu_button:
+style navigation_button:
     size_group "navigation_main_menu"
     properties gui.button_properties("navigation_button")
-    xalign 0.5
 
-style navigation_main_menu_button_text:
+style navigation_button_text:
     size_group "navigation_main_menu"
     properties gui.button_text_properties("navigation_button")
     xalign 0.5
@@ -394,8 +393,6 @@ screen navigation_game_menu():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
-
         textbutton _("About") action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
@@ -409,16 +406,17 @@ screen navigation_game_menu():
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
 
-style navigation_game_menu_button is gui_button
-style navigation_game_menu_button_text is gui_button_text
+style navigation_button is gui_button
+style navigation_button_text is gui_button_text
 
-style navigation_game_menu_button:
+style navigation_button:
     size_group "navigation_game_menu"
     properties gui.button_properties("navigation_button")
 
-style navigation_game_menu_button_text:
+style navigation_button_text:
     size_group "navigation_game_menu"
     properties gui.button_text_properties("navigation_button")
+    xalign 0.5
 
 ## Main Menu screen ############################################################
 ##
@@ -436,6 +434,9 @@ screen main_menu():
     ## This empty frame darkens the main menu.
     frame:
         style "main_menu_frame"
+
+    #frame:
+        #style "logo_card_frame"
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
@@ -462,10 +463,12 @@ style main_menu_frame:
     xsize 420
     yfill True
 
+    #background "gui/overlay/main_menu.png"
     #background renpy.random.choice(["bg atu_school", "bg atu_nightclub", "bg atu_cards"])
 
 style main_menu_vbox:
     xalign 1.0
+    xoffset -30
     xmaximum 1200
     yalign 1.0
     yoffset -30
@@ -573,7 +576,7 @@ style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
-    background "gui/overlay/game_menu.png"
+    #background
 
 style game_menu_navigation_frame:
     xsize 420
@@ -816,8 +819,10 @@ screen preferences():
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
-                vbox:
+                frame:
                     style_prefix "pref"
+                    has vbox
+
                     label _("Language")
                     textbutton "English" action Language(None)
                     textbutton "Turkish" action Language("turkish")

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 306: keyword argument u'xalign' appears more than once in a frame statement.
-    xalign 0.5
-          ^
+File "game/screens.rpy", line 303: u'I' is not a keyword argument or valid child for the image statement.
+    xalign 0.5I
+               ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Oct  9 08:45:41 2021
+Sat Oct 16 18:55:14 2021
