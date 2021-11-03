@@ -245,11 +245,12 @@ screen quick_menu():
 
     if quick_menu:
 
-        hbox:
+        vbox:
             style_prefix "quick"
 
-            xalign 0.5
+            xalign 1.0
             yalign 1.0
+            spacing 20
 
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
@@ -368,7 +369,8 @@ screen navigation_game_menu():
 
     vbox:
         style_prefix "navigation_game_menu"
-        yalign 0.6
+        xalign 0.08
+        yalign 0.4
 
         spacing gui.navigation_spacing
 
@@ -598,6 +600,7 @@ style game_menu_label:
 style game_menu_label_text:
     size gui.title_text_size
     color gui.accent_color
+
     yalign 0.5
 
 style return_button:
