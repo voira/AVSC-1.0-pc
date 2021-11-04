@@ -247,19 +247,19 @@ screen quick_menu():
         vbox:
             style_prefix "quick"
 
-            xalign 1.0
-            yalign 1.0
-            spacing 20
+            xalign 0.95
+            yalign 0.95
+            spacing 10
 
-            textbutton _("Back") action Rollback()
+            #textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
+            #textbutton _("Save") action ShowMenu('save')
             textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
             textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            #textbutton _("Q.Load") action QuickLoad()
+            #textbutton _("Prefs") action ShowMenu('preferences')
 
 
 
@@ -366,8 +366,8 @@ screen navigation_game_menu():
 
     vbox:
         style_prefix "navigation_game_menu"
-        xalign 0.08
-        yalign 0.4
+
+        yalign 0.5
 
         spacing gui.navigation_spacing
 
@@ -547,7 +547,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
         action Return()
 
-    label title
+    #label title
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")

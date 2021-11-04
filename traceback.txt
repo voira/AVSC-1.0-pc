@@ -1,44 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing the idle_color property of style button_text:
-  File "renpy/common/00start.rpy", line 80, in _init_language
-    renpy.change_language(language)
-  File "renpy/common/00stylepreferences.rpy", line 124, in _m1_00stylepreferences__change_language
-    __update()
-  File "renpy/common/00stylepreferences.rpy", line 96, in _m1_00stylepreferences__update
-    renpy.style.rebuild()
-Exception: Color string u'00000' must be 3, 4, 6, or 8 hex digits long.
+While running game code:
+  File "renpy/common/00start.rpy", line 213, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 504, in script
+    
+  File "renpy/common/00keymap.rpy", line 504, in <module>
+    
+  File "renpy/common/00keymap.rpy", line 514, in _execute_python_hide
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 617, in main
-    run(restart)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 78, in run
-    renpy.translation.init_translation()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/translation/__init__.py", line 561, in init_translation
-    renpy.store._init_language() # @UndefinedVariable
-  File "renpy/common/00start.rpy", line 80, in _init_language
-    renpy.change_language(language)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/translation/__init__.py", line 650, in change_language
-    i()
-  File "renpy/common/00stylepreferences.rpy", line 124, in _m1_00stylepreferences__change_language
-    __update()
-  File "renpy/common/00stylepreferences.rpy", line 96, in _m1_00stylepreferences__update
-    renpy.style.rebuild()
-  File "style.pyx", line 795, in renpy.style.rebuild
-  File "style.pyx", line 788, in renpy.style.build_styles
-  File "style.pyx", line 680, in renpy.style.build_style
-  File "style.pyx", line 709, in renpy.style.build_style
-  File "style.pyx", line 706, in renpy.style.build_style
-  File "gen-static/style_idle_functions.pyx", line 540, in style_idle_functions.idle_color_property
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/color.py", line 165, in __new__
-    raise Exception("Color string {!r} must be 3, 4, 6, or 8 hex digits long.".format(c))
-Exception: Color string u'00000' must be 3, 4, 6, or 8 hex digits long.
+  File "renpy/common/00start.rpy", line 213, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 504, in script
+    
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 504, in <module>
+    
+  File "renpy/common/00keymap.rpy", line 514, in _execute_python_hide
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/loadsave.py", line 771, in load
+    log.unfreeze(roots, label="_after_load")
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2190, in unfreeze
+    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2014, in rollback
+    self.load_failed()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 1932, in load_failed
+    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
-Windows-10-10.0.19041
+Windows-10-10.0.22000
 Ren'Py 7.4.8.1895
 The Calling 1.0
-Sun Oct 17 16:50:40 2021
+Thu Nov  4 14:06:19 2021
