@@ -29,7 +29,6 @@ style button:
 
 style button_text is gui_text:
     properties gui.text_properties("button")
-    yalign 0.5
 
 style label_text is gui_text:
     properties gui.text_properties("label", accent=True)
@@ -305,7 +304,7 @@ screen navigation_main_menu():
 
         image "main_kutu.png":
             xsize 650
-            ysize 500
+            ysize 450
             xalign 0.5
             yalign 0.8
 
@@ -313,8 +312,6 @@ screen navigation_main_menu():
             style_prefix "navigation_main_menu"
             xalign 0.5
             yalign 0.8
-
-            spacing 10
 
             if main_menu:
 
@@ -806,7 +803,6 @@ screen preferences():
                     textbutton _("Disable") action Preference("rollback side", "disable")
                     textbutton _("Left") action Preference("rollback side", "left")
                     textbutton _("Right") action Preference("rollback side", "right")
-
                 vbox:
                     style_prefix "check"
                     label _("Skip")
@@ -817,7 +813,7 @@ screen preferences():
                     style_prefix "pref"
                     label _("Language")
                     textbutton "English" action Language(None)
-                    textbutton "Turkish" action Language("turkish")
+                    textbutton "Türkçe" action Language("turkish")
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.

@@ -115,8 +115,8 @@ define Crimson_Bay = EncEntry(
 
 label venaprologue:
 
-    stop music
-    
+    stop music fadeout 1.0
+
     scene blackscreen with fade
     pause 1.5
     "(Oh, how I wish I could see you for one last time…)"
@@ -1317,7 +1317,7 @@ label venaprologue:
 
     a "“Pardon?”"
 
-    show Marley Sighing with dissolve
+    show Marley Sigh with dissolve
 
     m "“Cyril is the Duke of Credale, and Xerxes is Millford’s.”"
     m "“And Lionel, Brefcaster’s.”"
@@ -1355,7 +1355,7 @@ label venaprologue:
 
     hide Cyril with dissolve
     hide Lionel with dissolve
-    show Marley Default at truecenter with dissolve:
+    show Marley Neutral at truecenter with dissolve:
         yalign 1 zoom 1.5
 
     "Folding the paper, Marley threw it to the table before him in a rakish fashion."
@@ -1370,13 +1370,13 @@ label venaprologue:
     m "“Whemond is the pride and joy of the Crimson Bay. If you don’t know, it’s high time for you to learn.”"
     m "“If something is going wrong in Whemond, it means something is going wrong with our trade.”"
 
-    show Marley ClosedEye with dissolve
+    show Marley Eyesclosed with dissolve
     m "“Something going wrong in trading would not only anger us, but also our impatient customers beyond this land.”"
     m "“I don’t even talk about how such event would shake the Kingdom as a whole.”"
 
     "Marley’s words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
 
-    show Marley Default with dissolve
+    show Marley Neutral with dissolve
 
     m "“The long-sustained, unshakeable peace of Whemond has been taking hits over the last year by things that were beyond our understanding.”"
 
@@ -1386,7 +1386,7 @@ label venaprologue:
 
     "He paused heavily for dramatic effect. Asha, however, took the opportunity to speak up."
 
-    show Marley Default:
+    show Marley Neutral:
         xalign 0.5
         linear 1 xpos 0.8
     show Asha Default at left with dissolve
@@ -1430,12 +1430,12 @@ label venaprologue:
 
     hide Almasi with dissolve
 
-    show Marley Default at truecenter with dissolve:
+    show Marley Neutral at truecenter with dissolve:
         yalign 1 zoom 1.5
 
     m "“…Yes. And with that, I am concluding this meeting.”"
 
-    show Marley ClosedEye with dissolve
+    show Marley Eyesclosed with dissolve
     m "“But before that… We need two witches to assist me and Lionel, to deliver the reports…”"
 
     show Marley Cocky with dissolve
@@ -1505,7 +1505,7 @@ label venalionel:
 
     a "“And I am working with the Grand Duke.”"
 
-    show Marley ClosedEye at right with dissolve
+    show Marley Eyesclosed at right with dissolve
 
     m "“I will send a Bee at first light for you to take to the Arkwright manor.”"
 
@@ -1531,7 +1531,7 @@ label venamarley:
     "I couldn’t let Asha deal with that man. I had no doubt she would be eaten alive."
     "(Also someone should keep that man in check in case he proves to be more of a hindrance than a help.)"
 
-    show Marley Sighing with dissolve
+    show Marley Sigh with dissolve
 
     "Narrowing my eyes, I glared at him. From the way Marley sighed, I sensed that he understood my intention."
 
@@ -1545,7 +1545,7 @@ label venamarley:
 
     m "“Fine then, so be it. Tomorrow, at first light, I will send a ship to collect you from the Academy.”"
 
-    show Marley Sighing with dissolve
+    show Marley Sigh with dissolve
 
     m "“If you were to be late, the Arkwrights would withdraw their support for this project as a whole.”"
 

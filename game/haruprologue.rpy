@@ -21,8 +21,8 @@ init:
 
 label haruprologue:
 
-    stop music
-    
+    stop music fadeout 1.0
+
     scene blackscreen
 
     "Bilinmeyene olan arzum vücudumu alevler halinde sarıyordu."
