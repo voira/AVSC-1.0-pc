@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 497: u'stop' is not a keyword argument or valid child for the screen statement.
-    stop(music)
-        ^
+File "game/venaprologue.rpy", line 505: expected 'simple_expression' not found.
+    show Asha Gasping with 
+                           ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Oct 16 20:31:04 2021
+Mon Oct 18 21:06:44 2021

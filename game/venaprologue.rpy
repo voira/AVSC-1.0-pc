@@ -160,7 +160,7 @@ label venaprologue:
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
-    h "“We don’t get the chance to leave {color=#fff}Silver Hollow{/color} every day. This is a first-”"
+    h "“We don’t get the chance to leave {color=#f00}Silver Hollow{/color} every day. This is a first-”"
 
 
     "I interrupted her quickly."
@@ -485,7 +485,8 @@ label venaprologue:
     "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived. And the situation was worse in Whemond."
     "It almost seemed like a harbinger of misfortune."
 
-    show Kioko Shy at right with dissolve
+    show Kioko Shy at right with dissolve:
+        ypos 1.8 zoom 1.2
 
     k "“Well, I… I think the lights look pretty.”"
 
@@ -503,9 +504,9 @@ label venaprologue:
 
     show Asha Gasping
 
-    show Kioko Gasping
+    show Kioko Gasping with dissolve
 
-    show Haru Gasping at left
+    show Haru Gasping at left with dissolve
 
     "My anger made me slam the jar on the counter with much more force, while trying to place it."
     "Now all of the eyes in the room were upon me."
@@ -518,9 +519,9 @@ label venaprologue:
 
     show Asha Default with dissolve
     show Kioko Default at right with dissolve:
-        ypos 1.63 zoom 1.2
+        ypos 1.8 zoom 1.2
     show Haru Default at left with dissolve:
-        xpos 0.03 ypos 1.63 zoom 1.2
+        xpos 0 ypos 1.8 zoom 1.2
 
     a "“What’s the problem? We can arrange a one-day trip.”"
 
@@ -563,7 +564,8 @@ label venaprologue:
 
     a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
 
-    show Kioko Laughing at right with dissolve
+    show Kioko Laughing at right with dissolve:
+        ypos 1.8 zoom 1.2
 
     k "“You still act like we are little kids, Asha.”"
 
