@@ -26,7 +26,8 @@ init python:
 ## The _() surrounding the string marks it as eligible for translation.
 
 define config.name = _("The Calling")
-
+define config.has_quicksave = True
+define config.has_autosave = False
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
