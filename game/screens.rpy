@@ -247,7 +247,7 @@ screen quick_menu():
         vbox:
             style_prefix "quick"
 
-            xalign 0.95
+            xalign 0.1
             yalign 0.95
             spacing 10
 

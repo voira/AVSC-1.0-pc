@@ -23,42 +23,42 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = u'#2f4791'
+define gui.accent_color = u'#F1CE9A'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = u'#000000'
+define gui.idle_color = u'#A98146'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
 define gui.idle_small_color = u'#fffafa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = u'#0066ff'
+define gui.hover_color = u'#F1CE9A'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = u'#2f4791'
+define gui.selected_color = u'#A98146'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = u'#282e36'
+define gui.insensitive_color = u'#917449'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = u'#512800'
-define gui.hover_muted_color = u'#7a3d00'
+define gui.muted_color = u'#A98146'
+define gui.hover_muted_color = u'#F1CE9A'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = u'#ffffff'
-define gui.interface_text_color = u'#ffffff'
+define gui.text_color = u'#A98146'
+define gui.interface_text_color = u'#A98146'
 
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "AbhayaLibre-Regular.ttf"
+define gui.text_font = "AbhayaLibre-SemiBold.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "AbhayaLibre-Bold.ttf"
+define gui.name_text_font = "AbhayaLibre-ExtraBold.ttf"
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "AbhayaLibre-ExtraBold.ttf"

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 505: expected 'simple_expression' not found.
-    show Asha Gasping with 
-                           ^
+File "game/screens.rpy", line 105: u'I' is not a keyword argument or valid child for the window statement.
+    style "namebox"I
+                    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Mon Oct 18 21:06:44 2021
+Thu Nov  4 14:25:53 2021
