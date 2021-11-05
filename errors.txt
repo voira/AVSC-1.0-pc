@@ -3,8 +3,8 @@ errors listed below, and try again.
 
 
 File "game/screens.rpy", line 251: text statement expects 1 positional arguments, got 0.
-    text 
+    text
          ^
 
-Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Nov  4 18:14:28 2021
+Ren'Py Version: Ren'Py 7.4.10.2178
+Fri Nov  5 18:59:09 2021
