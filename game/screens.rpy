@@ -104,8 +104,9 @@ screen say(who, what):
                 id "namebox"
                 style "namebox"
                 text who id "who"
-        elif:
+        if who is None:
             style "window2"
+
         text what id "what"
 
 
@@ -131,7 +132,7 @@ style namebox_label is say_label
 style window:
     xalign 0.5
     xfill True
-    yalign gui.textbox_yalign
+    yalign 0.95
     ysize gui.textbox_height
 
     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
@@ -240,33 +241,42 @@ style choice_button is default:
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
 
+## Uwu
+
+screen story(where):
+    style_prefix "story"
+
+    vbox:
+
+        text "[label.name!t]"
+
 
 ## Quick Menu screen ###########################################################
 ##
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
-screen quick_menu():
+#screen quick_menu():
 
     ## Ensure this appears on top of other screens.
-    zorder 100
+    #zorder 100
 
-    if quick_menu:
+    #if quick_menu:
 
-        vbox:
-            style_prefix "quick"
+        #vbox:
+            #style_prefix "quick"
 
-            xalign 0.1
-            yalign 0.95
-            spacing 10
+            #xalign 0.1
+            #yalign 0.92
+            #spacing 10
 
             #textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
+            #textbutton _("History") action ShowMenu('history')
+            #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Auto") action Preference("auto-forward", "toggle")
             #textbutton _("Save") action ShowMenu('save')
-            textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
-            textbutton _("Q.Save") action QuickSave()
+            #textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
+            #textbutton _("Q.Save") action QuickSave()
             #textbutton _("Q.Load") action QuickLoad()
             #textbutton _("Prefs") action ShowMenu('preferences')
 
