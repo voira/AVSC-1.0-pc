@@ -1,40 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 213, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 504, in script
-    
-  File "renpy/common/00keymap.rpy", line 504, in <module>
-    
-  File "renpy/common/00keymap.rpy", line 514, in _execute_python_hide
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "game/script.rpy", line 30, in script call
+    call prologue from _call_prologue
+  File "game/prologue.rpy", line 27, in script
+    sin "“Fool…”"
+Exception: The say screen (or show_function) must return a Text object.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 213, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 504, in script
-    
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 504, in <module>
-    
-  File "renpy/common/00keymap.rpy", line 514, in _execute_python_hide
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/loadsave.py", line 771, in load
-    log.unfreeze(roots, label="_after_load")
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2190, in unfreeze
-    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2014, in rollback
-    self.load_failed()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 1932, in load_failed
-    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "game/script.rpy", line 30, in script call
+    call prologue from _call_prologue
+  File "game/prologue.rpy", line 27, in script
+    sin "“Fool…”"
+  File "renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1249, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 901, in do_display
+    **display_args)
+  File "renpy/character.py", line 605, in display_say
+    raise Exception("The say screen (or show_function) must return a Text object.")
+Exception: The say screen (or show_function) must return a Text object.
 
 Windows-10-10.0.22000
-Ren'Py 7.4.8.1895
+Ren'Py 7.4.10.2178
 The Calling 1.0
-Thu Nov  4 15:19:24 2021
+Fri Nov  5 19:00:08 2021

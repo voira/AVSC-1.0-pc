@@ -6,5 +6,5 @@ File "game/screens.rpy", line 107: expected python_expression
     elif:
         ^
 
-Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Nov  4 15:36:02 2021
+Ren'Py Version: Ren'Py 7.4.10.2178
+Fri Nov  5 18:59:09 2021

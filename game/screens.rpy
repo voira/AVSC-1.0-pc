@@ -104,7 +104,7 @@ screen say(who, what):
                 id "namebox"
                 style "namebox"
                 text who id "who"
-        elif:
+        else:
             style "window2"
         text what id "what"
 
