@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 251: text statement expects 1 positional arguments, got 0.
-    text
-         ^
+File "game/screens.rpy", line 735: u'scroll' is not a keyword argument or valid child for the grid statement.
+    scroll == "viewport":
+          ^
 
-Ren'Py Version: Ren'Py 7.4.10.2178
-Fri Nov  5 18:59:09 2021
+Ren'Py Version: Ren'Py 7.4.8.1895
+Fri Nov  5 21:05:41 2021

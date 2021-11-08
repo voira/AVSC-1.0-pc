@@ -104,7 +104,7 @@ screen say(who, what):
                 id "namebox"
                 style "namebox"
                 text who id "who"
-        if who is None:
+        else:
             style "window2"
 
         text what id "what"
@@ -148,8 +148,8 @@ style window2:
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
+    xsize 300
+    ypos -0.003
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -241,14 +241,6 @@ style choice_button is default:
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
 
-## Uwu
-
-screen story(where):
-    style_prefix "story"
-
-    vbox:
-
-        text "[label.name!t]"
 
 
 ## Quick Menu screen ###########################################################
@@ -256,10 +248,10 @@ screen story(where):
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
-#screen quick_menu():
+screen quick_menu():
 
     ## Ensure this appears on top of other screens.
-    #zorder 100
+    zorder 100
 
     #if quick_menu:
 
@@ -387,6 +379,7 @@ screen navigation_game_menu():
         style_prefix "navigation_game_menu"
 
         yalign 0.5
+        xalign 0.08
 
         spacing gui.navigation_spacing
 
@@ -433,10 +426,12 @@ style navigation_game_menu_button_text is gui_button_text
 style navigation_game_menu_button:
     size_group "navigation_game_menu"
     properties gui.button_properties("navigation_button")
+    xalign 0.5
 
 style navigation_game_menu_button_text:
     size_group "navigation_game_menu"
     properties gui.button_text_properties("navigation_button")
+    xalign 0.5
 
 ## Main Menu screen ############################################################
 ##

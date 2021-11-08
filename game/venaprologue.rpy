@@ -1067,8 +1067,11 @@ label venaprologue:
     pause 2.0
     scene academylivingroom with flash
 
-    show Haru Gaping at left
-    show Kioko Concerned at right
+    show Haru Gaping at left:
+        yalign 1
+    show Kioko Concerned at right:
+        yalign 1
+        zoom 1.8
 
     "Could they be I thought of?"
     "What if they’d come back to get rid of Kioko since she’d seen their face?"
@@ -1311,7 +1314,9 @@ label venaprologue:
     a "“And His Excellency the Grand Duke of Pertone, Marley Augustine Arkwright.”"
 
     scene academylivingroom with fade
-    show Marley Irritated at right with dissolve
+    show Marley Irritated at right with dissolve:
+        yalign 1
+
 
     m "“You left out the other titles and holdings of the Princes, not to mention you didn’t address them with proper courtesy.”"
 
