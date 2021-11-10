@@ -100,12 +100,14 @@ screen say(who, what):
 
         if who is not None:
 
+            $ style.say_window = style.window
+
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
         else:
-            style "window2"
+            $ style.say_window = style.window2
 
         text what id "what"
 
@@ -140,7 +142,7 @@ style window:
 style window2:
     xalign 0.5
     xfill True
-    yalign gui.textbox_yalign
+    yalign 0.95
     ysize gui.textbox_height
 
     background Image("gui/thinkbox.png", xalign=0.5, yalign=1.0)

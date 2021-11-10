@@ -34,20 +34,49 @@ label start:
     pause 3.0
 
 
-    menu:
-        "Choose a character."
+    "Choose a character."
 
-        "Vena":
-            jump venaprologue
 
-        "Haru":
-            jump haruprologue
-
+    call screen character_select
 
 
     # These display lines of dialogue.
 
 
     # This ends the game.
-
+label end:
     return
+
+screen character_select:
+    #background
+    imagebutton:
+        xanchor 0.5
+        yanchor 0.5
+        xpos 0.3
+        ypos 0.5
+        idle "images/vena_choice_idle.png"
+        hover "images/vena_choice_hover.png"
+        action [Hide("displayTextScreen"), Jump("venaprologue")]
+
+        hovered Show("displayTextScreen", displayText = "Vena")
+        unhovered Hide("displayTextScreen")
+
+    imagebutton:
+        xanchor 0.5
+        yanchor 0.5
+        xpos 0.6
+        ypos 0.5
+        idle "images/haru_choice_idle.png"
+        hover "images/haru_choice_hover.png"
+        action [Hide("displayTextScreen"), Jump("haruprologue")]
+
+        hovered Show("displayTextScreen", displayText = "Haru")
+        unhovered Hide("displayTextScreen")
+
+screen displayTextScreen:
+    default displayText = ""
+    vbox:
+        xalign 0.01
+        yalign 0.5
+        frame:
+                text displayText

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 735: u'scroll' is not a keyword argument or valid child for the grid statement.
-    scroll == "viewport":
-          ^
+File "game/script.rpy", line 51: u'background' is not a keyword argument or valid child for the screen statement.
+    background
+              ^
+
+File "game/script.rpy", line 81: Line is indented, but the preceding yalign statement does not expect a block. Please check this line's indentation.
+    frame:
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Nov  5 21:05:41 2021
+Wed Nov 10 15:27:32 2021
