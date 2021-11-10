@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 51: u'background' is not a keyword argument or valid child for the screen statement.
-    background
+File "game/script.rpy", line 52: u'background' is not a keyword argument or valid child for the screen statement.
+    background Image("gui/overlay/game_menu.png")
               ^
 
-File "game/script.rpy", line 81: Line is indented, but the preceding yalign statement does not expect a block. Please check this line's indentation.
-    frame:
-    ^
-
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov 10 15:27:32 2021
+Wed Nov 10 16:15:30 2021

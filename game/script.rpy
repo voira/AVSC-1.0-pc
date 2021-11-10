@@ -48,35 +48,44 @@ label end:
     return
 
 screen character_select:
-    #background
+
+    add Image("gui/overlay/game_menu.png")
+
     imagebutton:
         xanchor 0.5
         yanchor 0.5
-        xpos 0.3
+        xpos 0.75
         ypos 0.5
         idle "images/vena_choice_idle.png"
         hover "images/vena_choice_hover.png"
-        action [Hide("displayTextScreen"), Jump("venaprologue")]
+        action [Hide("displayTextScreenV"), Jump("venaprologue")]
 
-        hovered Show("displayTextScreen", displayText = "Vena")
-        unhovered Hide("displayTextScreen")
+        hovered Show("displayTextScreenV", displayText = "Vena")
+        unhovered Hide("displayTextScreenV")
 
     imagebutton:
         xanchor 0.5
         yanchor 0.5
-        xpos 0.6
+        xpos 0.25
         ypos 0.5
         idle "images/haru_choice_idle.png"
         hover "images/haru_choice_hover.png"
-        action [Hide("displayTextScreen"), Jump("haruprologue")]
+        action [Hide("displayTextScreenH"), Jump("haruprologue")]
 
-        hovered Show("displayTextScreen", displayText = "Haru")
-        unhovered Hide("displayTextScreen")
+        hovered Show("displayTextScreenH", displayText = "Haru")
+        unhovered Hide("displayTextScreenH")
 
-screen displayTextScreen:
+screen displayTextScreenH:
     default displayText = ""
     vbox:
-        xalign 0.01
-        yalign 0.5
+        xalign 0.25
+        yalign 0.1
+        frame:
+                text displayText
+screen displayTextScreenV:
+    default displayText = ""
+    vbox:
+        xalign 0.75
+        yalign 0.1
         frame:
                 text displayText
