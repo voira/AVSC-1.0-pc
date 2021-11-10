@@ -1,72 +1,118 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'haru_hoice_hover.png'>:
-  File "game/script.rpy", line 45, in script
-    call screen character_select
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    
-IOError: Couldn't find file 'haru_hoice_hover.png'.
+While running game code:
+  File "renpy/common/00gamemenu.rpy", line 173, in script
+    $ ui.interact()
+  File "renpy/common/00gamemenu.rpy", line 173, in <module>
+    $ ui.interact()
+  File "game/screens.rpy", line 669, in execute
+    screen save():
+  File "game/screens.rpy", line 669, in execute
+    screen save():
+  File "game/screens.rpy", line 673, in execute
+    use file_slots(_("Save"))
+  File "game/screens.rpy", line 682, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 682, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 689, in execute
+    use game_menu(title):
+  File "game/screens.rpy", line 507, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 507, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 511, in execute
+    frame:
+  File "game/screens.rpy", line 514, in execute
+    hbox:
+  File "game/screens.rpy", line 520, in execute
+    frame:
+  File "game/screens.rpy", line 523, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 554, in execute
+    transclude
+  File "game/screens.rpy", line 689, in execute
+    use game_menu(title):
+  File "game/screens.rpy", line 697, in execute
+    vpgrid:
+  File "game/screens.rpy", line 730, in execute
+    button:
+  File "game/screens.rpy", line 738, in execute
+    input:
+AttributeError: 'unicode' object has no attribute 'set_text'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 45, in script
-    call screen character_select
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 2010, in execute
-    self.call("execute")
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 1998, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/statements.py", line 278, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
-    
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/exports.py", line 3132, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/common/00gamemenu.rpy", line 173, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gamemenu.rpy", line 173, in <module>
+    $ ui.interact()
   File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 681, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/behavior.py", line 791, in render
-    rv = super(Button, self).render(width, height, st, at)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 1238, in render
-    st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'haru_hoice_hover.png'.
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 669, in execute
+    screen save():
+  File "game/screens.rpy", line 669, in execute
+    screen save():
+  File "game/screens.rpy", line 673, in execute
+    use file_slots(_("Save"))
+  File "game/screens.rpy", line 682, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 682, in execute
+    screen file_slots(title):
+  File "game/screens.rpy", line 689, in execute
+    use game_menu(title):
+  File "game/screens.rpy", line 507, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 507, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 511, in execute
+    frame:
+  File "game/screens.rpy", line 514, in execute
+    hbox:
+  File "game/screens.rpy", line 520, in execute
+    frame:
+  File "game/screens.rpy", line 523, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 554, in execute
+    transclude
+  File "game/screens.rpy", line 689, in execute
+    use game_menu(title):
+  File "game/screens.rpy", line 697, in execute
+    vpgrid:
+  File "game/screens.rpy", line 730, in execute
+    button:
+  File "game/screens.rpy", line 738, in execute
+    input:
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/behavior.py", line 1219, in __init__
+    changed = value.set_text
+AttributeError: 'unicode' object has no attribute 'set_text'
 
 Windows-10-10.0.22000
 Ren'Py 7.4.8.1895
 The Calling 1.0
-Wed Nov 10 15:19:13 2021
+Wed Nov 10 20:38:51 2021

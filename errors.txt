@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 52: u'background' is not a keyword argument or valid child for the screen statement.
-    background Image("gui/overlay/game_menu.png")
-              ^
+File "game/screens.rpy", line 712: Line is indented, but the preceding style_prefix statement does not expect a block. Please check this line's indentation.
+    for i in range(20):
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov 10 16:15:30 2021
+Wed Nov 10 20:42:05 2021

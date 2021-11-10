@@ -281,7 +281,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = True
+default quick_menu = False
 
 style quick_button is default
 style quick_button_text is button_text
@@ -506,10 +506,7 @@ style main_menu_version:
 
 screen game_menu(title, scroll=None, yinitial=0.0):
 
-    if main_menu:
-        add gui.main_menu_background
-    else:
-        add gui.game_menu_background
+    add gui.game_menu_background
 
     frame:
         style "game_menu_outer_frame"
@@ -684,15 +681,51 @@ screen load():
 
 screen file_slots(title):
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+#use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
 
+    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"))
+
+    #use game_menu(_(title), scroll=("vpgrid"), yinitial=0.0):
     use game_menu(title):
 
         fixed:
 
-            ## This ensures the input will get the enter event before any of the
-            ## buttons do.
+        ## This ensures the input will get the enter event before any of the
+        ## buttons do.
             order_reverse True
+
+        vpgrid:
+            cols 1
+            rows 20
+            spacing 1
+            xalign 0.5
+            yalign 0.5
+            draggable True
+            mousewheel True
+
+            scrollbars "vertical"
+
+            style_prefix "slot"
+
+            for i in range(20):
+
+                $ slot = i + 1
+
+                button:
+
+                    action FileAction(slot)
+
+                    has vbox
+
+                    add FileScreenshot(slot) xalign 0.5
+
+                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        style "slot_time_text"
+
+                    text FileSaveName(slot):
+                        style "slot_name_text"
+
+                    key "save_delete" action FileDelete(slot)
 
             ## The page name, which can be edited by clicking on a button.
             button:
@@ -700,6 +733,7 @@ screen file_slots(title):
 
                 key_events True
                 xalign 0.5
+                yalign 0.0
                 action page_name_value.Toggle()
 
                 input:
@@ -707,55 +741,30 @@ screen file_slots(title):
                     value page_name_value
 
             ## The grid of file slots.
-            grid gui.file_slot_cols gui.file_slot_rows:
-                style_prefix "slot"
-
-                xalign 0.5
-                yalign 0.5
-
-                spacing gui.slot_spacing
-
-                for i in range(gui.file_slot_cols * gui.file_slot_rows):
-
-                    $ slot = i + 1
-
-                    button:
-                        action FileAction(slot)
-
-                        has vbox
-
-                        add FileScreenshot(slot) xalign 0.5
-
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
-                            style "slot_time_text"
-
-                        text FileSaveName(slot):
-                            style "slot_name_text"
-
-                        key "save_delete" action FileDelete(slot)
+            #grid gui.file_slot_cols gui.file_slot_rows:
 
             ## Buttons to access other pages.
-            hbox:
-                style_prefix "page"
+            #hbox:
+                #style_prefix "page"
 
-                xalign 0.5
-                yalign 1.0
+                #xalign 0.5
+                #yalign 1.0
 
-                spacing gui.page_spacing
+                #spacing gui.page_spacing
 
-                textbutton _("<") action FilePagePrevious()
+                #textbutton _("<") action FilePagePrevious()
 
-                if config.has_autosave:
-                    textbutton _("{#auto_page}A") action FilePage("auto")
+                #if config.has_autosave:
+                    #textbutton _("{#auto_page}A") action FilePage("auto")
 
-                if config.has_quicksave:
-                    textbutton _("{#quick_page}Q") action FilePage("quick")
+                #if config.has_quicksave:
+                    #textbutton _("{#quick_page}Q") action FilePage("quick")
 
                 ## range(1, 10) gives the numbers from 1 to 9.
-                for page in range(1, 10):
-                    textbutton "[page]" action FilePage(page)
+                #for page in range(1, 10):
+                    #textbutton "[page]" action FilePage(page)
 
-                textbutton _(">") action FilePageNext()
+                #textbutton _(">") action FilePageNext()
 
 
 style page_label is gui_label
