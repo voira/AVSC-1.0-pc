@@ -159,6 +159,23 @@ style say_dialogue:
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
 
+# Click to Continue screen
+
+screen ctc():
+
+    frame:
+        at ctc_appear
+        xalign .99
+        yalign .99
+
+        text _("(click to continue)"):
+            size 18
+
+transform ctc_appear:
+    alpha 0.0
+    pause 5.0
+    linear 0.5 alpha 1.0
+
 
 ## Input screen ################################################################
 ##
