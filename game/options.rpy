@@ -49,6 +49,9 @@ define config.developer = "True"
 define gui.about = _p("""
 """)
 
+# additional persistent variables begin here
+define persistent.dialogueBoxOpacity = 1.0
+# end extra variables
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,

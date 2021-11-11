@@ -99,15 +99,14 @@ screen say(who, what):
         id "window"
 
         if who is not None:
-
-            $ style.say_window = style.window
-
+            window background Transform(Frame("gui/textbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
-        else:
-            $ style.say_window = style.window2
+
+        if who is None:
+            window background Transform(Frame("gui/thinkbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
 
         text what id "what"
 
@@ -137,21 +136,12 @@ style window:
     yalign 0.95
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
-
-style window2:
-    xalign 0.5
-    xfill True
-    yalign 0.95
-    ysize gui.textbox_height
-
-    background Image("gui/thinkbox.png", xalign=0.5, yalign=1.0)
-
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
-    xsize 300
-    ypos -0.003
+    yanchor gui.name_yalign
+    xsize gui.namebox_width
+    ypos gui.name_ypos
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -381,7 +371,7 @@ screen navigation_game_menu():
         style_prefix "navigation_game_menu"
 
         yalign 0.5
-        xalign 0.08
+        xalign 0.1
 
         spacing gui.navigation_spacing
 
@@ -681,21 +671,29 @@ screen load():
 
 screen file_slots(title):
 
-#use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+    # default page_name_value = FilePageNameInputValue(pattern="Save Slots")
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"))
-
-    #use game_menu(_(title), scroll=("vpgrid"), yinitial=0.0):
     use game_menu(title):
 
         fixed:
 
-        ## This ensures the input will get the enter event before any of the
-        ## buttons do.
+    ## This ensures the input will get the enter event before any of the
+    ## buttons do.
             order_reverse True
 
+        # #button:
+        #     style "page_label"
+        #
+        #     key_events True
+        #
+        #     action page_name_value.Toggle()
+        #
+        #     input:
+        #         style "page_label_text"
+        #         value page_name_value
+
         vpgrid:
-            cols 1
+            cols 2
             rows 20
             spacing 1
             xalign 0.5
@@ -715,12 +713,13 @@ screen file_slots(title):
 
                     action FileAction(slot)
 
-                    has vbox
+                    #has vbox
 
                     add FileScreenshot(slot) xalign 0.5
 
-                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M")):
                         style "slot_time_text"
+
 
                     text FileSaveName(slot):
                         style "slot_name_text"
@@ -728,17 +727,6 @@ screen file_slots(title):
                     key "save_delete" action FileDelete(slot)
 
             ## The page name, which can be edited by clicking on a button.
-            button:
-                style "page_label"
-
-                key_events True
-                xalign 0.5
-                yalign 0.0
-                action page_name_value.Toggle()
-
-                input:
-                    style "page_label_text"
-                    value page_name_value
 
             ## The grid of file slots.
             #grid gui.file_slot_cols gui.file_slot_rows:
@@ -777,9 +765,7 @@ style slot_button_text is gui_button_text
 style slot_time_text is slot_button_text
 style slot_name_text is slot_button_text
 
-style page_label:
-    xpadding 75
-    ypadding 5
+#style page_label:
 
 style page_label_text:
     text_align 0.5
@@ -861,6 +847,10 @@ screen preferences():
                     label _("Auto-Forward Time")
 
                     bar value Preference("auto-forward time")
+
+                    label _("Dialogue Box Opacity")
+
+                    bar value FieldValue(persistent, "dialogueBoxOpacity", range=1.0, style="slider")
 
                 vbox:
 

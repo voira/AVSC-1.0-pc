@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 712: Line is indented, but the preceding style_prefix statement does not expect a block. Please check this line's indentation.
-    for i in range(20):
-    ^
+File "game/prologue.rpy", line 21: end of line expected.
+    centered "..." "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
+                   ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov 10 20:42:05 2021
+Thu Nov 11 21:33:45 2021

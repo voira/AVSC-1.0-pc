@@ -1,5 +1,5 @@
-define sin = Character(_("An Angry Voice"))
-define sak = Character(_("A Calmer Voice"))
+define sin = Character(_("???"))
+define sak = Character(_("???"))
 define ea = ("Ealdwine")
 define ma = ("Marley")
 define wa = ("Wilbur Asquith")
@@ -16,10 +16,11 @@ label prologue:
     scene shd with dissolve
     pause 1.5
     scene blackscreen with fade
-    centered "No matter where I am, \n {p}
-    And no matter what time it is, \n {p}
-    I'll be there when you desire, \n {p}
-    I'll wake upon your {b}call{/b}."
+    pause 1.5
+
+    centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
+    pause 1.0
+
 
     pause 1.5
     scene hqin with fade
