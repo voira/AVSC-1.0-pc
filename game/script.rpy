@@ -14,9 +14,9 @@ init python:
 # The game starts here.
 
 label start:
+    stop music fadeout 1.0
+    #call screen ctc()
 
-    call screen ctc()
-    
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -26,7 +26,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    stop music fadeout 1.0
+
 
     call prologue from _call_prologue
 

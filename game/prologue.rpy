@@ -4,6 +4,7 @@ define ea = ("Ealdwine")
 define ma = ("Marley")
 define wa = ("Wilbur Asquith")
 define li = ("Lionel")
+
 define fastdissolve = Dissolve(0.1)
 
 
@@ -17,6 +18,7 @@ label prologue:
     pause 1.5
     scene blackscreen with fade
     pause 1.5
+
 
     centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
     pause 1.0

@@ -1,10 +1,10 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 30, in script call
+  File "game/script.rpy", line 31, in script call
     call prologue from _call_prologue
-  File "game/prologue.rpy", line 21, in script
-    "..." centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
+  File "game/prologue.rpy", line 23, in script
+    dd centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
   File "renpy/common/00library.rpy", line 268, in say
     who(what, interact=interact, *args, **kwargs)
 Exception: Say has image attributes (u'centered',), but there's no image tag associated with the speaking character.
@@ -12,25 +12,25 @@ Exception: Say has image attributes (u'centered',), but there's no image tag ass
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 30, in script call
+  File "game/script.rpy", line 31, in script call
     call prologue from _call_prologue
-  File "game/prologue.rpy", line 21, in script
-    "..." centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
+  File "game/prologue.rpy", line 23, in script
+    dd centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
+  File "renpy/ast.py", line 721, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/exports.py", line 1415, in say
+  File "renpy/exports.py", line 1415, in say
     renpy.store.say(who, what, *args, **kwargs)
   File "renpy/common/00library.rpy", line 268, in say
     who(what, interact=interact, *args, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 1163, in __call__
+  File "renpy/character.py", line 1189, in __call__
     old_attr_state = self.handle_say_attributes(False, interact)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 975, in handle_say_attributes
+  File "renpy/character.py", line 1001, in handle_say_attributes
     if self.resolve_say_attributes(predicting, attrs):
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 901, in resolve_say_attributes
+  File "renpy/character.py", line 927, in resolve_say_attributes
     raise Exception("Say has image attributes %r, but there's no image tag associated with the speaking character." % (attrs,))
 Exception: Say has image attributes (u'centered',), but there's no image tag associated with the speaking character.
 
 Windows-10-10.0.22000
-Ren'Py 7.4.8.1895
+Ren'Py 7.4.10.2178
 The Calling 1.0
-Thu Nov 11 21:33:12 2021
+Sat Nov 13 14:53:47 2021
