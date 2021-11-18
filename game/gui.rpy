@@ -44,7 +44,7 @@ define gui.insensitive_color = u'#917449'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = u'#A98146'
+define gui.muted_color = u'#F1CE9A'
 define gui.hover_muted_color = u'#F1CE9A'
 
 ## The colors used for dialogue and menu choice text.

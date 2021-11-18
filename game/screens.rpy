@@ -133,7 +133,7 @@ style namebox_label is say_label
 style window:
     xalign 0.5
     xfill True
-    yalign 0.95
+    yalign 0.93
     ysize gui.textbox_height
 
 style namebox:
@@ -163,18 +163,18 @@ style say_dialogue:
 
 screen ctc():
 
-    frame:
+    hbox:
         at ctc_appear
         xalign .99
-        yalign .99
+        yalign 0.99
 
-        text _("(click to continue)"):
-            size 18
+        text _("Click to continue..."):
+            size 30
 
 transform ctc_appear:
     alpha 0.0
-    pause 5.0
-    linear 0.5 alpha 1.0
+    pause 3.0
+    linear 0.3 alpha 1.0
 
 
 ## Input screen ################################################################
