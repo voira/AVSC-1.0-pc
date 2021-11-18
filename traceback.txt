@@ -1,17 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'kioko_concerned.png'>:
-  File "game/venaprologue.rpy", line 308, in script
-    k "“But I can’t remember. I just can’t.”"
+While loading <'Image' u'kioko_eyesclosed.png'>:
+  File "game/venaprologue.rpy", line 1035, in script
+    k "“But please don’t panic.”"
   File "renpy/common/00library.rpy", line 268, in say
     who(what, interact=interact, *args, **kwargs)
-IOError: Couldn't find file 'kioko_concerned.png'.
+IOError: Couldn't find file 'kioko_eyesclosed.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/venaprologue.rpy", line 308, in script
-    k "“But I can’t remember. I just can’t.”"
+  File "game/venaprologue.rpy", line 1035, in script
+    k "“But please don’t panic.”"
   File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1391, in say
@@ -50,6 +50,10 @@ Full traceback:
     return transform_render(self, width, height, st, at)
   File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transform.py", line 933, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
   File "renpy/display/image.py", line 501, in render
     return wrap_render(self.target, width, height, st, at)
   File "renpy/display/image.py", line 307, in wrap_render
@@ -66,9 +70,9 @@ Full traceback:
     surf = image.load()
   File "renpy/display/im.py", line 688, in load
     raise e
-IOError: Couldn't find file 'kioko_concerned.png'.
+IOError: Couldn't find file 'kioko_eyesclosed.png'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
 The Calling 1.0
-Fri Nov 19 00:45:45 2021
+Fri Nov 19 00:48:20 2021
