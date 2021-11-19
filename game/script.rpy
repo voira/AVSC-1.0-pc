@@ -30,7 +30,7 @@ label start:
 
     call prologue from _call_prologue
 
-    call screen ctc()
+    #call screen ctc()
 
     scene blackscreen with fade
 

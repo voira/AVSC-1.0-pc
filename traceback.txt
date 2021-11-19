@@ -1,78 +1,78 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'kioko_eyesclosed.png'>:
-  File "game/venaprologue.rpy", line 1035, in script
-    k "“But please don’t panic.”"
+While loading <'Image' u'kioko_shyconcern.png'>:
+  File "game/venaprologue.rpy", line 1086, in script
+    k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
   File "renpy/common/00library.rpy", line 268, in say
     who(what, interact=interact, *args, **kwargs)
-IOError: Couldn't find file 'kioko_eyesclosed.png'.
+IOError: Couldn't find file 'kioko_shyconcern.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/venaprologue.rpy", line 1035, in script
-    k "“But please don’t panic.”"
-  File "renpy/ast.py", line 715, in execute
+  File "game/venaprologue.rpy", line 1086, in script
+    k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1391, in say
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/exports.py", line 1415, in say
     renpy.store.say(who, what, *args, **kwargs)
   File "renpy/common/00library.rpy", line 268, in say
     who(what, interact=interact, *args, **kwargs)
-  File "renpy/character.py", line 1205, in __call__
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 1223, in __call__
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 871, in do_display
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 875, in do_display
     **display_args)
-  File "renpy/character.py", line 621, in display_say
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 621, in display_say
     rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3101, in interact
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3611, in interact_core
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3793, in interact_core
     self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2441, in draw_screen
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 2521, in draw_screen
     renpy.config.screen_height,
   File "render.pyx", line 492, in renpy.display.render.render_screen
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/transform.py", line 715, in render
     return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/transform.py", line 715, in render
     return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/image.py", line 501, in render
     return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/image.py", line 307, in wrap_render
     rend = render(child, w, h, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/transform.py", line 715, in render
     return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 607, in render
     return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 271, in get
     surf = image.load()
-  File "renpy/display/im.py", line 688, in load
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 688, in load
     raise e
-IOError: Couldn't find file 'kioko_eyesclosed.png'.
+IOError: Couldn't find file 'kioko_shyconcern.png'.
 
-Windows-10-10.0.19041
-Ren'Py 7.4.4.1439
+Windows-10-10.0.22000
+Ren'Py 7.4.8.1895
 The Calling 1.0
-Fri Nov 19 00:48:20 2021
+Fri Nov 19 21:10:18 2021

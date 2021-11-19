@@ -102,7 +102,7 @@ define Rune_Cards = EncEntry(
 )
 define Crimson_Bay = EncEntry(
     parent=your_new_encyclopaedia,
-    name="Rune Card",
+    name="Crimson Bay",
     text=[
     "{size=+25}The name of the gulf which Aelthian Kingdom surrounded. There’s no other country’s border in the region.{/size}"
     ],
@@ -287,7 +287,7 @@ label venaprologue:
     "Finally, I found myself in the village center. And there was the person I was looking for, crouched down next to the fountain, crying in agony while clasping a dead body."
 
     show Kioko Crying with dissolve:
-        yalign 1 zoom 1.8
+        yalign 1 zoom 2
 
     "Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
     "But I hadn’t come here to console anyone."
@@ -297,7 +297,7 @@ label venaprologue:
 
     scene forest with flash
 
-    show Kioko Default with dissolve:
+    show Kioko Concerned with dissolve:
         yalign 1 zoom 2
 
     k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
@@ -311,7 +311,8 @@ label venaprologue:
 
     scene shd with flash
 
-    show Kioko Crying with dissolve
+    show Kioko Crying with dissolve:
+        yalign 1 zoom 2
 
     "(Where are you… Where are you? Come now, don’t be shy-)"
 
@@ -355,7 +356,8 @@ label venaprologue:
 
     scene fogforest with fade
 
-    show Kioko Gasping with dissolve
+    show Kioko Gasping with dissolve:
+        zoom 2
 
     k "“Vena? Are you… The real Vena?”"
 
@@ -1079,7 +1081,7 @@ label venaprologue:
 
     v "“Kioko, calm down.”"
 
-    show Kioko Shyconcern with dissolve
+    show Kioko Shy with dissolve
 
     k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
 
@@ -1087,11 +1089,11 @@ label venaprologue:
 
     h "“What did she look like? Couldn’t she be just one of your friends?”"
 
-    show Kioko Concerned with dissolve
+    show Kioko Concerned with flash
 
     k "“No! No… I don’t have a friend like that.”"
 
-    show Kioko Sideway with dissolve
+    show Kioko Concerned with dissolve
 
     k "“She had ginger hair. But I couldn’t see her face clearly, for I was sleepy.”"
 
@@ -1315,7 +1317,7 @@ label venaprologue:
 
     scene academylivingroom with fade
     show Marley Irritated at right with dissolve:
-        yalign 1
+        yalign 1 zoom 1.4
 
 
     m "“You left out the other titles and holdings of the Princes, not to mention you didn’t address them with proper courtesy.”"
@@ -1324,7 +1326,8 @@ label venaprologue:
 
     a "“Pardon?”"
 
-    show Marley Sigh with dissolve
+    show Marley Sigh with move:
+         yalign 1 zoom 1.4
 
     m "“Cyril is the Duke of Credale, and Xerxes is Millford’s.”"
     m "“And Lionel, Brefcaster’s.”"
@@ -1383,19 +1386,20 @@ label venaprologue:
 
     "Marley’s words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
 
-    show Marley Neutral with dissolve
+    show Marley Neutral with dissolve:
+        yalign 1 zoom 1.5
 
     m "“The long-sustained, unshakeable peace of Whemond has been taking hits over the last year by things that were beyond our understanding.”"
 
-    show Marley Frowning with dissolve
+    show Marley Frowning with dissolve:
+        yalign 1 zoom 1.5
 
     m "“And what a coincidence! All these events have started to happen just before your arrival.”"
 
     "He paused heavily for dramatic effect. Asha, however, took the opportunity to speak up."
 
     show Marley Neutral:
-        xalign 0.5
-        linear 1 xpos 0.8
+        yalign 1 zoom 1.5
     show Asha Default at left with dissolve
 
     a "“Well, a few thousand years of peace of Silver Hollow against Aelthus’ a few centuries old peace… We are not in a good situation either.”"

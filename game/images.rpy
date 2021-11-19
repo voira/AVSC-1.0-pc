@@ -4,6 +4,9 @@ image Kioko Default :
 image Kioko Concerned :
     "kioko_concerned.png"
     xalign 0.5 yalign 1 zoom 0.65
+image Kioko Melancholic :
+    "kioko_melancholic.png"
+    xalign 0.5 yalign 1 zoom 0.65
 image Kioko Eyesclosed :
     "kioko_eyesclosed.png"
     xalign 0.5 yalign 1 zoom 0.65
@@ -21,6 +24,15 @@ image Kioko Shy :
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Shyconcern :
     "kioko_shyconcern.png"
+    xalign 0.5 yalign 1 zoom 0.65
+image Kioko Crying :
+    "kioko_crying.png"
+    xalign 0.5 yalign 1 zoom 0.65
+image Kioko Shocked :
+    "kioko_shocked.png"
+    xalign 0.5 yalign 1 zoom 0.65
+image Kioko Confused :
+    "kioko_confused.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Orphina Default :
     "orphina_default.png"
@@ -45,6 +57,9 @@ image Haru Default :
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Default :
     "kioko_default.png"
+    xalign 0.5 yalign 1 zoom 0.65
+image Marley Neutral :
+    "marley_neutral.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Default :
     "marley_default.png"
