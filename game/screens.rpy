@@ -171,6 +171,7 @@ screen ctc():
         text _("Click to continue..."):
             size 30
 
+
 transform ctc_appear:
     alpha 0.0
     pause 3.0
