@@ -19,7 +19,7 @@ label prologue:
     scene blackscreen with fade
     pause 1.5
 
-
+    #hide screen say()
     centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
     pause 1.0
 

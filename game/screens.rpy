@@ -77,6 +77,51 @@ style frame:
 ## In-game screens
 ################################################################################
 
+## Character Selection Screen:
+
+screen character_select:
+
+    add Image("gui/overlay/game_menu.png")
+
+    imagebutton:
+        xanchor 0.5
+        yanchor 0.5
+        xpos 0.75
+        ypos 0.5
+        idle "images/vena_choice_idle.png"
+        hover "images/vena_choice_hover.png"
+        action [Hide("displayTextScreenV"), Jump("venaprologue")]
+
+        # hovered Show("displayTextScreenV", displayText = "Vena")
+        # unhovered Hide("displayTextScreenV")
+
+    imagebutton:
+        xanchor 0.5
+        yanchor 0.5
+        xpos 0.25
+        ypos 0.5
+        idle "images/haru_choice_idle.png"
+        hover "images/haru_choice_hover.png"
+        action [Hide("displayTextScreenH"), Jump("haruprologue")]
+
+        # hovered Show("displayTextScreenH", displayText = "Haru")
+        # unhovered Hide("displayTextScreenH")
+
+screen displayTextScreenH:
+    default displayText = ""
+    vbox:
+        xalign 0.25
+        yalign 0.1
+        frame:
+                text displayText
+screen displayTextScreenV:
+    default displayText = ""
+    vbox:
+        xalign 0.75
+        yalign 0.1
+        frame:
+                text displayText
+
 
 ## Say screen ##################################################################
 ##
@@ -105,7 +150,7 @@ screen say(who, what):
                 style "namebox"
                 text who id "who"
 
-        if who is None:
+        else:
             window background Transform(Frame("gui/thinkbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
 
         text what id "what"
@@ -1017,8 +1062,18 @@ screen history():
                             text_color h.who_args["color"]
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
+                $ rollback_identifier = renpy.filter_text_tags(h.rollback_identifier, allow=gui.history_allow_tags)
                 text what:
                     substitute False
+
+                imagebutton:
+                    # xanchor 0.5
+                    # yanchor 0.5
+                    # xpos 0.75
+                    # ypos 0.5
+                    idle "images/rewind_icon_hover.png"
+                    hover "images/rewind_icon_hover.png"
+                    action RollbackToIdentifier(h.rollback_identifier)
 
         if not _history_list:
             label _("The dialogue history is empty.")

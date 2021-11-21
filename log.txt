@@ -1,41 +1,41 @@
-Fri Nov 19 21:23:39 2021
+Sun Nov 21 13:06:34 2021
 Windows-10-10.0.22000
 Ren'Py 7.4.8.1895
  
 
-Bootstrap to the start of init.init took 0.07s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.33s
-Loading save slot metadata. took 0.03s
+Loader init took 0.04s
+Loading error handling took 0.08s
+Loading script took 1.48s
+Loading save slot metadata. took 0.18s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Set script version to: (7, 4, 4)
-Running init code took 0.07s
+Running init code took 0.24s
 Loading analysis data took 0.09s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.22s
+Creating interface object took 0.36s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.46s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.06s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.43s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.14s
+Interface start took 0.13s
 
 Initializing gl renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -59,6 +59,1359 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1068, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1068, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1075, in <module>
+    action RollBackToIdentifier(h.rollbackidnetifier)
+NameError: name 'RollBackToIdentifier' is not defined
+
+While running game code:
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1068, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1068, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1075, in <module>
+    action RollBackToIdentifier(h.rollbackidnetifier)
+NameError: name 'RollBackToIdentifier' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 86.29s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.42s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1068, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1068, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1075, in <module>
+    action RollBackToIdentifier(h.what)
+NameError: name 'RollBackToIdentifier' is not defined
+
+While running game code:
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1068, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1068, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1075, in <module>
+    action RollBackToIdentifier(h.what)
+NameError: name 'RollBackToIdentifier' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 364.17s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.28s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.41s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1067, in execute
+    $ what = renpy.rollback_identifier
+  File "game/screens.rpy", line 1067, in <module>
+    $ what = renpy.rollback_identifier
+AttributeError: 'module' object has no attribute 'rollback_identifier'
+
+While running game code:
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1067, in execute
+    $ what = renpy.rollback_identifier
+  File "game/screens.rpy", line 1067, in <module>
+    $ what = renpy.rollback_identifier
+AttributeError: 'module' object has no attribute 'rollback_identifier'
+Resetting cache.
+Bootstrap to the start of init.init took 391.70s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1068, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1068, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1075, in <module>
+    action RollbackToIdentifier(h.rollback_idnetifier)
+AttributeError: 'HistoryEntry' object has no attribute 'rollback_idnetifier'
+
+While running game code:
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1068, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1068, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1075, in <module>
+    action RollbackToIdentifier(h.rollback_idnetifier)
+AttributeError: 'HistoryEntry' object has no attribute 'rollback_idnetifier'
+Resetting cache.
+Bootstrap to the start of init.init took 478.30s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.41s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1069, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1069, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1076, in <module>
+    action RollbackToIdentifier(h.rollback_idnetifier)
+AttributeError: 'HistoryEntry' object has no attribute 'rollback_idnetifier'
+
+While running game code:
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1069, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1069, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1076, in <module>
+    action RollbackToIdentifier(h.rollback_idnetifier)
+AttributeError: 'HistoryEntry' object has no attribute 'rollback_idnetifier'
+Resetting cache.
+Bootstrap to the start of init.init took 505.39s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.43s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.46s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 633.24s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 703.03s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 24: end of line expected.
+    hide screen ctc()
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 713.72s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 24: end of line expected.
+    hide screen ctc()
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.27s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 716.90s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: end of line expected.
+    hide screen ctc()
+                   ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.26s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 947.38s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected statement.
+    renpy.hide_screen(ctc)
+                          ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 951.12s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected statement.
+    renpy.hide_screen(ctc)
+                          ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.28s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 961.79s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected statement.
+    renpy.hide_screen(ctc())
+                            ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.25s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 962.52s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected statement.
+    renpy.hide_screen(ctc())
+                            ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.26s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 977.69s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected 'image_name_component' not found.
+    hide(ctc)
+        ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.26s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 978.94s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected 'image_name_component' not found.
+    hide(ctc)
+        ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.25s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1022.74s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected 'image_name_component' not found.
+    hide(ctc)
+        ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.28s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1025.86s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected 'image_name_component' not found.
+    hide(ctc)
+        ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.26s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1048.59s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 25: expected 'image_name_component' not found.
+    hide(ctc)
+        ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.27s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1051.75s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 472.47'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
 Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048

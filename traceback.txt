@@ -1,78 +1,116 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'kioko_shyconcern.png'>:
-  File "game/venaprologue.rpy", line 1086, in script
-    k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
-  File "renpy/common/00library.rpy", line 268, in say
-    who(what, interact=interact, *args, **kwargs)
-IOError: Couldn't find file 'kioko_shyconcern.png'.
+While running game code:
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1069, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1069, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1076, in <module>
+    action RollbackToIdentifier(h.rollback_idnetifier)
+AttributeError: 'HistoryEntry' object has no attribute 'rollback_idnetifier'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/venaprologue.rpy", line 1086, in script
-    k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/exports.py", line 1415, in say
-    renpy.store.say(who, what, *args, **kwargs)
-  File "renpy/common/00library.rpy", line 268, in say
-    who(what, interact=interact, *args, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 875, in do_display
-    **display_args)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
   File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'kioko_shyconcern.png'.
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1034, in execute
+    screen history():
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 561, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0):
+  File "game/screens.rpy", line 565, in execute
+    frame:
+  File "game/screens.rpy", line 568, in execute
+    hbox:
+  File "game/screens.rpy", line 574, in execute
+    frame:
+  File "game/screens.rpy", line 577, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 593, in execute
+    vpgrid:
+  File "game/screens.rpy", line 604, in execute
+    transclude
+  File "game/screens.rpy", line 1041, in execute
+    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+  File "game/screens.rpy", line 1045, in execute
+    for h in _history_list:
+  File "game/screens.rpy", line 1047, in execute
+    window:
+  File "game/screens.rpy", line 1050, in execute
+    has fixed:
+  File "game/screens.rpy", line 1069, in execute
+    imagebutton:
+  File "game/screens.rpy", line 1069, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 1076, in <module>
+    action RollbackToIdentifier(h.rollback_idnetifier)
+AttributeError: 'HistoryEntry' object has no attribute 'rollback_idnetifier'
 
 Windows-10-10.0.22000
 Ren'Py 7.4.8.1895
 The Calling 1.0
-Fri Nov 19 21:10:18 2021
+Sun Nov 21 13:14:36 2021
