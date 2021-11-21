@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: expected 'image_name_component' not found.
-    hide(ctc)
-        ^
+File "game/screens.rpy", line 1088: expected a keyword argument or child statement.
+    $ tooltip = GetTooltip()
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Nov 21 13:24:03 2021
+Sun Nov 21 14:25:03 2021

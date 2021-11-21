@@ -22,8 +22,6 @@ label start:
 
     "Choose a character."
 
-    # hide(ctc)
-
     call screen character_select
 label end:
     return

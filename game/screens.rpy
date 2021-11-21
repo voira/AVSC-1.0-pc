@@ -77,6 +77,16 @@ style frame:
 ## In-game screens
 ################################################################################
 
+
+##Rewind screen
+
+screen rewind:
+
+    imagebutton:
+        idle "images/rewind_icon_hover.png"
+        hover "images/rewind_icon_hover.png"
+        action RollbackToIdentifier(h.rollback_identifier)
+
 ## Character Selection Screen:
 
 screen character_select:
@@ -1063,17 +1073,21 @@ screen history():
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
                 $ rollback_identifier = renpy.filter_text_tags(h.rollback_identifier, allow=gui.history_allow_tags)
-                text what:
-                    substitute False
 
-                imagebutton:
-                    # xanchor 0.5
-                    # yanchor 0.5
-                    # xpos 0.75
-                    # ypos 0.5
-                    idle "images/rewind_icon_hover.png"
-                    hover "images/rewind_icon_hover.png"
+                textbutton what:
+                    xpos gui.history_text_xpos
+                    ypos gui.history_text_ypos
+                    xanchor gui.history_text_xalign
+                    xsize gui.history_text_width
+                    #min_width gui.history_text_width
+                    text_align gui.history_text_xalign
+                    # tooltip
                     action RollbackToIdentifier(h.rollback_identifier)
+                    substitute False
+                # $ tooltip = GetTooltip()
+                # if tooltip:
+                #     image "images/rewind_icon_hover.png"
+                #     xpos gui.history_text_xpos-20
 
         if not _history_list:
             label _("The dialogue history is empty.")
