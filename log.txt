@@ -1,84 +1,65 @@
-Sun Nov 21 14:30:35 2021
+Sat Nov 27 16:18:52 2021
 Windows-10-10.0.22000
-Ren'Py 7.4.8.1895
+Ren'Py 7.4.10.2178
  
 
-Bootstrap to the start of init.init took 0.06s
+Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata. took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.25s
+Loading save slot metadata. took 0.05s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Set script version to: (7, 4, 4)
-Running init code took 0.05s
-Loading analysis data took 0.10s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
+
+Full traceback:
+  File "game/haruprologue.rpy", line 23, in script
+    define Waceera_Entry = EncEntry(
+  File "renpy/ast.py", line 2213, in execute
+    self.set()
+  File "renpy/ast.py", line 2224, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/haruprologue.rpy", line 24, in <module>
+    parent=your_new_encyclopaedia,
+NameError: name 'your_new_encyclopaedia' is not defined
+
+While running game code:
+  File "game/haruprologue.rpy", line 23, in script
+    define Waceera_Entry = EncEntry(
+  File "game/haruprologue.rpy", line 24, in <module>
+    parent=your_new_encyclopaedia,
+NameError: name 'your_new_encyclopaedia' is not defined
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.20s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.51s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
 
 Full traceback:
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
+  File "renpy/bootstrap.py", line 331, in bootstrap
     renpy.main.main()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 617, in main
-    run(restart)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 97, in run
-    renpy.display.screen.prepare_screens()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 939, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/screens.rpy", line 1044, in prepare_screen
-    screen history():
-  File "game/screens.rpy", line 1044, in prepare
-    screen history():
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1060, in prepare
-    has fixed:
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/sl2/slast.py", line 409, in prepare
-    raise Exception("Properties are not allowed here.")
-Exception: Properties are not allowed here.
+  File "renpy/main.py", line 550, in main
+    renpy.game.context().run(node)
+  File "game/haruprologue.rpy", line 23, in script
+    define Waceera_Entry = EncEntry(
+  File "game/haruprologue.rpy", line 23, in script
+    define Waceera_Entry = EncEntry(
+  File "renpy/ast.py", line 2213, in execute
+    self.set()
+  File "renpy/ast.py", line 2224, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/haruprologue.rpy", line 24, in <module>
+    parent=your_new_encyclopaedia,
+NameError: name 'your_new_encyclopaedia' is not defined
 
-After initialization, but before game start.
-  File "game/screens.rpy", line 1044, in prepare_screen
-    screen history():
-  File "game/screens.rpy", line 1044, in prepare
-    screen history():
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1060, in prepare
-    has fixed:
-Exception: Properties are not allowed here.
+While running game code:
+  File "game/haruprologue.rpy", line 23, in script
+    define Waceera_Entry = EncEntry(
+  File "game/haruprologue.rpy", line 23, in script
+    define Waceera_Entry = EncEntry(
+  File "game/haruprologue.rpy", line 24, in <module>
+    parent=your_new_encyclopaedia,
+NameError: name 'your_new_encyclopaedia' is not defined

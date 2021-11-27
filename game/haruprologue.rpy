@@ -18,6 +18,11 @@ define io = ("Ionyr")
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
+#GRIMOIRE ENTRIES ----------------------------------
+
+
+
+#GRIMOIRE ENTRIES END HERE-------------------------------
 
 label haruprologue:
 
@@ -25,77 +30,80 @@ label haruprologue:
 
     scene blackscreen
 
-    "Bilinmeyene olan arzum vücudumu alevler halinde sarıyordu."
-    "Ve karşı koymak çok zordu."
+    "The desire for the unknown surrounded my body with its flames."
+    "And resistance was in vain."
 
     scene traincomp with fade
     show Kioko ClosedEye at left with dissolve
     show Vena Default at right with dissolve
 
-    h "“Uyuyabildiğine inanamıyorum gerçekten de.”"
+    h "“It’s surprising to see that she can sleep.”"
 
-    "Vena, Kioko’ya göz ucuyla baktıktan sonra derin bir iç çekmişti."
+    "Vena glanced at Kioko from the corner of her eyes and sighed."
 
-    v "“Ben de senin bütün bu olan bitene rağmen bu kadar heyecanlı olmana inanamıyorum.”"
+    v "“And it’s surprising to see how you can be brimming with joy after all the things that happened.”"
 
-    "Yanaklarımı bir çocuğun huysuzluğunu andıracak şekilde şişirdim."
+    "I puffed out my cheeks in annoyance. "
 
-    h "“Her gün Gümüş Oyuk’tan çıkma fırsatı yakalamıyoruz. Bu bir ilk-”"
+    $Silver_Hollow.locked = False
+    $Silver_Hollow.locked_persistent = False
+
+    h "“We don’t get the chance to leave {color=#f00}Silver Hollow{/color} every day. This is a first-”"
 
     show Vena Frowning with dissolve
 
-    v "“Ve muhtemelen son.”"
+    v "“And the last.”"
 
-    "Lafımı bölmesi diyeceklerimi ağzıma tıkıvermişti."
-    "Dedikleri sanki an be an daha zehirli oluyor, kanıma daha çok işliyordu."
-    "(Bunun sebebi muhtemelen çemberimizin zayıflatılması."
-    "Eskisi gibi tepki vermeye çalışmak sanırım en iyisi.)"
-    "Neyse ki onun da konuyu değiştireceği tutmuştu."
+    "I couldn’t finish my sentence before she interrupted me."
+    "Every time she talked, her words grew more toxic, more wounding."
+    "(This must be because of the state of our Circles… Acting normally might be the best approach here.)"
+
+    "Thank the stars, she changed the topic afterwards."
 
     show Vena Sideway with dissolve
 
-    v "“Birkaç gündür gözüne stresten uyku girmiyor.”"
+    v "“She couldn’t sleep a wink these past few days due to the stress.”"
 
     hide Vena with dissolve
 
     show Kioko ClosedEye with dissolve:
         zoom 1.5
 
-    "Bunun farkındaydım, aramızdaki bağın güçsüzleşmesine rağmen Kioko’nun bütün stresi benim göğsümde de köklerini salmıştı."
-    "Fakat herhangi bir yatıştırıcı kelime ağzımdan çıkamadı."
-    "Yılların duygusal noksanlığı aniden gelen hislerle birleşince beni böyle garip, şaşkın bir ruh haline sokmuştu."
+    "I knew that. Even though our bond had become loose ever since, I was still feeling the roots of Kioko’s stress in my heart as well."
+    "However I wasn’t able to soothe her."
+    "These new feelings, which were complete strangers to me, had put me in a weird, confused state I couldn’t handle at all."
 
     hide Kioko
     show Kioko ClosedEye at left with dissolve
     show Vena Frowning at right with dissolve
 
-    h "“Sanıyorum ki herkes aynı problemden mustarip.”"
+    h "“I think everyone here suffers from a similar problem.”"
 
-    v "“Sen hariç herkes…”"
+    v "“Everyone except you.”"
 
-    "(İşte yine başlıyoruz.)"
-    "Bu dünyaya vardık varalı Vena’nın azarlamalarının sonunu görememiştim."
-    "Rahatsız bir şekilde gözlerimi kaçırıp camın ötesinde bir noktaya odakladım. Ne zaman kavga etsek karnıma tanıdık olmadığım bir ağrı giriyor ve midem bulanmaya başlıyordu."
-    "Fakat kendimi rahatlatma çabalarım boşunaydı. Kompartımanın küçüklüğüne daha fazla dayanamayıp konuştum."
+    "(Here we go again.)"
+    "Ever since we’d set foot on this world, Vena’s scolding had become ceaseless."
+    "After glaring at her for a while I focused my gaze at somewhere beyond the window. Nowadays, whenever we argued there was this unfamiliar pang of pain I felt in my stomach, making me want to vomit."
+    "Realizing that I was failing to comfort myself even after taking several deep breaths, I couldn’t help but ask permission to leave the compartment, which started to feel stuffy."
 
-    h "“Ben birazcık hava alacağım.”"
+    h "“I will get some air.”"
 
     show Vena ArchedEye with dissolve
 
-    v "“Nerede?”"
+    v "“Where are you going?”"
 
-    "Ayağa kalktım."
+    "I stood up."
 
-    h "“Koridorda dolaşacağım, bacaklarım uyuştu.”"
+    h "“Just taking a walk in the aisle. My legs have gone numb.”"
 
-    "Vena derince bir nefes aldı."
+    "Vena took a deep breath."
 
     show Vena Default with dissolve
 
-    v "“Keyfin bilir. Başını belaya sokma da…”"
+    v "“Alright. Just don’t get yourself into any trouble.”"
 
-    "Kafamı belli belirsiz sallayıp kapıyı açtığım gibi kendimi koridora attım."
-    "Bana izin vereceğini düşünmemiştim, o yüzden daha fazla orada kalarak şansımı riske atmasam iyi olurdu."
+    "I nodded slightly before opening the door and almost threw myself into the corridor."
+    "It was surprising to see her to give me permission, and I didn’t want to risk it by wasting more time in the compartment."
 
     play sound slidedoor
 
@@ -103,15 +111,15 @@ label haruprologue:
 
     pause 1.0
 
-    "Kirli camlardan sızan gün ışığı, kirpiklerimi kavuruyordu."
-    "Geldiğim yerde Güneş gökte asla yükselmez, günün bütün ihtişamı koyu mavi gökte asılı kalan yıldızlara bahşedilirdi."
-    "Şimdi ise semada bu koca yıldız tek başına hüküm sürüyor, akşama kadar kardeşlerinin sahneye çıkmasına izin vermiyordu."
-    "(Eh, yıldızları okuyabilen biri değilim zaten. Hem bu dev yıldız diğerlerine kıyasla daha çok mana veriyor.)"
-    "Gün ışığı daha önce hiç olmadığı kadar güçlü hissetmemi sağlıyordu."
-    "Geldiğimizden beri böyle hissediyordum. Diğerleri için de aynı durum söz konusuydu."
+    "The sunlight was fighting its way through the dirty glass, catching on my eyelashes like fire.  "
+    "Where I’d come from, the sun had never risen in the sky. The glory of the day had always been bestowed upon the stars that hung over the deep blue sheets above."
+    "Now, however this one big star reigned alone on the horizon; not allowing its siblings on the stage till the dusk."
+    "(Well, I can’t read the stars anyways. It's not all bad though; this huge star gives more mana compared to the others.)"
+    "The daylight coming from the sun made me feel powerful like nothing ever had before."
+    "I’d been feeling this way ever since we had arrived here. The same sentiment must also be the case for the others."
     "(…)"
 
-    "Vena bu konudaki düşüncelerimi bilse bana ne çok kızardı. Yiyeceğim azarı hayal etmek bile tüylerimi diken diken ediyordu."
+    "How angry would Vena get if she heard those thoughts. Thinking about the scolding I could get was enough to make me shudder."
 
     play sound walking
 
@@ -122,51 +130,59 @@ label haruprologue:
 
     stop sound
 
-    "Bir camın kenarına yaklaştım ve pervazına dirseğimi dayayıp manzarayı izleyerek hayal etmeye koyuldum."
-    "Whemond nasıl bir yerdi, insanlar vaktini nasıl harcıyordu?"
-    "Nasıl evlerde yaşıyorlardı? Neler yiyorlardı?"
-    "Yaklaşık bir aydır kaldığımız o küçük köyde bunlardan başka bir şey düşünememiştim."
-    "Kalbim, özgürlüğün o tatlı rüzgarıyla kıpır kıpır olmuştu."
-    "Fakat bu huzurlu, kısacık an arkamda tanıdık bir sesin yankılanmasıyla son buldu."
+    "I got closer to one of the windows and putting a hand under my chin, I started to daydream while watching the everchanging view."
+    "What kind of place was Whemond? How did people spend a day there?"
+    "How did their houses look, what did they prefer to eat?"
+    "All these questions were occupying my head."
+    "And not just now, but they had been in my mind ever since the day we’d heard about the city, back in the small village that we had first sought shelter in."
+    "My heart fluttered with the sweet things that the winds of freedom whispered."
+    "However the calm state I finally maintained met its end once again thanks to the voice coming from behind me."
 
-    u "“Haru? Burada ne yapıyorsun?”"
+    u "“Haru? What are you doing here?”"
 
-    "Yavaşça dönüp tebessüm ettim."
+    "Slowly, I turned and forced a smile."
+
+    h "“Just wanted to get some air Asha, how about you?”"
 
     show Asha Smiling with dissolve
 
-    a "“Kimsenin kompartımanını terk etmediğinden emin olmaya çalışıyorum.”"
+    "Her signature know-it-all grin appeared on her face in return."
+
+    a "“Oh, I am trying to make sure that no one leaves their compartment.”"
 
     h "“Ah… Hahah…”"
 
-    "Mahcup bir şekilde ensemi kaşımaya başladım, tepkim Asha’yı güldürmüştü. Yavaşça yanıma yaklaştı."
+    "I began to scratch my back in an embarrassed way, which made Asha giggle. Taking her time, she came next to me steadily."
 
     show Asha Smiling at truecenter with dissolve:
         zoom 1.5
 
-    a "“Sorun yok, anlıyorum. Odalar küçük ve kendini boğulur gibi hissediyorsun.”"
+    a "“It’s okay, I can understand. The rooms are small and you feel like suffocated.”"
 
-    "Kafamı onaylarcasına salladım. Aynı anda Asha’nın gözleri de manasının izleriyle hafifçe parlamıştı."
-    "Zihnimde beklenmedik bir misafirin varlığını hissetmeye başladım."
+    "Asha’s eyes glowed with the traces of her mana while I was nodding at what she’d said."
+    "An unfamiliar presence made itself known in my mind."
 
     show Asha Default with dissolve
 
-    a "“Ama herkesin aksine seni boğan şey korkuların değil. Aksine heyecanlısın, mutlusun.”"
+    a "“But by contrast with everyone else, it’s not your fears that suffocate you. Even more, you’re excited, happy almost.”"
 
-    "Yavaşça alt dudağımı dişledim."
+    "Nervously I bit my lip."
 
-    h "“Vena bu konuda bana çok kızıyor. Ölülere hakaret ettiğimi düşünüyor.”"
+    h "“Vena gets angry at me because of that. She thinks that I’m disrespecting the dead.”"
 
-    a "“Ben öyle olduğunu düşünmüyorum. Sadece insanlarımızı kaybetmedik, aynı zamanda köklerimizden kopup savrulduk.”"
+    a "“I don’t agree with her. It was not only our sisters we lost. We also were torn out from our roots, floated in the wild wind with nowhere to go.”"
 
     show Asha Sideway with dissolve
 
-    a "“Ve kendimizi, en azından sizin için, bilinmeyenin ortasında bulduk.”"
-    a "“Zaten herkes her şeye aynı tepkiyi de veremez.”"
+    a "“And found ourselves in the middle of this land, foreign, at least for you.”"
+    a "“Not every person can react in the same way.” "
 
     show Asha Smiling with dissolve
 
-    a "“Ama burada Vena’yı da anlamalısın. Waceera onun için çok, çok… Önemliydi.”"
+    $Waceera_Entry.locked = False
+    $Waceera_Entry.locked_persistent = False
+
+    a "“However you should also put yourself in Vena’s place. {color=#f00}Waceera{/color} is very… Very dear to her.”"
     a "“Onun özellikle böyle sıkıntılı bir vakitte ortadan kaybolması kardeşini yıkıp geçti.”"
 
     "Kafamı merakla yana eğdim."

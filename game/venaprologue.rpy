@@ -16,6 +16,16 @@ init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
 ##Grimoire Entries
+define Waceera_Entry = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Waceera",
+    text=[
+    "{size=+25}The first and the last Night Mother of the Silver Hollow. She’s been lost ever since the Black Massacre, and there’s no information on if she’s alive, or not.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
 define Silver_Hollow = EncEntry(
     parent=your_new_encyclopaedia,
     name="Silver Hollow",
