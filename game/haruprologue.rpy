@@ -183,25 +183,29 @@ label haruprologue:
     $Waceera_Entry.locked_persistent = False
 
     a "“However you should also put yourself in Vena’s place. {color=#f00}Waceera{/color} is very… Very dear to her.”"
-    a "“Onun özellikle böyle sıkıntılı bir vakitte ortadan kaybolması kardeşini yıkıp geçti.”"
+    a "“Her strange disappearance, in such a dire time as this, has deeply upset your sister.”"
 
-    "Kafamı merakla yana eğdim."
+    "I tilted my head."
 
-    h "“Gerçekten ölmediğini mi düşünüyorsun?”"
+    h "“Do you seriously think she’s not dead?”"
 
     show Asha ClosedEye with dissolve
     pause 2.0
     show Asha Smiling with dissolve
 
-    a "“Ölmediğini umuyorum ve bu konuda kimsenin kasvetli düşüncelerde boğulmasına izin vermemek de benim görevim.”"
+    a "“More like I hope she’s not. Making sure that no one’s drowning in such melancholic thoughts is my duty.”"
 
-    u "“Kasvetli mi? O yüzsüz orospunun ölümünün haberi anca bayram sebebi olur.”"
+    u "“Melancholic? That shameless whore’s death could only be a matter of celebration.”"
 
     "(Ah, Almasi…)"
-    "Kendimi istemediğim bir laf ebeliğinin ortasında bulmak üzere olduğumu fark edince yeniden paniklemiştim."
-    "Almasi, emin adımlarla bize yaklaşmaktaydı."
+    "The quarrel which I felt like was about to start soon sent me into a panicked state once again."
 
-    "Yüzünde küçümseyen bir ifade eşliğinde kara gözleri Asha’ya bir hınçla sabitlenmişti."
+    $Almasi_Entry.locked = False
+    $Almasi_Entry.persistent_locked = False
+
+    "{color=#f00}Almasi{/color} was walking towards us, each step as solid as a hammer."
+
+    "Her coal-black eyes were fixated on Asha with a visible rage while her lips curved to let a sneer out."
 
     hide Asha
     show Asha Default:
@@ -209,91 +213,99 @@ label haruprologue:
         linear 0.5 xpos 0.15
     show Almasi Default at right with dissolve
 
-    al "“Ne o? Ablanın yokluğunda Gece Anne rolüne mi büründün?”"
+    $Night_Mother.locked = False
+    $Night_Mother.persistent = False
 
-    "(Şükürler olsun ki Asha sakin bir insan.)"
+    al "“What? Are you now the new {color=#f00}Night Mother{/color} since your useless sister is gone?”"
 
-    a "“Öyle bir niyetim yok Alma. Sadece genç kuzuların kaybolmasına engel olabilecek bir çobanın rolüne büründüm, o kadar.”"
+    "(Thank the stars Asha is a calm person.)"
 
-    "Bu sözlerinin ardından manidar bir şekilde bana bakıp gülümsedi."
+    a "“That’s not an intention of mine. I am nothing but a shepherd that guides the little sheep out of the danger.”"
+
+    "She sent me a meaningful smile after saying those."
 
     show Asha Smiling with dissolve
 
-    "Almasi ise onun sözlerini samimi bulmuş gözükmüyordu."
+    "But it was not enough to convince Almasi, it seemed."
 
     show Almasi Frowning with dissolve
 
-    al "“Çoban dediğin rehberdir. Hayvanların boynuna tasma vurup gezdirmezler.”"
-    al "“Küçüğüm, sakın bu kadının zihnini zehirlemesine izin verme.”"
+    al "“As you said, a shepherd is a guide. Not someone that puts leash on the sheep.”"
+    al "“Little one, don’t let this woman poison your mind.”"
 
-    "(O-uh. Beni bu kavganın dışında tutun.)"
-    "Ne diyeceğimi bilemediğimden ikisi hariç her yere baktım."
+    "(Oh uh. Don’t involve me in this.)"
+    "Not knowing what to say, my eyes wandered around the hallway, avoiding direct eye contact."
 
     hide Asha with dissolve
     hide Almasi with dissolve
 
-    "Taraf tutmak istemiyordum."
-    "Emindim ki Vena burada olsaydı Asha’ya güzel bir şekilde destek çıkardı fakat ben Almasi’yi agresif bulduğum kadar onu da suçsuz göremiyordum."
-    "Birkaç saniyenin ardından Asha elini sakince omzuma koymuştu."
+    "I didn’t want to pick a side."
+    "Surely if Vena was in my place, she could defend Asha very well."
+    "Yet here I was, thinking Asha was not that innocent at all, even though Almasi was being incredibly belligerent. "
+    "After a few seconds, Asha placed her hand on my shoulder gently."
 
     show Asha Smiling at truecenter with dissolve:
         zoom 1.5
 
-    a "“Haru, kompartımanına dönsen iyi olacak.”"
+    a "“Haru, you should return to your compartment.”"
 
     show Asha Sideway with dissolve
 
-    a "“Aynı şekilde sen de Almasi.”"
+    a "“You should as well, Almasi.”"
 
     show Almasi at left with dissolve
 
-    al "“Senden emir aldığımı da nereden çıkardın?”"
+    al "“And since when have I been taking orders from you?”"
 
     show Asha ClosedEye with dissolve
 
-    "Asha uzunca iç çekmişti."
-    "(Onun da sabrının bir sınırı var ne de olsa.)"
+    "Asha sighed deeply."
+    "(Even her patience has a limit.)"
 
     show Asha Default with dissolve
 
-    a "“Bizi bu topraklardan sürebilirlerdi ama yardım etmeyi kabul ettiler, hem de Whemond’da.”"
+    $Whemond.locked = False
+    $Whemond.persistent_locked = False
+
+    a "“They could have banished us from these lands, yet they wish to assist us {color=#f00}in the capital.{/color}”"
 
     show Asha Frowned with dissolve
 
-    a "“Tek istedikleri kurallara uymamız. Usluca oturup birkaç saat tartışma yaratmadan durmak çok mu zor?”"
+    a "“The only thing that was asked from us is that we follow their rules. Is it too hard to sit quietly without causing a scene for a few hours?”"
 
     show Almasi Frowned with dissolve
 
-    al "“Sen benimle bu tondan konuşamazsın.”"
+    al "“You can’t speak to me in that tone.”"
 
     show Almasi Angry with dissolve
 
-    al "“Omurgasız ablan, sen ve hiçbir halta yaramayan kız kardeşin ‘topraklardan sürülmemeyi’ bir başarı olarak görebilirsiniz fakat bu benim için bir hakaret.”"
+    al "“Your spineless, good for nothing sisters and you might perceive ‘not being banished from these lands’ as a success but it’s nothing more than an insult for me.”"
 
     hide Almasi with dissolve
 
-    "(Bu benim kavgam değil, araya girmek zorunda değilim. Başım ağrısın istemiyorum.)"
+    "(This is not my fight, I don’t have to interrupt. I don’t want to burden myself with this.)"
+    "I chanted silently to calm myself despite the tension between the two."
 
     hide Asha
     show Asha Frowned at right with dissolve
     show Almasi Angry at left with dissolve
 
-    al "“Whemond zaten bizim evimiz, bizim topraklarımız. Pertone, Ulu Orman-”"
+    al "“Whemond had already been a home for us once, those are our lands. Pertone, the Divine Woods-”"
 
     show Asha Sighing with dissolve
 
-    a "“Alma, gerçekten yeter.”"
+    a "“Alma, that’s enough.”"
 
-    "İkili arasında çıkan kıvılcımlara daha fazla dayanamayarak araya girdim."
+    "Unable to bear to witness the sparks between the two anymore, I stepped in."
 
-    h "“Ben… Kompartımanıma döneyim en iyisi mi.”"
+    h "“Well… I am returning to my compartment.”"
 
     show Asha Default with dissolve
     pause 2.0
     hide Almasi with dissolve
     hide Asha with dissolve
 
-    "Asha’nın gözlerinde “zavallıcık” dercesine bir parıltı belirmişti. Hızlı adımlarla aralarından geçip kendi bölmemize doğru ilerledim."
+    "There was a look in Asha’s eyes, almost saying “poor thing”. Passing the two with fast steps, I walked towards our compartment."
 
     scene traincorridor with dissolve:
         zoom 2.0
@@ -302,11 +314,11 @@ label haruprologue:
         linear 1 xalign 0.5
     pause 1.0
 
-    al "“Waceera aşığı ablacığına selamlarımı iletmeyi de unutma.”"
+    al "“Don’t forget to send my regards to your Waceera-loving sister.”"
 
-    "Artık dedikleri can sıkıyordu. Kapı kulpuna kendisine doğru dönmeden, yorgunca konuştum."
+    "Her attitude was getting out of hand. Holding the doorknob, I started to talk without looking at her face."
 
-    h "“Yok, teşekkürler. Siz kendi kavgalarınızı kendi konseylerinize saklayabilirsiniz ama.”"
+    h "“No, thanks. Though you can tell her about your complaints yourself.”"
 
     play sound slidedoor
 
@@ -316,30 +328,34 @@ label haruprologue:
     show Kioko Default at left with dissolve
     show Vena Default at right with dissolve
 
-    v "“Dışarıdan gürültüler geliyordu, bir şey mi oldu?”"
+    v "“Did something happen? I heard someone yelling.”"
 
-    "Şaşırmıştım, normalde böyle bir olayda Vena güçleri aracılığıyla olan bitene hemen kulak kabartırdı."
-    "Neyse, bu demek oluyordu ki en azından sinir krizi bir süre daha ertelenmişti."
+    "It was surprising to hear Vena ask that, since she had a habit of using her powers to eavesdrop on other's conversations."
+    "Anyways, this at least meant I didn’t have to deal with her temper for now."
 
-    h "“Bir sorun yok, klasik tartışmalar işte.”"
+    h "“The usual arguments, you know. Nothing else.”"
 
     hide Kioko with dissolve
     hide Vena with dissolve
 
-    "Vena önce bir kaşını kaldırdı, ardından omuz silkerek olayın peşini bırakmaya karar verdi."
-    "Ben de yolculuğun geri kalanında içine düştüğüm sıkıntılarla dolu çukurun beni derin bir uykuya çekmesine izin verdim."
+    "Vena first arched her brow, then shrugged which I assumed for to show that she wouldn’t chase it."
+    "And I let the pit made from my nightmares envelop me into a deep slumber afterwards."
 
     scene blackscreen with fade
     pause 1.0
 
-    "Whemond’a varmamız neredeyse gece yarısını bulmuştu."
-    "Apar topar Kraliyet Akademisi’ne tıkıldığımız için heyecanım kursağımda kalsa da en azından odamızdan dışarıyı izleyebiliyordum."
-    "Aynı zamanda Akademi de daha önce gördüğüm hiçbir yere benzemiyordu."
-    "Süslemeleriyle, dekorlarıyla, ormanımızdan o kadar farklıydı ki her şey…"
+    "The clock had almost reached midnight when we arrived in Whemond."
+
+    $Royal_Academy.locked = False
+    $Royal_Academy.persistent_locked = False
+
+    "That we had been led to the {color=#f00}Royal Academy{/color} in a rush had made me a little upset since I was looking forward to see the capital, but at least the city could be perfectly viewed from our room. "
+    "Also on the plus side, the Academy didn’t look like anything I’d seen before."
+    "Everything was so different than our rustic, isolated woods; the ornaments, decorations, the atmosphere…"
 
     scene whemond with fade
 
-    a "“Kızlar, bundan o kadar etkilendiyseniz bir de gün batımını izlemeniz lazım! O zaman güneş sanki kanayarak denize dökülüyormuş gibi bir görüntü oluşuyor.”"
+    a "“Ladies, if you’re this impressed already, I can’t imagine your reactions over the sunset! It always looks like the sun bleeds right into the sea.”"
     a "“Şafakları da aynı şekilde, bir kan göletinden çıkıyormuşçasına…”"
     a "“Ama kabul etmem lazım, ben en son buraları göreli her şey çok ama çok değişmiş.”"
 
