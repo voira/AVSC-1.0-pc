@@ -124,6 +124,36 @@ define Rune_Cards = EncEntry(
     locked=True,
     locked_persistent=True
 )
+define Light_Bearer = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Light Bearer",
+    text=[
+    "{size=+25}The leader of a circle. The Light Bearers are chosen by the Night Mother. The title is a reference to the Star Gems that are only handed to them.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Ashas_Prophecy = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Asha's Prophecy",
+    text=[
+    "{size=+25}The Black Massacre Prophecy that Asha foresaw through her rune cards. The cards brought the news of the end of the “world”, and said doomsday would arrive when a Priest of Death would walk upon this land.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
+define Kiokos_Confession = EncEntry(
+    parent=your_new_encyclopaedia,
+    name="Kioko's Confession",
+    text=[
+    "{size=+25}Right afterwards the events of the Black Massacre, Kioko confessed that she might have seen the perpetrator but couldn’t remember it clearly.{/size}"
+    ],
+    viewed_persistent=True,
+    locked=True,
+    locked_persistent=True
+)
 define Crimson_Bay = EncEntry(
     parent=your_new_encyclopaedia,
     name="Crimson Bay",
