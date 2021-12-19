@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1088: expected a keyword argument or child statement.
-    $ tooltip = GetTooltip()
-    ^
+File "game/haruprologue.rpy", line 203: expected statement.
+    Almasi_Entry.locked = False
+                        ^
 
-Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Nov 21 14:25:03 2021
+File "game/haruprologue.rpy", line 204: expected statement.
+    Almasi_Entry.persistent_locked = False
+                                   ^
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Sun Nov 28 11:34:21 2021

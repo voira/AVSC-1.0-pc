@@ -1,60 +1,72 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-  File "game/screens.rpy", line 1044, in prepare_screen
-    screen history():
-  File "game/screens.rpy", line 1044, in prepare
-    screen history():
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1060, in prepare
-    has fixed:
-Exception: Properties are not allowed here.
+While processing text tag {color#f00} in u'{color#f00}Almasi{/color} was walking towards us, each step as solid as a hammer.'.:
+  File "game/haruprologue.rpy", line 206, in script
+    "{color#f00}Almasi{/color} was walking towards us, each step as solid as a hammer."
+Exception: Unknown text tag u'color#f00'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 617, in main
-    run(restart)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/main.py", line 97, in run
-    renpy.display.screen.prepare_screens()
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/display/screen.py", line 939, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/screens.rpy", line 1044, in prepare_screen
-    screen history():
-  File "game/screens.rpy", line 1044, in prepare
-    screen history():
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1051, in prepare
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1055, in prepare
-    for h in _history_list:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1057, in prepare
-    window:
-  File "game/screens.rpy", line 1060, in prepare
-    has fixed:
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/sl2/slast.py", line 409, in prepare
-    raise Exception("Properties are not allowed here.")
-Exception: Properties are not allowed here.
+  File "game/haruprologue.rpy", line 206, in script
+    "{color#f00}Almasi{/color} was walking towards us, each step as solid as a hammer."
+  File "renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1249, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 901, in do_display
+    **display_args)
+  File "renpy/character.py", line 647, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3315, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3834, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "renpy/display/core.py", line 2555, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/screen.py", line 688, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 1254, in render
+    st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/text/text.py", line 2096, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "renpy/text/text.py", line 610, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "renpy/text/text.py", line 1259, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag u'color#f00'
 
 Windows-10-10.0.22000
-Ren'Py 7.4.8.1895
+Ren'Py 7.4.10.2178
 The Calling 1.0
-Sun Nov 21 14:30:36 2021
+Sun Nov 28 11:34:54 2021
