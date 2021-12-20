@@ -1,17 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'vena_default.png'>:
-  File "game/haruprologue.rpy", line 40, in script
-    h "“It’s surprising to see that she can sleep.”"
+While loading <'Image' u'kioko/kioko_concerned.png'>:
+  File "game/venaprologue.rpy", line 210, in script
+    k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
   File "renpy/common/00library.rpy", line 268, in say
     who(what, interact=interact, *args, **kwargs)
-IOError: Couldn't find file 'vena_default.png'.
+IOError: Couldn't find file 'kioko/kioko_concerned.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/haruprologue.rpy", line 40, in script
-    h "“It’s surprising to see that she can sleep.”"
+  File "game/venaprologue.rpy", line 210, in script
+    k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
   File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1391, in say
@@ -66,9 +66,9 @@ Full traceback:
     surf = image.load()
   File "renpy/display/im.py", line 688, in load
     raise e
-IOError: Couldn't find file 'vena_default.png'.
+IOError: Couldn't find file 'kioko/kioko_concerned.png'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
 The Calling 1.0
-Mon Dec 20 18:24:26 2021
+Mon Dec 20 20:01:27 2021
