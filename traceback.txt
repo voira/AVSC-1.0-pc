@@ -1,72 +1,74 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {color#f00} in u'{color#f00}Almasi{/color} was walking towards us, each step as solid as a hammer.'.:
-  File "game/haruprologue.rpy", line 206, in script
-    "{color#f00}Almasi{/color} was walking towards us, each step as solid as a hammer."
-Exception: Unknown text tag u'color#f00'
+While loading <'Image' u'vena_default.png'>:
+  File "game/haruprologue.rpy", line 40, in script
+    h "“It’s surprising to see that she can sleep.”"
+  File "renpy/common/00library.rpy", line 268, in say
+    who(what, interact=interact, *args, **kwargs)
+IOError: Couldn't find file 'vena_default.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/haruprologue.rpy", line 206, in script
-    "{color#f00}Almasi{/color} was walking towards us, each step as solid as a hammer."
-  File "renpy/ast.py", line 721, in execute
+  File "game/haruprologue.rpy", line 40, in script
+    h "“It’s surprising to see that she can sleep.”"
+  File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1249, in __call__
+  File "renpy/exports.py", line 1391, in say
+    renpy.store.say(who, what, *args, **kwargs)
+  File "renpy/common/00library.rpy", line 268, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "renpy/character.py", line 1205, in __call__
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 901, in do_display
+  File "renpy/character.py", line 871, in do_display
     **display_args)
-  File "renpy/character.py", line 647, in display_say
+  File "renpy/character.py", line 621, in display_say
     rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3315, in interact
+  File "renpy/display/core.py", line 3101, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3834, in interact_core
+  File "renpy/display/core.py", line 3611, in interact_core
     self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2555, in draw_screen
+  File "renpy/display/core.py", line 2441, in draw_screen
     renpy.config.screen_height,
   File "render.pyx", line 492, in renpy.display.render.render_screen
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 824, in render
+  File "renpy/display/layout.py", line 777, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 824, in render
+  File "renpy/display/layout.py", line 777, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 824, in render
+  File "renpy/display/layout.py", line 777, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/screen.py", line 688, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "renpy/display/transform.py", line 933, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 824, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
+  File "renpy/display/transform.py", line 933, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 1254, in render
-    st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 824, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/text/text.py", line 2096, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "renpy/text/text.py", line 610, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "renpy/text/text.py", line 1259, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag u'color#f00'
+  File "renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'vena_default.png'.
 
-Windows-10-10.0.22000
-Ren'Py 7.4.10.2178
+Windows-10-10.0.19041
+Ren'Py 7.4.4.1439
 The Calling 1.0
-Sun Nov 28 11:34:54 2021
+Mon Dec 20 18:24:26 2021
