@@ -1,90 +1,90 @@
 image Kioko Default :
-    "kioko_default.png"
+    "kioko/kioko_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Concerned :
-    "kioko_concerned.png"
+    "kioko/kioko_concerned.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Melancholic :
-    "kioko_melancholic.png"
+    "kioko/kioko_melancholic.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Eyesclosed :
-    "kioko_eyesclosed.png"
+    "kioko/kioko_eyesclosed.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Gasping :
-    "kioko_gasping.png"
+    "kioko/kioko_gasping.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Laughing :
-    "kioko_laughing.png"
+    "kioko/kioko_laughing.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Neutral :
-    "kioko_neutral.png"
+    "kioko/kioko_neutral.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Shy :
-    "kioko_shy.png"
+    "kioko/kioko_shy.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Shyconcern :
-    "kioko_shyconcern.png"
+    "kioko/kioko_shyconcern.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Crying :
-    "kioko_crying.png"
+    "kioko/kioko_crying.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Shocked :
-    "kioko_shocked.png"
+    "kioko/kioko_shocked.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Confused :
-    "kioko_confused.png"
+    "kioko/kioko_confused.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Orphina Default :
-    "orphina_default.png"
+    "orphina/orphina_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Orphina Annoyed :
-    "orphina_annoyed.png"
+    "orphina/orphina_annoyed.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Orphina AnnoyedSide :
-    "orphina_annoyed_side.png"
+    "orphina/orphina_annoyed_side.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Almasi Default :
-    "almasi_default.png"
+    "almasi/almasi_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Cyril Default :
-    "cyril_default.png"
+    "cyril/cyril_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Ealdwine Default :
-    "ealdwine_default.png"
+    "ealdwine/ealdwine_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Haru Default :
-    "haru_default.png"
+    "haru/haru_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Kioko Default :
-    "kioko_default.png"
+    "kioko/kioko_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Neutral :
-    "marley_neutral.png"
+    "marley/marley_neutral.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Default :
-    "marley_default.png"
+    "marley/marley_default.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Frowning :
-    "marley_frowning.png"
+    "marley/marley_frowning.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Cocky :
-    "marley_cocky.png"
+    "marley/marley_cocky.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Irritated :
-    "marley_irritated.png"
+    "marley/marley_irritated.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Mocking :
-    "marley_mocking.png"
+    "marley/marley_mocking.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Sigh :
-    "marley_sigh.png"
+    "marley/marley_sigh.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Eyesclosed :
-    "marley_eyesclosed.png"
+    "marley/marley_eyesclosed.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Marley Troubled :
-    "marley_troubled.png"
+    "marley/marley_troubled.png"
     xalign 0.5 yalign 1 zoom 0.65
 image Vena Default :
-    "vena_default.png"
+    "vena/vena_default.png"
     xalign 0.5 yalign 1 zoom 0.65
