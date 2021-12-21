@@ -71,4 +71,4 @@ IOError: Couldn't find file 'kioko/kioko_concerned.png'.
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
 The Calling 1.0
-Mon Dec 20 20:01:27 2021
+Tue Dec 21 11:40:08 2021
