@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 379: u'Play' is not a keyword argument or valid child for the screen statement.
+    Play("movie", "gui/title_card.webm", loop=True)
+        ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Sun Jan  9 18:47:47 2022

@@ -371,14 +371,12 @@ style quick_button_text:
 # style.imagemap.activate_sound = "click.wav"
 init:
     image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
+init:
+    image title_card = Movie(play="gui/title_card.webm")
 
 screen navigation_main_menu():
 
-        image "logo.png":
-            xsize 850
-            ysize 150
-            xalign 0.5
-            yalign 0.25
+        add "title_card" xalign 0.5 yalign 0.1
 
         image "main_kutu.png":
             xsize 650
