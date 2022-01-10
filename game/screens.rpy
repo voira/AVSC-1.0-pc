@@ -371,18 +371,8 @@ style quick_button_text:
 # style.imagemap.activate_sound = "click.wav"
 init:
     image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
-init:
-    image title_card = Movie(play="gui/title_card.webm")
 
 screen navigation_main_menu():
-
-        add "title_card" xalign 0.5 yalign 0.1
-
-        image "main_kutu.png":
-            xsize 650
-            ysize 450
-            xalign 0.5
-            yalign 0.8
 
         vbox:
             style_prefix "navigation_main_menu"
@@ -401,7 +391,7 @@ screen navigation_main_menu():
 
             textbutton _("Load") action ShowMenu("load")
 
-            textbutton _("Preferences") action ShowMenu("preferences")
+            #textbutton _("Preferences") action ShowMenu("preferences")
 
             if _in_replay:
 
@@ -413,10 +403,10 @@ screen navigation_main_menu():
 
             textbutton _("About") action ShowMenu("about")
 
-            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+            #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
                 ## Help isn't necessary or relevant to mobile devices.
-                textbutton _("Help") action ShowMenu("help")
+                #textbutton _("Help") action ShowMenu("help")
 
             if renpy.variant("pc"):
 
