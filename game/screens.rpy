@@ -377,7 +377,7 @@ screen navigation_main_menu():
         vbox:
             style_prefix "navigation_main_menu"
             xalign 0.5
-            yalign 0.8
+            yalign 0.85
 
             if main_menu:
 
