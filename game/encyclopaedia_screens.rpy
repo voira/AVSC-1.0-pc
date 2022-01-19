@@ -92,67 +92,75 @@ screen encyclopaedia_list(enc):
     modal True
 
     window:
+        background 'grimoire_main.png'
+
         style_prefix "encyclopaedia"
 
         vbox:
-            spacing 10
-
-            frame:
-                style_prefix "encyclopaedia"
-                xfill True
-
-                text "Welcome to the Silver Hollow Grimoire"
-
-
-            frame:
-                style_prefix "encyclopaedia"
-                xfill True
-
-                vbox:
-                    text "Filters"
-                    hbox:
-                        xfill True
-                        # Buttons to filter the entries that are displayed
-                        textbutton "All" action enc.ClearFilter() style "encyclopaedia_button"
-                        for subject in enc.subjects:
-                            textbutton subject action enc.FilterBySubject(subject) style "encyclopaedia_button"
+            yalign 0
+            xalign 0
+            xoffset 50
+            yoffset 110
+            xmaximum 700
+            ymaximum 700
 
             hbox:
-                frame:
-                    style_prefix "encyclopaedia"
-                    yfill True
-                    xmaximum 1200
-                    bottom_margin 10
+                yalign 0
+                xalign 0
+                xoffset 300
+                xmaximum 700
 
-                    viewport:
-                        scrollbars "vertical"
-                        mousewheel True
-                        draggable True
-                        vbox:
-                            # Flavour text to display the current sorting mode.
-                            text enc.labels.sorting_mode xalign 0.5
+                text "The Silver Hollow Grimoire"
 
-                            use vertical_list(enc) id "vertical list"
 
-                frame:
-                    style_prefix "encyclopaedia"
-                    xfill True
-                    bottom_margin 10
-                    yalign 0.95
+            # frame:
+            #     style_prefix "encyclopaedia"
+            #     xfill True
 
+                # vbox:
+                    # text "Filters"
+                    # hbox:
+                    #     xfill True
+                    #     # Buttons to filter the entries that are displayed
+                    #     textbutton "All" action enc.ClearFilter() style "encyclopaedia_button"
+                    #     for subject in enc.subjects:
+                    #         textbutton subject action enc.FilterBySubject(subject) style "encyclopaedia_button"
+
+            hbox:
+
+                yalign 0
+                yoffset 60
+                xalign 640
+                xoffset 130
+
+                viewport:
+                    scrollbars "vertical"
+                    mousewheel True
+                    draggable True
                     vbox:
-                        # Buttons to sort entries.
-                        textbutton "Sort by {}".format(enc.labels.sort_number_label) action enc.Sort(sorting_mode=enc.SORT_NUMBER) xfill True
-                        textbutton "Sort by {}".format(enc.labels.sort_alphabetical_label) action enc.Sort(sorting_mode=enc.SORT_ALPHABETICAL) xfill True
-                        textbutton "Sort by {}".format(enc.labels.sort_reverse_alphabetical_label) action enc.Sort(sorting_mode=enc.SORT_REVERSE_ALPHABETICAL) xfill True
-                        textbutton "Sort by {}".format(enc.labels.sort_subject_label) action enc.Sort(sorting_mode=enc.SORT_SUBJECT) xfill True
-                        textbutton "Sort by {}".format(enc.labels.sort_unread_label) action enc.Sort(sorting_mode=enc.SORT_UNREAD) xfill True
+                        # Flavour text to display the current sorting mode.
 
-                        # Buttons to show different styles of hiding locked data.
-                        textbutton "Show/Hide Locked Buttons" action enc.ToggleShowLockedButtons() xfill True
-                        textbutton "Show/Hide Locked Entry" action enc.ToggleShowLockedEntry() xfill True
+                        use vertical_list(enc) id "vertical list"
 
-                        textbutton "Return"  action [Hide("encyclopaedia_list"), Return()] xfill True
+                # frame:
+                #     style_prefix "encyclopaedia"
+                #     xfill True
+                #     bottom_margin 10
+                #     yalign 0.95
+                #
+                #     vbox:
+                #         # Buttons to sort entries.
+                #         textbutton "Sort by {}".format(enc.labels.sort_number_label) action enc.Sort(sorting_mode=enc.SORT_NUMBER) xfill True
+                #         textbutton "Sort by {}".format(enc.labels.sort_alphabetical_label) action enc.Sort(sorting_mode=enc.SORT_ALPHABETICAL) xfill True
+                #         textbutton "Sort by {}".format(enc.labels.sort_reverse_alphabetical_label) action enc.Sort(sorting_mode=enc.SORT_REVERSE_ALPHABETICAL) xfill True
+                #         textbutton "Sort by {}".format(enc.labels.sort_subject_label) action enc.Sort(sorting_mode=enc.SORT_SUBJECT) xfill True
+                #         textbutton "Sort by {}".format(enc.labels.sort_unread_label) action enc.Sort(sorting_mode=enc.SORT_UNREAD) xfill True
+                #
+                #         # Buttons to show different styles of hiding locked data.
+                #         textbutton "Show/Hide Locked Buttons" action enc.ToggleShowLockedButtons() xfill True
+                #         textbutton "Show/Hide Locked Entry" action enc.ToggleShowLockedEntry() xfill True
+                #
+                #         textbutton "Return"  action [Hide("encyclopaedia_list"), Return()] xfill True
 
 
 ################################################################################
@@ -188,58 +196,58 @@ screen encyclopaedia_entry(enc):
                     textbutton "Previous Entry" xalign .02 action enc.PreviousEntry() style "encyclopaedia_button"
                     textbutton "Next Entry" xalign .98 action enc.NextEntry() style "encyclopaedia_button"
 
-            hbox:
-                # If the entry or sub-entry has an image
-                if enc.active.current_page.has_image:
-                    frame:
-                        style_prefix "encyclopaedia_image"
-
-                        viewport:
-                            scrollbars None
-                            draggable True
-                            mousewheel True
-                            edgescroll (1.0, 1.0)
-                            add enc.active.current_page.image
-
-                    frame:
-                        style_prefix "encyclopaedia"
-                        id "entry_window"
-                        xfill True
-                        yfill True
-                        xmaximum half_screen_width
-                        ymaximum half_screen_height
-                        viewport:
-                            scrollbars "vertical"
-                            mousewheel True
-                            draggable True
-                            xfill True
-                            yfill True
-                            vbox:
-                                spacing 15
-                                # Display the current entry's text
-                                for item in enc.active.current_page.text:
-                                    text item style "encyclopaedia_entry_text"
-
-                # If there's no image
-                else:
-                    frame:
-                        style_prefix "encyclopaedia"
-                        id "entry_window"
-                        xfill True
-                        yfill True
-                        xmaximum config.screen_width
-                        ymaximum half_screen_height
-                        viewport:
-                            scrollbars "vertical"
-                            mousewheel True
-                            draggable True
-                            xfill True
-                            yfill True
-                            vbox:
-                                spacing 15
-                                # Display the current entry's text
-                                for item in enc.active.current_page.text:
-                                    text item style "encyclopaedia_entry_text"
+            # hbox:
+            #     # If the entry or sub-entry has an image
+            #     if enc.active.current_page.has_image:
+            #         frame:
+            #             style_prefix "encyclopaedia_image"
+            #
+            #             viewport:
+            #                 scrollbars None
+            #                 draggable True
+            #                 mousewheel True
+            #                 edgescroll (1.0, 1.0)
+            #                 add enc.active.current_page.image
+            #
+            #         frame:
+            #             style_prefix "encyclopaedia"
+            #             id "entry_window"
+            #             xfill True
+            #             yfill True
+            #             xmaximum half_screen_width
+            #             ymaximum half_screen_height
+            #             viewport:
+            #                 scrollbars "vertical"
+            #                 mousewheel True
+            #                 draggable True
+            #                 xfill True
+            #                 yfill True
+            #                 vbox:
+            #                     spacing 15
+            #                     # Display the current entry's text
+            #                     for item in enc.active.current_page.text:
+            #                         text item style "encyclopaedia_entry_text"
+            #
+            #     # If there's no image
+            #     else:
+            #         frame:
+            #             style_prefix "encyclopaedia"
+            #             id "entry_window"
+            #             xfill True
+            #             yfill True
+            #             xmaximum config.screen_width
+            #             ymaximum half_screen_height
+            #             viewport:
+            #                 scrollbars "vertical"
+            #                 mousewheel True
+            #                 draggable True
+            #                 xfill True
+            #                 yfill True
+            #                 vbox:
+            #                     spacing 15
+            #                     # Display the current entry's text
+            #                     for item in enc.active.current_page.text:
+            #                         text item style "encyclopaedia_entry_text"
 
             frame:
                 style_prefix "encyclopaedia"

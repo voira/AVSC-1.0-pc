@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 406: vbox expects a non-empty block.
-    if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-                                                                                     ^
+File "game/encyclopaedia_screens.rpy", line 113: keyword argument u'xoffset' appears more than once in a hbox statement.
+    xoffset 50
+           ^
 
-Ren'Py Version: Ren'Py 7.4.8.1895
-Mon Jan 10 17:20:41 2022
+Ren'Py Version: Ren'Py 7.4.4.1439
+Wed Jan 19 09:36:35 2022

@@ -1,36 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    ui.pausebehavior(0)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "renpy/common/00keymap.rpy", line 463, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 463, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 482, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+PicklingError: Can't pickle <class 'store.EncEntry'>: it's not the same object as store.EncEntry
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
+  File "renpy/common/00keymap.rpy", line 463, in script
+    python hide:
+  File "renpy/ast.py", line 922, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
+  File "renpy/python.py", line 2218, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    ui.pausebehavior(0)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/loadsave.py", line 394, in save
-    roots = renpy.game.log.freeze(None)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 2132, in freeze
-    self.complete(False)
-  File "C:\Users\beste\OneDrive\Belgeler\renpy-7.4.8-sdk/renpy/python.py", line 1726, in complete
-    self.current.stores[name], self.current.delta_ebc[name] = sd.get_changes(begin)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "renpy/common/00keymap.rpy", line 463, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 482, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+  File "renpy/loadsave.py", line 413, in save
+    reraise(t, e, tb)
+  File "renpy/loadsave.py", line 399, in save
+    dump((roots, renpy.game.log), logf)
+  File "renpy/loadsave.py", line 49, in dump
+    cPickle.dump(o, f, cPickle.HIGHEST_PROTOCOL)
+PicklingError: Can't pickle <class 'store.EncEntry'>: it's not the same object as store.EncEntry
 
 Windows-10-10.0.22000
-Ren'Py 7.4.8.1895
+Ren'Py 7.4.4.1439
 The Calling 1.0
-Mon Jan 10 17:21:02 2022
+Wed Jan 19 09:19:36 2022
