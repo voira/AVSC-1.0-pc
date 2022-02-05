@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/encyclopaedia_screens.rpy", line 113: keyword argument u'xoffset' appears more than once in a hbox statement.
-    xoffset 50
-           ^
+File "game/encyclopaedia_screens.rpy", line 147: u'bottom_margin' is not a keyword argument or valid child for the vbox statement.
+    bottom_margin 10
+                 ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Wed Jan 19 09:36:35 2022
+Sat Feb  5 14:18:33 2022

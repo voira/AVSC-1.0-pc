@@ -169,6 +169,7 @@ label start:
 
     call prologue from _call_prologue
 
+    show screen quick_menu()
     show screen ctc()
 
     scene blackscreen with fade

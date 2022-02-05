@@ -19,9 +19,26 @@ label prologue:
     scene blackscreen with fade
     pause 1.5
 
-    #hide screen say()
-    centered "No matter where I am, \n {p} And no matter what time it is, \n {p} I'll be there when you desire, \n {p} I'll wake upon your {b}call{/b}."
+    show text 'No matter where I am,'
+    with dissolve
     pause 1.0
+    hide text
+    with dissolve
+    show text 'And no matter what time it is,'
+    with dissolve
+    pause 1.0
+    hide text
+    with dissolve
+    show text 'I will be there when you desire,'
+    with dissolve
+    pause 1.0
+    hide text
+    with dissolve
+    show text 'I will wake upon your {b}call{/b}.'
+    with dissolve
+    pause 1.0
+    hide text
+    with dissolve
 
 
     pause 1.5

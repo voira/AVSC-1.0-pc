@@ -23,24 +23,24 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = u'#A98146'
+define gui.accent_color = u'#D6AD6B'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = u'#F1CE9A'
+define gui.idle_color = u'#C49F62'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
 define gui.idle_small_color = u'#C29451'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = u'#A98146'
+define gui.hover_color = u'#F1CE9A'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = u'#A98146'
+define gui.selected_color = u'#8F7547'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = u'#917449'
+define gui.insensitive_color = u'#967A4B'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
@@ -48,7 +48,7 @@ define gui.muted_color = u'#A98146'
 define gui.hover_muted_color = u'#A98146'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = u'#F1CE9A'
+define gui.text_color = u'#C49F62'
 define gui.interface_text_color = u'#F1CE9A'
 
 
@@ -62,6 +62,9 @@ define gui.name_text_font = "fonts/Alegreya-Regular.otf"
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "fonts/Alegreya-Regular.otf"
+
+## The font used for grimoire text.
+#define gui.grimoire_text_font =
 
 ## The size of normal dialogue text.
 define gui.text_size = 35
@@ -96,6 +99,7 @@ define gui.game_menu_background = "gui/game_menu.png"
 
 ## The height of the textbox containing dialogue.
 define gui.textbox_height = 300
+define gui.textbox_width = 1920
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
@@ -114,12 +118,12 @@ define gui.name_yalign = 1
 
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
-define gui.namebox_width = 235
-define gui.namebox_height = 75
+define gui.namebox_width = None
+define gui.namebox_height = None
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(50, 2, 50, 17)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background of the namebox will be scaled.
@@ -129,11 +133,11 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 402
+define gui.dialogue_xpos = 410
 define gui.dialogue_ypos = 75
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 920
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -196,22 +200,22 @@ define gui.quick_button_text_selected_color = gui.accent_color
 ## For example, you can uncomment the following line to set the width of a
 ## navigation button.
 
-# define gui.navigation_button_width = 250
+define gui.navigation_button_color = '#F1CE9A'
 
 
 ## Choice Buttons ##############################################################
 ##
 ## Choice buttons are used in the in-game menus.
 
-define gui.choice_button_width = 1185
+define gui.choice_button_width = 300
 define gui.choice_button_height = None
-define gui.choice_button_tile = False
+define gui.choice_button_tile = True
 define gui.choice_button_borders = Borders(150, 8, 150, 8)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
-define gui.choice_button_text_hover_color = "#ffffff"
+define gui.choice_button_text_idle_color = "#DBB95C"
+define gui.choice_button_text_hover_color = "#E3D36C"
 define gui.choice_button_text_insensitive_color = "#444444"
 
 
@@ -227,17 +231,18 @@ define gui.slot_button_height = 309
 define gui.slot_button_borders = Borders(15, 15, 15, 15)
 define gui.slot_button_text_size = 21
 define gui.slot_button_text_xalign = 0.5
+define gui.slot_button_text_yalign = 0.5
 define gui.slot_button_text_idle_color = gui.idle_small_color
 define gui.slot_button_text_selected_idle_color = gui.selected_color
 define gui.slot_button_text_selected_hover_color = gui.hover_color
 
 ## The width and height of thumbnails used by the save slots.
-define config.thumbnail_width = 384
-define config.thumbnail_height = 216
+define config.thumbnail_width = 288
+define config.thumbnail_height = 162
 
 ## The number of columns and rows in the grid of save slots.
-define gui.file_slot_cols = 1
-define gui.file_slot_rows = 20
+define gui.file_slot_cols = 2
+define gui.file_slot_rows = 3
 
 
 ## Positioning and Spacing #####################################################
@@ -259,7 +264,7 @@ define gui.notify_ypos = 68
 define gui.choice_spacing = 33
 
 ## Buttons in the navigation section of the main and game menus.
-define gui.navigation_spacing = 6
+define gui.navigation_spacing = 1
 
 ## Controls the amount of spacing between preferences.
 define gui.pref_spacing = 15
@@ -425,19 +430,19 @@ init python:
     if renpy.variant("small"):
 
         ## Font sizes.
-        gui.title_text_size = 60
+        gui.title_text_size = 55
         gui.text_size = 45
         gui.name_text_size = 54
         gui.notify_text_size = 38
         gui.interface_text_size = 45
         gui.button_text_size = 45
-        gui.label_text_size = 51
+        gui.label_text_size = 55
 
         ## Adjust the location of the textbox.
         gui.textbox_height = 360
         gui.name_xpos = 120
         gui.dialogue_xpos = 135
-        gui.dialogue_width = 1650
+        gui.dialogue_width = 1920
 
         ## Change the size and spacing of various things.
         gui.slider_size = 54

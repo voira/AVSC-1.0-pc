@@ -187,9 +187,9 @@ style namebox_label is say_label
 
 style window:
     xalign 0.5
-    xfill True
     yalign 0.93
     ysize gui.textbox_height
+    xsize gui.textbox_width
 
 style namebox:
     xpos gui.name_xpos
@@ -319,14 +319,14 @@ screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
 
-    #if quick_menu:
+    if quick_menu:
 
-        #vbox:
-            #style_prefix "quick"
+        vbox:
+            style_prefix "quick"
 
-            #xalign 0.1
-            #yalign 0.92
-            #spacing 10
+            xalign 0.1
+            yalign 0.92
+            spacing 10
 
             #textbutton _("Back") action Rollback()
             #textbutton _("History") action ShowMenu('history')
@@ -334,8 +334,8 @@ screen quick_menu():
             #textbutton _("Auto") action Preference("auto-forward", "toggle")
             #textbutton _("Save") action ShowMenu('save')
             #textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
-            #textbutton _("Q.Save") action QuickSave()
-            #textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Q.Save") action QuickSave()
+            textbutton _("Q.Load") action QuickLoad()
             #textbutton _("Prefs") action ShowMenu('preferences')
 
 
@@ -345,7 +345,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = False
+default quick_menu = True
 
 style quick_button is default
 style quick_button_text is button_text
@@ -366,56 +366,55 @@ style quick_button_text:
 ## This screen is included in the main and game menus, and provides navigation
 ## to other menus, and to start the game.
 
-# config.main_menu_music = "main_menu_theme.ogg"
 # style.button.activate_sound = "click.wav"
 # style.imagemap.activate_sound = "click.wav"
 init:
     image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
 
 screen navigation_main_menu():
-
-        vbox:
-            style_prefix "navigation_main_menu"
+        window:
             xalign 0.5
             yalign 0.85
+            style_prefix "navigation_main_menu"
+            window:
+                vbox:
+                    xalign 0.42
+                    yalign 0.4
+                    spacing 10
+                    textbutton _("Start") action Start()
 
-            if main_menu:
+                    textbutton _("Load") action ShowMenu("load")
 
-                textbutton _("Start") action Start()
+                vbox:
+                    xalign 0.58
+                    yalign 0.4
+                    spacing 10
+                    textbutton _("Settings") action ShowMenu("preferences")
 
-            else:
+                    if _in_replay:
 
-                textbutton _("History") action ShowMenu("history")
+                        textbutton _("End Replay") action EndReplay(confirm=True)
 
-                textbutton _("Save") action ShowMenu("save")
 
-            textbutton _("Load") action ShowMenu("load")
+                    textbutton _("About") action ShowMenu("about")
 
-            #textbutton _("Preferences") action ShowMenu("preferences")
+                    #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
-            if _in_replay:
-
-                textbutton _("End Replay") action EndReplay(confirm=True)
-
-            elif not main_menu:
-
-                textbutton _("Main Menu") action MainMenu()
-
-            textbutton _("About") action ShowMenu("about")
-
-            #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-
-                ## Help isn't necessary or relevant to mobile devices.
-                #textbutton _("Help") action ShowMenu("help")
-
-            if renpy.variant("pc"):
-
-                ## The quit button is banned on iOS and unnecessary on Android and
-                ## Web.
+                        ## Help isn't necessary or relevant to mobile devices.
+                        #textbutton _("Help") action ShowMenu("help")
+            hbox:
+                xalign 0.5
+                yalign 0.85
+                # if renpy.variant("pc"):
+                #
+                #     ## The quit button is banned on iOS and unnecessary on Android and
+                #     ## Web.
                 textbutton _("Quit") action Quit(confirm=not main_menu)
 
 style navigation_main_menu_button is gui_button
 style navigation_main_menu_button_text is gui_button_text
+
+# style.button.activate_sound = "click.wav"
 
 style navigation_main_menu_button:
     size_group "navigation_main_menu"
@@ -423,9 +422,10 @@ style navigation_main_menu_button:
     xalign 0.5
 
 style navigation_main_menu_button_text:
-    size_group "navigation_main_menu"
-    properties gui.button_text_properties("navigation_button")
+    color "#F1CE9A"
+    hover_color "#F3DEC5"
     xalign 0.5
+    font 'fonts/Alegreya-Regular.otf'
 
 screen navigation_game_menu():
 
@@ -449,7 +449,7 @@ screen navigation_game_menu():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Settings") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -480,12 +480,12 @@ style navigation_game_menu_button_text is gui_button_text
 style navigation_game_menu_button:
     size_group "navigation_game_menu"
     properties gui.button_properties("navigation_button")
-    xalign 0.5
+
 
 style navigation_game_menu_button_text:
     size_group "navigation_game_menu"
     properties gui.button_text_properties("navigation_button")
-    xalign 0.5
+
 
 ## Main Menu screen ############################################################
 ##
@@ -528,8 +528,6 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 420
     yfill True
-
-    #background renpy.random.choice(["bg atu_school", "bg atu_nightclub", "bg atu_cards"])
 
 style main_menu_vbox:
     xalign 1.0
@@ -760,8 +758,8 @@ screen file_slots(title):
             spacing 1
             xalign 0.5
             yalign 0.5
-            draggable True
-            mousewheel True
+            draggable False
+            mousewheel False
 
             scrollbars "vertical"
 

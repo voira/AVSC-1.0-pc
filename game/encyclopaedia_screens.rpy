@@ -127,7 +127,6 @@ screen encyclopaedia_list(enc):
                     #         textbutton subject action enc.FilterBySubject(subject) style "encyclopaedia_button"
 
             hbox:
-
                 yalign 0
                 yoffset 60
                 xalign 640
@@ -142,11 +141,11 @@ screen encyclopaedia_list(enc):
 
                         use vertical_list(enc) id "vertical list"
 
-                # frame:
-                #     style_prefix "encyclopaedia"
-                #     xfill True
-                #     bottom_margin 10
-                #     yalign 0.95
+            # frame:
+            #     style_prefix "encyclopaedia"
+            #     xfill True
+            #     bottom_margin 10
+            #     yalign 1
                 #
                 #     vbox:
                 #         # Buttons to sort entries.
@@ -160,7 +159,7 @@ screen encyclopaedia_list(enc):
                 #         textbutton "Show/Hide Locked Buttons" action enc.ToggleShowLockedButtons() xfill True
                 #         textbutton "Show/Hide Locked Entry" action enc.ToggleShowLockedEntry() xfill True
                 #
-                #         textbutton "Return"  action [Hide("encyclopaedia_list"), Return()] xfill True
+        textbutton "Return"  action [Hide("encyclopaedia_list"), Return()]
 
 
 ################################################################################
@@ -314,11 +313,6 @@ style encyclopaedia_vscrollbar is vscrollbar:
     base_bar Frame(Solid(color_dark_orange), gui.scrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame(Solid(color_bright_orange), gui.scrollbar_borders, tile=gui.scrollbar_tile)
 
-style encyclopaedia_button:
-    background color_beige
-    hover_background color_bright_orange
-    selected_background color_bright_orange
-    insensitive_background color_dark_red
 
 style encyclopaedia_button_text:
     color color_yellow

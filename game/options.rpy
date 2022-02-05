@@ -67,7 +67,7 @@ define build.name = "AVSC"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -130,8 +130,8 @@ define config.window = "auto"
 
 ## Transitions used to show and hide the dialogue window
 
-define config.window_show_transition = Dissolve(.2)
-define config.window_hide_transition = Dissolve(.2)
+define config.window_show_transition = Dissolve(.5)
+define config.window_hide_transition = Dissolve(.5)
 
 
 ## Preference defaults #########################################################
@@ -169,7 +169,7 @@ define config.save_directory = "AVSC-1619092086"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/window_icon.ico"
 
 
 ## Build configuration #########################################################
