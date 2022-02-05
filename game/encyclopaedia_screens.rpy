@@ -313,11 +313,9 @@ style encyclopaedia_vscrollbar is vscrollbar:
     base_bar Frame(Solid(color_dark_orange), gui.scrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame(Solid(color_bright_orange), gui.scrollbar_borders, tile=gui.scrollbar_tile)
 
-
 style encyclopaedia_button_text:
-    color color_yellow
-    idle_color color_purple
-    insensitive_color color_dark_purple
+    color '#282A2B'
+    idle_color '#1A1B1C'
 
 style encyclopaedia_entry_button is encyclopaedia_button:
     xfill False
