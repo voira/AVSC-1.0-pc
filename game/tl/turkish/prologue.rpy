@@ -322,3 +322,10 @@ translate turkish strings:
     # game/prologue.rpy:2
     old "A Calmer Voice"
     new "Daha Sakin Bir Ses"
+# TODO: Translation updated at 2022-03-03 19:53
+
+translate turkish strings:
+
+    # game/prologue.rpy:1
+    old "???"
+    new "???"

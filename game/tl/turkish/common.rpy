@@ -1141,3 +1141,14 @@ translate turkish strings:
     old "accessibility menu"
     new ""
 
+# TODO: Translation updated at 2022-03-03 19:53
+
+translate turkish strings:
+
+    # renpy/common/00accessibility.rpy:180
+    old "High Contrast Text"
+    new ""
+
+    # renpy/common/00preferences.rpy:493
+    old "high contrast text"
+    new ""

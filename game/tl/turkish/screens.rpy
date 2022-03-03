@@ -348,3 +348,19 @@ translate turkish strings:
     # game/screens.rpy:753
     old "Language"
     new "Dil"
+# TODO: Translation updated at 2022-03-03 19:53
+
+translate turkish strings:
+
+    # game/screens.rpy:226
+    old "Click to continue..."
+    new ""
+
+    # game/screens.rpy:392
+    old "Settings"
+    new ""
+
+    # game/screens.rpy:911
+    old "Dialogue Box Opacity"
+    new ""
+
