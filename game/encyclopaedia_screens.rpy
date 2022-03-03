@@ -195,58 +195,58 @@ screen encyclopaedia_entry(enc):
                     textbutton "Previous Entry" xalign .02 action enc.PreviousEntry() style "encyclopaedia_button"
                     textbutton "Next Entry" xalign .98 action enc.NextEntry() style "encyclopaedia_button"
 
-            # hbox:
-            #     # If the entry or sub-entry has an image
-            #     if enc.active.current_page.has_image:
-            #         frame:
-            #             style_prefix "encyclopaedia_image"
-            #
-            #             viewport:
-            #                 scrollbars None
-            #                 draggable True
-            #                 mousewheel True
-            #                 edgescroll (1.0, 1.0)
-            #                 add enc.active.current_page.image
-            #
-            #         frame:
-            #             style_prefix "encyclopaedia"
-            #             id "entry_window"
-            #             xfill True
-            #             yfill True
-            #             xmaximum half_screen_width
-            #             ymaximum half_screen_height
-            #             viewport:
-            #                 scrollbars "vertical"
-            #                 mousewheel True
-            #                 draggable True
-            #                 xfill True
-            #                 yfill True
-            #                 vbox:
-            #                     spacing 15
-            #                     # Display the current entry's text
-            #                     for item in enc.active.current_page.text:
-            #                         text item style "encyclopaedia_entry_text"
-            #
-            #     # If there's no image
-            #     else:
-            #         frame:
-            #             style_prefix "encyclopaedia"
-            #             id "entry_window"
-            #             xfill True
-            #             yfill True
-            #             xmaximum config.screen_width
-            #             ymaximum half_screen_height
-            #             viewport:
-            #                 scrollbars "vertical"
-            #                 mousewheel True
-            #                 draggable True
-            #                 xfill True
-            #                 yfill True
-            #                 vbox:
-            #                     spacing 15
-            #                     # Display the current entry's text
-            #                     for item in enc.active.current_page.text:
-            #                         text item style "encyclopaedia_entry_text"
+            hbox:
+                 # If the entry or sub-entry has an image
+                 if enc.active.current_page.has_image:
+                     frame:
+                         style_prefix "encyclopaedia_image"
+
+                         viewport:
+                             scrollbars None
+                             draggable True
+                             mousewheel True
+                             edgescroll (1.0, 1.0)
+                             add enc.active.current_page.image
+
+                     frame:
+                         style_prefix "encyclopaedia"
+                         id "entry_window"
+                         xfill True
+                         yfill True
+                         xmaximum half_screen_width
+                         ymaximum half_screen_height
+                         viewport:
+                             scrollbars "vertical"
+                             mousewheel True
+                             draggable True
+                             xfill True
+                             yfill True
+                             vbox:
+                                 spacing 15
+                                 # Display the current entry's text
+                                 for item in enc.active.current_page.text:
+                                     text item style "encyclopaedia_entry_text"
+
+                 # If there's no image
+                 else:
+                     frame:
+                         style_prefix "encyclopaedia"
+                         id "entry_window"
+                         xfill True
+                         yfill True
+                         xmaximum config.screen_width
+                         ymaximum half_screen_height
+                         viewport:
+                             scrollbars "vertical"
+                             mousewheel True
+                             draggable True
+                             xfill True
+                             yfill True
+                             vbox:
+                                 spacing 15
+                                 # Display the current entry's text
+                                 for item in enc.active.current_page.text:
+                                     text item style "encyclopaedia_entry_text"
 
             frame:
                 style_prefix "encyclopaedia"

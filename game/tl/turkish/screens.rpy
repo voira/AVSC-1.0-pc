@@ -354,13 +354,12 @@ translate turkish strings:
 
     # game/screens.rpy:226
     old "Click to continue..."
-    new ""
+    new "Devam etmek için tıklayın..."
 
     # game/screens.rpy:392
     old "Settings"
-    new ""
+    new "Ayarlar"
 
     # game/screens.rpy:911
     old "Dialogue Box Opacity"
-    new ""
-
+    new "Diyalog Kutusu Opaklığı"

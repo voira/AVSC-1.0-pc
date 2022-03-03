@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/encyclopaedia_screens.rpy", line 147: u'bottom_margin' is not a keyword argument or valid child for the vbox statement.
-    bottom_margin 10
-                 ^
+File "game/encyclopaedia_screens.rpy", line 120: Line is indented, but the preceding xfill statement does not expect a block. Please check this line's indentation.
+    vbox:
+    ^
 
-Ren'Py Version: Ren'Py 7.4.4.1439
-Sat Feb  5 14:18:33 2022
+Ren'Py Version: Ren'Py 7.4.10.2178
+Thu Mar  3 20:03:37 2022
