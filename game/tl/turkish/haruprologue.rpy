@@ -4,493 +4,493 @@
 translate turkish haruprologue_c65f6a42:
 
     # "The desire for the unknown surrounded my body with its flames."
-    ""
+    "Bilinmeyene olan arzum vücudumu alevler halinde sarıyordu."
 
 # game/haruprologue.rpy:34
 translate turkish haruprologue_5ceeedbe:
 
     # "And resistance was in vain."
-    ""
+    "Ve karşı koymak çok zordu."
 
 # game/haruprologue.rpy:40
 translate turkish haruprologue_f3ec7519:
 
     # h "“It’s surprising to see that she can sleep.”"
-    h ""
+    h "“Uyuyabildiğine inanamıyorum gerçekten de.”"
 
 # game/haruprologue.rpy:42
 translate turkish haruprologue_a9d33bb0:
 
     # "Vena glanced at Kioko from the corner of her eyes and sighed."
-    ""
+    "Vena, Kioko’ya göz ucuyla baktıktan sonra derin bir iç çekti. "
 
 # game/haruprologue.rpy:44
 translate turkish haruprologue_16a1fb47:
 
     # v "“And it’s surprising to see how you can be brimming with joy after all the things that happened.”"
-    v ""
+    v "“Ben de senin bütün bu olan bitene rağmen bu kadar heyecanlı olmana inanamıyorum.” "
 
 # game/haruprologue.rpy:46
 translate turkish haruprologue_4e09d735:
 
     # "I puffed out my cheeks in annoyance. "
-    ""
+    "Yanaklarımı şişirdim."
 
 # game/haruprologue.rpy:51
 translate turkish haruprologue_23a8aca9:
 
     # h "“We don’t get the chance to leave {color=#f00}Silver Hollow{/color} every day. This is a first-”"
-    h ""
+    h "“Her gün {color=#f00}Gümüş Oyuk{/color}’tan çıkma fırsatı yakalamıyoruz. Bu bir ilk-”"
 
 # game/haruprologue.rpy:55
 translate turkish haruprologue_54c9c423:
 
     # v "“And the last.”"
-    v ""
+    v "“Ve muhtemelen son.” "
 
 # game/haruprologue.rpy:57
 translate turkish haruprologue_0d3cc4da:
 
     # "I couldn’t finish my sentence before she interrupted me."
-    ""
+    "Lafımı bölmesi diyeceklerimi ağzıma tıkıvermişti."
 
 # game/haruprologue.rpy:58
 translate turkish haruprologue_58616415:
 
     # "Every time she talked, her words grew more toxic, more wounding."
-    ""
+    "Dedikleri sanki an be an daha zehirli oluyor, kanıma daha da çok işliyordu."
 
 # game/haruprologue.rpy:59
 translate turkish haruprologue_2edf1d1c:
 
     # "(This must be because of the state of our Circles… Acting normally might be the best approach here.)"
-    ""
+    "(Bunun sebebi muhtemelen çemberimizin zayıflatılması. Eskisi gibi tepki vermeye çalışmak sanırım en iyisi.)"
 
 # game/haruprologue.rpy:61
 translate turkish haruprologue_19d3b6dc:
 
     # "Thank the stars, she changed the topic afterwards."
-    ""
+    "Yıldızlara şükürler olsun ki Vena’nın da konuyu değiştireceği tutmuştu."
 
 # game/haruprologue.rpy:65
 translate turkish haruprologue_ec73e13c:
 
     # v "“She couldn’t sleep a wink these past few days due to the stress.”"
-    v ""
+    v "“Birkaç gündür gözüne stresten uyku girmiyor.”"
 
 # game/haruprologue.rpy:72
 translate turkish haruprologue_2dd55e3e:
 
     # "I knew that. Even though our bond had become loose ever since, I was still feeling the roots of Kioko’s stress in my heart as well."
-    ""
+    "Bunun farkındaydım, aramızdaki bağın güçsüzleşmesine rağmen Kioko’nun bütün stresi benim göğsümde de köklerini salmıştı."
 
 # game/haruprologue.rpy:73
 translate turkish haruprologue_c54ab26d:
 
     # "However I wasn’t able to soothe her."
-    ""
+    "Fakat herhangi bir yatıştırıcı kelime ağzımdan çıkamadı."
 
 # game/haruprologue.rpy:74
 translate turkish haruprologue_9357c092:
 
     # "These new feelings, which were complete strangers to me, had put me in a weird, confused state I couldn’t handle at all."
-    ""
+    "Yılların duygusal noksanlığı aniden gelen hislerle birleşince beni garip, şaşkın bir ruh haline sokmuştu."
 
 # game/haruprologue.rpy:80
 translate turkish haruprologue_ff4a7723:
 
     # h "“I think everyone here suffers from a similar problem.”"
-    h ""
+    h "“Sanıyorum ki herkes aynı problemden mustarip.”"
 
 # game/haruprologue.rpy:82
 translate turkish haruprologue_92c03642:
 
     # v "“Everyone except you.”"
-    v ""
+    v "“Sen hariç herkes…”"
 
 # game/haruprologue.rpy:84
 translate turkish haruprologue_044986ab:
 
     # "(Here we go again.)"
-    ""
+    "(İşte yine başlıyoruz.)"
 
 # game/haruprologue.rpy:85
 translate turkish haruprologue_f24b4367:
 
     # "Ever since we’d set foot on this world, Vena’s scolding had become ceaseless."
-    ""
+    "Bu dünyaya vardık varalı Vena’nın azarlamalarının sonunu görememiştim."
 
 # game/haruprologue.rpy:86
 translate turkish haruprologue_56a40073:
 
     # "After glaring at her for a while I focused my gaze at somewhere beyond the window. Nowadays, whenever we argued there was this unfamiliar pang of pain I felt in my stomach, making me want to vomit."
-    ""
+    "Bir süre kendisine dik dik baktıktan sonra gözlerimi camın ötesinde bir noktaya odakladım. Ne zaman kavga etsek karnıma tanıdık olmadığım bir ağrı giriyor ve midem alt üst oluyordu."
 
 # game/haruprologue.rpy:87
 translate turkish haruprologue_15635080:
 
     # "Realizing that I was failing to comfort myself even after taking several deep breaths, I couldn’t help but ask permission to leave the compartment, which started to feel stuffy."
-    ""
+    "Fakat kendimi rahatlatma çabalarım boşunaydı. Kompartımanın küçüklüğüne daha fazla dayanamayıp konuştum."
 
 # game/haruprologue.rpy:89
 translate turkish haruprologue_5cf52c80:
 
     # h "“I will get some air.”"
-    h ""
+    h "“Ben birazcık hava alacağım.”"
 
 # game/haruprologue.rpy:93
 translate turkish haruprologue_1b75daaf:
 
     # v "“Where are you going?”"
-    v ""
+    v "“Nerede?”"
 
 # game/haruprologue.rpy:95
 translate turkish haruprologue_c59d94bd:
 
     # "I stood up."
-    ""
+    "Ayağa kalktım."
 
 # game/haruprologue.rpy:97
 translate turkish haruprologue_34f5a082:
 
     # h "“Just taking a walk in the aisle. My legs have gone numb.”"
-    h ""
+    h "“Koridorda dolaşacağım, bacaklarım uyuştu.”"
 
 # game/haruprologue.rpy:99
 translate turkish haruprologue_37d57022:
 
     # "Vena took a deep breath."
-    ""
+    "Vena derin bir nefes aldı."
 
 # game/haruprologue.rpy:103
 translate turkish haruprologue_ac1a3abb:
 
     # v "“Alright. Just don’t get yourself into any trouble.”"
-    v ""
+    v "“Keyfin bilir. Başını belaya sokma da…”"
 
 # game/haruprologue.rpy:105
 translate turkish haruprologue_3910c8df:
 
     # "I nodded slightly before opening the door and almost threw myself into the corridor."
-    ""
+    "Kafamı belli belirsiz sallayıp kapıyı açtığım gibi kendimi koridora attım."
 
 # game/haruprologue.rpy:106
 translate turkish haruprologue_51efde0d:
 
     # "It was surprising to see her to give me permission, and I didn’t want to risk it by wasting more time in the compartment."
-    ""
+    "Bana izin vereceğini düşünmemiştim, o yüzden daha fazla orada kalarak şansımı riske atmasam iyi olurdu."
 
 # game/haruprologue.rpy:114
 translate turkish haruprologue_3dd01796:
 
     # "The sunlight was fighting its way through the dirty glass, catching on my eyelashes like fire. "
-    ""
+    "Kirli camlardan sızan gün ışığı, kirpiklerimi kavuruyordu."
 
 # game/haruprologue.rpy:115
 translate turkish haruprologue_6628f1ac:
 
     # "Where I’d come from, the sun had never risen in the sky. The glory of the day had always been bestowed upon the stars that hung over the deep blue sheets above."
-    ""
+    "Geldiğim yerde Güneş gökte asla yükselmez, günün bütün ihtişamı koyu mavi gökte asılı kalan yıldızlara bahşedilirdi."
 
 # game/haruprologue.rpy:116
 translate turkish haruprologue_77e213eb:
 
     # "Now, however this one big star reigned alone on the horizon; not allowing its siblings on the stage till the dusk."
-    ""
+    "Şimdi ise semada bu koca yıldız tek başına hüküm sürüyor, akşama kadar kardeşlerinin sahneye çıkmasına izin vermiyordu."
 
 # game/haruprologue.rpy:117
 translate turkish haruprologue_7f3647d9:
 
     # "(Well, I can’t read the stars anyways. It's not all bad though; this huge star gives more mana compared to the others.)"
-    ""
+    "(Eh, yıldızları okuyabilen biri değilim zaten. Hem bu dev yıldız diğerlerine kıyasla daha çok mana veriyor.)"
 
 # game/haruprologue.rpy:118
 translate turkish haruprologue_4a0c2545:
 
     # "The daylight coming from the sun made me feel powerful like nothing ever had before."
-    ""
+    "Gün ışığı daha önce hiç olmadığı kadar güçlü hissetmemi sağlıyordu."
 
 # game/haruprologue.rpy:119
 translate turkish haruprologue_e365c3da:
 
     # "I’d been feeling this way ever since we had arrived here. The same sentiment must also be the case for the others."
-    ""
+    "Geldiğimizden beri böyle hissediyordum. Diğerleri için de aynı durum söz konusuydu."
 
 # game/haruprologue.rpy:122
 translate turkish haruprologue_d1857eff:
 
     # "How angry would Vena get if she heard those thoughts. Thinking about the scolding I could get was enough to make me shudder."
-    ""
+    "Vena bu konudaki düşüncelerimi bilse bana ne çok kızardı. Yiyeceğim azarı hayal etmek bile tüylerimi diken diken ediyordu."
 
 # game/haruprologue.rpy:133
 translate turkish haruprologue_d5f96a33:
 
     # "I got closer to one of the windows and putting a hand under my chin, I started to daydream while watching the everchanging view."
-    ""
+    "Bir camın kenarına yaklaştım ve pervazına dirseğimi dayayıp sürekli değişen manzarayı izleyerek hayal kurmaya koyuldum."
 
 # game/haruprologue.rpy:134
 translate turkish haruprologue_8520b404:
 
     # "What kind of place was Whemond? How did people spend a day there?"
-    ""
+    "Bir camın kenarına yaklaştım ve pervazına dirseğimi dayayıp sürekli değişen manzarayı izleyerek hayal kurmaya koyuldum."
 
 # game/haruprologue.rpy:135
 translate turkish haruprologue_08744658:
 
     # "How did their houses look, what did they prefer to eat?"
-    ""
+    "Nasıl evlerde yaşıyorlardı? Neler yiyorlardı?"
 
 # game/haruprologue.rpy:136
 translate turkish haruprologue_93d96e89:
 
     # "All these questions were occupying my head."
-    ""
+    "Bütün bu sorular kafamı kurcalıyordu."
 
 # game/haruprologue.rpy:137
 translate turkish haruprologue_3d966c4c:
 
     # "And not just now, but they had been in my mind ever since the day we’d heard about the city, back in the small village that we had first sought shelter in."
-    ""
+    "Bu anlık bir şey de değildi, yaklaşık bir aydır kaldığımız o küçük köyde bunlardan başka bir şey düşünememiştim."
 
 # game/haruprologue.rpy:138
 translate turkish haruprologue_360c2247:
 
     # "My heart fluttered with the sweet things that the winds of freedom whispered."
-    ""
+    "Kalbim, özgürlüğün o tatlı rüzgarıyla kıpır kıpır olmuştu."
 
 # game/haruprologue.rpy:139
 translate turkish haruprologue_c6d73de2:
 
     # "However the calm state I finally maintained met its end once again thanks to the voice coming from behind me."
-    ""
+    "Fakat bu huzurlu, kısacık an arkamda tanıdık bir sesin yankılanmasıyla son buldu."
 
 # game/haruprologue.rpy:141
 translate turkish haruprologue_229e8d0c:
 
     # u "“Haru? What are you doing here?”"
-    u ""
+    u "“Haru? Burada ne yapıyorsun?”"
 
 # game/haruprologue.rpy:143
 translate turkish haruprologue_e3c9293a:
 
     # "Slowly, I turned and forced a smile."
-    ""
+    "Yavaşça dönüp tebessüm ettim."
 
 # game/haruprologue.rpy:145
 translate turkish haruprologue_029135d6:
 
     # h "“Just wanted to get some air Asha, how about you?”"
-    h ""
+    h "“Biraz nefes almak istemiştim Asha, ya sen?”"
 
 # game/haruprologue.rpy:149
 translate turkish haruprologue_348fad66:
 
     # "Her signature know-it-all grin appeared on her face in return."
-    ""
+    "Ona her şeyi biliyormuş gibi bir hava katan karakteristik gülümsemesi, yüzünde belirmişti."
 
 # game/haruprologue.rpy:151
 translate turkish haruprologue_7c72dd77:
 
     # a "“Oh, I am trying to make sure that no one leaves their compartment.”"
-    a ""
+    a "“Kimsenin kompartımanını terk etmediğinden emin olmaya çalışıyorum.”"
 
 # game/haruprologue.rpy:155
 translate turkish haruprologue_95655b0f:
 
     # "I began to scratch my back in an embarrassed way, which made Asha giggle. Taking her time, she came next to me steadily."
-    ""
+    "Mahcup bir şekilde ensemi kaşımaya başladım, tepkim Asha’yı güldürmüştü. Yavaşça yanıma yaklaştı."
 
 # game/haruprologue.rpy:160
 translate turkish haruprologue_7b7f1928:
 
     # a "“It’s okay, I can understand. The rooms are small and you feel like suffocated.”"
-    a ""
+    a "“Sorun yok, anlıyorum. Odalar küçük ve kendini boğulur gibi hissediyorsun.”"
 
 # game/haruprologue.rpy:162
 translate turkish haruprologue_50bcd1d0:
 
     # "Asha’s eyes glowed with the traces of her mana while I was nodding at what she’d said."
-    ""
+    "Kafamı onaylarcasına salladım. Aynı anda Asha’nın gözleri de manasının izleriyle hafifçe parlamıştı."
 
 # game/haruprologue.rpy:163
 translate turkish haruprologue_c987d571:
 
     # "An unfamiliar presence made itself known in my mind."
-    ""
+    "Zihnimde beklenmedik bir misafirin varlığını hissetmeye başladım."
 
 # game/haruprologue.rpy:167
 translate turkish haruprologue_2cfffa98:
 
     # a "“But by contrast with everyone else, it’s not your fears that suffocate you. Even more, you’re excited, happy almost.”"
-    a ""
+    a "“Ama herkesin aksine seni boğan şey korkuların değil. Hatta heyecanlısın, mutlusun.”"
 
 # game/haruprologue.rpy:169
 translate turkish haruprologue_d54c7974:
 
     # "Nervously I bit my lip."
-    ""
+    "Yavaşça alt dudağımı dişledim."
 
 # game/haruprologue.rpy:171
 translate turkish haruprologue_204dbb8f:
 
     # h "“Vena gets angry at me because of that. She thinks that I’m disrespecting the dead.”"
-    h ""
+    h "“Vena bu konuda bana çok kızıyor. Ölülere hakaret ettiğimi düşünüyor.”"
 
 # game/haruprologue.rpy:173
 translate turkish haruprologue_7c367c2d:
 
     # a "“I don’t agree with her. It was not only our sisters we lost. We also were torn out from our roots, floated in the wild wind with nowhere to go.”"
-    a ""
+    a "“Ben öyle olduğunu düşünmüyorum. Sadece insanlarımızı kaybetmedik, aynı zamanda köklerimizden kopup savrulduk.”"
 
 # game/haruprologue.rpy:177
 translate turkish haruprologue_69f93e73:
 
     # a "“And found ourselves in the middle of this land, foreign, at least for you.”"
-    a ""
+    a "“Ve kendimizi… Ya da daha doğru bir tabirle kendinizi, bilinmeyenin ortasında buldunuz.”"
 
 # game/haruprologue.rpy:178
 translate turkish haruprologue_4fe0eeac:
 
     # a "“Not every person can react in the same way.” "
-    a ""
+    a "“Zaten herkes her şeye aynı tepkiyi de veremez.”"
 
 # game/haruprologue.rpy:185
 translate turkish haruprologue_3315fcda:
 
     # a "“However you should also put yourself in Vena’s place. {color=#f00}Waceera{/color} is very… Very dear to her.”"
-    a ""
+    a "“Ama Vena’yı da anlamalısın. {color=#f00}Waceera{/color} onun için çok, çok… Önemliydi.” "
 
 # game/haruprologue.rpy:186
 translate turkish haruprologue_b06add5c:
 
     # a "“Her strange disappearance, in such a dire time as this, has deeply upset your sister.”"
-    a ""
+    a "“Ama Vena’yı da anlamalısın. Waceera onun için çok, çok… Önemliydi.” "
 
 # game/haruprologue.rpy:188
 translate turkish haruprologue_477f49ea:
 
     # "I tilted my head."
-    ""
+    "Kafamı merakla yana eğdim."
 
 # game/haruprologue.rpy:190
 translate turkish haruprologue_4edc41fc:
 
     # h "“Do you seriously think she’s not dead?”"
-    h ""
+    h "“Gerçekten ölmediğini mi düşünüyorsun?”"
 
 # game/haruprologue.rpy:196
 translate turkish haruprologue_e25900ed:
 
     # a "“More like I hope she’s not. Making sure that no one’s drowning in such melancholic thoughts is my duty.”"
-    a ""
+    a "“Ölmediğini umuyorum ve bu konuda kimsenin kasvetli düşüncelerde boğulmasına izin vermemek de benim görevim.”"
 
 # game/haruprologue.rpy:198
 translate turkish haruprologue_4b66c0c2:
 
     # u "“Melancholic? That shameless whore’s death could only be a matter of celebration.”"
-    u ""
+    u "“Kasvet mi? O orospu ölse anca bayram ederiz.”"
 
 # game/haruprologue.rpy:201
 translate turkish haruprologue_7a854b9e:
 
     # "The quarrel which I felt like was about to start soon sent me into a panicked state once again."
-    ""
+    "Kendimi istemediğim bir laf ebeliğinin ortasında bulmak üzere olduğumu fark edince yeniden panikledim. "
 
 # game/haruprologue.rpy:206
 translate turkish haruprologue_202b05b9:
 
     # "{color=#f00}Almasi{/color} was walking towards us, each step as solid as a hammer."
-    ""
+    "{color=#f00}Almasi{/color}, emin adımlarla bize yaklaşmaktaydı."
 
 # game/haruprologue.rpy:208
 translate turkish haruprologue_930e7c85:
 
     # "Her coal-black eyes were fixated on Asha with a visible rage while her lips curved to let a sneer out."
-    ""
+    "Yüzünde küçümseyen bir ifade eşliğinde kara gözleri Asha’ya bir hınçla sabitlenmişti."
 
 # game/haruprologue.rpy:219
 translate turkish haruprologue_1e4930ff:
 
     # al "“What? Are you now the new {color=#f00}Night Mother{/color} since your useless sister is gone?”"
-    al ""
+    al "“Ne o? Ablanın yokluğunda {color=#f00}Gece Anne{/color} rolüne mi büründün?”"
 
 # game/haruprologue.rpy:221
 translate turkish haruprologue_b2b20d3b:
 
     # "(Thank the stars Asha is a calm person.)"
-    ""
+    "(Neyse ki Asha sakin bir insan.)"
 
 # game/haruprologue.rpy:223
 translate turkish haruprologue_9a9cdb79:
 
     # a "“That’s not an intention of mine. I am nothing but a shepherd that guides the little sheep out of the danger.”"
-    a ""
+    a "“Öyle bir niyetim yok Alma. Sadece genç kuzuların kaybolmasına engel olabilecek bir çobanın rolüne büründüm, o kadar.”"
 
 # game/haruprologue.rpy:225
 translate turkish haruprologue_7fbf6897:
 
     # "She sent me a meaningful smile after saying those."
-    ""
+    "Bu sözlerinin ardından manidar bir şekilde bana bakıp gülümsedi."
 
 # game/haruprologue.rpy:229
 translate turkish haruprologue_63a550d2:
 
     # "But it was not enough to convince Almasi, it seemed."
-    ""
+    "Almasi ise dediklerini samimi bulmuş gibi görünmüyordu."
 
 # game/haruprologue.rpy:233
 translate turkish haruprologue_7d3d34fc:
 
     # al "“As you said, a shepherd is a guide. Not someone that puts leash on the sheep.”"
-    al ""
+    al "“Çoban dediğin rehberdir. Hayvanların boynuna tasma vurup gezdirmezler.” "
 
 # game/haruprologue.rpy:234
 translate turkish haruprologue_eba5fc1e:
 
     # al "“Little one, don’t let this woman poison your mind.”"
-    al ""
+    al "“Küçüğüm, sakın bu kadının zihnini zehirlemesine izin verme.”"
 
 # game/haruprologue.rpy:236
 translate turkish haruprologue_a06ae264:
 
     # "(Oh uh. Don’t involve me in this.)"
-    ""
+    "(O-uh. Beni bu kavganın dışında tutun.)"
 
 # game/haruprologue.rpy:237
 translate turkish haruprologue_3b545fd4:
 
     # "Not knowing what to say, my eyes wandered around the hallway, avoiding direct eye contact."
-    ""
+    "Ne diyeceğimi bilemediğimden ikisi hariç her yere baktım."
 
 # game/haruprologue.rpy:242
 translate turkish haruprologue_17304e67:
 
     # "I didn’t want to pick a side."
-    ""
+    "Taraf tutmak istemiyordum."
 
 # game/haruprologue.rpy:243
 translate turkish haruprologue_d896dbb9:
 
     # "Surely if Vena was in my place, she could defend Asha very well."
-    ""
+    "Emindim ki Vena burada olsaydı Asha’ya güzel bir şekilde destek çıkardı."
 
 # game/haruprologue.rpy:244
 translate turkish haruprologue_ef94f4d7:
 
     # "Yet here I was, thinking Asha was not that innocent at all, even though Almasi was being incredibly belligerent. "
-    ""
+    "Fakat ben Almasi’yi agresif bulduğum kadar onu da suçsuz göremiyordum."
 
 # game/haruprologue.rpy:245
 translate turkish haruprologue_9c7349e0:
 
     # "After a few seconds, Asha placed her hand on my shoulder gently."
-    ""
+    "Birkaç saniyenin ardından Asha elini sakince omzuma koymuştu."
 
 # game/haruprologue.rpy:250
 translate turkish haruprologue_1d7172a7:
 
     # a "“Haru, you should return to your compartment.”"
-    a ""
+    a "“Haru, kompartımanına dönsen iyi olacak.”"
 
 # game/haruprologue.rpy:254
 translate turkish haruprologue_4df26707:
@@ -3286,3 +3286,112 @@ translate turkish strings:
     old "Maybe I should stay inside."
     new ""
 
+# TODO: Translation updated at 2022-03-03 20:19
+
+# game/haruprologue.rpy:120
+translate turkish haruprologue_b0c235f2:
+
+    # "(…)"
+    ""
+
+# game/haruprologue.rpy:153
+translate turkish haruprologue_1c53850b:
+
+    # h "“Ah… Hahah…”"
+    h ""
+
+# game/haruprologue.rpy:200
+translate turkish haruprologue_92cf5c80:
+
+    # "(Ah, Almasi…)"
+    ""
+
+# game/haruprologue.rpy:377
+translate turkish haruprologue_1bdb6214:
+
+    # "(!)"
+    ""
+
+# game/haruprologue.rpy:481
+translate turkish haruprologue_ce617998:
+
+    # "…"
+    ""
+
+# game/haruprologue.rpy:516
+translate turkish haruprologue_df7b3869:
+
+    # "(Whemond…)"
+    ""
+
+# game/haruprologue.rpy:553
+translate turkish haruprologue_cd297bc1:
+
+    # h "“Vena!”"
+    h ""
+
+# game/haruprologue.rpy:683
+translate turkish haruprologue_2d01532b:
+
+    # a "“…”"
+    a ""
+
+# game/haruprologue.rpy:762
+translate turkish haruprologue_470b0d15:
+
+    # h "“Vena…”"
+    h ""
+
+# game/haruprologue.rpy:767
+translate turkish haruprologue_29fb4f2b:
+
+    # v "“Hmm?”"
+    v ""
+
+# game/haruprologue.rpy:835
+translate turkish haruprologue_1aa6d3ff:
+
+    # "(Ooh…)"
+    ""
+
+# game/haruprologue.rpy:845
+translate turkish haruprologue_4ca8770b:
+
+    # h "“Hah…”"
+    h ""
+
+# game/haruprologue.rpy:885
+translate turkish haruprologue_745d2651:
+
+    # k "“…”"
+    k ""
+
+# game/haruprologue.rpy:1044
+translate turkish haruprologue_778fa7ee:
+
+    # "(Hah…)"
+    ""
+
+# game/haruprologue.rpy:1116
+translate turkish haruprologue_1277c38a:
+
+    # v "“…”"
+    v ""
+
+# game/haruprologue.rpy:1217
+translate turkish outside_22b39a81:
+
+    # "{i}…Huh?{/i}"
+    ""
+
+# game/haruprologue.rpy:1417
+translate turkish inside_b0c235f2:
+
+    # "(…)"
+    ""
+
+translate turkish strings:
+
+    # game/haruprologue.rpy:1153
+    old "(…)"
+    new ""
