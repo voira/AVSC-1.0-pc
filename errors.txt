@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/encyclopaedia_screens.rpy", line 120: Line is indented, but the preceding xfill statement does not expect a block. Please check this line's indentation.
-    vbox:
-    ^
+File "game/script.rpy", line 97: EOL while scanning string literal
+(Perhaps you left out a " at the end of the first line.)
+        "{size=+20}Full name goes as “Royal Magic Academy of the Sun Kingdom of Aelthians.”
+    
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Thu Mar  3 20:03:37 2022
+Tue Mar 15 20:52:25 2022
