@@ -373,6 +373,7 @@ init:
 
 screen navigation_main_menu():
         window:
+            at mm_appear
             xalign 0.5
             yalign 0.85
             style_prefix "navigation_main_menu"
@@ -415,6 +416,11 @@ style navigation_main_menu_button is gui_button
 style navigation_main_menu_button_text is gui_button_text
 
 # style.button.activate_sound = "click.wav"
+
+transform mm_appear:
+    alpha 0.0
+    pause 1.0
+    linear 0.3 alpha 1.0
 
 style navigation_main_menu_button:
     size_group "navigation_main_menu"
