@@ -94,9 +94,7 @@ define Royal_Academy = EncEntry(
     parent=your_new_encyclopaedia,
     name="Royal Academy",
     text=[
-    "{size=+20}Full name goes as “Royal Magic Academy of the Sun Kingdom of Aelthians.”{/size}"
-    "{size=+20}This institute is the source of all blueprints of the magical tools that the Kingdom uses, giving lessons on magic to young academicians, and providing a research laboratory whenever it is needed, meaning almost every day.{/size}"
-    "{size=+20}The Academy is also notably famous, beyond the borders of the Kingdom, for how the entire structure floats in the air.{/size}"
+    "{size=+20}Full name goes as “Royal Magic Academy of the Sun Kingdom of Aelthians.” This institute is the source of all blueprints of the magical tools that the Kingdom uses, giving lessons on magic to young academicians, and providing a research laboratory whenever it is needed, meaning almost every day. The Academy is also notably famous, beyond the borders of the Kingdom, for how the entire structure floats in the air.{/size}"
     ],
     viewed_persistent=True,
     locked=True,
@@ -116,9 +114,7 @@ define Rune_Cards = EncEntry(
     parent=your_new_encyclopaedia,
     name="Rune Card",
     text=[
-    "{size=+25}A simple card enchanted with a personal rune, made for the purpose of fortune reading.{/size}"
-    "{size=+25}Different from the common runes, these cards are very personal; as readings and runes varies from one person to another.{/size}"
-    "{size=+25}Those cards shall never be touched other than the owner, or their enchantment would wear off.{/size}"
+    "{size=+25}A simple card enchanted with a personal rune, made for the purpose of fortune reading. Different from the common runes, these cards are very personal; as readings and runes varies from one person to another. Those cards shall never be touched other than the owner, or their enchantment would wear off.{/size}"
     ],
     viewed_persistent=True,
     locked=True,

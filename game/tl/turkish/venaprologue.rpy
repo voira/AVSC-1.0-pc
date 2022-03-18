@@ -3237,3 +3237,46 @@ translate turkish strings:
     # game/venaprologue.rpy:1334
     old "Marley"
     new "Marley"
+# TODO: Translation updated at 2022-03-03 19:53
+
+# game/venaprologue.rpy:154
+translate turkish venaprologue_7cf291dc:
+
+    # "Somewhere around here, Kioko must be witnessing an important event regarding the {color=#f00}Black Massacre.{/color}"
+    "Bir yerlerde Kioko {color=#f00}Kara Katliam{/color}’a dair önemli bir şeyler görüyor olmalıydı."
+
+# game/venaprologue.rpy:297
+translate turkish venaprologue_f5f83bda:
+
+    # "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the {color=#f00}Void Crawlers{/color} attacking everyone in the grove."
+    "Parmaklarımı huzursuzca saçlarım arasında gezdirerek girdaptan dışarı fırlayan {color=#f00}Gölgeleri{/color} izlemekten başka yapacak bir şeyim kalmamıştı."
+
+# game/venaprologue.rpy:348
+translate turkish venaprologue_ade90674:
+
+    # "Whatever… Because that I hadn’t done {color=#f00}mana meditation{/color} for a long time this experience had left me weary, so there was no energy left in me to pursue it."
+    "Aman… Uzun zamandır {color=#f00}mana meditasyonu{/color} yapmadığım için fazlasıyla yorulmuştum ve bunun peşine düşecek halim de yoktu."
+
+# game/venaprologue.rpy:357
+translate turkish venaprologue_89f65d67:
+
+    # "And I had no intention of opening them before we arrived in {color=#f00}Whemond.{/color}"
+    "{color=#f00}Whemond{/color}’a varmadan da açmaya niyetim yoktu. "
+
+# game/venaprologue.rpy:373
+translate turkish venaprologue_77ed9065:
+
+    # "Finally we were in the famous {color=#f00}Royal Academy.{/color}"
+    "{color=#f00}Kraliyet Akademisi{/color}’ne sonunda varmıştık. "
+
+# game/venaprologue.rpy:783
+translate turkish venaprologue_2987b37a:
+
+    # a "“It would be enough if she could manage to send one of us to the {color=#f00}Shore{/color}.”"
+    a "“Birimizi {color=#f00}Kıyı{/color}’ya sokması dahi yeterli olur aslında.”"
+
+# game/venaprologue.rpy:828
+translate turkish venaprologue_822e55c3:
+
+    # "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were {color=#f00}rune cards{/color}."
+    "Eteğinin cebinden bir kağıt tomarı çıkardı. Kafamı yana eğip dikkatlice bakınca bunun iki adet {color=f00}rün kartı{/color} olduğunu gördüm."
