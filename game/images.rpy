@@ -88,3 +88,4 @@ image Marley Troubled :
 image Vena Default :
     "vena/vena_default.png"
     xalign 0.5 yalign 1 zoom 0.65
+image main_menu = Movie(play="gui/main_menu.webm")

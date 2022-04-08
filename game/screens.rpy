@@ -368,49 +368,46 @@ style quick_button_text:
 
 # style.button.activate_sound = "click.wav"
 # style.imagemap.activate_sound = "click.wav"
-init:
-    image main_menu = Movie(size=(1920, 1080), channel="main_menu", play="gui/main_menu.webm")
+
 
 screen navigation_main_menu():
+
+        style_prefix "navigation_main_menu"
+
         window:
-            at mm_appear
+            vbox:
+                xalign 0.42
+                yalign 0.1
+                spacing 10
+                textbutton _("Start") action Start()
+
+                textbutton _("Load") action ShowMenu("load")
+
+            vbox:
+                xalign 0.58
+                yalign 0.1
+                spacing 10
+                textbutton _("Settings") action ShowMenu("preferences")
+
+                if _in_replay:
+
+                    textbutton _("End Replay") action EndReplay(confirm=True)
+
+
+                textbutton _("About") action ShowMenu("about")
+
+                #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+                    ## Help isn't necessary or relevant to mobile devices.
+                    #textbutton _("Help") action ShowMenu("help")
+        hbox:
             xalign 0.5
             yalign 0.85
-            style_prefix "navigation_main_menu"
-            window:
-                vbox:
-                    xalign 0.42
-                    yalign 0.4
-                    spacing 10
-                    textbutton _("Start") action Start()
-
-                    textbutton _("Load") action ShowMenu("load")
-
-                vbox:
-                    xalign 0.58
-                    yalign 0.4
-                    spacing 10
-                    textbutton _("Settings") action ShowMenu("preferences")
-
-                    if _in_replay:
-
-                        textbutton _("End Replay") action EndReplay(confirm=True)
-
-
-                    textbutton _("About") action ShowMenu("about")
-
-                    #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-
-                        ## Help isn't necessary or relevant to mobile devices.
-                        #textbutton _("Help") action ShowMenu("help")
-            hbox:
-                xalign 0.5
-                yalign 0.85
-                # if renpy.variant("pc"):
-                #
-                #     ## The quit button is banned on iOS and unnecessary on Android and
-                #     ## Web.
-                textbutton _("Quit") action Quit(confirm=not main_menu)
+            # if renpy.variant("pc"):
+            #
+            #     ## The quit button is banned on iOS and unnecessary on Android and
+            #     ## Web.
+            textbutton _("Quit") action Quit(confirm=not main_menu)
 
 style navigation_main_menu_button is gui_button
 style navigation_main_menu_button_text is gui_button_text
@@ -504,7 +501,13 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add "main_menu"
+    #$ renpy.movie_cutscene("gui/main_menu.webm")
+
+    add Movie(size=(1920, 1080))
+    on "show" action Play("movie", "gui/main_menu.webm", loop=9)
+    on "hide" action Stop("movie")
+    on "replace" action Play("movie", "gui/main_menu.webm", loop=9)
+    on "replaced" action Stop("movie")
 
     ## This empty frame darkens the main menu.
     frame:
