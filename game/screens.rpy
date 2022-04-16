@@ -89,7 +89,7 @@ screen rewind:
 
 ## Character Selection Screen:
 
-screen character_select:
+screen character_select():
 
     add Image("gui/overlay/game_menu.png")
 
@@ -218,20 +218,22 @@ style say_dialogue:
 
 screen ctc():
 
-    hbox:
+    vbox:
         at ctc_appear
-        xalign .99
-        yalign 0.99
+        xalign .66
+        yalign .92
 
-        text _("Click to continue..."):
-            size 30
+        image "gui/heart.png"
 
 
 
 transform ctc_appear:
+    alpha 1.0
+    pause 0.5
     alpha 0.0
-    pause 3.0
-    linear 0.3 alpha 1.0
+    pause 0.5
+    repeat
+
 
 
 ## Input screen ################################################################
@@ -328,15 +330,15 @@ screen quick_menu():
             yalign 0.92
             spacing 10
 
-            #textbutton _("Back") action Rollback()
-            #textbutton _("History") action ShowMenu('history')
-            #textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            #textbutton _("Auto") action Preference("auto-forward", "toggle")
-            #textbutton _("Save") action ShowMenu('save')
-            #textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            #textbutton _("Prefs") action ShowMenu('preferences')
+            # textbutton _("Back") action Rollback()
+            # textbutton _("History") action ShowMenu('history')
+            # textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            # textbutton _("Auto") action Preference("auto-forward", "toggle")
+            # textbutton _("Save") action ShowMenu('save')
+            # textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
+            # textbutton _("Q.Save") action QuickSave()
+            # textbutton _("Q.Load") action QuickLoad()
+            # textbutton _("Prefs") action ShowMenu('preferences')
 
 
 
@@ -677,6 +679,33 @@ style return_button:
     yalign 1.0
     yoffset -45
 
+screen other_menu():
+    vbox:
+        style_prefix "quick"
+
+        xalign 0.001
+        yalign 0.11
+        spacing 10
+
+        textbutton _("Back") action Rollback()
+        textbutton _("History") action ShowMenu('history')
+        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+        textbutton _("Auto") action Preference("auto-forward", "toggle")
+        textbutton _("Save") action ShowMenu('save')
+        textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
+        textbutton _("Q.Save") action QuickSave()
+        textbutton _("Q.Load") action QuickLoad()
+        textbutton _("Prefs") action ShowMenu('preferences')
+
+screen menu_button():
+
+    hbox:
+        imagebutton:
+            xpos 0.1
+            ypos 0.1
+            idle 'gui/game_menu_button.png'
+            hover 'gui/game_menu_button.png'
+            action ShowMenu("other_menu")
 
 ## About screen ################################################################
 ##
@@ -762,19 +791,18 @@ screen file_slots(title):
         #         value page_name_value
 
         vpgrid:
-            cols 2
-            rows 20
+            cols 3
+            rows 2
             spacing 1
-            xalign 0.5
+            xalign 0.3
             yalign 0.5
             draggable False
             mousewheel False
 
-            scrollbars "vertical"
 
             style_prefix "slot"
 
-            for i in range(20):
+            for i in range(6):
 
                 $ slot = i + 1
 
@@ -782,9 +810,9 @@ screen file_slots(title):
 
                     action FileAction(slot)
 
-                    #has vbox
+                    has vbox
 
-                    add FileScreenshot(slot) xalign 0.5
+                    add FileScreenshot(slot)
 
                     text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M")):
                         style "slot_time_text"

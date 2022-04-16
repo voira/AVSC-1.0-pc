@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 507: u'at' is not a keyword argument or valid child for the screen statement.
-    at mm_appear
-      ^
+File "game/venaprologue.rpy", line 2: invalid syntax
+    ("Haru", show_two_window = True, ctc="ctc_blink",)
+                              ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Fri Mar 18 21:30:55 2022
+Sat Apr 16 18:46:35 2022

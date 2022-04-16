@@ -1,16 +1,16 @@
-define v = ("Vena")
-define h = ("Haru")
-define k = ("Kioko")
-define a = ("Asha")
-define al = ("Almasi")
+define v = Character("Vena")
+define h = Character("Haru")
+define k = Character("Kioko")
+define a = Character("Asha")
+define al = Character("Almasi")
 define bbg = Character(_("A Silver Hollow Resident"))
 define obg = Character(_("Another Person"))
 define dbg = Character(_("Another Silver Hollow Resident"))
 define gr = Character(_("Grand Duke"))
-define m = ("Marley")
-define c = ("Cyril")
-define l = ("Lionel")
-define u = ("???")
+define m = Character("Marley")
+define c = Character("Cyril")
+define l = Character("Lionel")
+define u = Character("???")
 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
@@ -35,7 +35,7 @@ label venaprologue:
     show Haru Default with dissolve:
         yalign 1 zoom 1.8
 
-    h "“It’s surprising to see that she can sleep.”"
+    h "“It’s surprising to see she can sleep.”"
 
     hide Haru Default with dissolve
 
@@ -54,7 +54,7 @@ label venaprologue:
     "Unlike a certain someone…"
     hide kiokoeye with dissolve
 
-    v "“And it’s surprising to see how you can be this joyous after all the things that happened.”"
+    v "“And it’s surprising to see how you can be this joyous after all that happened.”"
 
     show Haru Mischievous with dissolve:
         yalign 1 zoom 1.8
@@ -67,7 +67,7 @@ label venaprologue:
     show text "A new Grimoire unlocked!" with dissolve
     hide text with dissolve
 
-    h "“We don’t get the chance to leave {color=#f00}Silver Hollow{/color} every day. This is a first-”"
+    h "“We don’t get the chance to leave {color=#ab1529}Silver Hollow{/color} every day. This is a first-”"
 
 
     "I interrupted her quickly."

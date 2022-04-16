@@ -125,7 +125,8 @@ label prologue:
 
     show Lionel Frown with dissolve
 
-    wa "“You never give up, do you? Like father like son… In any case, do whatever you like and do not trouble me any longer.”"
+    wa "“You never give up, do you? Like father like son…”"
+    wa "“In any case, do whatever you like and do not trouble me any longer.”"
 
 
 return

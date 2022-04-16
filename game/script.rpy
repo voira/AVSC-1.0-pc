@@ -4,6 +4,9 @@
 
 define v = Character("Vena")
 
+init:
+    $ n = Character(None, ctc = anim.Blink("gui/heart.png"))
+
 default preferences.text_cps = 30
 
 init python:
@@ -163,17 +166,20 @@ define Crimson_Bay = EncEntry(
 label start:
     stop music fadeout 1.0
 
+    show screen menu_button()
+
     call prologue from _call_prologue
 
-    show screen quick_menu()
     show screen ctc()
 
     scene blackscreen with fade
 
-    pause 3.0
+    pause 1.0
 
     "Choose a character."
 
-    call screen character_select
+    pause 3.0
+
+    call screen character_select()
 label end:
     return

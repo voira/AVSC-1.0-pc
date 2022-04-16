@@ -34,7 +34,7 @@ label haruprologue:
     "And resistance was in vain."
 
     scene traincomp with fade
-    show Kioko ClosedEye at left with dissolve
+    show Kioko Eyesclosed at left with dissolve
     show Vena Default at right with dissolve
 
     h "“It’s surprising to see that she can sleep.”"
@@ -60,13 +60,13 @@ label haruprologue:
 
     "Thank the stars, she changed the topic afterwards."
 
-    show Vena Sideway with dissolve
+    show Vena Looking Sideways with dissolve
 
     v "“She couldn’t sleep a wink these past few days due to the stress.”"
 
     hide Vena with dissolve
 
-    show Kioko ClosedEye with dissolve:
+    show Kioko Eyesclosed with dissolve:
         zoom 1.5
 
     "I knew that. Even though our bond had become loose ever since, I was still feeling the roots of Kioko’s stress in my heart as well."
@@ -74,7 +74,7 @@ label haruprologue:
     "These new feelings, which were complete strangers to me, had put me in a weird, confused state I couldn’t handle at all."
 
     hide Kioko
-    show Kioko ClosedEye at left with dissolve
+    show Kioko Eyesclosed at left with dissolve
     show Vena Frowning at right with dissolve
 
     h "“I think everyone here suffers from a similar problem.”"
@@ -88,7 +88,7 @@ label haruprologue:
 
     h "“I will get some air.”"
 
-    show Vena ArchedEye with dissolve
+    show Vena Arching Eyebrow with dissolve
 
     v "“Where are you going?”"
 
@@ -124,7 +124,7 @@ label haruprologue:
     play sound walking
 
     scene traincorridor with fade:
-        xpos 0.1 ypos 1.7 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.1 ypos 1.7 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     pause 2.0
 
@@ -172,7 +172,7 @@ label haruprologue:
 
     a "“I don’t agree with her. It was not only our sisters we lost. We also were torn out from our roots, floated in the wild wind with nowhere to go.”"
 
-    show Asha Sideway with dissolve
+    show Asha Looking Sideways with dissolve
 
     a "“And found ourselves in the middle of this land, foreign, at least for you.”"
     a "“Not every person can react in the same way.” "
@@ -189,7 +189,7 @@ label haruprologue:
 
     h "“Do you seriously think she’s not dead?”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
     pause 2.0
     show Asha Smiling with dissolve
 
@@ -249,7 +249,7 @@ label haruprologue:
 
     a "“Haru, you should return to your compartment.”"
 
-    show Asha Sideway with dissolve
+    show Asha Looking Sideways with dissolve
 
     a "“You should as well, Almasi.”"
 
@@ -257,7 +257,7 @@ label haruprologue:
 
     al "“And since when have I been taking orders from you?”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     "Asha sighed deeply."
     "(Even her patience has a limit.)"
@@ -308,7 +308,7 @@ label haruprologue:
     "There was a look in Asha’s eyes, almost saying “poor thing”. Passing the two with fast steps, I walked towards our compartment."
 
     scene traincorridor with dissolve:
-        zoom 2.0
+        zoom 1.2
         xalign 0.75
         yalign 0.3
         linear 1 xalign 0.5
@@ -408,7 +408,7 @@ label haruprologue:
 
     v "“In fact, even if it’s exactly what they wish for, you still shouldn’t let them. As a leader it’s one of your priorities to seek everyone’s safety, Asha.”"
 
-    show Vena Sideway with dissolve
+    show Vena Looking Sideways with dissolve
 
     v "“Let alone we are not here to amuse ourselves, we have casualties.”"
 
@@ -431,20 +431,20 @@ label haruprologue:
 
     "Before giving a response, Vena closed her eyes and paused a little bit."
 
-    show Vena ClosedEye with dissolve
+    show Vena Eyesclosed with dissolve
 
     v "“I am speaking up for your own good, please don’t turn it into a competition.”"
 
     a "“That I won’t, let’s just say I’m stating a fact.”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hollow. I can assure you.”"
 
     "She glanced over the room. When no answer was given, Asha put her shawl on, then stood up."
 
     hide Vena with dissolve
-    show Asha ClosedEye with dissolve:
+    show Asha Eyesclosed with dissolve:
         zoom 1.5
 
     a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
@@ -504,7 +504,7 @@ label haruprologue:
     scene academybedroom with fade
     pause 2.0
     scene academybedroom with dissolve:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     play sound sitting
 
@@ -522,7 +522,7 @@ label haruprologue:
     "Were I not exhausted I would have waited till the dawn, and checked it to see if it was as glorious as people had said."
 
     scene academybedroom with fade:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     "(But now, I should sleep.)"
     "(After all, tomorrow is a busy day.)"
@@ -531,7 +531,7 @@ label haruprologue:
     pause 3.0
 
     scene academyclass with fade
-    show Vena ClosedEye with dissolve:
+    show Vena Eyesclosed with dissolve:
         xpos 0.3 ypos 1
 
     play sound commotion
@@ -552,13 +552,13 @@ label haruprologue:
 
     h "“Vena!”"
 
-    show Vena Sideway with dissolve
+    show Vena Looking Sideways with dissolve
 
     "Finally her attention returned to me."
     "She looked distracted."
     "Whatever was running through her mind made Vena give up with a deep sigh."
 
-    show Vena ClosedEye with dissolve:
+    show Vena Eyesclosed with dissolve:
         ypos 1.5 zoom 1.5
 
     v "“Haru, listen.”"
@@ -572,7 +572,7 @@ label haruprologue:
 
     v "“If I told you that I understood what you are actually going through, that would be a lie.”"
 
-    show Vena Sideway with dissolve
+    show Vena Looking Sideways with dissolve
 
     v "““I can’t understand your current mood in any way.”"
     v "“I can’t tell if a storm is raging in your head and you’re not showing it, or if your mind is as calm as the sea on a sunny day Haru.”"
@@ -605,7 +605,7 @@ label haruprologue:
     stop sound
 
     scene academyclass:
-        xpos 0.5 ypos 1.0 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.5 ypos 1.0 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     play sound sitting
 
@@ -639,7 +639,7 @@ label haruprologue:
 
     "She looked at our way to emphasize her words."
 
-    show Asha Sideway with dissolve:
+    show Asha Looking Sideways with dissolve:
         ypos 1.5 zoom 1.5
 
     a "“Which is okay.”"
@@ -678,7 +678,7 @@ label haruprologue:
 
     al "“So you admit the fact that you made us live like puppets while benefitting from the system this whole time, right?”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     a "“…”"
 
@@ -686,7 +686,7 @@ label haruprologue:
 
     a "“I wouldn’t call it benefitting.”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     "“This was Waceera’s decision. To provide us longer lives…”"
 
@@ -700,11 +700,11 @@ label haruprologue:
 
     a "“The reasons behind Waceera’s actions are things that you can only learn from her.”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     a "“I know this might get you irritated, but I have no other answer than this to give.”"
 
-    show Asha Sideway with dissolve:
+    show Asha Looking Sideways with dissolve:
         ypos 1.0 zoom 1.0
 
     a "“Therefore, I would suggest you to keep your provocations for her return.”"
@@ -729,17 +729,17 @@ label haruprologue:
     stop sound
 
     scene academyclass:
-        xpos 0.5 ypos 1.5 xanchor 0.5 yanchor 1.0 zoom 2.0
+        zoom 1.2
 
     "These desks must belong to the students of this Academy."
     "Back in Silver Hollow, the disdain I felt for our theoretical lessons had been so strong even with the existence of the circle. The ambiance here might even encourage me to study."
     "Slowly, I traced the wood with my finger. Carved letters, formulas and charts that I couldn’t make much of, were on the surface."
     "When I raised my head again to look at the classroom, a figure standing in the doorway caught my attention."
 
-    scene academyclass:
+    scene academyclass with dissolve:
         zoom 1.0
 
-    show Ealdwine Sideway at right with dissolve
+    show Ealdwine Default at right with dissolve
 
     "I had never seen that person before, and they were not one of us."
     "Lightly, I nudged Vena with my elbow."
@@ -874,7 +874,7 @@ label haruprologue:
     "(Maybe this would give me the chance to slip away from the Academy.)"
     "Seriously, I didn’t wish to be trapped in here for stars know how long."
 
-    show Kioko ClosedEye at left with dissolve
+    show Kioko Eyesclosed at left with dissolve
 
     k "“I… Want to tell you something.”"
     k "“But please don’t panic.”"
@@ -887,7 +887,7 @@ label haruprologue:
     "(Nice, we’ve already panicked.)"
     "And here I’d been having silly dreams of slipping away. Great."
 
-    show Kioko Sideway with dissolve
+    show Kioko Default with dissolve
 
     k "“I think… I think I saw someone in my room today.”"
 
@@ -913,15 +913,15 @@ label haruprologue:
 
     k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
 
-    show Vena Arched with dissolve
+    show Vena Arching Eyebrow with dissolve
 
     h "“What did she look like? Couldn’t she be just one of your friends?”"
 
-    show Kioko Protesting with dissolve
+    show Kioko Gasping with dissolve
 
     k "“No! No… I don’t have a friend like that.”"
 
-    show Kioko ClosedEye with dissolve
+    show Kioko Eyesclosed with dissolve
 
     k "“She had ginger hair. But I couldn’t see her face clearly, for I was sleepy.”"
 
@@ -936,7 +936,7 @@ label haruprologue:
 
     v "“If it is alright, I’ll take a look myself.”"
 
-    show Kioko ClosedEye with dissolve
+    show Kioko Eyesclosed with dissolve
 
     "Nodding, Kioko got herself ready for the coming intrusion."
 
@@ -951,7 +951,7 @@ label haruprologue:
 
     scene blackscreen with fade
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     a "“People who want to improve themselves on this field also invite madness to loom over their bed.”"
 
@@ -973,7 +973,7 @@ label haruprologue:
     "Curiously, I stared at the two."
 
     show Kioko Default at left with dissolve
-    show Vena Sideway at right with dissolve
+    show Vena Looking Sideways at right with dissolve
 
     v "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
@@ -991,7 +991,7 @@ label haruprologue:
 
     v "“I’m not sure. She wasn’t wearing any uniform, and didn’t look like one of our people. Kioko, why didn’t you inform us sooner?”"
 
-    show Kioko ClosedEye with dissolve
+    show Kioko Eyesclosed with dissolve
 
     k "“I didn’t want to cause an unnecessary scene.”"
 
@@ -1005,7 +1005,7 @@ label haruprologue:
 
     h "“This is so weird. What are we going to do?”"
 
-    show Vena Sideway with dissolve
+    show Vena Looking Sideways with dissolve
 
     v "“I…”"
 
@@ -1015,7 +1015,7 @@ label haruprologue:
 
     v "“Kioko, would you like to sleep in my room for now?”"
 
-    show Kioko Gaping with dissolve
+    show Kioko Gasping with dissolve
 
     k "“I don’t want to be a burden.”"
 
@@ -1027,7 +1027,7 @@ label haruprologue:
 
     k "“But wouldn’t I be in the way of your work?”"
 
-    show Vena ClosedEye with dissolve
+    show Vena Eyesclosed with dissolve
 
     v "“No, you’re my priority.”"
 
@@ -1069,7 +1069,7 @@ label haruprologue:
     scene academybedroom with fade
     pause 2.0
     scene academybedroom with dissolve:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     "After spending more time in the common room, we went to our own separate rooms."
     "{i}Phew{/i}… What a busy day it had been!"
@@ -1083,7 +1083,7 @@ label haruprologue:
     "After a few hours though, the lights that illuminated the shops were put out one by one, and most of the citizens went back to their homes."
 
     scene academybedroom with fade:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     "It must be fun."
     "An independent life that was free of chains, anxiety, abnormalities…"
@@ -1102,7 +1102,7 @@ label haruprologue:
 
     v "“More like they would hold us prisoners here until the day we return home.”"
 
-    show Vena ClosedEye with dissolve
+    show Vena Eyesclosed with dissolve
 
     v "“If they let us return at all…”"
 
@@ -1118,7 +1118,7 @@ label haruprologue:
     hide Vena with dissolve
 
     scene academybedroom with flash:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     "After my last question, we had argued."
     "What kind of monstrosity could be outside anyway? No one would dare to touch me with the guardians and the sheer number of witnesses down there."
@@ -1126,13 +1126,13 @@ label haruprologue:
 
     scene academyclass with flash
 
-    show Vena Sighing with dissolve:
-        xpos 0.3 zoom 1.5
+    show Vena Sigh with dissolve:
+        xpos 0.3
 
     v "“But you should never put yourself in such position, nor us.”"
 
     scene academybedroom with flash:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     "I bit my lip in a nervous fashion."
     "Vena and Kioko must be asleep now, meaning if I wanted to see the city there couldn’t be a greater opportunity than tonight."
@@ -1192,14 +1192,14 @@ label outside:
     "How could it be possible to not get excited for the Outer World when one were in my shoes?"
 
     scene whemond with dissolve:
-        xpos 0.5 ypos 1.0 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.5 ypos 1.0 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     "(Alright… Now that I managed to sneak out, where should I land?)"
     "A place hidden from view was probably the best choice."
     "It also should not be far from the town centre."
 
     scene whemond with dissolve:
-        xpos 0.8 ypos 1.0 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.8 ypos 1.0 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     "I focused on an alleyway surrounded with massive buildings. The structures almost looked too enormous to be individual houses and I was not sure if they were.  The street was also not that far away from the illuminated areas that I wished to visit."
     "I started to descend."
@@ -1299,7 +1299,7 @@ label outside:
 label inside:
 
     scene academybedroom with fade:
-        xpos 0.5 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+         zoom 1.2
 
     play sound sitting
 
@@ -1327,7 +1327,7 @@ label inside:
     "(Is there anyone else awake at this time in the Academy?)"
 
     scene academylivingroom with dissolve:
-        xpos 0.7 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.7 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     "I walked to the part of the room where the shelves were. Although my gaze was fixated on the jars, my mind was wandering at somewhere else."
     "Every common room of the Academy opened onto six bedrooms, and each bedroom had two beds. Normally, they should be shared amongst the same number of students."
@@ -1345,7 +1345,7 @@ label inside:
     "And also, I would get even more familiar with the building."
 
     scene academylivingroom with dissolve:
-        xpos 0.2 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.2 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     play sound doorclose
 
@@ -1387,7 +1387,7 @@ label inside:
     "I walked towards the sound cautiously."
 
     scene academyhallwaynight with dissolve:
-        xpos 0.2 ypos 1.5 xanchor 0.5 yanchor 1.0 zoom 2.0
+        xpos 0.2 ypos 1.5 xanchor 0.5 yanchor 1.0 zoom 1.2
 
     stop sound
     pause 1.0
@@ -1429,7 +1429,7 @@ label inside:
 
     scene academyhallwaynight with fade
 
-    show Ealdwine ClosedEye with dissolve
+    show Ealdwine Eyesclosed with dissolve
 
     u "“The couple that couldn’t decide if I was a man or a woman this morning.”"
 
@@ -1445,7 +1445,7 @@ label inside:
 
     "He began to chuckle again."
 
-    show Ealdwine ClosedEyeGrinning with dissolve
+    show Ealdwine Grinning Eyesclosed with dissolve
 
     u "“And why wouldn’t I? This is an academy of magic.”"
 
@@ -1455,7 +1455,7 @@ label inside:
 
     h "“No! I didn’t mean it like that. It’s just that people here seem so distant from the magic, at least in my observations so far.”"
 
-    show Ealdwine SidewayThinking with dissolve
+    show Ealdwine Confused with dissolve
 
     u "“Hmm, you might have a point.”"
 
@@ -1472,7 +1472,7 @@ label inside:
 
     h "“I am Haru.”"
 
-    show Ealdwine ClosedEye with dissolve
+    show Ealdwine Eyesclosed with dissolve
 
     io "“Glad to make your acquaintance, Haru.”"
 
@@ -1486,7 +1486,7 @@ label inside:
 
     h "“I can go myself, there’s no need to burden yourself.”"
 
-    show Ealdwine ClosedEye with dissolve
+    show Ealdwine Eyesclosed with dissolve
 
     io "“Alright then, I wish you a good night.”"
 

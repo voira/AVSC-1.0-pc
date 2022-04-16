@@ -207,7 +207,7 @@ define gui.navigation_button_color = '#F1CE9A'
 ##
 ## Choice buttons are used in the in-game menus.
 
-define gui.choice_button_width = 300
+define gui.choice_button_width = 1080
 define gui.choice_button_height = None
 define gui.choice_button_tile = True
 define gui.choice_button_borders = Borders(150, 8, 150, 8)
@@ -215,7 +215,7 @@ define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
 define gui.choice_button_text_idle_color = "#DBB95C"
-define gui.choice_button_text_hover_color = "#E3D36C"
+define gui.choice_button_text_hover_color = "#0d0c09"
 define gui.choice_button_text_insensitive_color = "#444444"
 
 
@@ -230,15 +230,15 @@ define gui.slot_button_width = 414
 define gui.slot_button_height = 309
 define gui.slot_button_borders = Borders(15, 15, 15, 15)
 define gui.slot_button_text_size = 21
-define gui.slot_button_text_xalign = 0.5
-define gui.slot_button_text_yalign = 0.5
+define gui.slot_button_text_xalign = 1
+define gui.slot_button_text_yalign = 1
 define gui.slot_button_text_idle_color = gui.idle_small_color
 define gui.slot_button_text_selected_idle_color = gui.selected_color
 define gui.slot_button_text_selected_hover_color = gui.hover_color
 
 ## The width and height of thumbnails used by the save slots.
-define config.thumbnail_width = 288
-define config.thumbnail_height = 162
+define config.thumbnail_width = 384
+define config.thumbnail_height = 21
 
 ## The number of columns and rows in the grid of save slots.
 define gui.file_slot_cols = 2
