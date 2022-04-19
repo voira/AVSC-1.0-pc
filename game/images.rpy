@@ -155,7 +155,6 @@ image Vena Sigh :
     "vena/vena_sigh.png"
     xalign 0.5 yalign 1.1 zoom 0.85
 image ctc_blink:
-        xpos 1020 ypos 763
         alpha 1.0
         "gui/heart.png"
         0.75

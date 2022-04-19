@@ -1,9 +1,9 @@
-define sin = Character(_("???"))
-define sak = Character(_("???"))
-define ea = ("Ealdwine")
-define ma = ("Marley")
-define wa = ("Wilbur Asquith")
-define li = ("Lionel")
+define sin = Character("???", ctc= "ctc_blink" , ctc_position="nestled")
+define sak = Character("???", ctc= "ctc_blink" , ctc_position="nestled")
+define ea = Character("Ealdwine", ctc= "ctc_blink" , ctc_position="nestled")
+define ma = Character("Marley", ctc= "ctc_blink" , ctc_position="nestled")
+define wa = Character("Wilbur Asquith", ctc= "ctc_blink" , ctc_position="nestled")
+define li = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
 
 define fastdissolve = Dissolve(0.1)
 

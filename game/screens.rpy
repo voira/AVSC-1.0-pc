@@ -147,7 +147,7 @@ screen displayTextScreenV:
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 
-screen say(who, what):
+screen say(arg=None, who, what):
     style_prefix "say"
 
     window:
@@ -215,26 +215,26 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
 # Click to Continue screen
-
-screen ctc():
-
-    vbox:
-        at ctc_appear
-        xalign .66
-        yalign .92
-
-        image "gui/heart.png"
-
-
-
-transform ctc_appear:
-    alpha 1.0
-    pause 0.5
-    alpha 0.0
-    pause 0.5
-    repeat
-
-
+# 
+# screen ctc():
+#
+#     vbox:
+#         at ctc_appear
+#         xalign .66
+#         yalign .92
+#
+#         image "gui/heart.png"
+#
+#
+#
+# transform ctc_appear:
+#     alpha 1.0
+#     pause 0.5
+#     alpha 0.0
+#     pause 0.5
+#     repeat
+#
+#
 
 ## Input screen ################################################################
 ##

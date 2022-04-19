@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 2: invalid syntax
-    ("Haru", show_two_window = True, ctc="ctc_blink",)
-                              ^
+File "game/prologue.rpy", line 3: invalid syntax
+    ("Ealdwine", ctc= "ctc_blink" , ctc_position="nestled")
+                     ^
+
+File "game/prologue.rpy", line 4: invalid syntax
+    ("Marley", ctc= "ctc_blink" , ctc_position="nestled")
+                   ^
+
+File "game/prologue.rpy", line 5: invalid syntax
+    ("Wilbur Asquith", ctc= "ctc_blink" , ctc_position="nestled")
+                           ^
+
+File "game/prologue.rpy", line 6: invalid syntax
+    ("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
+                   ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Sat Apr 16 18:46:35 2022
+Sat Apr 16 21:18:52 2022

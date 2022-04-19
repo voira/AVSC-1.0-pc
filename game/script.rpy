@@ -170,8 +170,6 @@ label start:
 
     call prologue from _call_prologue
 
-    show screen ctc()
-
     scene blackscreen with fade
 
     pause 1.0
