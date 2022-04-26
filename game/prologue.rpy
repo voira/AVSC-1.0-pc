@@ -4,6 +4,7 @@ define ea = Character("Ealdwine", ctc= "ctc_blink" , ctc_position="nestled")
 define ma = Character("Marley", ctc= "ctc_blink" , ctc_position="nestled")
 define wa = Character("Wilbur Asquith", ctc= "ctc_blink" , ctc_position="nestled")
 define li = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
+define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
 
 define fastdissolve = Dissolve(0.1)
 

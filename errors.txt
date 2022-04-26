@@ -2,21 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/prologue.rpy", line 3: invalid syntax
-    ("Ealdwine", ctc= "ctc_blink" , ctc_position="nestled")
-                     ^
+File "game/venaprologue.rpy", line 505: expected 'simple_expression' not found.
+    show Haru Default at with dissolve
+                         ^
 
-File "game/prologue.rpy", line 4: invalid syntax
-    ("Marley", ctc= "ctc_blink" , ctc_position="nestled")
-                   ^
-
-File "game/prologue.rpy", line 5: invalid syntax
-    ("Wilbur Asquith", ctc= "ctc_blink" , ctc_position="nestled")
-                           ^
-
-File "game/prologue.rpy", line 6: invalid syntax
-    ("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
-                   ^
+File "game/venaprologue.rpy", line 506: expected 'simple_expression' not found.
+    show Kioko Default at with dissolve
+                          ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Sat Apr 16 21:18:52 2022
+Sat Apr 23 22:22:38 2022

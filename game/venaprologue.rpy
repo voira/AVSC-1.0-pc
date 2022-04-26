@@ -11,6 +11,8 @@ define m = Character("Marley", ctc= "ctc_blink" , ctc_position="nestled")
 define c = Character("Cyril", ctc= "ctc_blink" , ctc_position="nestled")
 define l = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
 define u = Character("???", ctc= "ctc_blink" , ctc_position="nestled")
+define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
+
 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
@@ -394,8 +396,7 @@ label venaprologue:
     "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived. And the situation was worse in Whemond."
     "It almost seemed like a harbinger of misfortune."
 
-    show Kioko Shy at right with dissolve:
-        ypos 1.8 zoom 1.2
+    show Kioko Shy at right with dissolve
 
     k "“Well, I… I think the lights look pretty.”"
 
@@ -427,10 +428,9 @@ label venaprologue:
     v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
 
     show Asha Default with dissolve
-    show Kioko Default at right with dissolve:
-        ypos 1.8 zoom 1.2
-    show Haru Default at left with dissolve:
-        xpos 0 ypos 1.8 zoom 1.2
+    show Kioko Default at right with dissolve
+
+    show Haru Default at left with dissolve
 
     a "“What’s the problem? We can arrange a one-day trip.”"
 
@@ -473,8 +473,7 @@ label venaprologue:
 
     a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
 
-    show Kioko Laughing at right with dissolve:
-        ypos 1.8 zoom 1.2
+    show Kioko Laughing at right with dissolve
 
     k "“You still act like we are little kids, Asha.”"
 
@@ -503,8 +502,8 @@ label venaprologue:
     "(…)"
     "Just when I was about to get lost in my memories, Haru’s voice shook me back to reality."
 
-    show Haru Default at Position(xpos=0.20, xanchor=0.50, ypos=0.8, yanchor=0.50) with dissolve
-    show Kioko Default at Position(xpos=0.80, xanchor=0.50, ypos=0.8, yanchor=0.50) with dissolve
+    show Haru Default at right with dissolve
+    show Kioko Default at left with dissolve
 
     h "“So… We are returning to our rooms?”"
     v "“You two can leave. I still have work to do.”"
@@ -947,7 +946,7 @@ label venaprologue:
     "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
     "I looked at her, concerned."
 
-    show Kioko Sideway with dissolve:
+    show Kioko Concerned with dissolve:
         yalign 1 zoom 1.8
 
     k "“I think… I think I saw someone in my room today.”"

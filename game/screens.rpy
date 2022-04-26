@@ -215,7 +215,7 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
 # Click to Continue screen
-# 
+#
 # screen ctc():
 #
 #     vbox:
@@ -437,8 +437,8 @@ screen navigation_game_menu():
     vbox:
         style_prefix "navigation_game_menu"
 
-        yalign 0.5
-        xalign 0.1
+        yalign 0.62
+        xalign 0.12
 
         spacing gui.navigation_spacing
 

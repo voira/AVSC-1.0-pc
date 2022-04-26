@@ -5,15 +5,16 @@ define a = Character("Asha", ctc= "ctc_blink" , ctc_position="nestled")
 define al = Character("Almasi", ctc= "ctc_blink" , ctc_position="nestled")
 define bbg = Character("Başka Bir Gümüş Oyuk Sakini", ctc= "ctc_blink" , ctc_position="nestled")
 define obg = Character("Öteki Gümüş Oyuk Sakini", ctc= "ctc_blink" , ctc_position="nestled")
-define dbg = Character("Diğer Bir Gümüş Oyuk Sakini", ctc= "ctc_blink" , ctc_position="nestled")
+define dbg = Character("Another Silver Hollow Resident", ctc= "ctc_blink" , ctc_position="nestled")
 define gr = Character("Grandük", ctc= "ctc_blink" , ctc_position="nestled")
 define m = Character("Marley", ctc= "ctc_blink" , ctc_position="nestled")
 define c = Character("Cyril", ctc= "ctc_blink" , ctc_position="nestled")
 define l = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
 define x = Character("Xerxes", ctc= "ctc_blink" , ctc_position="nestled")
 define u = Character("???", ctc= "ctc_blink" , ctc_position="nestled")
-define bks = Character("Bir Kadın Sesi", ctc= "ctc_blink" , ctc_position="nestled")
+define bks = Character("A Woman's Voice", ctc= "ctc_blink" , ctc_position="nestled")
 define io = Character("Ionyr", ctc= "ctc_blink" , ctc_position="nestled")
+define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
@@ -583,8 +584,7 @@ label haruprologue:
 
     "Taking a deep breath, I slowly freed my hands from Vena’s."
 
-    show Vena Default with dissolve:
-        xpos 0.4 ypos 1.0 zoom 1.0
+    show Vena Default with dissolve
 
     v "“We don’t know how improved this ‘Magitech’ of theirs is.”"
     v "“But given how plain, far from complicated your magic is I can tell that there’s a great chance of you getting caught.”"

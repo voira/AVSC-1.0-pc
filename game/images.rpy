@@ -1,15 +1,15 @@
 image Lionel Default :
     "lionel/lionel_default.png"
-    xalign 0.5 yalign 1 zoom 0.85
+    xalign 0.5 yalign 1 zoom 1
 image Lionel Smiling :
     "lionel/lionel_smiling.png"
-    xalign 0.5 yalign 1 zoom 0.85
+    xalign 0.5 yalign 1 zoom 1
 image Lionel Frown :
     "lionel/lionel_frowning.png"
-    xalign 0.5 yalign 1 zoom 0.85
+    xalign 0.5 yalign 1 zoom 1
 image Lionel Laughing :
     "lionel/lionel_laughing.png"
-    xalign 0.5 yalign 1 zoom 0.85
+    xalign 0.5 yalign 1 zoom 1
 image Kioko Default :
     "kioko/kioko_default.png"
     xalign 0.5 yalign 1 zoom 0.85
@@ -60,7 +60,7 @@ image Orphina Gasping :
     xalign 0.5 yalign 1 zoom 0.85
 image Orphina Gritting :
     "orphina/Orphina_gritting.png"
-    xalign 0.5 yalign 1 zoom 0.85
+    xalign 0.5 yalign 1 zoom 1
 image Almasi Default :
     "almasi/almasi_default.png"
     xalign 0.5 yalign 1 zoom 0.85
@@ -141,7 +141,7 @@ image Vena Eyesclosed :
     xalign 0.5 yalign 1.1 zoom 0.85
 image Vena Front :
     "vena/vena_front.png"
-    xalign 0.5 yalign 1.1 zoom 0.85
+    xalign 0.5 yalign 1.1 zoom 1.5
 image Vena Frowning :
     "vena/vena_frowned.png"
     xalign 0.5 yalign 1.1 zoom 0.85
@@ -157,8 +157,8 @@ image Vena Sigh :
 image ctc_blink:
         alpha 1.0
         "gui/heart.png"
-        0.75
+        0.5
         alpha 0.0
-        0.75
+        0.5
         repeat
 image main_menu = Movie(play="gui/main_menu.webm")

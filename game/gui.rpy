@@ -61,7 +61,7 @@ define gui.text_font = "fonts/Alegreya-Regular.otf"
 define gui.name_text_font = "fonts/Alegreya-Regular.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "fonts/Alegreya-Regular.otf"
+define gui.interface_text_font = "fonts/Alegreya-Bold.otf"
 
 ## The font used for grimoire text.
 #define gui.grimoire_text_font =
@@ -238,7 +238,7 @@ define gui.slot_button_text_selected_hover_color = gui.hover_color
 
 ## The width and height of thumbnails used by the save slots.
 define config.thumbnail_width = 384
-define config.thumbnail_height = 21
+define config.thumbnail_height = 216
 
 ## The number of columns and rows in the grid of save slots.
 define gui.file_slot_cols = 2
