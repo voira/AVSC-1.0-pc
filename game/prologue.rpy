@@ -77,6 +77,7 @@ label prologue:
     ma "“So much so that I cannot even fathom if those actions were done by a person who dares to call themselves a man, or a ravenous beast.”"
 
     "The King and I made eye contact after those words. There was a dull expression on his face, as if what I said went over his head."
+    scene hallbg with vpunch
     "With three long steps, I closed the distance between us and knelt."
 
     ma "“My lord, I beg of you. Think this through.”"
@@ -104,14 +105,15 @@ label prologue:
     wa "“Never speak to me in that way again. I would have you regret it.”"
 
     "The tone of his voice almost brought the chill of winter into the otherwise warm room."
-    "(Neden şaşırıyorsam, gerektiği zamanlarda otoriter bile olamayan bir insandan kral olamazdı zaten.)"
+
     "His sons Xerxes and Cyril flinched, whereas Lionel grinned slyly. I grimaced."
 
     wa "“We will not have any more arguments on this subject again.”"
     wa "“The witches are to come to Whemond, and this is my last word.”"
     wa "“And you… Instead of keeping your head busy with what is already decided, you can revert your attention to the Knights of the Dawn that are under your care. Or I will pass their command to Lionel.”"
 
-    show Lionel Smiling at left with easeinleft
+    show Lionel Smiling with dissolve:
+        xpos 0.3 ypos 0.2 zoom 0.85
 
     li "“You can trust me, father.”"
 

@@ -35,9 +35,11 @@ label haruprologue:
     "And resistance was in vain."
 
     scene traincomp with fade
-    show Kioko Eyesclosed at left with dissolve
-    show Vena Default at right with dissolve
-
+    show Kioko Eyesclosed:
+        xpos 0.27 ypos 0.2
+    show Vena Default:
+        xpos 0.74
+    with dissolve
     h "“It’s surprising to see that she can sleep.”"
 
     "Vena glanced at Kioko from the corner of her eyes and sighed."
@@ -74,9 +76,12 @@ label haruprologue:
     "However I wasn’t able to soothe her."
     "These new feelings, which were complete strangers to me, had put me in a weird, confused state I couldn’t handle at all."
 
-    hide Kioko
-    show Kioko Eyesclosed at left with dissolve
-    show Vena Frowning at right with dissolve
+    hide Kioko with dissolve
+    show Kioko Eyesclosed:
+        xpos 0.27 ypos 0.2
+    show Vena Frowning:
+        xpos 0.74
+    with dissolve
 
     h "“I think everyone here suffers from a similar problem.”"
 
@@ -99,7 +104,8 @@ label haruprologue:
 
     "Vena took a deep breath."
 
-    show Vena Default with dissolve
+    show Vena Sigh with dissolve
+    pause 1.0
 
     v "“Alright. Just don’t get yourself into any trouble.”"
 
@@ -125,7 +131,7 @@ label haruprologue:
     play sound walking
 
     scene traincorridor with fade:
-        xpos 0.1 ypos 1.7 xanchor 0.5 yanchor 1.0 zoom 1.2
+        xpos 0.2 ypos 1.6 xanchor 0.5 yanchor 1.0 zoom 2
 
     pause 2.0
 
@@ -326,8 +332,11 @@ label haruprologue:
     scene traincomp with fade
     pause 2.0
 
-    show Kioko Default at left with dissolve
-    show Vena Default at right with dissolve
+    show Kioko Neutral:
+        xpos 0.27 ypos 0.2
+    show Vena Default:
+        xpos 0.74
+    with dissolve
 
     v "“Did something happen? I heard someone yelling.”"
 

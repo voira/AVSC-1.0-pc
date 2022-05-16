@@ -1,15 +1,15 @@
 image Lionel Default :
     "lionel/lionel_default.png"
-    xalign 0.5 yalign 1 zoom 1
+    xalign 0.5 yalign 1 zoom 0.85
 image Lionel Smiling :
     "lionel/lionel_smiling.png"
-    xalign 0.5 yalign 1 zoom 1
+    xalign 0.5 yalign 1 zoom 0.85
 image Lionel Frown :
     "lionel/lionel_frowning.png"
-    xalign 0.5 yalign 1 zoom 1
+    xalign 0.5 yalign 1 zoom 0.85
 image Lionel Laughing :
     "lionel/lionel_laughing.png"
-    xalign 0.5 yalign 1 zoom 1
+    xalign 0.5 yalign 1 zoom 0.85
 image Kioko Default :
     "kioko/kioko_default.png"
     xalign 0.5 yalign 1 zoom 0.85

@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 505: expected 'simple_expression' not found.
-    show Haru Default at with dissolve
-                         ^
+File "game/prologue.rpy", line 80: expected statement.
+    vpunch
+          ^
 
-File "game/venaprologue.rpy", line 506: expected 'simple_expression' not found.
-    show Kioko Default at with dissolve
-                          ^
-
-Ren'Py Version: Ren'Py 7.4.4.1439
-Sat Apr 23 22:22:38 2022
+Ren'Py Version: Ren'Py 7.4.10.2178
+Mon May 16 19:51:42 2022
