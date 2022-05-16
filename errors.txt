@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/prologue.rpy", line 80: expected statement.
-    vpunch
-          ^
+File "game/haruprologue.rpy", line 761: end of line expected.
+    hide Ealdwine with dissolve:
+                               ^
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Mon May 16 19:51:42 2022
+Mon May 16 22:03:13 2022

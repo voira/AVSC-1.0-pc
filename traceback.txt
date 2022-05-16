@@ -1,42 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00start.rpy", line 213, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 498, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 498, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 508, in _execute_python_hide
-    renpy.load("_reload-2")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+Compiling ATL code at game/haruprologue.rpy:1067
+  File "game/haruprologue.rpy", line 1066, in script
+    show Kioko Concerned with dissolve:
+Exception: Expression u'0.265' is not an ATL transform, and so cannot be included in an ATL interpolation.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 213, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 498, in script
-    python hide:
-  File "renpy/ast.py", line 922, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2218, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 498, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 508, in _execute_python_hide
-    renpy.load("_reload-2")
-  File "renpy/loadsave.py", line 767, in load
-    log.unfreeze(roots, label="_after_load")
-  File "renpy/python.py", line 2173, in unfreeze
-    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
-  File "renpy/python.py", line 2005, in rollback
-    self.load_failed()
-  File "renpy/python.py", line 1923, in load_failed
-    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "game/haruprologue.rpy", line 1066, in script
+    show Kioko Concerned with dissolve:
+  File "renpy/ast.py", line 1197, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1167, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 770, in show
+    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
+  File "renpy/display/core.py", line 1147, in add
+    thing.visit_all(lambda d : None)
+  File "renpy/display/core.py", line 558, in visit_all
+    for d in self.visit():
+  File "renpy/atl.py", line 603, in visit
+    block = self.compile()
+  File "renpy/atl.py", line 510, in compile
+    block = self.atl.compile(self.context)
+  File "renpy/atl.py", line 705, in compile
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "renpy/atl.py", line 977, in compile
+    raise Exception("Expression %r is not an ATL transform, and so cannot be included in an ATL interpolation." % expr)
+Exception: Expression u'0.265' is not an ATL transform, and so cannot be included in an ATL interpolation.
 
-Windows-10-10.0.22598
-Ren'Py 7.4.4.1439
+Windows-10-10.0.22000
+Ren'Py 7.4.10.2178
 The Calling 1.0
-Sat Apr 23 21:33:58 2022
+Mon May 16 22:25:17 2022

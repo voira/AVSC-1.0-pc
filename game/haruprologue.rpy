@@ -334,7 +334,7 @@ label haruprologue:
 
     show Kioko Neutral:
         xpos 0.27 ypos 0.2
-    show Vena Default:
+    show Vena Irritated:
         xpos 0.74
     with dissolve
 
@@ -345,8 +345,9 @@ label haruprologue:
 
     h "“The usual arguments, you know. Nothing else.”"
 
-    hide Kioko with dissolve
-    hide Vena with dissolve
+    hide Kioko
+    hide Vena
+    with dissolve
 
     "Vena first arched her brow, then shrugged which I assumed for to show that she wouldn’t chase it."
     "And I let the pit made from my nightmares envelop me into a deep slumber afterwards."
@@ -382,8 +383,8 @@ label haruprologue:
     a "“Don’t worry, you will have the opportunity to go on a trip into the city after things have settled more I think.”"
 
     play sound loudthud
-    scene whemond
     pause 1.0
+    scene whemond with vpunch
     "(!)"
     "A sudden sound coming from Vena’s side made all of us turn to her."
 
@@ -439,9 +440,10 @@ label haruprologue:
 
     a "“It seems you don’t see me as worthy of your trust as Waceera.”"
 
-    "Before giving a response, Vena closed her eyes and paused a little bit."
-
     show Vena Eyesclosed with dissolve
+    pause 2.0
+
+    "Before giving a response, Vena closed her eyes and paused a little bit."
 
     v "“I am speaking up for your own good, please don’t turn it into a competition.”"
 
@@ -498,23 +500,26 @@ label haruprologue:
     "This marked the first time I was going to sleep without my sisters, alone."
     "(Would it make me a bad person to feel a little excited about this?)"
 
-    show Vena Default at right with dissolve
+    show Vena Default with dissolve:
+        xpos 0.74
 
     v "“You two can leave. I still have work to do.”"
 
-    show Kioko Default at left with dissolve
+    show Kioko Default with dissolve:
+        xpos 0.27 ypos 0.18
 
     k "“Please don’t tire yourself out.”"
 
-    hide Vena with dissolve
-    hide Kioko with dissolve
+    hide Vena
+    hide Kioko
+    with dissolve
 
     "After agreeing with Kioko’s remark and wishing a good night, I saw myself out."
 
     scene academybedroom with fade
     pause 2.0
     scene academybedroom with dissolve:
-         zoom 1.2
+        ypos -0.1 zoom 1.5
 
     play sound sitting
 
@@ -555,21 +560,22 @@ label haruprologue:
     hide Vena with dissolve
 
     "As if she was running away from me, her steps quickened."
-    # Slow screen shake gelecek.
+    scene academyclass with vpunch
     "I ran towards Vena and grasped her arm."
 
     play sound sitting
 
     h "“Vena!”"
 
-    show Vena Looking Sideways with dissolve
+    show Vena Looking Sideways with dissolve:
+        ypos 1.6 zoom 1.5
 
     "Finally her attention returned to me."
     "She looked distracted."
     "Whatever was running through her mind made Vena give up with a deep sigh."
 
     show Vena Eyesclosed with dissolve:
-        ypos 1.5 zoom 1.5
+        ypos 1.6 zoom 1.5
 
     v "“Haru, listen.”"
 
@@ -584,10 +590,10 @@ label haruprologue:
 
     show Vena Looking Sideways with dissolve
 
-    v "““I can’t understand your current mood in any way.”"
+    v "“I can’t understand your current mood in any way.”"
     v "“I can’t tell if a storm is raging in your head and you’re not showing it, or if your mind is as calm as the sea on a sunny day Haru.”"
 
-    show Vena Sighing with dissolve
+    show Vena Sigh with dissolve
 
     v "“But you should never put yourself in such position, nor us.”"
 
@@ -748,7 +754,13 @@ label haruprologue:
     scene academyclass with dissolve:
         zoom 1.0
 
-    show Ealdwine Default at right with dissolve
+    show Ealdwine Default with dissolve:
+        ypos 1.2 zoom 1.2
+
+    pause 2.0
+    hide Ealdwine with dissolve
+    show Ealdwine Default with dissolve:
+        xpos 0.74 zoom 1.0
 
     "I had never seen that person before, and they were not one of us."
     "Lightly, I nudged Vena with my elbow."
@@ -820,7 +832,7 @@ label haruprologue:
 
     h "“Sorry.”"
 
-    show Ealdwine Grinning with dissolve
+    show Ealdwine Grinning Eyesclosed with dissolve
 
     "When I glanced at the stranger again, I saw them laughing at me."
     "(…How embarrassing.)"
@@ -865,15 +877,19 @@ label haruprologue:
 
     scene academylivingroom with fade
     pause 1.5
-    show Kioko Default at left with dissolve
-    show Vena Default at right with dissolve
+    show Kioko Default:
+        xpos 0.27 ypos 0.18
+    show Vena Default:
+        xpos 0.74
+    with dissolve
 
     v "“…That’s all. You can see the rest with the memory stone.”"
 
     k "“Thank you, Vena.”"
 
-    hide Kioko with dissolve
-    hide Vena with dissolve
+    hide Kioko
+    hide Vena
+    with dissolve
 
     "We were eating the food that Asha had handed us."
     "Deep down I felt upset over how busy the day had been."
@@ -883,7 +899,8 @@ label haruprologue:
     "(Maybe this would give me the chance to slip away from the Academy.)"
     "Seriously, I didn’t wish to be trapped in here for stars know how long."
 
-    show Kioko Eyesclosed at left with dissolve
+    show Kioko Eyesclosed with dissolve:
+        xpos 0.3 ypos 0.18
 
     k "“I… Want to tell you something.”"
     k "“But please don’t panic.”"
@@ -896,15 +913,21 @@ label haruprologue:
     "(Nice, we’ve already panicked.)"
     "And here I’d been having silly dreams of slipping away. Great."
 
-    show Kioko Default with dissolve
+    show Kioko Neutral with dissolve
 
-    k "“I think… I think I saw someone in my room today.”"
+    k "“I think…”"
+
+    show Kioko Concerned with dissolve:
+        xpos 0.265 ypos 0.18
+
+    k "“I think I saw someone in my room today.”"
 
     "I couldn’t help but gawk at her."
 
     h "“What?”"
 
-    show Vena Frowning at right with dissolve
+    show Vena Frowning with dissolve:
+        xpos 0.74
 
     v "“Who?”"
 
@@ -926,7 +949,8 @@ label haruprologue:
 
     h "“What did she look like? Couldn’t she be just one of your friends?”"
 
-    show Kioko Gasping with dissolve
+    show Kioko Gasping with dissolve:
+        xpos 0.3 ypos 0.18
 
     k "“No! No… I don’t have a friend like that.”"
 
@@ -936,7 +960,8 @@ label haruprologue:
 
     "Unable to restrain her hands, she started to gesture frantically while talking."
 
-    show Kioko Concerned with dissolve
+    show Kioko Concerned with dissolve:
+        xpos 0.265 ypos 0.185
 
     k "“She walked towards me. I was so scared that I couldn’t move! I must have passed out from sheer fright. When I opened my eyes again, time had passed and she was gone.”"
 
@@ -945,12 +970,14 @@ label haruprologue:
 
     v "“If it is alright, I’ll take a look myself.”"
 
-    show Kioko Eyesclosed with dissolve
+    show Kioko Eyesclosed with dissolve:
+        xpos 0.3 ypos 0.18
 
     "Nodding, Kioko got herself ready for the coming intrusion."
 
-    hide Vena with dissolve
-    hide Kioko with dissolve
+    hide Vena
+    hide Kioko
+    with dissolve
 
     "Shortly after, a faint blue light began to glow from both Vena’s fingers and eyes, proving that the spell had started."
     "Psychic magic was Vena’s profession."
@@ -981,8 +1008,12 @@ label haruprologue:
     "Before long, Vena withdrew her hand and put some distance between herself and Kioko."
     "Curiously, I stared at the two."
 
-    show Kioko Default at left with dissolve
-    show Vena Looking Sideways at right with dissolve
+    show Kioko Neutral:
+        xpos 0.3 ypos 0.18
+    show Vena Looking Sideways:
+        xpos 0.74
+    with dissolve
+
 
     v "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
@@ -1032,7 +1063,8 @@ label haruprologue:
 
     v "“Oh hush, you’re my sister.”"
 
-    show Kioko Concerned with dissolve
+    show Kioko Concerned with dissolve:
+        xpos 0.265 ypos 0.18
 
     k "“But wouldn’t I be in the way of your work?”"
 
@@ -1040,8 +1072,9 @@ label haruprologue:
 
     v "“No, you’re my priority.”"
 
-    hide Kioko with dissolve
-    hide Vena with dissolve
+    hide Kioko
+    hide Vena
+    with dissolve
 
     "This must be the part which I should intervene by saying I would take the responsibility for Kioko."
 
