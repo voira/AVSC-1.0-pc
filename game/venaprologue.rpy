@@ -76,7 +76,7 @@ label venaprologue:
 
     v "“And the last.”"
 
-    show Haru Concerned at left with dissolve:
+    show Haru Concerned with dissolve:
         xalign 0.5 yalign 1 zoom 1.5
         linear 0.5 xalign 0.9
 
@@ -196,23 +196,23 @@ label venaprologue:
     "Finally, I found myself in the village center. And there was the person I was looking for, crouched down next to the fountain, crying in agony while clasping a dead body."
 
     show Kioko Crying with dissolve:
-        yalign 1 zoom 2
+        yalign 1 zoom 1.6
 
     "Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
     "But I hadn’t come here to console anyone."
     "Finding the perpetrator was my main goal."
 
-    hide Kioko
+    hide Kioko with dissolve
 
     scene forest with flash
 
     show Kioko Concerned with dissolve:
-        yalign 1 zoom 2
+        yalign 1 zoom 1.6
 
     k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
 
     show Kioko Concerned with dissolve:
-        yalign 1 zoom 2
+        yalign 1 zoom 1.6
 
     k "“But I can’t remember. I just can’t.”"
 
@@ -221,11 +221,12 @@ label venaprologue:
     scene shd with flash
 
     show Kioko Crying with dissolve:
-        yalign 1 zoom 2
+        yalign 1 zoom 1.6
 
     "(Where are you… Where are you? Come now, don’t be shy-)"
 
-    show Kioko Shocked with dissolve
+    show Kioko Shocked with dissolve:
+        xpos 0.55
 
     pause 2.0
 
@@ -260,24 +261,24 @@ label venaprologue:
 
     "I sprang into action at once."
     "Looking back now, how embarrassing that must have seemed; being ready to try my hardest to save a person who was not even real."
+    scene shd with vpunch
     "However, before I could disgrace myself further, someone grabbed my arm."
     "I sharply turned to the person behind me, gasping, momentarily disoriented."
 
     scene fogforest with fade
 
     show Kioko Gasping with dissolve:
-        zoom 2
+        zoom 1.6
 
     k "“Vena? Are you… The real Vena?”"
 
     "{i}Nice.{/i}. I got caught. But this was no time to waste with pointless questions."
     "I grabbed Kioko by the shoulders."
-
     v "“Kiki, listen to me. We should move immediately. There's something going on in the old Coven-”"
 
-    scene fogforest with vpunch
-
     hide Kioko with dissolve
+
+    scene fogforest with vpunch
 
     "A loud bang interrupted my words, then the ground began to shake."
     "I and Kioko barely held on to the nearest tree as the world churned and quaked around us."
@@ -396,7 +397,8 @@ label venaprologue:
     "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived. And the situation was worse in Whemond."
     "It almost seemed like a harbinger of misfortune."
 
-    show Kioko Shy at right with dissolve
+    show Kioko Shy with dissolve:
+        xpos 0.8 ypos 0.18
 
     k "“Well, I… I think the lights look pretty.”"
 
@@ -410,13 +412,19 @@ label venaprologue:
 
     play sound loudthud
 
-    hide Asha
+
+
+    hide Asha with dissolve
 
     show Asha Gasping
 
-    show Kioko Gasping with dissolve
+    show Kioko Gasping with vpunch:
+        ypos 0.18 xpos 0.83
 
-    show Haru Gasping at left with dissolve
+    show Haru Gasping:
+        xpos 0.15
+
+    with dissolve
 
     "My anger made me slam the jar on the counter with much more force, while trying to place it."
     "Now all of the eyes in the room were upon me."
@@ -427,8 +435,10 @@ label venaprologue:
     v "“Asha, I beg you to not to put such atrocious thoughts into anyone’s mind.”"
     v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
 
-    show Asha Default with dissolve
-    show Kioko Default at right with dissolve
+    show Asha Default
+    show Kioko Neutral:
+        xpos 0.83 ypos 0.18
+    with dissolve
 
     show Haru Default at left with dissolve
 
@@ -443,8 +453,9 @@ label venaprologue:
     "As our acting leader- no, setting that aside, as a person who walked the world several thousands of years, I expected Asha to be more cautious, sharper."
     "Particularly while treading upon the cracks that had begun to form among us."
 
-    hide Kioko with dissolve
-    hide Haru with dissolve
+    hide Kioko
+    hide Haru
+    with dissolve
     show Asha Grinning with zoomin
 
     a "“You’re just like Waceera.”"
@@ -486,8 +497,9 @@ label venaprologue:
 
     a "“That is because you are little children on my perspective. And you will always remain as such for me.”"
 
-    hide Asha with dissolve
-    hide Kioko with dissolve
+    hide Asha
+    hide Kioko
+    with dissolve
     play sound doorclose
     pause 2.0
 
@@ -502,8 +514,11 @@ label venaprologue:
     "(…)"
     "Just when I was about to get lost in my memories, Haru’s voice shook me back to reality."
 
-    show Haru Default at right with dissolve
-    show Kioko Default at left with dissolve
+    show Haru Default:
+        xpos 0.8 ypos 0.18
+    show Kioko Default:
+        xpos 0.3 ypos 0.18
+    with dissolve
 
     h "“So… We are returning to our rooms?”"
     v "“You two can leave. I still have work to do.”"
@@ -515,8 +530,9 @@ label venaprologue:
 
     v "“Good night.”"
 
-    hide Haru with dissolve
-    hide Kioko with dissolve
+    hide Haru
+    hide Kioko
+    with dissolve
 
     "Once the two of them left, I buried my face in my hands, and tried to take a deep breath."
 
@@ -583,18 +599,18 @@ label venaprologue:
 
     "(So she doesn’t want to take the blame again. Could Kioko’s shyness be inherited from her?)"
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     a "“Nice… You’re all here- oh, except one person.”"
 
     "Kioko…"
 
-    show Asha Sideways with zoomin
+    show Asha Sideways with dissolve
 
     a "“Which is okay.”"
     a "“I promised you that once we arrived to Whemond, I would try to answer whatever questions you may have.”"
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     a "“And today, I am here to keep my word-”"
 
@@ -605,19 +621,19 @@ label venaprologue:
 
     "(Stars guide our way.)"
 
-    hide kiokoeye with dissolve
-
-    hide Asha with dissolve
+    hide kiokoeye
+    hide Asha
+    with dissolve
 
     "I turned and looked at the woman who was so determined to light a fire even when the hearing had yet to start."
 
-    show Almasi Angry with zoomin
+    show Almasi Angry with dissolve
 
     "Her intent to cause chaos could be read in every detail of her face."
 
     hide Almasi with dissolve
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     a "“There’s no point in lying.”"
     a "“The circle which I, Waceera and Zuri shared was looser than the others.”"
@@ -709,16 +725,16 @@ label venaprologue:
 
     "(…Huh?)"
 
-    show Ealdwine Default at right with easeinright:
-        yalign 1 zoom 1.5
+    show Ealdwine Default with dissolve:
+        xpos 0.74 zoom 1
 
     "Since my attention was totally drawn in by the meeting, I hadn’t realize the stranger standing in the doorway."
     "So they’d already begun set a watch on us."
 
     hide kiokoeye with dissolve
 
-    show Ealdwine Default at center with ease:
-        yalign 1 zoom 1.5
+    show Ealdwine Default with dissolve:
+        ypos 1.25 zoom 1.3
 
     v "“I don’t know, but that’s the uniform of the Academy.”"
 
@@ -783,15 +799,15 @@ label venaprologue:
 
     v "“That can be arranged.”"
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     "She rubbed my shoulder."
 
-    show Asha Smiling with zoomin
+    show Asha Smiling with dissolve
 
     a "“Alright, I trust you. Even more than anyone else here.”"
 
-    show Asha Sideway with zoomin
+    show Asha Sideway with dissolve
 
     a "“Also, Vena…”"
 
@@ -803,7 +819,7 @@ label venaprologue:
     "I looked at her in confusion while she checked the passersby in the area with a spell she quickly cast."
     "After confirming we were alone, she glanced at me with eyes that were relieved."
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     a "“The things I will say now shall stay within the Light Bearers.”"
 
@@ -838,7 +854,7 @@ label venaprologue:
     "(However this time…)"
     "I frowned."
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     v "“What would you suggest? We are stuck here. There’re Royal Knights at every corner.”"
 
@@ -894,7 +910,7 @@ label venaprologue:
     "Not believing what I’d heard, I yanked my hands free."
 
     show Orphina Default with dissolve:
-        yalign 1 zoom 1.8
+        ypos 0 zoom 1.2
 
     v "“Pardon?”"
 
@@ -930,15 +946,12 @@ label venaprologue:
     "I had never been one to avoid responsibilities, but even I had a hard time imagining the workload of the coming days."
     "(I wonder what the King’s sons will talk about. They will at least provide some useful information, I hope.)"
 
-    show Haru Default at left with dissolve:
-        yalign 1 zoom 1.2
-    show Kioko Default at right with dissolve:
-        yalign 1 zoom 1.2
-
+    show Haru Default:
+        ypos 0.18 xpos 0.3 zoom 1.0
+    show Kioko Eyesclosed:
+        ypos 0.18 xpos 0.8 zoom 1.0
+    with dissolve
     k "“I… Want to tell you something.”"
-
-    show Kioko Eyesclosed at center with ease:
-        yalign 1 zoom 1.8
 
     k "“But please don’t panic.”"
 
@@ -946,8 +959,8 @@ label venaprologue:
     "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
     "I looked at her, concerned."
 
-    show Kioko Concerned with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Concerned:
+        ypos 0.18 xpos 0.765
 
     k "“I think… I think I saw someone in my room today.”"
 
@@ -960,8 +973,7 @@ label venaprologue:
     h "“What?”"
     v "“Who?”"
 
-    show Kioko Concerned zorder 2 at right with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Concerned
 
     k "“I-I don’t know.”"
     k "“It might have been a dream, I’m not sure.”"
@@ -975,11 +987,10 @@ label venaprologue:
     pause 2.0
     scene academylivingroom with flash
 
-    show Haru Gaping at left:
+    show Haru Gaping:
         yalign 1
-    show Kioko Concerned at right:
-        yalign 1
-        zoom 1.8
+    show Kioko Concerned:
+        xpos 0.8 ypos 0.18 zoom 1.0
 
     "Could they be I thought of?"
     "What if they’d come back to get rid of Kioko since she’d seen their face?"
@@ -987,7 +998,8 @@ label venaprologue:
 
     v "“Kioko, calm down.”"
 
-    show Kioko Shy with dissolve
+    show Kioko Shy with dissolve:
+        xpos 0.801 ypos 0.18
 
     k "“I had just woken up, and I realized someone was in the room with me. She was standing next to the window.”"
 
@@ -1003,7 +1015,8 @@ label venaprologue:
 
     k "“She had ginger hair. But I couldn’t see her face clearly, for I was sleepy.”"
 
-    show Kioko Eyesclosed with dissolve
+    show Kioko Eyesclosed with dissolve:
+        xpos 0.835 ypos 0.18
 
     k "“She walked towards me. I was so scared that I couldn’t move! I must have passed out from sheer fright. When I opened my eyes again, it was later and she was gone.”"
 
@@ -1013,8 +1026,9 @@ label venaprologue:
 
     "By nodding her head, she gave a wordless permission. I took a deep breath, and awaken my magic."
 
-    hide Kioko with dissolve
-    hide Haru with dissolve
+    hide Kioko
+    hide Haru
+    with dissolve
 
     # Buraya CG gelecek!
 
@@ -1029,10 +1043,10 @@ label venaprologue:
 
     scene academylivingroom with fade
 
-    show Kioko Default zorder 1 at right with dissolve:
-        yalign 1 zoom 1.8
-    show Haru Default zorder 2 at left with dissolve:
-        yalign 1 zoom 1.8
+    show Kioko Default:
+        xpos 0.8 ypos 0.18 zoom 1.0
+    show Haru Default:
+        xpos 0.3 ypos 0.18 zoom 1.0
 
     "Both of my sisters were looking at me with curious eyes."
 
@@ -1072,7 +1086,8 @@ label venaprologue:
 
     v "“Kioko, would you like to sleep in my room for now?”"
 
-    show Kioko Concerned with dissolve
+    show Kioko Concerned with dissolve:
+        ypos 0.18 xpos 0.765
 
     k "“I don’t want to be a burden.”"
 
@@ -1107,8 +1122,9 @@ label venaprologue:
 
     "Both of them nodded in agreement."
 
-    hide Haru with dissolve
-    hide Kioko with dissolve
+    hide Haru
+    hide Kioko
+    with dissolve
 
     "(Just to be safe, I should cast some protection spells.)"
 
@@ -1203,7 +1219,7 @@ label venaprologue:
     gr "“How wonderful, how wonderful! You’ve spent all these years without learning proper manners.”"
 
     "(…)"
-    "(Bakalım hayatına bir domuz olarak devam ederken de adabımuaşeretten bahsedebilecek misin?)"
+
 
     a "“Ahem!”"
 
@@ -1222,8 +1238,8 @@ label venaprologue:
     a "“And His Excellency the Grand Duke of Pertone, Marley Augustine Arkwright.”"
 
     scene academylivingroom with fade
-    show Marley Irritated at right with dissolve:
-        yalign 1 zoom 1.4
+    show Marley Irritated with dissolve:
+        xpos 0.7 ypos 0 zoom 1.1
 
 
     m "“You left out the other titles and holdings of the Princes, not to mention you didn’t address them with proper courtesy.”"
@@ -1233,7 +1249,7 @@ label venaprologue:
     a "“Pardon?”"
 
     show Marley Sigh with move:
-         yalign 1 zoom 1.4
+        yalign 1 zoom 1.1
 
     m "“Cyril is the Duke of Credale, and Xerxes is Millford’s.”"
     m "“And Lionel, Brefcaster’s.”"
@@ -1255,7 +1271,8 @@ label venaprologue:
 
     hide Asha with dissolve
     pause 0.5
-    show Lionel Default at left with dissolve
+    show Lionel Default with dissolve:
+        xpos 0.26 ypos 0 zoom 1.1
 
     l "“Yes, let’s not waste any more time with petty squabbles.”"
     l "“I assume you are all aware of the reason why we are gathered here tonight.”"
@@ -1269,10 +1286,11 @@ label venaprologue:
     "It was weird to see how people used each other’s first names to mock them in this world, and used their family names to honour them instead."
     "(What nonsense.)"
 
-    hide Cyril with dissolve
-    hide Lionel with dissolve
+    hide Cyril
+    hide Lionel
+    with dissolve
     show Marley Neutral at truecenter with dissolve:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
 
     "Folding the paper, Marley threw it to the table before him in a rakish fashion."
     "He observed everyone else in the room while crossing his legs."
@@ -1293,19 +1311,19 @@ label venaprologue:
     "Marley’s words were dripping with condescending patience, as if he was addressing a room of children. His body language was another matter entirely; he looked like he might fly into a rage if this explanation took any longer than it needed to."
 
     show Marley Neutral with dissolve:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
 
     m "“The long-sustained, unshakeable peace of Whemond has been taking hits over the last year by things that were beyond our understanding.”"
 
     show Marley Frowning with dissolve:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
 
     m "“And what a coincidence! All these events have started to happen just before your arrival.”"
 
     "He paused heavily for dramatic effect. Asha, however, took the opportunity to speak up."
 
     show Marley Neutral:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
     show Asha Default at left with dissolve
 
     a "“Well, a few thousand years of peace of Silver Hollow against Aelthus’ a few centuries old peace… We are not in a good situation either.”"
@@ -1341,14 +1359,14 @@ label venaprologue:
     "Out of the corner of my eye, I looked at Almasi."
 
     show Almasi Default with dissolve:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
 
     "(I’ve no intention of throwing her to these wolves.)"
 
     hide Almasi with dissolve
 
     show Marley Neutral at truecenter with dissolve:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
 
     m "“…Yes. And with that, I am concluding this meeting.”"
 
@@ -1368,7 +1386,7 @@ label venaprologue:
     "Marley stared at Asha."
 
     show Marley Mocking with dissolve:
-        yalign 1 zoom 1.5
+        yalign 1 zoom 1.2
 
     m "“Earlier, you told me about your sister. I guess it would be the two of you that would work with us, or are you so busy that you would pass the job off to someone else?”"
 
@@ -1411,7 +1429,8 @@ label venalionel:
     v "“Then I’ll work with the Li-… Prince Lionel…”"
     "Remembering to address them properly, I had quickly corrected myself."
 
-    show Lionel Laughing with dissolve
+    show Lionel Laughing with dissolve:
+        ypos 0.05
 
     l "“Alright then… I think we will get along pretty well.”"
 
@@ -1422,13 +1441,16 @@ label venalionel:
 
     a "“And I am working with the Grand Duke.”"
 
-    show Marley Eyesclosed at right with dissolve
+    show Marley Eyesclosed with dissolve:
+        zoom 1.1 xpos 0.75 ypos 0.0
 
     m "“I will send a Bee at first light for you to take to the Arkwright manor.”"
 
-    hide Marley with dissolve
-    hide Asha with dissolve
-    show Lionel Default with dissolve
+    hide Marley
+    hide Asha
+    with dissolve
+    show Lionel Default with dissolve:
+        ypos 0.05
 
     l "“I will do so as well, for your arrival to the Palace, my lady.”"
 
