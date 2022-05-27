@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/haruprologue.rpy", line 761: end of line expected.
-    hide Ealdwine with dissolve:
-                               ^
+File "game/screens.rpy", line 1165: expected a keyword argument, colon, or end of line.
+    screen exclamation();
+                        ^
 
-Ren'Py Version: Ren'Py 7.4.10.2178
-Mon May 16 22:03:13 2022
+Ren'Py Version: Ren'Py 7.4.4.1439
+Fri May 27 22:26:26 2022

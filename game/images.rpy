@@ -161,4 +161,16 @@ image ctc_blink:
         alpha 0.0
         0.5
         repeat
+image ex:
+        "Layer 100.jpg"
+        0.1
+        "Layer 102.jpg"
+        0.1
+        "Layer 101.jpg"
+        0.1
+        "Layer 100.jpg"
+        0.1
+        "Layer 102.jpg"
+        0.1
+        "Layer 101.jpg"
 image main_menu = Movie(play="gui/main_menu.webm")

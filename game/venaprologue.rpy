@@ -393,7 +393,8 @@ label venaprologue:
 
     v "“Not once did I think that the light magic could be used in such useless way.”"
 
-    "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived. And the situation was worse in Whemond."
+    "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived."
+    "And the situation was worse in Whemond."
     "It almost seemed like a harbinger of misfortune."
 
     show Kioko Shy at right with dissolve
@@ -417,8 +418,11 @@ label venaprologue:
     show Kioko Gasping with dissolve
 
     show Haru Gasping at left with dissolve
+    show ex with hpunch:
+        ypos 0.15 xpos 0.6
 
     "My anger made me slam the jar on the counter with much more force, while trying to place it."
+    hide ex with dissolve
     "Now all of the eyes in the room were upon me."
     "Going on a trip, having fun… How could they make such laid-back plans when we couldn’t have held a ritual for our dead?"
     "Our leader was missing; friends, sisters we cherished so dear had lost their lives and we were not even capable of bringing their lifeless bodies back to cremate."
