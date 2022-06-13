@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 991: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    yalign 1
-    ^
+File "game/screens.rpy", line 162: window expects a non-empty block.
+    if who is None:
+                   ^
 
-File "game/venaprologue.rpy", line 993: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    xpos 0.8 ypos 0.18 zoom 1.0
-    ^
-
-Ren'Py Version: Ren'Py 7.4.10.2178
-Fri May 27 22:16:40 2022
+Ren'Py Version: Ren'Py 7.4.4.1439
+Mon Jun 13 14:41:42 2022

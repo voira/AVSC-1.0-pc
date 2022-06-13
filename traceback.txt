@@ -1,29 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'layer100.jpeg'>:
-  File "game/script.rpy", line 171, in script call
-    call prologue from _call_prologue
-  File "game/prologue.rpy", line 50, in script
-    sin "“She ruined my work! Everything! All of it!”"
-IOError: Couldn't find file 'layer100.jpeg'.
+While loading <'Image' u'bbg.png'>:
+  File "renpy/common/00gamemenu.rpy", line 173, in script
+    $ ui.interact()
+  File "renpy/common/00gamemenu.rpy", line 173, in <module>
+    $ ui.interact()
+IOError: Couldn't find file 'bbg.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 171, in script call
-    call prologue from _call_prologue
-  File "game/prologue.rpy", line 50, in script
-    sin "“She ruined my work! Everything! All of it!”"
-  File "renpy/ast.py", line 715, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1393, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1205, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 871, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/common/00gamemenu.rpy", line 173, in script
+    $ ui.interact()
+  File "renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gamemenu.rpy", line 173, in <module>
+    $ ui.interact()
   File "renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3101, in interact
@@ -38,8 +32,20 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transition.py", line 368, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
   File "renpy/display/layout.py", line 777, in render
     surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 777, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/screen.py", line 681, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
   File "renpy/display/layout.py", line 777, in render
@@ -50,15 +56,9 @@ Full traceback:
     return transform_render(self, width, height, st, at)
   File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
+  File "renpy/display/layout.py", line 1213, in render
+    back = render(style.background, bw, bh, st, at)
   File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
   File "render.pyx", line 263, in renpy.display.render.render
   File "renpy/display/im.py", line 607, in render
     return cache.get(self, render=True)
@@ -66,9 +66,9 @@ Full traceback:
     surf = image.load()
   File "renpy/display/im.py", line 688, in load
     raise e
-IOError: Couldn't find file 'layer100.jpeg'.
+IOError: Couldn't find file 'bbg.png'.
 
 Windows-10-10.0.22621
 Ren'Py 7.4.4.1439
 The Calling 1.0
-Fri May 27 22:27:02 2022
+Mon Jun 13 14:45:54 2022
