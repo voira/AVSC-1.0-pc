@@ -678,124 +678,124 @@ style return_button:
     yalign 1.0
     yoffset -45
 
-screen other_menu():
-
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.1
-            yalign 0.05
-
-            at other_menu_1
-            textbutton _("Back") action Rollback()
-
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.1
-            yalign 0.10
-
-            at other_menu_2
-            textbutton _("History") action ShowMenu('history')
-
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.001
-            yalign 0.15
-
-            at other_menu_3
-            textbutton _("Skip") action Skip() alternate Skip(fast=False, confirm=True)
-
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.050
-            yalign 0.20
-
-            at other_menu_4
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.001
-            yalign 0.25
-
-            at other_menu_5
-            textbutton _("Save") action ShowMenu('save')
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.050
-            yalign 0.30
-
-            at other_menu_6
-            textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.001
-            yalign 0.35
-
-            at other_menu_7
-            textbutton _("Q.Save") action QuickSave()
-        window:
-            style_prefix "quick"
-
-            xalign 0.050
-            yalign 0.40
-            background "gui/bbg.png"
-            at other_menu_8
-            textbutton _("Q.Load") action QuickLoad()
-
-        window:
-            style_prefix "quick"
-            background "gui/bbg.png"
-            xalign 0.001
-            yalign 0.45
-
-            at other_menu_9
-            textbutton _("Prefs") action ShowMenu('preferences')
-
-
-transform other_menu_1:
-    alpha 0.0
-    pause 0.10
-    alpha 1
-transform other_menu_2:
-    alpha 0.0
-    pause 0.20
-    alpha 1
-transform other_menu_3:
-    alpha 0.0
-    pause 0.3
-    alpha 1
-transform other_menu_4:
-    alpha 0.0
-    pause 0.4
-    alpha 1
-transform other_menu_5:
-    alpha 0.0
-    pause 0.5
-    alpha 1
-transform other_menu_6:
-    alpha 0.0
-    pause 0.6
-    alpha 1
-transform other_menu_7:
-    alpha 0.0
-    pause 0.7
-    alpha 1
-transform other_menu_8:
-    alpha 0.0
-    pause 0.8
-    alpha 1
-transform other_menu_9:
-    alpha 0.0
-    pause 0.9
-    alpha 1
-
+# screen other_menu():
+#
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.1
+#             yalign 0.05
+#
+#             at other_menu_1
+#             textbutton _("Back") action Rollback()
+#
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.1
+#             yalign 0.10
+#
+#             at other_menu_2
+#             textbutton _("History") action ShowMenu('history')
+#
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.001
+#             yalign 0.15
+#
+#             at other_menu_3
+#             textbutton _("Skip") action Skip() alternate Skip(fast=False, confirm=True)
+#
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.050
+#             yalign 0.20
+#
+#             at other_menu_4
+#             textbutton _("Auto") action Preference("auto-forward", "toggle")
+#
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.001
+#             yalign 0.25
+#
+#             at other_menu_5
+#             textbutton _("Save") action ShowMenu('save')
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.050
+#             yalign 0.30
+#
+#             at other_menu_6
+#             textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.001
+#             yalign 0.35
+#
+#             at other_menu_7
+#             textbutton _("Q.Save") action QuickSave()
+#         window:
+#             style_prefix "quick"
+#
+#             xalign 0.050
+#             yalign 0.40
+#             background "gui/bbg.png"
+#             at other_menu_8
+#             textbutton _("Q.Load") action QuickLoad()
+#
+#         window:
+#             style_prefix "quick"
+#             background "gui/bbg.png"
+#             xalign 0.001
+#             yalign 0.45
+#
+#             at other_menu_9
+#             textbutton _("Prefs") action ShowMenu('preferences')
+#
+#
+# transform other_menu_1:
+#     alpha 0.0
+#     pause 0.10
+#     alpha 1
+# transform other_menu_2:
+#     alpha 0.0
+#     pause 0.20
+#     alpha 1
+# transform other_menu_3:
+#     alpha 0.0
+#     pause 0.3
+#     alpha 1
+# transform other_menu_4:
+#     alpha 0.0
+#     pause 0.4
+#     alpha 1
+# transform other_menu_5:
+#     alpha 0.0
+#     pause 0.5
+#     alpha 1
+# transform other_menu_6:
+#     alpha 0.0
+#     pause 0.6
+#     alpha 1
+# transform other_menu_7:
+#     alpha 0.0
+#     pause 0.7
+#     alpha 1
+# transform other_menu_8:
+#     alpha 0.0
+#     pause 0.8
+#     alpha 1
+# transform other_menu_9:
+#     alpha 0.0
+#     pause 0.9
+#     alpha 1
+#
 screen menu_button():
 
     hbox:
@@ -804,7 +804,7 @@ screen menu_button():
             ypos 0.1
             idle 'gui/game_menu_button.png'
             hover 'gui/game_menu_button.png'
-            action ShowMenu("other_menu")
+            action ShowMenu()
 
 ## About screen ################################################################
 ##

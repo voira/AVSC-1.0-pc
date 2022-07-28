@@ -154,8 +154,9 @@ image Vena Looking Sideways :
 image Vena Sigh :
     "vena/vena_sigh.png"
     xalign 0.5 yalign 1.1 zoom 0.85
-image Void Crawler:
-    "VoidCrawlar.png"
+image VoidCrawler:
+    "VoidCrawler.png"
+    xalign 0.5 yalign 0.9 zoom 0.85
 image ctc_blink:
         alpha 1.0
         "gui/heart.png"

@@ -196,7 +196,7 @@ label venaprologue:
     "Finally, I found myself in the village center. And there was the person I was looking for, crouched down next to the fountain, crying in agony while clasping a dead body."
 
     show Kioko Crying with dissolve:
-        yalign 1 zoom 1.6
+        yalign 1 zoom 1.3
 
     "Resisting the temptation to console her was hard; to wrap her up in my arms, and rub her shoulder in a comforting way."
     "But I hadn’t come here to console anyone."
@@ -204,15 +204,15 @@ label venaprologue:
 
     hide Kioko with dissolve
 
-    scene forest with flash
+    scene forest with flash  
 
     show Kioko Concerned with dissolve:
-        yalign 1 zoom 1.6
+        yalign 1 zoom 1.3
 
     k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
 
     show Kioko Concerned with dissolve:
-        yalign 1 zoom 1.6
+        yalign 1 zoom 1.3
 
     k "“But I can’t remember. I just can’t.”"
 
@@ -221,7 +221,7 @@ label venaprologue:
     scene shd with flash
 
     show Kioko Crying with dissolve:
-        yalign 1 zoom 1.6
+        yalign 1 zoom 1.3
 
     "(Where are you… Where are you? Come now, don’t be shy-)"
 

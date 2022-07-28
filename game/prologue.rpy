@@ -15,8 +15,6 @@ init python:
 
 label prologue:
 
-    scene shd with dissolve
-    pause 1.5
     scene blackscreen with fade
     pause 1.5
 
