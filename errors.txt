@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 162: window expects a non-empty block.
-    if who is None:
-                   ^
+File "game/venaprologue.rpy", line 422: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    ypos 0.18 xpos 0.83
+    ^
 
-Ren'Py Version: Ren'Py 7.4.4.1439
-Mon Jun 13 14:41:42 2022
+Ren'Py Version: Ren'Py 7.4.10.2178
+Tue Aug  2 19:31:46 2022

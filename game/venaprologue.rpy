@@ -12,7 +12,8 @@ define c = Character("Cyril", ctc= "ctc_blink" , ctc_position="nestled")
 define l = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
 define u = Character("???", ctc= "ctc_blink" , ctc_position="nestled")
 define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
-
+define grab = Move((0, 6), (0, -6), .7, bounce=True, repeat=True, delay=.275)
+define earthquake = Move((0, 10), (0, -10), .2, bounce=True, repeat=True, delay=5.5)
 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
@@ -204,7 +205,7 @@ label venaprologue:
 
     hide Kioko with dissolve
 
-    scene forest with flash  
+    scene forest with flash
 
     show Kioko Concerned with dissolve:
         yalign 1 zoom 1.3
@@ -261,7 +262,7 @@ label venaprologue:
 
     "I sprang into action at once."
     "Looking back now, how embarrassing that must have seemed; being ready to try my hardest to save a person who was not even real."
-    scene shd with vpunch
+    scene shd with grab
     "However, before I could disgrace myself further, someone grabbed my arm."
     "I sharply turned to the person behind me, gasping, momentarily disoriented."
 
@@ -278,7 +279,7 @@ label venaprologue:
 
     hide Kioko with dissolve
 
-    scene fogforest with vpunch
+    scene fogforest with earthquake:
 
     "A loud bang interrupted my words, then the ground began to shake."
     "I and Kioko barely held on to the nearest tree as the world churned and quaked around us."
@@ -413,17 +414,15 @@ label venaprologue:
 
     play sound loudthud
 
-
-
     hide Asha with dissolve
 
     show Asha Gasping
 
-    show Kioko Gasping with vpunch:
+    show Kioko Gasping with grab:
         ypos 0.18 xpos 0.83
 
     show Haru Gasping at left with dissolve
-    show ex with hpunch:
+    show ex:
         ypos 0.15 xpos 0.6
 
     "My anger made me slam the jar on the counter with much more force, while trying to place it."
