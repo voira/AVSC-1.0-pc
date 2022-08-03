@@ -177,3 +177,10 @@ image ex:
         0.1
         "Layer 101.jpg"
 image main_menu = Movie(play="gui/main_menu.webm")
+
+image dot_zero:
+    alpha 0.0
+    'gui/dot.png'
+
+image dot:
+    'gui/dot.png'

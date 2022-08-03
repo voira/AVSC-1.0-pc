@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 162: window expects a non-empty block.
-    if who is None:
-                   ^
+File "game/screens.rpy", line 160: expected a keyword argument or child statement.
+    'return' action Return()     
+    ^
 
-Ren'Py Version: Ren'Py 7.4.4.1439
-Mon Jun 13 14:41:42 2022
+Ren'Py Version: Ren'Py 8.0.1.22070801
+Wed Aug  3 23:22:25 2022

@@ -7,7 +7,7 @@ define li = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
 define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
 
 define fastdissolve = Dissolve(0.1)
-
+define slowdissolve = Dissolve(1.5)
 
 init python:
     your_new_encyclopaedia = Encyclopaedia()

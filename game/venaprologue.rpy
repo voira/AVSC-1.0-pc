@@ -34,6 +34,10 @@ label venaprologue:
     scene traincomp with fade
     pause 1.5
 
+    show screen inspect_traincomp()
+
+    pause 500
+    
     show Haru Default with dissolve:
         yalign 1 zoom 1.8
 

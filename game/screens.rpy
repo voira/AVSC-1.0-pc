@@ -21,7 +21,7 @@ style hyperlink_text:
     properties gui.text_properties("hyperlink", accent=True)
     hover_underline True
 
-style gui_text:
+style gui_text: 
     properties gui.text_properties("interface")
 
 style button:
@@ -56,7 +56,7 @@ style vscrollbar:
     base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
 
-style slider:
+style slider:  
     ysize gui.slider_size
     base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
     thumb "gui/slider/horizontal_[prefix_]thumb.png"
@@ -132,6 +132,35 @@ screen displayTextScreenV:
         frame:
                 text displayText
 
+## Inspect screen ##############################################################
+screen test():
+    style_prefix 'say'
+
+    window:
+        id "window"
+        
+        window background Transform(Frame("gui/textbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
+        
+        text 'test':
+            properties gui.text_properties("dialogue")
+
+            xpos gui.dialogue_xpos
+            xsize gui.dialogue_width
+            ypos gui.dialogue_ypos    
+
+screen inspect_traincomp():
+    style_prefix 'say'
+
+    image 'images/cgbackground/traincomp.jpg'
+    mousearea:
+        area (200, 900, 1.0, 200)
+        unhovered Hide('test', transition=slowdissolve)
+        hovered Show('test', transition=slowdissolve)
+    textbutton _("Return"):
+        style "return_button"
+        ypos 0.1
+        xpos 0.9    
+        action Hide('inspect_traincomp')    
 
 ## Say screen ##################################################################
 ##
@@ -147,23 +176,22 @@ screen displayTextScreenV:
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 
-screen say(arg=None, who, what):
+screen say(who, what):
     style_prefix "say"
 
     window:
         id "window"
-
+        
+        window background Transform(Frame("gui/textbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
+        
         if who is not None:
-            window background Transform(Frame("gui/textbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
+
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                text who
 
-        if who is None:
-            window background Transform(Frame("gui/thinkbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
         text what id "what"
-
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -678,123 +706,6 @@ style return_button:
     yalign 1.0
     yoffset -45
 
-# screen other_menu():
-#
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.1
-#             yalign 0.05
-#
-#             at other_menu_1
-#             textbutton _("Back") action Rollback()
-#
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.1
-#             yalign 0.10
-#
-#             at other_menu_2
-#             textbutton _("History") action ShowMenu('history')
-#
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.001
-#             yalign 0.15
-#
-#             at other_menu_3
-#             textbutton _("Skip") action Skip() alternate Skip(fast=False, confirm=True)
-#
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.050
-#             yalign 0.20
-#
-#             at other_menu_4
-#             textbutton _("Auto") action Preference("auto-forward", "toggle")
-#
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.001
-#             yalign 0.25
-#
-#             at other_menu_5
-#             textbutton _("Save") action ShowMenu('save')
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.050
-#             yalign 0.30
-#
-#             at other_menu_6
-#             textbutton _("Grimoire") action ShowMenu("encyclopaedia_list", your_new_encyclopaedia)
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.001
-#             yalign 0.35
-#
-#             at other_menu_7
-#             textbutton _("Q.Save") action QuickSave()
-#         window:
-#             style_prefix "quick"
-#
-#             xalign 0.050
-#             yalign 0.40
-#             background "gui/bbg.png"
-#             at other_menu_8
-#             textbutton _("Q.Load") action QuickLoad()
-#
-#         window:
-#             style_prefix "quick"
-#             background "gui/bbg.png"
-#             xalign 0.001
-#             yalign 0.45
-#
-#             at other_menu_9
-#             textbutton _("Prefs") action ShowMenu('preferences')
-#
-#
-# transform other_menu_1:
-#     alpha 0.0
-#     pause 0.10
-#     alpha 1
-# transform other_menu_2:
-#     alpha 0.0
-#     pause 0.20
-#     alpha 1
-# transform other_menu_3:
-#     alpha 0.0
-#     pause 0.3
-#     alpha 1
-# transform other_menu_4:
-#     alpha 0.0
-#     pause 0.4
-#     alpha 1
-# transform other_menu_5:
-#     alpha 0.0
-#     pause 0.5
-#     alpha 1
-# transform other_menu_6:
-#     alpha 0.0
-#     pause 0.6
-#     alpha 1
-# transform other_menu_7:
-#     alpha 0.0
-#     pause 0.7
-#     alpha 1
-# transform other_menu_8:
-#     alpha 0.0
-#     pause 0.8
-#     alpha 1
-# transform other_menu_9:
-#     alpha 0.0
-#     pause 0.9
-#     alpha 1
 #
 screen menu_button():
 

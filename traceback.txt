@@ -1,74 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'bbg.png'>:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-IOError: Couldn't find file 'bbg.png'.
+While running game code:
+  File "game/venaprologue.rpy", line 39, in script
+    pause 500
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+TypeError: 'Dissolve' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/ast.py", line 922, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2218, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "renpy/ui.py", line 298, in interact
+  File "game/venaprologue.rpy", line 39, in script
+    pause 500
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\exports.py", line 1533, in pause
+    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ui.py", line 299, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3101, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3611, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2441, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transition.py", line 368, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/screen.py", line 681, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 1213, in render
-    back = render(style.background, bw, bh, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'bbg.png'.
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\display\core.py", line 3741, in interact_core
+    trans = self.ongoing_transition[None](
+TypeError: 'Dissolve' object is not callable
 
-Windows-10-10.0.22621
-Ren'Py 7.4.4.1439
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.1.22070801
 The Calling 1.0
-Mon Jun 13 14:45:54 2022
+Wed Aug  3 23:26:39 2022

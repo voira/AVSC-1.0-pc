@@ -1,49 +1,31 @@
-Thu Jul 28 21:12:46 2022
+Wed Aug  3 23:03:19 2022
 Windows-10-10.0.22621
-Ren'Py 7.4.4.1439
+Ren'Py 8.0.1.22070801
  
 
-Bootstrap to the start of init.init took 0.09s
+Bootstrap to the start of init.init took 0.04s
 Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.06s
-Loading script took 1.21s
-Loading save slot metadata. took 0.21s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Set script version to: (7, 4, 4)
-Running init code took 0.24s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.250000
+
+File "game/screens.rpy", line 146: 'Show' is not a keyword argument or valid child for the mousearea statement.
+    hovered action Show('test')
+                       ^
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.07s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.12s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
+Interface start took 0.35s
 
 Initializing gl renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: -1 frames
 Fullscreen mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 512.95'
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
 Display Info: None
 Number of texture units: 32
 Using shader environment.
@@ -62,4 +44,1531 @@ Texture testing:
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 4.13589286804s
+Resetting cache.
+Bootstrap to the start of init.init took 15.27s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 90.75s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.31s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 155.68s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 286.75s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 312.60s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 323.38s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 144: text expects a non-empty block.
+    text 'test':
+                ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.32s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 407.71s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 561.31s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.31s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 617.26s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 752.85s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 768.15s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.28s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 815.02s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 876.93s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 907.26s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 912.08s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.27s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 983.02s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "game/venaprologue.rpy", line 37, in script
+    show screen inspect_train()
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 588, in execute_show_screen
+    renpy.error("Screen %s does not exist." % name)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\display\screen.py", line 1185, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen inspect_train is not known.
+
+
+While running game code:
+  File "game/venaprologue.rpy", line 37, in script
+    show screen inspect_train()
+  File "renpy/common/000statements.rpy", line 588, in execute_show_screen
+    renpy.error("Screen %s does not exist." % name)
+Exception: Screen inspect_train is not known.
+
+Resetting cache.
+Bootstrap to the start of init.init took 995.29s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1145.91s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 160: expected a keyword argument or child statement.
+    'return' action Return()     
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.33s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1230.25s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.34s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1287.67s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1361.63s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1393.50s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+
+Full traceback:
+  File "game/venaprologue.rpy", line 39, in script
+    pause 500
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\exports.py", line 1533, in pause
+    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\display\core.py", line 3741, in interact_core
+    trans = self.ongoing_transition[None](
+TypeError: 'Dissolve' object is not callable
+
+While running game code:
+  File "game/venaprologue.rpy", line 39, in script
+    pause 500
+  File "renpy/common/000statements.rpy", line 453, in execute_pause
+    renpy.pause(delay)
+TypeError: 'Dissolve' object is not callable
+Resetting cache.
+Bootstrap to the start of init.init took 1440.37s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1455.68s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1495.02s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1514.84s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1540.66s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1564.97s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Beste\\Documents\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Set script version to: (7, 4, 4)
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: -1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1660 Ti with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 512.95'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
