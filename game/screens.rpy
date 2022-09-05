@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -132,8 +132,6 @@ screen displayTextScreenV:
         frame:
                 text displayText
 
-<<<<<<< Updated upstream
-=======
 ## Inspect screen ##############################################################
 screen test():
 
@@ -161,7 +159,6 @@ screen inspect_traincomp():
         ypos 0.1
         xpos 0.9    
         action Hide('inspect_traincomp')    
->>>>>>> Stashed changes
 
 ## Say screen ##################################################################
 ##
@@ -177,31 +174,18 @@ screen inspect_traincomp():
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 
-screen say(arg=None, who, what):
+screen say(who, what):
     style_prefix "say"
 
     window:
         id "window"
 
         if who is not None:
-<<<<<<< Updated upstream
             window background Transform(Frame("gui/textbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
-=======
-            
-            window background Transform(Frame('gui/textbox.png', xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
-            
-            window:
-                id "namebox"
-                style "namebox"
-                text who
-        if who is None:
-
-            window background Transform(Frame('gui/thinkbox.png', xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
->>>>>>> Stashed changes
 
         if who is None:
             window background Transform(Frame("gui/thinkbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
@@ -420,14 +404,14 @@ screen navigation_main_menu():
         window:
             vbox:
                 xalign 0.4
-                ypos 0.3
+                ypos 0.45
                 textbutton _("Start") action Start()
 
                 textbutton _("Load") action ShowMenu("load")
 
             vbox:
                 xalign 0.6
-                ypos 0.3
+                ypos 0.45
                 textbutton _("Settings") action ShowMenu("preferences")
 
                 if _in_replay:

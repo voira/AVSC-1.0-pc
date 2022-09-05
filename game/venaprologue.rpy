@@ -11,13 +11,9 @@ define m = Character("Marley", ctc= "ctc_blink" , ctc_position="nestled")
 define c = Character("Cyril", ctc= "ctc_blink" , ctc_position="nestled")
 define l = Character("Lionel", ctc= "ctc_blink" , ctc_position="nestled")
 define u = Character("???", ctc= "ctc_blink" , ctc_position="nestled")
-<<<<<<< Updated upstream
-define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
+
 define grab = Move((0, 6), (0, -6), .7, bounce=True, repeat=True, delay=.275)
 define earthquake = Move((0, 10), (0, -10), .2, bounce=True, repeat=True, delay=5.5)
-=======
-
->>>>>>> Stashed changes
 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
@@ -34,11 +30,8 @@ label venaprologue:
     scene traincomp with fade
     pause 1.5
 
-<<<<<<< Updated upstream
-=======
     # show screen inspecttraincomp_button()
 
->>>>>>> Stashed changes
     show Haru Default with dissolve:
         yalign 1 zoom 1.8
 
@@ -141,13 +134,10 @@ label venaprologue:
 
     pause 1.0
 
-<<<<<<< Updated upstream
-=======
     # hide inspecttraincomp_button()
 
     #stop music 
 
->>>>>>> Stashed changes
     "Quickly I turned to Kioko. There was no time to waste."
     "Before awakening my powers, I shut my eyes and took her hand between mine."
     "(Sorry Kioko. This is for the greater good.)"

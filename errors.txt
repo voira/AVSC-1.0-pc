@@ -2,18 +2,45 @@
 errors listed below, and try again.
 
 
-<<<<<<< Updated upstream
-File "game/venaprologue.rpy", line 422: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    ypos 0.18 xpos 0.83
-    ^
+File "game/screens.rpy", line 177: non-default argument follows default argument
+    screen say(arg=None, who, what):
+                            ^
 
-Ren'Py Version: Ren'Py 7.4.10.2178
-Tue Aug  2 19:31:46 2022
-=======
-File "game/screens.rpy", line 141: expected a keyword argument, colon, or end of line.
-    window background Transform('gui/thinkbox.png',xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
-                                                                                 ^
+File "game/venaprologue.rpy", line 14: expected statement.
+    <<<<<<< Updated upstream
+                            ^
+
+File "game/venaprologue.rpy", line 18: expected statement.
+    =======
+          ^
+
+File "game/venaprologue.rpy", line 20: expected statement.
+    >>>>>>> Stashed changes
+                           ^
+
+File "game/venaprologue.rpy", line 37: expected statement.
+    <<<<<<< Updated upstream
+                            ^
+
+File "game/venaprologue.rpy", line 38: expected statement.
+    =======
+          ^
+
+File "game/venaprologue.rpy", line 41: expected statement.
+    >>>>>>> Stashed changes
+                           ^
+
+File "game/venaprologue.rpy", line 144: expected statement.
+    <<<<<<< Updated upstream
+                            ^
+
+File "game/venaprologue.rpy", line 145: expected statement.
+    =======
+          ^
+
+File "game/venaprologue.rpy", line 150: expected statement.
+    >>>>>>> Stashed changes
+                           ^
 
 Ren'Py Version: Ren'Py 8.0.1.22070801
-Mon Sep  5 15:07:54 2022
->>>>>>> Stashed changes
+Mon Sep  5 15:52:23 2022
