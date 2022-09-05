@@ -1,5 +1,35 @@
-image Lionel Default :
-    "lionel/lionel_default.png"
+image Asha Default:
+    'asha/asha_default.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Concerned:
+    'asha/asha_concerned.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Grinning:
+    'asha/asha_grinning.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Laughing EyesClosed:
+    'asha/asha_laughingeyesclosed.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Ruminant:
+    'asha/asha_ruminant.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Confused:
+    'asha/asha_confused.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Concerned:
+    'asha/asha_concerned.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Sighing:
+    'asha/asha_sighing.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Smiling:
+    'asha/asha_smiling.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Asha Eyesclosed:
+    'asha/asha_eyesclosed.png'
+    xalign 0.5 yalign 1 zoom 0.85
+image Ashe Smiling EyesClosed:
+    'asha/asha_smilingeyesclosed.png'
     xalign 0.5 yalign 1 zoom 0.85
 image Lionel Smiling :
     "lionel/lionel_smiling.png"
