@@ -132,6 +132,36 @@ screen displayTextScreenV:
         frame:
                 text displayText
 
+<<<<<<< Updated upstream
+=======
+## Inspect screen ##############################################################
+screen test():
+
+    window:
+        id "window"
+        
+        window background Transform('gui/thinkbox.png',xalign=0.5, yalign=1.0, alpha=persistent.dialogueBoxOpacity)
+        
+        text 'test':
+            properties gui.text_properties("dialogue")
+
+            xpos gui.dialogue_xpos
+            xsize gui.dialogue_width
+            ypos gui.dialogue_ypos    
+
+screen inspect_traincomp():
+
+    image 'images/cgbackground/traincomp.jpg'
+    mousearea:
+        area (200, 900, 1.0, 200)
+        unhovered Hide('test', transition=slowdissolve)
+        hovered Show('test', transition=slowdissolve)
+    textbutton _("Return"):
+        style "return_button"
+        ypos 0.1
+        xpos 0.9    
+        action Hide('inspect_traincomp')    
+>>>>>>> Stashed changes
 
 ## Say screen ##################################################################
 ##
@@ -154,11 +184,24 @@ screen say(arg=None, who, what):
         id "window"
 
         if who is not None:
+<<<<<<< Updated upstream
             window background Transform(Frame("gui/textbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
             window:
                 id "namebox"
                 style "namebox"
                 text who id "who"
+=======
+            
+            window background Transform(Frame('gui/textbox.png', xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
+            
+            window:
+                id "namebox"
+                style "namebox"
+                text who
+        if who is None:
+
+            window background Transform(Frame('gui/thinkbox.png', xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
+>>>>>>> Stashed changes
 
         if who is None:
             window background Transform(Frame("gui/thinkbox.png",xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
@@ -232,8 +275,7 @@ style say_dialogue:
 #     alpha 0.0
 #     pause 0.5
 #     repeat
-#
-#
+
 
 ## Input screen ################################################################
 ##
@@ -346,7 +388,7 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-default quick_menu = True
+default quick_menu = False
 
 style quick_button is default
 style quick_button_text is button_text
@@ -377,17 +419,15 @@ screen navigation_main_menu():
 
         window:
             vbox:
-                xalign 0.42
-                yalign 0.1
-                spacing 10
+                xalign 0.4
+                ypos 0.3
                 textbutton _("Start") action Start()
 
                 textbutton _("Load") action ShowMenu("load")
 
             vbox:
-                xalign 0.58
-                yalign 0.1
-                spacing 10
+                xalign 0.6
+                ypos 0.3
                 textbutton _("Settings") action ShowMenu("preferences")
 
                 if _in_replay:
@@ -436,8 +476,8 @@ screen navigation_game_menu():
     vbox:
         style_prefix "navigation_game_menu"
 
-        yalign 0.62
-        xalign 0.12
+        yalign 0.5
+        xalign 0.1
 
         spacing gui.navigation_spacing
 
@@ -894,7 +934,7 @@ screen file_slots(title):
             rows 2
             spacing 1
             xalign 0.3
-            yalign 0.5
+            yalign 0.3
             draggable False
             mousewheel False
 

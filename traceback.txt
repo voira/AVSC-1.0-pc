@@ -1,15 +1,25 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< Updated upstream
   File "game/venaprologue.rpy", line 265, in script
     scene shd with vpunch(3.0)
   File "game/venaprologue.rpy", line 265, in <module>
     scene shd with vpunch(3.0)
 Exception: Not a displayable: 3.0
+=======
+  File "game/venaprologue.rpy", line 34, in script
+    show screen traininspect_button()
+  File "renpy/common/000statements.rpy", line 588, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+Exception: Screen traininspect_button is not known.
+
+>>>>>>> Stashed changes
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< Updated upstream
   File "game/venaprologue.rpy", line 265, in script
     scene shd with vpunch(3.0)
   File "renpy/ast.py", line 1439, in execute
@@ -36,3 +46,24 @@ Windows-10-10.0.22000
 Ren'Py 7.4.10.2178
 The Calling 1.0
 Tue Aug  2 19:16:29 2022
+=======
+  File "game/venaprologue.rpy", line 34, in script
+    show screen traininspect_button()
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 588, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+  File "C:\Users\Beste\Documents\renpy-8.0.1-sdk\renpy\display\screen.py", line 1185, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen traininspect_button is not known.
+
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.1.22070801
+The Calling 1.0
+Mon Sep  5 15:02:15 2022
+>>>>>>> Stashed changes

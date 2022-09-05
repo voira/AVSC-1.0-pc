@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
+<<<<<<< Updated upstream
 File "game/venaprologue.rpy", line 422: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
     ypos 0.18 xpos 0.83
     ^
 
 Ren'Py Version: Ren'Py 7.4.10.2178
 Tue Aug  2 19:31:46 2022
+=======
+File "game/screens.rpy", line 141: expected a keyword argument, colon, or end of line.
+    window background Transform('gui/thinkbox.png',xalign=0.5, yalign=1.0), alpha=persistent.dialogueBoxOpacity)
+                                                                                 ^
+
+Ren'Py Version: Ren'Py 8.0.1.22070801
+Mon Sep  5 15:07:54 2022
+>>>>>>> Stashed changes
