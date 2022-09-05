@@ -26,6 +26,8 @@ label venaprologue:
 
     stop music fadeout 1.0
 
+    #play music avsc 3
+    
     scene blackscreen with fade
     pause 1.5
     "(Oh, how I wish I could see you for one last time…)"
@@ -34,10 +36,8 @@ label venaprologue:
     scene traincomp with fade
     pause 1.5
 
-    show screen inspect_traincomp()
+    show screen traininspect_button()
 
-    pause 500
-    
     show Haru Default with dissolve:
         yalign 1 zoom 1.8
 
@@ -140,11 +140,17 @@ label venaprologue:
 
     pause 1.0
 
+    hide inspecttraincomp_button()
+
+    #stop music 
+
     "Quickly I turned to Kioko. There was no time to waste."
     "Before awakening my powers, I shut my eyes and took her hand between mine."
     "(Sorry Kioko. This is for the greater good.)"
-
+    
     scene fogforest with fade
+
+    #play music pan will arrange another song
 
     "The nightmare of my sister took me to the place I’d been missing so dearly."
     "I knew every single tree here. Every branch, every single Hollow on them was familiar to me."
@@ -258,10 +264,14 @@ label venaprologue:
 
     scene shd with vpunch
 
+    #stop music pan will arrange
+
     "…!"
     "A sudden, familiar scream made me lose all composure. And before I realized what I was doing, I’d yelled back at the top of my lungs."
 
     v "“Waceera!”"
+
+    #play gergin music
 
     "I sprang into action at once."
     "Looking back now, how embarrassing that must have seemed; being ready to try my hardest to save a person who was not even real."
@@ -304,6 +314,8 @@ label venaprologue:
     "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the {color=#f00}Void Crawlers{/color} attacking everyone in the grove."
     "Except by waking up…"
 
+    #stop korkunçlu music
+
     scene traincomp with fade
 
     "I was back to square one."
@@ -329,6 +341,8 @@ label venaprologue:
     "What was most shocking was the nugget of truth buried inside them. No matter how small..."
 
     v "“Kioko-”"
+
+    #play music 11
 
     "My words were interrupted by the sound of the door."
 
@@ -370,6 +384,8 @@ label venaprologue:
     "And I felt achingly lonely despite being surrounded by my sisters."
     "(Like a shunned wretch who dared to call herself a “nomad”.)"
 
+    #stop music 11
+    
     scene academylivingroom with fade
 
     $Royal_Academy.locked = False
@@ -378,6 +394,9 @@ label venaprologue:
     hide text with dissolve
 
     "Finally we were in the famous {color=#f00}Royal Academy.{/color}"
+
+    #play music pan will arrange
+
     "I was busy organizing the jars that I had filled with herbs from the village we’d stayed in after the Massacre."
     "My body was begging for rest, but I desired at least to get one thing done before truly relaxing."
     "Meanwhile Haru, Kioko and Asha had gathered before the window and were watching the hell beneath which had been given a fancy name such as “city”."
@@ -432,10 +451,15 @@ label venaprologue:
 
     "My anger made me slam the jar on the counter with much more force, while trying to place it."
     hide ex with dissolve
+
+    #stop the music
+
     "Now all of the eyes in the room were upon me."
     "Going on a trip, having fun… How could they make such laid-back plans when we couldn’t have held a ritual for our dead?"
     "Our leader was missing; friends, sisters we cherished so dear had lost their lives and we were not even capable of bringing their lifeless bodies back to cremate."
     "How could they act this nonchalantly? Especially Asha, of all people!"
+
+    #play music 15
 
     v "“Asha, I beg you to not to put such atrocious thoughts into anyone’s mind.”"
     v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
@@ -480,6 +504,8 @@ label venaprologue:
 
     a "“That I won’t, let’s just say I’m stating a fact.”"
     a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hollow. I can assure you.”"
+
+    #stop music 15
 
     "She stood, making ready to leave."
 
@@ -548,6 +574,8 @@ label venaprologue:
 
     scene academylivingroom with fade
 
+    #play music 6 just piano version
+
     "I reached to the shelves behind me to take down an ointment I’d made with rosemary."
     "Never in my life had I spent a day sitting still on a seat as much as I’d done today. Why people preferred to torture themselves with that big mess they called a “train”, while they could simply teleport with magic was a mystery for me."
     "(All of my muscles are sore. Great…)"
@@ -570,7 +598,9 @@ label venaprologue:
 
     pause 2.0
 
-    # Buraya sonraki gün ibaresi eklenecek!
+    #stop music
+
+    # Buraya sonraki gün ibaresi eklenecek! ve yeni gün ses efekti!!!!
 
     scene academyclass with fade
 
