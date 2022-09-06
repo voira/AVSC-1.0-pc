@@ -570,6 +570,8 @@ label venaprologue:
 
     scene academyclass with fade
 
+    #
+
     "A busy day was ahead."
     "Today marked our first council meeting after the Black Massacre."
     "(I don’t know how solution oriented this will be. More like the mood’s suggesting that there will be further disputes between us.)"
