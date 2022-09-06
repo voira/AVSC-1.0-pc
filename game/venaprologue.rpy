@@ -136,7 +136,7 @@ label venaprologue:
 
     # hide inspecttraincomp_button()
 
-    #stop music 
+    #stop music
 
     "Quickly I turned to Kioko. There was no time to waste."
     "Before awakening my powers, I shut my eyes and took her hand between mine."
@@ -570,6 +570,8 @@ label venaprologue:
 
     scene academyclass with fade
 
+    # Music: 3
+
     "A busy day was ahead."
     "Today marked our first council meeting after the Black Massacre."
     "(I don’t know how solution oriented this will be. More like the mood’s suggesting that there will be further disputes between us.)"
@@ -717,6 +719,8 @@ label venaprologue:
 
     scene academyclass with fade
 
+    # music stop
+
     "However before I gave in to such thoughts, Haru poked me. Startled, I looked at her."
 
     show kiokoeye at left with easeinleft:
@@ -728,6 +732,9 @@ label venaprologue:
 
     show Ealdwine Default with dissolve:
         xpos 0.74 zoom 1
+
+    # buraya yeni müzik gelecek / calm
+
 
     "Since my attention was totally drawn in by the meeting, I hadn’t realize the stranger standing in the doorway."
     "So they’d already begun set a watch on us."
@@ -747,11 +754,14 @@ label venaprologue:
 
     scene academyhallway with dissolve
 
+    # music stop
     "(Phew…)"
     "After many hours, the meeting had finally ended."
     "And we were yet to find solutions, still stuck right at the starting point."
 
     show Asha Default at right with dissolve
+
+    # music 2
 
     v "“You can’t shrug their questions off forever.”"
 
@@ -887,6 +897,8 @@ label venaprologue:
     "I laughed and patted her on the back."
     "After deciding when would be the meeting would be, and who would inform whom about it, we parted ways."
     "(I must find Haru. I shouldn’t leave her alone with those wolves for so long.)"
+
+    # music stop
     "Absentmindedly, I took the next turn that led to the Southern Wing-"
 
     scene academyhallway with hpunch
@@ -903,6 +915,8 @@ label venaprologue:
     v "“Are you okay?!”"
 
     "There was a tune of concern in my voice although I scolded her."
+
+    # music 7 /orphina
 
     u "“Get away from me, you foolish peasant! Never dare to touch me again.”"
 
@@ -940,9 +954,16 @@ label venaprologue:
     "(Who let this sassy kid in?)"
     "I shrugged, thinking she was not even worth my time."
 
+    # music stop
+
+    pause 3.0
+
     scene academylivingroom with fade
 
     "Night had finally come after a very long day."
+
+    # buraya yeni müzik gelecek / eğlenceli night time
+
     "And my work was far from done. Our meeting was scheduled for later."
     "I had never been one to avoid responsibilities, but even I had a hard time imagining the workload of the coming days."
     "(I wonder what the King’s sons will talk about. They will at least provide some useful information, I hope.)"
@@ -954,10 +975,15 @@ label venaprologue:
     with dissolve
     k "“I… Want to tell you something.”"
 
+    # music stop
+
     k "“But please don’t panic.”"
 
     "…"
     "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
+
+    # music 8
+
     "I looked at her, concerned."
 
     show Kioko Concerned:
@@ -1022,6 +1048,8 @@ label venaprologue:
     k "“She walked towards me. I was so scared that I couldn’t move! I must have passed out from sheer fright. When I opened my eyes again, it was later and she was gone.”"
 
     "I reached to her forehead. Watching her memories would be more useful than listening to her."
+
+    # music stop
 
     v "“If it is okay, I’ll take look myself.”"
 
