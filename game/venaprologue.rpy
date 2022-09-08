@@ -17,10 +17,6 @@ define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
-##Grimoire Entries
-
-##--------------GRIMOIRE ENTRIES END HERE ----------
-
 
 label venaprologue:
 
