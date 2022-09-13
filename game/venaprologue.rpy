@@ -20,10 +20,10 @@ init:
 
 label venaprologue:
 
-        stop music fadeout 1.0
+    stop music fadeout 1.0
 
-    #play music avsc 3
-    
+    play music thecalling3 loop volume 0.5
+
     scene blackscreen with fade
     pause 1.5
     "(Oh, how I wish I could see you for one last time…)"
@@ -32,7 +32,7 @@ label venaprologue:
     scene traincomp with fade
     pause 1.5
 
-    show screen traininspect_button()
+    #show screen traininspect_button()
 
     show Haru Default with dissolve:
         yalign 1 zoom 1.8
@@ -136,14 +136,14 @@ label venaprologue:
 
     pause 1.0
 
-    hide inspecttraincomp_button()
+    #hide inspecttraincomp_button()
 
-    #stop music 
+    stop music fadeout 3.0
 
     "Quickly I turned to Kioko. There was no time to waste."
     "Before awakening my powers, I shut my eyes and took her hand between mine."
     "(Sorry Kioko. This is for the greater good.)"
-    
+
     scene fogforest with fade
 
     #play music pan will arrange another song
@@ -210,7 +210,7 @@ label venaprologue:
 
     hide Kioko with dissolve
 
-    scene forest with flash  
+    scene forest with flash
 
     show Kioko Concerned with dissolve:
         yalign 1 zoom 1.3
@@ -381,7 +381,7 @@ label venaprologue:
     "(Like a shunned wretch who dared to call herself a “nomad”.)"
 
     #stop music 11
-    
+
     scene academylivingroom with fade
 
     $Royal_Academy.locked = False
