@@ -22,7 +22,7 @@ label venaprologue:
 
     stop music fadeout 1.0
 
-    play music thecalling3 loop volume 0.5
+    play music thecalling3 loop volume 0.5 fadein 2.0
 
     scene blackscreen with fade
     pause 1.5
@@ -338,7 +338,7 @@ label venaprologue:
 
     v "“Kioko-”"
 
-    #play music 11
+    play music thecalling11 loop volume 0.5 fadein 2.0
 
     "My words were interrupted by the sound of the door."
 
@@ -380,7 +380,7 @@ label venaprologue:
     "And I felt achingly lonely despite being surrounded by my sisters."
     "(Like a shunned wretch who dared to call herself a “nomad”.)"
 
-    #stop music 11
+    stop music fadeout 3.0
 
     scene academylivingroom with fade
 
@@ -432,8 +432,6 @@ label venaprologue:
 
     play sound loudthud
 
-
-
     hide Asha with dissolve
 
     show Asha Gasping
@@ -455,7 +453,7 @@ label venaprologue:
     "Our leader was missing; friends, sisters we cherished so dear had lost their lives and we were not even capable of bringing their lifeless bodies back to cremate."
     "How could they act this nonchalantly? Especially Asha, of all people!"
 
-    #play music 15
+    play music thecalling15 loop volume 0.5 fadein 2.0
 
     v "“Asha, I beg you to not to put such atrocious thoughts into anyone’s mind.”"
     v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
@@ -501,7 +499,7 @@ label venaprologue:
     a "“That I won’t, let’s just say I’m stating a fact.”"
     a "“Oh Vena… There’s no reason for you to worry. We will find Waceera, and get back to Silver Hollow. I can assure you.”"
 
-    #stop music 15
+    stop music fadeout 3.0
 
     "She stood, making ready to leave."
 
@@ -570,7 +568,7 @@ label venaprologue:
 
     scene academylivingroom with fade
 
-    #play music 6 just piano version
+    play music thecalling6 loop volume 0.5 fadein 2.0
 
     "I reached to the shelves behind me to take down an ointment I’d made with rosemary."
     "Never in my life had I spent a day sitting still on a seat as much as I’d done today. Why people preferred to torture themselves with that big mess they called a “train”, while they could simply teleport with magic was a mystery for me."
@@ -594,13 +592,13 @@ label venaprologue:
 
     pause 2.0
 
-    #stop music
+    stop music fadeout 3.0
 
     # Buraya sonraki gün ibaresi eklenecek! ve yeni gün ses efekti!!!!
 
     scene academyclass with fade
 
-    # Music: 3
+    play music thecalling3 loop volume 0.5 fadein 2.0
 
     "A busy day was ahead."
     "Today marked our first council meeting after the Black Massacre."
@@ -749,7 +747,7 @@ label venaprologue:
 
     scene academyclass with fade
 
-    # music stop
+    stop music fadeout 3.0
 
     "However before I gave in to such thoughts, Haru poked me. Startled, I looked at her."
 
@@ -791,7 +789,7 @@ label venaprologue:
 
     show Asha Default at right with dissolve
 
-    # music 2
+    play music thecalling2 loop volume 0.5 fadein 2.0
 
     v "“You can’t shrug their questions off forever.”"
 
@@ -928,7 +926,8 @@ label venaprologue:
     "After deciding when would be the meeting would be, and who would inform whom about it, we parted ways."
     "(I must find Haru. I shouldn’t leave her alone with those wolves for so long.)"
 
-    # music stop
+    stop music fadeout 3.0
+
     "Absentmindedly, I took the next turn that led to the Southern Wing-"
 
     scene academyhallway with hpunch
@@ -946,7 +945,7 @@ label venaprologue:
 
     "There was a tune of concern in my voice although I scolded her."
 
-    # music 7 /orphina
+    play music thecalling7 loop volume 0.5 fadein 2.0
 
     u "“Get away from me, you foolish peasant! Never dare to touch me again.”"
 
@@ -984,7 +983,7 @@ label venaprologue:
     "(Who let this sassy kid in?)"
     "I shrugged, thinking she was not even worth my time."
 
-    # music stop
+    stop music fadeout 3.0
 
     pause 3.0
 
@@ -1012,7 +1011,7 @@ label venaprologue:
     "…"
     "(Too late, Kioko. It’s impossible not to freak out when it comes to you.)"
 
-    # music 8
+    play music thecalling8 loop volume 0.5 fadein 2.0
 
     "I looked at her, concerned."
 
@@ -1079,7 +1078,7 @@ label venaprologue:
 
     "I reached to her forehead. Watching her memories would be more useful than listening to her."
 
-    # music stop
+    stop music fadeout 3.0
 
     v "“If it is okay, I’ll take look myself.”"
 

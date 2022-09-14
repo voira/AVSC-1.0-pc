@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 25: expected end of line
-    play music avsc 3
-                    ^
+File "game/venaprologue.rpy", line 25: expected simple expression
+    play music thecalling3 loop volume 0.5 fadein
+                                                 ^
 
 Ren'Py Version: Ren'Py 7.4.10.2178
-Tue Sep 13 19:58:54 2022
+Wed Sep 14 19:03:01 2022
