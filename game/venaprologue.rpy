@@ -1090,6 +1090,7 @@ label venaprologue:
 
     # Buraya CG gelecek!
 
+    play music thecalling9 loop volume 0.5 fadein 2.0
     "What caught my attention first was how blurry the memory was."
     "I could hardly see the woman before Kioko."
 
@@ -1142,6 +1143,7 @@ label venaprologue:
     "(Nothing matters more than my sisters.)"
     "Plus Kioko was surely key to solving this mystery; protecting her, being there for her were also responsibilities of mine."
 
+    stop music fadeout 3.0
     v "“Kioko, would you like to sleep in my room for now?”"
 
     show Kioko Concerned with dissolve:
@@ -1157,6 +1159,7 @@ label venaprologue:
 
     show Haru Troubled with dissolve
 
+    play music thecalling3 loop volume 0.5 fadein 2.0
     h "“She can… She could sleep in my room too. I can take care of her.”"
 
     "I looked at Haru aloft in wonder."
@@ -1185,6 +1188,8 @@ label venaprologue:
     with dissolve
 
     "(Just to be safe, I should cast some protection spells.)"
+    stop music fadeout 3.0
+    pause 3.0
 
     scene academyhallwaynight with fade
 
@@ -1202,10 +1207,11 @@ label venaprologue:
 
     "After knocking on the door, I entered the room without waiting for an answer."
 
+
     scene 4knights with fade
 
     pause 1.5
-
+    play music thecalling13 loop volume 0.5 fadein 2.0
     scene 4knights with fade:
         xpos 0.9 ypos 1.5 xanchor 0.5 yanchor 1.0 zoom 2.0
 
@@ -1296,6 +1302,7 @@ label venaprologue:
     a "“And His Excellency the Grand Duke of Pertone, Marley Augustine Arkwright.”"
 
     scene academylivingroom with fade
+    stop music fadeout 3.0
     show Marley Irritated with dissolve:
         xpos 0.7 ypos 0 zoom 1.1
 
@@ -1317,6 +1324,7 @@ label venaprologue:
 
     show Asha Default with dissolve
 
+    play music thecalling15 loop volume 0.5 fadein 2.0
     a "“Ah… I see.”"
 
     "(Why are you letting him walk over you Asha?)"
@@ -1390,8 +1398,10 @@ label venaprologue:
 
     m "“Thousands? I thought it was merely a thousand years since your people’s disappearance.”"
 
-    hide Marley with dissolve
-    hide Asha with dissolve
+    hide Marley
+    hide Asha
+    with dissolve
+    stop music fadeout 3.0
 
     "(…Ah.)"
     "Even for a brief time, what he said echoed in my mind."
@@ -1409,6 +1419,7 @@ label venaprologue:
     pause 1.5
     scene academylivingroom with fade
 
+    play music thecalling14 loop volume 0.5 fadein 2.0
     "It took a while for meeting to reach an end. They had informed us about the state of Whemond briefly, and talked about the things they needed our help for."
     "(To the depths of Shore with Whemond! I wouldn’t care if the city was burnt to the ground.)"
     "We were supposed to report to them any unusual sightings."
@@ -1455,6 +1466,7 @@ label venaprologue:
 
     hide Marley with dissolve
 
+    stop music fadeout 3.0
     "I felt a hand on my back."
     "(You’re kidding me.)"
 
@@ -1529,7 +1541,7 @@ label venamarley:
     "(Also someone should keep that man in check in case he proves to be more of a hindrance than a help.)"
 
     show Marley Sigh with dissolve
-
+    play music thecalling15 loop volume 0.5 fadein 2.0
     "Narrowing my eyes, I glared at him. From the way Marley sighed, I sensed that he understood my intention."
 
     v "“I’ll work with the Grand Duke.”"
@@ -1553,6 +1565,7 @@ label venamarley:
     hide Marley with dissolve
 
     "Asha sighed upon our exchange."
+    stop music fadeout 3.0
 
     show Asha concerned with dissolve
 
