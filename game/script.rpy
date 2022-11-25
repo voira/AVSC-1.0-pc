@@ -9,9 +9,9 @@ init:
 
 default preferences.text_cps = 30
 
+#GRIMOIRE ENTRIES ----------------------------------
 init python:
     your_new_encyclopaedia = Encyclopaedia()
-
 
 define Silver_Hollow = EncEntry(
     parent=your_new_encyclopaedia,
@@ -163,6 +163,8 @@ define Crimson_Bay = EncEntry(
     locked=True,
     locked_persistent=True
 )
+#GRIMOIRE ENTRIES END HERE-------------------------------i
+
 label start:
     stop music fadeout 1.0
 

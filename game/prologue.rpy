@@ -75,7 +75,9 @@ label prologue:
     ma "“So much so that I cannot even fathom if those actions were done by a person who dares to call themselves a man, or a ravenous beast.”"
 
     "The King and I made eye contact after those words. There was a dull expression on his face, as if what I said went over his head."
+    
     scene hallbg with vpunch
+
     "With three long steps, I closed the distance between us and knelt."
 
     ma "“My lord, I beg of you. Think this through.”"

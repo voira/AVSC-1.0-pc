@@ -169,7 +169,7 @@ define config.save_directory = "AVSC-1619092086"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.ico"
+define config.window_icon = "gui/window_icon.png"
 
 
 ## Build configuration #########################################################

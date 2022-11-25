@@ -19,12 +19,6 @@ define narrator = Character(None, ctc= "ctc_blink" , ctc_position="nestled")
 init:
     $ flash = Fade(.25, 0, .75, color="#fff")
 
-#GRIMOIRE ENTRIES ----------------------------------
-
-
-
-#GRIMOIRE ENTRIES END HERE-------------------------------
-
 label haruprologue:
 
     stop music fadeout 1.0
@@ -130,8 +124,7 @@ label haruprologue:
 
     play sound walking
 
-    scene traincorridor with fade:
-        xpos 0.2 ypos 1.6 xanchor 0.5 yanchor 1.0 zoom 2
+    scene traincorridor with fade
 
     pause 2.0
 
@@ -151,7 +144,8 @@ label haruprologue:
 
     h "“Just wanted to get some air Asha, how about you?”"
 
-    show Asha Smiling with dissolve
+    show Asha Smiling with dissolve:
+        yalign 0.99
 
     "Her signature know-it-all grin appeared on her face in return."
 
@@ -162,7 +156,7 @@ label haruprologue:
     "I began to scratch my back in an embarrassed way, which made Asha giggle. Taking her time, she came next to me steadily."
 
     show Asha Smiling at truecenter with dissolve:
-        zoom 1.5
+        zoom 1.2
 
     a "“It’s okay, I can understand. The rooms are small and you feel like suffocated.”"
 
@@ -179,7 +173,7 @@ label haruprologue:
 
     a "“I don’t agree with her. It was not only our sisters we lost. We also were torn out from our roots, floated in the wild wind with nowhere to go.”"
 
-    show Asha Looking Sideways with dissolve
+    show Asha Ruminant with dissolve
 
     a "“And found ourselves in the middle of this land, foreign, at least for you.”"
     a "“Not every person can react in the same way.” "
@@ -216,7 +210,7 @@ label haruprologue:
 
     hide Asha
     show Asha Default:
-        xalign 0.5
+        xalign 0.5 yalign 0.99
         linear 0.5 xpos 0.15
     show Almasi Default at right with dissolve
 
@@ -252,11 +246,11 @@ label haruprologue:
     "After a few seconds, Asha placed her hand on my shoulder gently."
 
     show Asha Smiling at truecenter with dissolve:
-        zoom 1.5
+        zoom 1.2
 
     a "“Haru, you should return to your compartment.”"
 
-    show Asha Looking Sideways with dissolve
+    show Asha Smiling EyesClosed with dissolve
 
     a "“You should as well, Almasi.”"
 
@@ -276,11 +270,11 @@ label haruprologue:
 
     a "“They could have banished us from these lands, yet they wish to assist us {color=#f00}in the capital.{/color}”"
 
-    show Asha Frowned with dissolve
+    show Asha Concerned with dissolve
 
     a "“The only thing that was asked from us is that we follow their rules. Is it too hard to sit quietly without causing a scene for a few hours?”"
 
-    show Almasi Frowned with dissolve
+    show Almasi Concerned with dissolve
 
     al "“You can’t speak to me in that tone.”"
 
@@ -294,7 +288,7 @@ label haruprologue:
     "I chanted silently to calm myself despite the tension between the two."
 
     hide Asha
-    show Asha Frowned at right with dissolve
+    show Asha Concerned at right with dissolve
     show Almasi Angry at left with dissolve
 
     al "“Whemond had already been a home for us once, those are our lands. Pertone, the Divine Woods-”"
@@ -457,7 +451,7 @@ label haruprologue:
 
     hide Vena with dissolve
     show Asha Eyesclosed with dissolve:
-        zoom 1.5
+        zoom 1.1
 
     a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
 
@@ -518,8 +512,7 @@ label haruprologue:
 
     scene academybedroom with fade
     pause 2.0
-    scene academybedroom with dissolve:
-        ypos -0.1 zoom 1.5
+    scene academybedroom with dissolve
 
     play sound sitting
 
@@ -536,8 +529,7 @@ label haruprologue:
     "There was also the famous “bleeding sun” view too."
     "Were I not exhausted I would have waited till the dawn, and checked it to see if it was as glorious as people had said."
 
-    scene academybedroom with fade:
-         zoom 1.2
+    scene academybedroom with fade
 
     "(But now, I should sleep.)"
     "(After all, tomorrow is a busy day.)"
@@ -645,7 +637,7 @@ label haruprologue:
     hide Zuri with dissolve
 
     show Asha Default:
-        xalign 0.8
+        xalign 0.8 yalign 0.99 zoom 1.2
         linear 0.5 xpos 0.6
 
     "While Asha was busy getting on the stage and checking the people in the room, Zuri took a seat on the front row."
@@ -654,8 +646,7 @@ label haruprologue:
 
     "She looked at our way to emphasize her words."
 
-    show Asha Looking Sideways with dissolve:
-        ypos 1.5 zoom 1.5
+    show Asha Ruminant with dissolve
 
     a "“Which is okay.”"
     a "“I promised you that once we arrived to Whemond, I would try to answer whatever questions you may have.”"
@@ -711,7 +702,7 @@ label haruprologue:
 
     a "“My only responsibility at this meeting, is telling you the truth.”"
 
-    show Asha Frowning with dissolve
+    show Asha Concerned with dissolve
 
     a "“The reasons behind Waceera’s actions are things that you can only learn from her.”"
 
@@ -719,8 +710,7 @@ label haruprologue:
 
     a "“I know this might get you irritated, but I have no other answer than this to give.”"
 
-    show Asha Looking Sideways with dissolve:
-        ypos 1.0 zoom 1.0
+    show Asha Ruminant with dissolve
 
     a "“Therefore, I would suggest you to keep your provocations for her return.”"
 
@@ -987,7 +977,8 @@ label haruprologue:
 
     scene blackscreen with fade
 
-    show Asha Eyesclosed with dissolve
+    show Asha Eyesclosed with dissolve:
+        yalign 0.99 xalign 0.5 zoom 1.2
 
     a "“People who want to improve themselves on this field also invite madness to loom over their bed.”"
 
@@ -1111,7 +1102,7 @@ label haruprologue:
     scene academybedroom with fade
     pause 2.0
     scene academybedroom with dissolve:
-         zoom 1.2
+        zoom 1.01
 
     "After spending more time in the common room, we went to our own separate rooms."
     "{i}Phew{/i}… What a busy day it had been!"
@@ -1124,8 +1115,7 @@ label haruprologue:
     "People had been rattling in the streets all night. Sometimes wind carried the voices of the drunkards, and the other times it was the whispers of the secrets that were told under the security of the pitch black night."
     "After a few hours though, the lights that illuminated the shops were put out one by one, and most of the citizens went back to their homes."
 
-    scene academybedroom with fade:
-         zoom 1.2
+    scene academybedroom with fade
 
     "It must be fun."
     "An independent life that was free of chains, anxiety, abnormalities…"
@@ -1160,7 +1150,7 @@ label haruprologue:
     hide Vena with dissolve
 
     scene academybedroom with flash:
-         zoom 1.2
+        zoom 1.03
 
     "After my last question, we had argued."
     "What kind of monstrosity could be outside anyway? No one would dare to touch me with the guardians and the sheer number of witnesses down there."
@@ -1174,7 +1164,7 @@ label haruprologue:
     v "“But you should never put yourself in such position, nor us.”"
 
     scene academybedroom with flash:
-         zoom 1.2
+        zoom 1.03
 
     "I bit my lip in a nervous fashion."
     "Vena and Kioko must be asleep now, meaning if I wanted to see the city there couldn’t be a greater opportunity than tonight."
@@ -1341,7 +1331,7 @@ label outside:
 label inside:
 
     scene academybedroom with fade:
-         zoom 1.2
+        zoom 1.01
 
     play sound sitting
 
@@ -1354,8 +1344,7 @@ label inside:
     "They would never let me out after that, and I would be stuck in here forever."
     "I closed the window as if I was bidding farewell to my dreams, then flopped down on the bed."
 
-    scene academybedroom with dissolve:
-        zoom 1.0
+    scene academybedroom with dissolve
 
     "(Well, at least Asha told us there will be times for us to go out.)"
     "I would pester Vena about it, till she got a headache and wouldn’t be able to say “No.”"
@@ -1369,7 +1358,7 @@ label inside:
     "(Is there anyone else awake at this time in the Academy?)"
 
     scene academylivingroom with dissolve:
-        xpos 0.7 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 1.2
+        zoom 1.03
 
     "I walked to the part of the room where the shelves were. Although my gaze was fixated on the jars, my mind was wandering at somewhere else."
     "Every common room of the Academy opened onto six bedrooms, and each bedroom had two beds. Normally, they should be shared amongst the same number of students."
@@ -1378,8 +1367,7 @@ label inside:
     "(…But I must admit, I’m happy that it’s just us here.)"
     "I was not constantly being reminded of what had happened and could be alone with my dreams."
 
-    scene academylivingroom with dissolve:
-        zoom 1.0
+    scene academylivingroom with dissolve
 
     "The time didn’t seem to pass."
     "I wondered if leaving my room at night was forbidden or not."
@@ -1387,7 +1375,7 @@ label inside:
     "And also, I would get even more familiar with the building."
 
     scene academylivingroom with dissolve:
-        xpos 0.2 ypos 1.3 xanchor 0.5 yanchor 1.0 zoom 1.2
+        zoom 1.01
 
     play sound doorclose
 
@@ -1429,7 +1417,7 @@ label inside:
     "I walked towards the sound cautiously."
 
     scene academyhallwaynight with dissolve:
-        xpos 0.2 ypos 1.5 xanchor 0.5 yanchor 1.0 zoom 1.2
+        zoom 1.2
 
     stop sound
     pause 1.0

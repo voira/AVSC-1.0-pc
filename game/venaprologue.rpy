@@ -22,16 +22,20 @@ label venaprologue:
 
     stop music fadeout 1.0
 
-    play music thecalling3 loop volume 0.5 fadein 2.0
+   
 
     scene blackscreen with fade
     pause 1.5
     "(Oh, how I wish I could see you for one last time…)"
     "(And confess those feelings that I piled up in my heart.)"
-    pause 1.5
-    scene traincomp with fade
-    pause 1.5
+    pause 3
 
+    play music thecalling3 loop volume 0.5 fadein 1.0
+    
+    scene traincomp with fade
+    
+    pause 1.5
+     
     #show screen traininspect_button()
 
     show Haru Default with dissolve:
@@ -66,11 +70,14 @@ label venaprologue:
     $Silver_Hollow.locked = False
     $Silver_Hollow.locked_persistent = False
 
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
-
-    h "“We don’t get the chance to leave {color=#ab1529}Silver Hollow{/color} every day. This is a first-”"
-
+    h "“We don’t get the chance to leave {color=#ab1529}Silver Hollow{/color} every day. This is a first-”" 
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5 
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
 
     "I interrupted her quickly."
 
@@ -175,6 +182,8 @@ label venaprologue:
     "I dismissed those fearful thoughts at once. It was nothing but a dream anyway, and whatever had happened in reality could not be undone. Living in the past would only bring despair."
     "And this was not the time to be afraid."
     "Kioko’s nightmare must had been encouraged by my bravado, however…"
+
+    scene blackscreen with fade
 
     scene blackscreen with fade
     # Buraya Dead Bodies CG'si eklenecek!
@@ -434,7 +443,8 @@ label venaprologue:
 
     hide Asha with dissolve
 
-    show Asha Gasping
+    show Asha Gasping:
+        ypos 0.18 xpos 0.3
 
     show Kioko Gasping with vpunch:
         ypos 0.18 xpos 0.83
@@ -459,8 +469,8 @@ label venaprologue:
     v "“Not Haru’s, nor Kioko’s, nor anyone else’s.”"
 
     show Asha Default
-    show Kioko Neutral:
-        xpos 0.83 ypos 0.18
+    show Kioko Neutral
+  
     with dissolve
 
     show Haru Default at left with dissolve
@@ -503,9 +513,7 @@ label venaprologue:
 
     "She stood, making ready to leave."
 
-    show Asha Default:
-        xalign 0.5
-        linear 0.8 xpos 0.2
+    show Asha Default
 
     a "“I shouldn’t bother you three anymore. It is time for you to sleep.”"
 
@@ -513,10 +521,7 @@ label venaprologue:
 
     k "“You still act like we are little kids, Asha.”"
 
-    show Asha Default:
-        xalign 0.2
-        linear 1 xpos 0.6
-
+    show Asha Default
     pause 1.5
     "Asha ruffled Kioko’s hair gently."
 
@@ -630,13 +635,14 @@ label venaprologue:
 
     "(So she doesn’t want to take the blame again. Could Kioko’s shyness be inherited from her?)"
 
-    show Asha Default with dissolve
+    show Asha Default with dissolve:
+        ypos 0.18 xpos 0.35
 
     a "“Nice… You’re all here- oh, except one person.”"
 
     "Kioko…"
 
-    show Asha Sideways with dissolve
+    show Asha Ruminant with dissolve
 
     a "“Which is okay.”"
     a "“I promised you that once we arrived to Whemond, I would try to answer whatever questions you may have.”"
@@ -664,7 +670,8 @@ label venaprologue:
 
     hide Almasi with dissolve
 
-    show Asha Default with dissolve
+    show Asha Default with dissolve:
+        ypos 0.18 xpos 0.35
 
     a "“There’s no point in lying.”"
     a "“The circle which I, Waceera and Zuri shared was looser than the others.”"
@@ -694,17 +701,18 @@ label venaprologue:
 
     al "“So you admit the fact that you made us live like puppets while benefitting from the system this whole time, right?”"
 
-    show Asha ClosedEye with zoomin
+    show Asha Eyesclosed with dissolve:
+        ypos 0.18 xpos 0.35
 
     a "“…”"
 
-    show Asha Default with zoomin
+    show Asha Default with dissolve
 
     a "“I wouldn’t call it benefitting.”"
     a "“This was Waceera’s decision. To provide us longer lives…”"
     al "“Nonsense!”"
 
-    show Asha ClosedEye with zoomin
+    show Asha Eyesclosed with zoomin
 
     a "“My only responsibility at this meeting, is telling you the truth.”"
 
@@ -817,7 +825,7 @@ label venaprologue:
 
     v "“I don’t think I can convince Kioko for that.”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     pause 2.0
 
@@ -846,7 +854,7 @@ label venaprologue:
 
     a "“Alright, I trust you. Even more than anyone else here.”"
 
-    show Asha Sideway with dissolve
+    show Asha Laughing Eyesclosed with dissolve
 
     a "“Also, Vena…”"
 
@@ -858,7 +866,9 @@ label venaprologue:
     "I looked at her in confusion while she checked the passersby in the area with a spell she quickly cast."
     "After confirming we were alone, she glanced at me with eyes that were relieved."
 
-    show Asha Default with dissolve
+    show Asha Default with dissolve:
+        ypos 0.18 xpos 0.35
+        
 
     a "“The things I will say now shall stay within the Light Bearers.”"
 
@@ -893,11 +903,12 @@ label venaprologue:
     "(However this time…)"
     "I frowned."
 
-    show Asha Default with dissolve
+    show Asha Default with dissolve:
+        ypos 0.18 xpos 0.35
 
     v "“What would you suggest? We are stuck here. There’re Royal Knights at every corner.”"
 
-    show Asha Sideway with dissolve
+    show Asha Confused with dissolve
 
     a "“Not just us… Odd things also happen in Whemond.”"
 
@@ -1416,7 +1427,7 @@ label venaprologue:
     "To distract myself from the grim thoughts trying to get ahold of me, I tried instead to focus on the room’s conversation."
 
     scene blackscreen with fade
-    pause 1.5
+    pause 3
     scene academylivingroom with fade
 
     play music thecalling14 loop volume 0.5 fadein 2.0
@@ -1567,11 +1578,11 @@ label venamarley:
     "Asha sighed upon our exchange."
     stop music fadeout 3.0
 
-    show Asha concerned with dissolve
+    show Asha Concerned with dissolve
 
     a "“I hope this ordeal will be finalized before one of you attacks the other.”"
 
-    show Asha ClosedEye with dissolve
+    show Asha Eyesclosed with dissolve
 
     a "“In any case, it’s quite late. Let’s end this meeting here.”"
 

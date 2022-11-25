@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/venaprologue.rpy", line 25: expected simple expression
-    play music thecalling3 loop volume 0.5 fadein
-                                                 ^
+File "game/venaprologue.rpy", line 861: end of line expected.
+    hide Asha with dissolve:
+                           ^
 
-Ren'Py Version: Ren'Py 7.4.10.2178
-Wed Sep 14 19:03:01 2022
+Ren'Py Version: Ren'Py 7.4.4.1439
+Fri Nov 25 17:47:14 2022

@@ -1,35 +1,41 @@
 image Asha Default:
     'asha/asha_default.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Concerned:
     'asha/asha_concerned.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Grinning:
     'asha/asha_grinning.png'
-    xalign 0.5 yalign 1 zoom 0.85
-image Asha Laughing EyesClosed:
+    yalign 1 zoom 0.85
+image Asha Laughing Eyesclosed:
     'asha/asha_laughingeyesclosed.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Ruminant:
     'asha/asha_ruminant.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Confused:
     'asha/asha_confused.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Concerned:
     'asha/asha_concerned.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Sighing:
     'asha/asha_sighing.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Smiling:
     'asha/asha_smiling.png'
-    xalign 0.5 yalign 1 zoom 0.85
+    yalign 1 zoom 0.85
 image Asha Eyesclosed:
     'asha/asha_eyesclosed.png'
-    xalign 0.5 yalign 1 zoom 0.85
-image Ashe Smiling EyesClosed:
+    yalign 1 zoom 0.85
+image Asha Smiling EyesClosed:
     'asha/asha_smilingeyesclosed.png'
+    yalign 1 zoom 0.85
+image Asha Gasping:
+    'asha/asha_gasping.png'
+    yalign 1 zoom 0.85
+image Lionel Default :
+    "lionel/lionel_default.png"
     xalign 0.5 yalign 1 zoom 0.85
 image Lionel Smiling :
     "lionel/lionel_smiling.png"
@@ -207,3 +213,13 @@ image ex:
         0.1
         "Layer 101.jpg"
 image main_menu = Movie(play="gui/main_menu.webm")
+
+image entry_unlocked:
+        alpha 1.0
+        "gui/heart.png"
+        0.5
+        alpha 0.0
+        0.5
+        alpha 1.0
+
+image entry_unlocked_text= Text("{color=#ab1529}A new Grimoire entry unlocked!{/color}")
