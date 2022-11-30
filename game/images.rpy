@@ -127,6 +127,21 @@ image Ealdwine Surprised :
 image Haru Default :
     "haru/haru_default.png"
     xalign 0.5 yalign 1 zoom 0.85
+image Haru Concerned :
+    "haru/haru_concerned.png"
+    xalign 0.5 yalign 1 zoom 0.85
+image Haru Gasping :
+    "haru/haru_gasping.png"
+    xalign 0.5 yalign 1 zoom 0.85
+image Haru Neutral :
+    "haru/haru_neutral.png"
+    xalign 0.5 yalign 1 zoom 0.85
+image Haru Sideway :
+    "haru/haru_sideway.png"
+    xalign 0.5 yalign 1 zoom 0.85
+image Haru Troubled :
+    "haru/haru_troubled.png"
+    xalign 0.5 yalign 1 zoom 0.85
 image Kioko Default :
     "kioko/kioko_default.png"
     xalign 0.5 yalign 1 zoom 0.85

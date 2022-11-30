@@ -22,7 +22,7 @@ label venaprologue:
 
     stop music fadeout 1.0
 
-   
+
 
     scene blackscreen with fade
     pause 1.5
@@ -31,15 +31,15 @@ label venaprologue:
     pause 3
 
     play music thecalling3 loop volume 0.5 fadein 1.0
-    
+
     scene traincomp with fade
-    
+
     pause 1.5
-     
+
     #show screen traininspect_button()
 
     show Haru Default with dissolve:
-        yalign 1 zoom 1.8
+        yalign 1 zoom 1.5
 
     h "“It’s surprising to see she can sleep.”"
 
@@ -70,12 +70,12 @@ label venaprologue:
     $Silver_Hollow.locked = False
     $Silver_Hollow.locked_persistent = False
 
-    h "“We don’t get the chance to leave {color=#ab1529}Silver Hollow{/color} every day. This is a first-”" 
+    h "“We don’t get the chance to leave {color=#ab1529}Silver Hollow{/color} every day. This is a first-”"
     show entry_unlocked_text with dissolve:
         xalign 0.07 yalign 0.004
     show entry_unlocked:
         xalign 0.03 yalign 0.003
-    pause 1.5 
+    pause 1.5
     hide entry_unlocked
     hide entry_unlocked_text with dissolve
 
@@ -84,8 +84,8 @@ label venaprologue:
     v "“And the last.”"
 
     show Haru Concerned with dissolve:
-        xalign 0.5 yalign 1 zoom 1.5
-        linear 0.5 xalign 0.9
+        xalign 0.9 yalign 1 zoom 1.5
+
 
     "It would be healthier for her if she didn’t get carried away by this ordeal. There was a possibility that we might not be able to see this place again for hundreds, or thousands of years after we returned to our home."
     "Which I believed to be the best for everyone."
@@ -159,14 +159,18 @@ label venaprologue:
     "I knew every single tree here. Every branch, every single Hollow on them was familiar to me."
     "But I hadn’t cast this spell to find peace in the Silver Hollow that now lived only in memories."
 
-
     $Black_Massacre.locked = False
     $Black_Massacre.locked_persistent = False
 
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
-
     "Somewhere around here, Kioko must be witnessing an important event regarding the {color=#f00}Black Massacre.{/color}"
+
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
 
 
     play sound walking
@@ -225,10 +229,6 @@ label venaprologue:
         yalign 1 zoom 1.3
 
     k "“Vena I… Think I saw the person that was responsible for what… Happened.”"
-
-    show Kioko Concerned with dissolve:
-        yalign 1 zoom 1.3
-
     k "“But I can’t remember. I just can’t.”"
 
     hide Kioko with dissolve
@@ -313,10 +313,17 @@ label venaprologue:
 
     $Void_Crawler.locked = False
     $Void_Crawler.locked_persistent = False
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
 
     "There was nothing I could do at this point other than running my fingers through my hair restlessly, powerless to stop the {color=#f00}Void Crawlers{/color} attacking everyone in the grove."
+
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
+
     "Except by waking up…"
 
     #stop korkunçlu music
@@ -353,7 +360,8 @@ label venaprologue:
 
     hide Kioko with dissolve
 
-    show Haru Concerned with dissolve
+    show Haru Concerned with dissolve:
+        yalign 1 zoom 1.5
 
     "I turned to look at Haru."
 
@@ -368,19 +376,31 @@ label venaprologue:
 
     $Mana_Meditation.locked = False
     $Mana_Meditation.locked_persistent = False
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
 
     "Whatever… Because that I hadn’t done {color=#f00}mana meditation{/color} for a long time this experience had left me weary, so there was no energy left in me to pursue it."
-    "I shrugged before closing my eyes."
 
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
+
+    "I shrugged before closing my eyes."
 
     $Whemond.locked = False
     $Whemond.locked_persistent = False
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
 
     "And I had no intention of opening them before we arrived in {color=#f00}Whemond.{/color}"
+
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
 
     scene blackscreen with fade
 
@@ -395,10 +415,16 @@ label venaprologue:
 
     $Royal_Academy.locked = False
     $Royal_Academy.locked_persistent = False
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
 
     "Finally we were in the famous {color=#f00}Royal Academy.{/color}"
+    
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
 
     #play music pan will arrange
 
@@ -470,7 +496,7 @@ label venaprologue:
 
     show Asha Default
     show Kioko Neutral
-  
+
     with dissolve
 
     show Haru Default at left with dissolve
@@ -868,7 +894,7 @@ label venaprologue:
 
     show Asha Default with dissolve:
         ypos 0.18 xpos 0.35
-        
+
 
     a "“The things I will say now shall stay within the Light Bearers.”"
 
