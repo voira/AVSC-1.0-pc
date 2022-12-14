@@ -1,8 +1,10 @@
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define v = Character("Vena")
+# init python:
+#     def low_beep(event, **kwargs):
+#         if event == "show":
+#             renpy.music.play("low_beep.ogg", channel="sound", loop=True)
+#         elif event == "slow_done" or event == "end":
+#             renpy.music.stop(channel="sound", fadeout .75)
 
 init:
     $ n = Character(None, ctc = anim.Blink("gui/heart.png"))
