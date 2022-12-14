@@ -20,27 +20,27 @@ label prologue:
 
     show text 'No matter where I am,'
     with dissolve
-    pause 1.0
+    pause 3.0
     hide text
     with dissolve
     show text 'And no matter what time it is,'
     with dissolve
-    pause 1.0
+    pause 3.0
     hide text
     with dissolve
     show text 'I will be there when you desire,'
     with dissolve
-    pause 1.0
+    pause 3.0
     hide text
     with dissolve
     show text 'I will wake upon your {b}call{/b}.'
     with dissolve
-    pause 1.0
+    pause 3.0
     hide text
     with dissolve
 
 
-    pause 1.5
+    pause 2.5
     scene hqin with fade
     pause 1.5
     sin "“Fool…”"
@@ -75,7 +75,7 @@ label prologue:
     ma "“So much so that I cannot even fathom if those actions were done by a person who dares to call themselves a man, or a ravenous beast.”"
 
     "The King and I made eye contact after those words. There was a dull expression on his face, as if what I said went over his head."
-    
+
     scene hallbg with vpunch
 
     "With three long steps, I closed the distance between us and knelt."
