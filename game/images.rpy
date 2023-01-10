@@ -100,6 +100,15 @@ image Orphina Gritting :
 image Almasi Default :
     "almasi/almasi_default.png"
     xalign 0.5 yalign 1 zoom 0.85
+image Almasi Annoyed :
+    "almasi/almasi_annoyed.png"
+    xalign 0.5 yalign 1 zoom 0.85
+image Almasi Cocky :
+    "almasi/almasi_cocky.png"
+    xalign 0.5 yalign 1 zoom 0.85
+image Almasi Frowning :
+    "almasi/almasi_frowning.png"
+    xalign 0.5 yalign 1 zoom 0.85
 image Cyril Default :
     "cyril/cyril_default.png"
     xalign 0.5 yalign 1 zoom 0.85

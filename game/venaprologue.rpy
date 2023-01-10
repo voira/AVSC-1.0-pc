@@ -417,7 +417,7 @@ label venaprologue:
     $Royal_Academy.locked_persistent = False
 
     "Finally we were in the famous {color=#f00}Royal Academy.{/color}"
-    
+
     show entry_unlocked_text with dissolve:
         xalign 0.07 yalign 0.004
     show entry_unlocked:
@@ -571,7 +571,7 @@ label venaprologue:
     "Just when I was about to get lost in my memories, Haru’s voice shook me back to reality."
 
     show Haru Default:
-        xpos 0.8 ypos 0.18
+        xpos 0.8 ypos 0.12
     show Kioko Default:
         xpos 0.3 ypos 0.18
     with dissolve
@@ -690,7 +690,8 @@ label venaprologue:
 
     "I turned and looked at the woman who was so determined to light a fire even when the hearing had yet to start."
 
-    show Almasi Angry with dissolve
+    show Almasi Annoyed with dissolve:
+        ypos 0.1
 
     "Her intent to cause chaos could be read in every detail of her face."
 
@@ -865,10 +866,16 @@ label venaprologue:
 
     $Shore.locked = False
     $Shore.locked_persistent = False
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
 
     a "“It would be enough if she could manage to send one of us to the {color=#f00}Shore{/color}.”"
+
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
 
     v "“That can be arranged.”"
 
@@ -912,10 +919,16 @@ label venaprologue:
 
     $Rune_Cards.locked = False
     $Rune_Cards.locked_persistent = False
-    show text "A new Grimoire unlocked!" with dissolve
-    hide text with dissolve
 
     "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were {color=#f00}rune cards{/color}."
+
+    show entry_unlocked_text with dissolve:
+        xalign 0.07 yalign 0.004
+    show entry_unlocked:
+        xalign 0.03 yalign 0.003
+    pause 1.5
+    hide entry_unlocked
+    hide entry_unlocked_text with dissolve
 
     a "“‘Traitor’.”"
 
@@ -951,7 +964,7 @@ label venaprologue:
 
     "I nodded."
 
-    v "I nodded."
+    v "Worry not. I’ll be there."
 
     show Asha Smiling with dissolve
 
@@ -1060,8 +1073,8 @@ label venaprologue:
     "My eyes widened for a brief second."
     "(Get yourself together. If you get anxious then she sure will too.)"
 
-    show Haru Gaping zorder 1 at left with ease:
-        yalign 1 zoom 1.8
+    show Haru Gasping with ease:
+        ypos 0.18 xpos 0.3
 
     h "“What?”"
     v "“Who?”"
@@ -1080,8 +1093,8 @@ label venaprologue:
     pause 2.0
     scene academylivingroom with flash
 
-    show Haru Gaping:
-        yalign 1
+    show Haru Gasping:
+        ypos 0.18 xpos 0.3 zoom 1.0
     show Kioko Concerned:
         xpos 0.8 ypos 0.18 zoom 1.0
 
@@ -1149,7 +1162,7 @@ label venaprologue:
     v "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
     show Haru Concerned with ease:
-        yalign 1 zoom 1.8
+        ypos 0.18 xpos 0.3 zoom 1.0
 
     h "“Either you saw someone who then clouded your memories, or it really was just a dream.”"
 
@@ -1170,7 +1183,7 @@ label venaprologue:
 
     "I reached out and took her hand in mine. This kind of dilemmas could have dangerous consequences."
 
-    v "“Don’t ever think like that. These are rough times, you should inform us of anything you suspect.””"
+    v "“Don’t ever think like that. These are rough times, you should inform us of anything you suspect.”"
 
     h "“This is so weird. What are we going to do?”"
 
