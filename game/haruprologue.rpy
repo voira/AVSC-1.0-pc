@@ -28,6 +28,8 @@ label haruprologue:
     "The desire for the unknown surrounded my body with its flames."
     "And resistance was in vain."
 
+    play music thecalling3 loop volume 0.5 fadein 1.0
+
     scene traincomp with fade
     show Kioko Eyesclosed:
         xpos 0.27 ypos 0.2
@@ -108,6 +110,8 @@ label haruprologue:
 
     play sound slidedoor
 
+    stop music fadeout 3.0
+
     scene traincorridor with fade
 
     pause 1.0
@@ -126,6 +130,8 @@ label haruprologue:
 
     scene traincorridor with fade
 
+    #Ekran sallanma efekti verilecek ve pencereye zoomlanacak#
+
     pause 2.0
 
     stop sound
@@ -137,6 +143,8 @@ label haruprologue:
     "And not just now, but they had been in my mind ever since the day we’d heard about the city, back in the small village that we had first sought shelter in."
     "My heart fluttered with the sweet things that the winds of freedom whispered."
     "However the calm state I finally maintained met its end once again thanks to the voice coming from behind me."
+
+    play music thecalling14 loop volume 0.5 fadein 1.0
 
     u "“Haru? What are you doing here?”"
 
@@ -315,6 +323,8 @@ label haruprologue:
         linear 1 xalign 0.5
     pause 1.0
 
+    stop music fadeout 3.0
+
     al "“Don’t forget to send my regards to your Waceera-loving sister.”"
 
     "Her attitude was getting out of hand. Holding the doorknob, I started to talk without looking at her face."
@@ -336,6 +346,7 @@ label haruprologue:
 
     "It was surprising to hear Vena ask that, since she had a habit of using her powers to eavesdrop on other's conversations."
     "Anyways, this at least meant I didn’t have to deal with her temper for now."
+
 
     h "“The usual arguments, you know. Nothing else.”"
 
@@ -359,6 +370,8 @@ label haruprologue:
     "Everything was so different than our rustic, isolated woods; the ornaments, decorations, the atmosphere…"
 
     scene whemond with fade
+
+    play music thecalling16 loop volume 0.5 fadein 1.0
 
     a "“Ladies, if you’re this impressed already, I can’t imagine your reactions over the sunset! It always looks like the sun bleeds right into the sea.”"
     a "“And in the dawn, it is gloriously reborn from the blood coloured tides to light the sky once more.”"
@@ -467,6 +480,8 @@ label haruprologue:
 
     a "“That is because you are little children from my perspective. And you will always remain as such for me.”"
 
+    stop music fadeout 3.0
+
     pause 1.0
     hide Kioko with dissolve
     hide Asha with dissolve
@@ -481,6 +496,9 @@ label haruprologue:
     "(Ah… My own mother…)"
 
     scene blackscreen with flash
+
+    ##Flashback sesi genşin impek
+
     pause 2.5
     scene academylivingroom with flash
 
@@ -516,6 +534,8 @@ label haruprologue:
 
     play sound sitting
 
+    play music thecalling6piano loop volume 0.5 fadein 1.0
+
     "Only when I sat down on the soft sheets did I notice how tired I actually was."
     "Still, the sweet call of sleep was not enough to stop me from watching the city laid out beyond the glass."
 
@@ -535,7 +555,8 @@ label haruprologue:
     "(After all, tomorrow is a busy day.)"
 
     scene blackscreen with fade
-    pause 3.0
+    stop music fadeout 3.0
+    pause 5.0
 
     scene academyclass with fade
     show Vena Eyesclosed with dissolve:
