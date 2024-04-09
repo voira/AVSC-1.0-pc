@@ -10,13 +10,13 @@ translate turkish prologue_7cab1439:
 translate turkish prologue_8ebb3825:
 
     # sin "“Fool…”"
-    sin "“Aptal…”"
+    sin "“Geri zekalı…”"
 
 # game/prologue.rpy:25
 translate turkish prologue_635e69a8:
 
     # sin "“She ruined my work! Everything! All of it!”"
-    sin "“Her şeyi yüzüne gözüne bulaştırdı.”"
+    sin "“Bütün her şeyi yüzüne gözüne bulaştırdı.”"
 
 # game/prologue.rpy:27
 translate turkish prologue_ba44caa5:
@@ -40,7 +40,7 @@ translate turkish prologue_29b85e35:
 translate turkish prologue_04e382f4:
 
     # sin "“Fool! Fool! That wench probably brought death upon herself too with this kind of clumsiness.”"
-    sin "“Aptal! Aptal! Eminim bu beceriksizlikle kendisini de öldürtüvermiştir.”"
+    sin "“Aptal! Beyinsiz! Eminim bu beceriksizlikle kendisi de gebermiştir.”"
 
 # game/prologue.rpy:35
 translate turkish prologue_45c15953:
@@ -136,13 +136,13 @@ translate turkish prologue_e49e8920:
 translate turkish prologue_db1050e1:
 
     # wa "“That’s enough, Marley.”"
-    wa "“Bu kadarı yeter Marley.”"
+    wa "“Marley, bu kadarı yeter.” "
 
 # game/prologue.rpy:64
 translate turkish prologue_e6eac92f:
 
     # "No, it wasn’t. It could not be. No matter how unbecoming of a king he was, I was not going to let him drag Aelthus to the grave he dug."
-    "Yetmezdi. Yetemezdi. Kendisi ne kadar vasıfsız bir insan olsa da Aelthus’u da peşinden mezara sürüklemesine izin vermeyecektim."
+    "Yetmezdi. Yetemezdi. Kendisi ne kadar vasıfsız bir kral olsa da Aelthus’u peşinden mezara sürüklemesine izin vermeyecektim."
 
 # game/prologue.rpy:65
 translate turkish prologue_4774f3a9:
@@ -154,7 +154,7 @@ translate turkish prologue_4774f3a9:
 translate turkish prologue_afd5e21d:
 
     # ma "“People are talking about Khaunet’s return. Rumours are flying around the commoners about the incompetence of Dawn Knights.”"
-    ma "“İnsanlar Khaunet’in dönüşünü konuşuyorlar. Şafak Şövalyelerinin ne kadar gereksiz bir birim olduğundan dert yanıyorlar.”"
+    ma "“İnsanlar Khaunet’in döndüğünü söylüyorlar. Şafak Şövalyelerinin ne kadar gereksiz bir birim olduğundan dert yanıyorlar.”"
 
 # game/prologue.rpy:68
 translate turkish prologue_91a78d67:
@@ -166,19 +166,19 @@ translate turkish prologue_91a78d67:
 translate turkish prologue_0c877c9f:
 
     # ma "“And for some unknown reason, all of this is happening right before the arrival of these women.”"
-    ma "“Hepsi de ne hikmetse bu kadınların Whemond’a varışı öncesinde oluyor.”"
+    ma "“Hepsi de ne hikmetse bu kadınların Whemond’a varışı öncesinde oluyor!”"
 
 # game/prologue.rpy:71
 translate turkish prologue_e3c0417f:
 
     # wa "“Marley, since I liked your father I tend to turn a blind eye to your tone. In this matter however, you overstep yourself too much, young man.”"
-    wa "“Marley, babanın hatırına bu yersiz çıkışlarına ara sıra göz yumuyorum. Ama bazen gerçekten de fazla oluyorsun genç adam.”"
+    wa "“Marley, babanın hatırına bu yersiz çıkışlarına ara sıra göz yumuyorum. Ama bazen gerçekten de fazla oluyorsun delikanlı.”"
 
 # game/prologue.rpy:72
 translate turkish prologue_1a645386:
 
     # wa "“As a society, we needed a magical revolution and the opportunity has finally come.”"
-    wa "“Aelthus’ın bir sihir devrimine ihtiyacı var ve şans ayağımıza kadar geldi.”"
+    wa "“Krallığımızın bir sihir devrimine ihtiyacı uzun zamandan beri var ve fırsat şimdi ayağımıza geldi.”"
 
 # game/prologue.rpy:73
 translate turkish prologue_e1bdd84d:
@@ -202,13 +202,13 @@ translate turkish prologue_48779e28:
 translate turkish prologue_f3885909:
 
     # "Unfortunately I could only realize how harsh my words were after they left my mouth."
-    "Dediklerimin ne kadar ağır olduğunu laflar ağzımdan çıktıktan birkaç saniye sonra  anlayabilmiştim."
+    "Dediklerimin onun gibi biri için ne kadar ağır olduğunu laflar ağzımdan çıktıktan birkaç saniye sonra anlayabilmiştim."
 
 # game/prologue.rpy:79
 translate turkish prologue_a1885906:
 
     # "The eyes that had been frozen for so long were now ablaze with fury."
-    "Senelerdir ruhsuzca bakan gözler bir anda öfkeyle parıldayarak beni gelen azardan haberdar etti."
+    "Senelerdir ruhsuzca bakan gözler bir anda öfkeyle parlayarak beni birazdan gelecek azardan haberdar etti."
 
 # game/prologue.rpy:81
 translate turkish prologue_1042bd6a:
@@ -329,3 +329,161 @@ translate turkish strings:
     # game/prologue.rpy:1
     old "???"
     new "???"
+# TODO: Translation updated at 2024-04-09 10:06
+
+# game/prologue.rpy:52
+translate turkish prologue_95f2f750:
+
+    # sin "“Moron! Imbecile! That wench probably brought death upon herself too with this kind of incompetence.”"
+    sin "“Aptal! Beyinsiz! Eminim bu beceriksizlikle kendisi de gebermiştir.” "
+
+# game/prologue.rpy:60
+translate turkish prologue_18eeb97c:
+
+    # ea "“…”"
+    ea "“…”"
+
+# game/prologue.rpy:61
+translate turkish prologue_82694504:
+
+    # ea "“Maybe she wanted to keep the Chalice for herself.”"
+    ea "“Belki de Kadeh kendisine kalsın istedi.”"
+
+# game/prologue.rpy:62
+translate turkish prologue_dae63fc5:
+
+    # sin "“I don’t… Even want to think about such possibility.”"
+    sin "“…Bu olasılığı düşünmek dahi istemiyorum.”"
+
+# game/prologue.rpy:63
+translate turkish prologue_e103dbea:
+
+    # sin "“It was only Waceera that was supposed to know of its existence.”"
+    sin "“Sadece Waceera Kadeh’i biliyor olması lazımdı.”"
+
+# game/prologue.rpy:64
+translate turkish prologue_18eeb97c_1:
+
+    # ea "“…”"
+    ea "“…”"
+
+# game/prologue.rpy:65
+translate turkish prologue_bf0fd0e5:
+
+    # ea "“Then again, you also did.”"
+    ea "“Ama böyle bakacaksak sen bile biliyorsun.”"
+
+# game/prologue.rpy:66
+translate turkish prologue_33800fdd:
+
+    # sin "“No? No, it was not me.”"
+    sin "“Hayır? Hayır, ben bilmiyordum.”"
+
+# game/prologue.rpy:67
+translate turkish prologue_58bb64f2:
+
+    # sin "“It was Vivian.”"
+    sin "“Bana Vivian söyledi.”"
+
+# game/prologue.rpy:74
+translate turkish prologue_720292c3:
+
+    # "My patience was at its very end."
+    "Sabrımın artık son demlerindeydim. "
+
+# game/prologue.rpy:75
+translate turkish prologue_9584a329:
+
+    # "The emotions I had been hiding excellently thus far were now leaking through the cracks of my mask right before the charlatan that called himself a king."
+    "Seneler boyunca ustalıkla sakladığım duygularım şimdi, taç giydirilmiş bu şarlatanın önünde, maskemin kırıklarından taşarak çıkmaya çalışıyor gibiydi."
+
+# game/prologue.rpy:76
+translate turkish prologue_1f775a97:
+
+    # "And there was nothing else I could do to calm myself down other than pacing in the throne room anxiously."
+    "Öfkemi yatıştırmak için taht odasında, bir ileri bir geri yürümek dışında yapacak bir şeyim yoktu. "
+
+# game/prologue.rpy:86
+translate turkish prologue_05597fc9:
+
+    # "Wilbur and I made eye contact after those words. There was a dull expression on his face as if what I said went over his head."
+    "Wilbur’la tekrardan göz göze geldik. Yüzünde donuk bir ifade vardı, sanki dediklerim bir kulağından giriyor ve diğerinden çıkıyordu."
+
+# game/prologue.rpy:92
+translate turkish prologue_9fef0915:
+
+    # ma "“Your Majesty, I beg of you. Think this through, please.”"
+    ma "“Majesteleri, size yalvarıyorum. Bunun üzerine düşünmeye lütfen zaman ayırın.”"
+
+# game/prologue.rpy:100
+translate turkish prologue_28920c4d:
+
+    # ma "“People are talking about Khaunet’s return. Rumours are flying around the commoners on how incompetent the Dawn Knights are.”"
+    ma "“İnsanlar Khaunet’in döndüğünü söylüyorlar. Şafak Şövalyelerinin ne kadar gereksiz bir birim olduğundan dert yanıyorlar.” "
+
+# game/prologue.rpy:101
+translate turkish prologue_35568e8a:
+
+    # ma "“As if that weren’t enough, there are some gadabouts, which call themselves ‘hunters’, roaming in the streets with their crossbows.”"
+    ma "“Bir de yetmiyormuş gibi ortalıkta kendilerine ‘avcı’ diyen iki üç zibidi koşuşturuyor arbaletleriyle.”"
+
+# game/prologue.rpy:102
+translate turkish prologue_2b2cc115:
+
+    # ma "“And for some reason, all of this is happening right before the arrival of these women to Whemond.”"
+    ma "“Hepsi de ne hikmetse bu kadınların Whemond’a varışı öncesinde oluyor!” "
+
+# game/prologue.rpy:105
+translate turkish prologue_e538f1fd:
+
+    # wa "“Our Kingdom has been requiring a magical revolution and the opportunity has finally come.”"
+    wa "“Krallığımızın bir sihir devrimine ihtiyacı uzun zamandan beri var ve fırsat şimdi ayağımıza geldi.”"
+
+# game/prologue.rpy:106
+translate turkish prologue_5c3332b7:
+
+    # wa "“We can learn the fundamentals of the ancient magic, we can improve it.” "
+    wa "“Kadim büyüyü öğrenip araştırabiliriz, geliştirebiliriz.”"
+
+# game/prologue.rpy:107
+translate turkish prologue_7ca053f0:
+
+    # wa "“No one would ever suffer from disease, nor death-”"
+    wa "“İyileşmeyen hastalıkları rafa kaldırabiliriz, ölümle vedalaşabiliriz-”"
+
+# game/prologue.rpy:112
+translate turkish prologue_a1a60ac9:
+
+    # "The eyes that had been frozen for so long were now ablaze with fury, warning me about the upcoming scold."
+    "Senelerdir ruhsuzca bakan gözler bir anda öfkeyle parlayarak beni birazdan gelecek azardan haberdar etti. "
+
+# game/prologue.rpy:114
+translate turkish prologue_d7ad2f6a:
+
+    # wa "“I do not know where you find the audacity to talk me in that know-it-all tone of yours but watch what you say or I would have you regret it, Marley.”"
+    wa "“Benimle böyle konuşma cesaretini nereden alıyorsun bilemiyorum ama ağzından çıkanı kulağın duysun. Kelimelerine hakim ol Marley, şayet pişman olmak istemiyorsan.”"
+
+# game/prologue.rpy:116
+translate turkish prologue_ff3126ec:
+
+    # "His voice almost brought the chill of winter into the otherwise warm room."
+    "Sesinin tonu o sımsıcak odaya kışı getirmişti."
+
+# game/prologue.rpy:122
+translate turkish prologue_4af90255:
+
+    # wa "“And you… Instead of keeping your head busy with what is already decided, you can revert your attention to the Knights of Dawn that are under your care. Or I will pass their command to Lionel.”"
+    wa "“Sen de canını bununla sıkacağına emrinde olan Şafak Şövalyelerine işlerini daha iyi yapmalarını öğütleyebilirsin, yoksa görevi Lionel’e devredeceğim.” "
+
+# game/prologue.rpy:140
+translate turkish prologue_006d6372:
+
+    # wa "“You never give up, do you? Like father like son…”"
+    wa "“Aynı baban gibi inatçısın.”"
+
+# game/prologue.rpy:141
+translate turkish prologue_4ec0aa5a:
+
+    # wa "“In any case, do whatever you like and do not trouble me any longer.”"
+    wa "“Her neyse, nasıl istersen öyle yap ve daha da başımı ağrıtma.”"
+

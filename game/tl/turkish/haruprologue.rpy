@@ -3395,3 +3395,23 @@ translate turkish strings:
     # game/haruprologue.rpy:1153
     old "(…)"
     new "(…)"
+# TODO: Translation updated at 2024-04-09 10:06
+
+# game/haruprologue.rpy:606
+translate turkish haruprologue_0a3adf0f:
+
+    # v "“I can’t understand your current mood in any way.”"
+    v ""
+
+# game/haruprologue.rpy:929
+translate turkish haruprologue_6077b4de:
+
+    # k "“I think…”"
+    k ""
+
+# game/haruprologue.rpy:934
+translate turkish haruprologue_b14cbd6b:
+
+    # k "“I think I saw someone in my room today.”"
+    k ""
+

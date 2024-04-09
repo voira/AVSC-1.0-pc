@@ -3280,3 +3280,47 @@ translate turkish venaprologue_822e55c3:
 
     # "I watched her taking out two pieces of paper from the skirt she wore. Tilting my head and paying more attention, I grasped these were {color=#f00}rune cards{/color}."
     "Eteğinin cebinden bir kağıt tomarı çıkardı. Kafamı yana eğip dikkatlice bakınca bunun iki adet {color=f00}rün kartı{/color} olduğunu gördüm."
+# TODO: Translation updated at 2024-04-09 10:06
+
+# game/venaprologue.rpy:44
+translate turkish venaprologue_569fb7ff:
+
+    # h "“It’s surprising to see she can sleep.”"
+    h ""
+
+# game/venaprologue.rpy:63
+translate turkish venaprologue_c8e7d30e:
+
+    # v "“And it’s surprising to see how you can be this joyous after all that happened.”"
+    v ""
+
+# game/venaprologue.rpy:73
+translate turkish venaprologue_c5f13504:
+
+    # h "“We don’t get the chance to leave {color=#ab1529}Silver Hollow{/color} every day. This is a first-”"
+    h ""
+
+# game/venaprologue.rpy:451
+translate turkish venaprologue_b4fcae13:
+
+    # "Thanks to the overwhelming light pollution from the streets and buildings, the stars that had guided me through my whole life hadn’t shown themselves for even a second since we’d arrived."
+    ""
+
+# game/venaprologue.rpy:452
+translate turkish venaprologue_f1aeb332:
+
+    # "And the situation was worse in Whemond."
+    ""
+
+# game/venaprologue.rpy:967
+translate turkish venaprologue_13d19863:
+
+    # v "Worry not. I’ll be there."
+    v ""
+
+# game/venaprologue.rpy:1186
+translate turkish venaprologue_89bff289:
+
+    # v "“Don’t ever think like that. These are rough times, you should inform us of anything you suspect.”"
+    v ""
+
